@@ -15,3 +15,5 @@ RoxygenNote: 7.2.1
 Imports: 
     cli,
     httr2
+URL: https://github.com/christopherkenny/congress
+BugReports: https://github.com/christopherkenny/congress/issues
