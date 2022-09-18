@@ -6,7 +6,7 @@ cong_bill <- function(format = 'json', clean = TRUE) {
       "accept" = glue::glue("application/{format}"),
       'api_key' = get_congress_key()
     ) |>
-    httr2::req_dry_run()
+    httr2::req_perform()
 
   out
 }
