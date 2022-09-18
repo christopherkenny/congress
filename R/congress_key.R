@@ -40,7 +40,7 @@ get_congress_key <- function() {
 #'
 set_congress_key <- function(key, overwrite = FALSE, install = FALSE) {
   if (missing(key)) {
-    stop('Input `key` cannot be missing.')
+    cli::cli_abort('Input {.arg key} cannot be missing.')
   }
   name <- 'CONGRESS_KEY'
 
@@ -61,7 +61,7 @@ set_congress_key <- function(key, overwrite = FALSE, install = FALSE) {
 
     if (any(exists)) {
       if (sum(exists) > 1) {
-        stop('Multiple entries in .Renviron found.\nEdit manually with `usethis::edit_r_environ()`.')
+        cli::cli_abort('Multiple entries in .Renviron found.\nEdit manually with {.fn usethis::edit_r_environ}.')
       }
 
       if (overwrite) {
@@ -69,7 +69,7 @@ set_congress_key <- function(key, overwrite = FALSE, install = FALSE) {
         writeLines(lines, r_env)
         do.call(Sys.setenv, key)
       } else {
-        message('`CONGRESS_KEY` already exists in .Renviron. \nEdit manually with `usethis::edit_r_environ() or set `overwrite = TRUE`.')
+        cli::cli_inform('{.arg CONGRESS_KEY} already exists in .Renviron. \nEdit manually with {.fn usethis::edit_r_environ} or set {.code overwrite = TRUE}.')
       }
     } else {
       lines[length(lines) + 1] <- newline
