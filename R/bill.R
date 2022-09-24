@@ -1,7 +1,8 @@
-cong_bill <- function(format = 'json', clean = TRUE) {
+cong_bill <- function(congress = NULL, format = 'json', clean = TRUE) {
   check_format(format)
+  endpt <- endpt(type = 'bill', congress = congress)
   out <- httr2::request(base_url = api_url()) |>
-    httr2::req_url_path_append('bill') |>
+    httr2::req_url_path_append(endpt) |>
     httr2::req_url_query(
       'api_key' = get_congress_key()
     ) |>
