@@ -20,3 +20,6 @@ cong_bill <- function(congress = NULL, format = 'json', clean = TRUE) {
   }
   out
 }
+
+bill_items <- c('actions', 'amendments', 'committees', 'cosponsors', 'relatedbills', 'subjects', 'text', 'titles')
+bill_types <- c('hr', 's', 'hjres', 'sjres', 'hconres', 'sconres', 'hres', 'sres')

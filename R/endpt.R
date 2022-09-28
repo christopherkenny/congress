@@ -9,8 +9,10 @@ endpt <- function(type, ...) {
   if (type == 'bill') {
     if (!is.null(dlist[['congress']])) {
       out <- paste0(type, '/', dlist[['congress']])
-    }
+      if (!is.null(dlist[['type']])) {
 
+      }
+    }
   }
 
   out
