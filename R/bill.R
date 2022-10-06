@@ -19,7 +19,7 @@
 #'
 #' cong_bill(congress = 117)
 #'
-#' cong_bill(congress = 117, type = 'hr', number = 3076, clean = F)
+#' cong_bill(congress = 117, type = 'hr', number = 3076, clean = TRUE)
 #'
 #'
 #' }
@@ -44,11 +44,25 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
       'json' = httr2::resp_body_json,
       'xml' = httr2::resp_body_xml
     )
+
     out <- out |>
-      formatter() |>
-      purrr::pluck('bills') |>
-      list_hoist() |>
-      clean_names()
+      formatter()
+
+    if (is.null(number)) {
+      out <- out |>
+        purrr::pluck('bills') |>
+        list_hoist() |>
+        clean_names()
+    } else {
+      out <- out |>
+        purrr::pluck('bill') |>
+        tibble::enframe() |>
+        tidyr::pivot_wider() |>
+        tidyr::unnest_wider(col = where(~purrr::vec_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
+        dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
+        clean_names() |>
+        dplyr::mutate(across(where(is.list), function(x) lapply(x, dplyr::bind_rows)))
+    }
   }
   out
 }
