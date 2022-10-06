@@ -41,8 +41,9 @@ cong_bill()
 
 cong_bill(congress = 117)
 
-cong_bill(congress = 117, type = 'hr', number = 3076, clean = F)
+cong_bill(congress = 117, type = 'hr', number = 3076)
 
+cong_bill(congress = 117, type = 'hr', number = 3076, item = 'actions')
 
 }
 
