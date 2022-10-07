@@ -1,10 +1,9 @@
-#' Request Bill Information
+#' Request Amendment Information
 #'
 #' @param congress Congress number to search for. 81 or later are supported.
-#' @param type Type of bill. Can be `'hr'`, `'s'`, `'hjres'`, `'sjres'`, `'hconres'`, `'sconres'`, `'hres'`, or `'sres'`.
-#' @param number Bill assigned number. Numeric.
-#' @param item Information to request. Can be `'actions'`, `'amendments'`, `'committees'`, `'cosponsors'`,
-#' `'relatedbills'`, `'subjects'`, `'text'`, or `'titles'`
+#' @param type Type of amendment. Can be `'hamdt'`, `'samdt'`, or '`suamdt'`.
+#' @param number Amendment assigned number. Numeric.
+#' @param item Information to request. Can be `'actions'`, `'amendments'`, or `'cosponsors'`
 #' @param from_date start date for search, e.g. `'2022-04-01'`. Defaults to most recent.
 #' @param to_date end date for search, e.g. `'2022-04-03'`. Defaults to most recent.
 #' @param limit number of records to return. Default is 20. Will be truncated to between 1 and 250.
@@ -12,26 +11,26 @@
 #' @param clean Default is TRUE. Should output be returned as a `tibble` (`TRUE`) or requested `format`.
 #' @param format Output format for `clean = FALSE`. One of `xml` or `json`.
 #'
-#' @return `tibble` or HTTP response if `clean = FALSE`
+#' @return `tibble` or HTTP response if `clean = FALSE`.
 #' @export
 #'
 #' @examples
 #' \dontrun{
 #' # Requires API Key
 #'
-#' cong_bill()
+#' cong_amendment()
 #'
-#' cong_bill(congress = 117)
+#' cong_amendment(congress = 117)
 #'
-#' cong_bill(congress = 117, type = 'hr', number = 3076)
+#' cong_amendment(congress = 117, type = 'samdt', number = 2137)
 #'
-#' cong_bill(congress = 117, type = 'hr', number = 3076, item = 'actions')
+#' cong_amendment(congress = 117, type = 'samdt', number = 2137, item = 'actions')
 #'
 #' }
 #'
-cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
-                      from_date = NULL, to_date = NULL,
-                      limit = 20, offset = 0,
+cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
+                           from_date = NULL, to_date = NULL,
+                           limit = 20, offset = 0,
                       format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
@@ -41,7 +40,7 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
     cli::cli_abort('Either both or neither of {.arg from_date} and {.arg to_date} must be specified.')
   }
 
-  endpt <- bill_endpoint(congress = congress, type = type, number = number, item = item)
+  endpt <- amendment_endpoint(congress = congress, type = type, number = number, item = item)
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append(endpt) |>
     httr2::req_url_query(
@@ -60,8 +59,8 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
 
   if (clean) {
     formatter <- switch (format,
-      'json' = httr2::resp_body_json,
-      'xml' = httr2::resp_body_xml
+                         'json' = httr2::resp_body_json,
+                         'xml' = httr2::resp_body_xml
     )
 
     out <- out |>
@@ -69,19 +68,19 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
 
     if (is.null(number)) {
       out <- out |>
-        purrr::pluck('bills') |>
+        purrr::pluck('amendments') |>
         list_hoist() |>
         clean_names()
     } else {
       if (is.null(item)) {
         out <- out |>
-          purrr::pluck('bill') |>
+          purrr::pluck('amendment') |>
           tibble::enframe() |>
           tidyr::pivot_wider() |>
           tidyr::unnest_wider(col = where(~purrr::vec_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
           dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
           clean_names() #|>
-          #dplyr::mutate(across(where(is.list), function(x) lapply(x, dplyr::bind_rows)))
+          #dplyr::mutate(across(where(is.list), function(x) if (max(lengths(x)) == 1 ) dplyr::bind_rows(x) else dplyr::bind_rows(purrr::set_names(x, seq_along(x)))))
       } else {
         out <- out |>
           purrr::pluck(item) |>
@@ -93,11 +92,11 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
   out
 }
 
-bill_items <- c('actions', 'amendments', 'committees', 'cosponsors', 'relatedbills', 'subjects', 'text', 'titles')
-bill_types <- c('hr', 's', 'hjres', 'sjres', 'hconres', 'sconres', 'hres', 'sres')
+amendment_items <- c('actions', 'amendments', 'cosponsors')
+amendment_types <- c('hamdt', 'samdt', 'suamdt')
 
-bill_endpoint <- function(congress, type, number, item) {
-  out <- 'bill'
+amendment_endpoint <- function(congress, type, number, item) {
+  out <- 'amendment'
   if (!is.null(congress)) {
     out <- paste0(out, '/', congress)
     if (!is.null(type)) {

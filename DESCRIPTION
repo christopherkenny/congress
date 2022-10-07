@@ -18,6 +18,8 @@ Imports:
     glue,
     httr2,
     purrr,
-    stringr
+    stringr,
+    tibble,
+    tidyr
 URL: https://github.com/christopherkenny/congress
 BugReports: https://github.com/christopherkenny/congress/issues
