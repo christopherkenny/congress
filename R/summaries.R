@@ -54,14 +54,16 @@ cong_summaries <- function(congress = NULL, type = NULL,
   out <- req |>
     httr2::req_perform()
 
-  if (clean) {
-    formatter <- switch(format,
-                        'json' = httr2::resp_body_json,
-                        'xml' = httr2::resp_body_xml
-    )
+  formatter <- switch(format,
+                      'json' = httr2::resp_body_json,
+                      'xml' = httr2::resp_body_xml
+  )
 
+  out <- out |>
+    formatter()
+
+  if (clean) {
     out <- out |>
-      formatter() |>
       purrr::pluck('summaries') |>
       list_hoist() |>
       clean_names()

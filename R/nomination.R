@@ -1,9 +1,8 @@
-#' Request Amendment Information
+#' Request Nomination Information
 #'
 #' @param congress Congress number to search for. 81 or later are supported.
-#' @param type Type of amendment. Can be `'hamdt'`, `'samdt'`, or '`suamdt'`.
-#' @param number Amendment assigned number. Numeric.
-#' @param item Information to request. Can be `'actions'`, `'amendments'`, or `'cosponsors'`
+#' @param number Nomination assigned number. Numeric.
+#' @param item Information to request. Can be `'actions'`, `'committees'`, '`hearings'` or the ordinal number.
 #' @param from_date start date for search, e.g. `'2022-04-01'`. Defaults to most recent.
 #' @param to_date end date for search, e.g. `'2022-04-03'`. Defaults to most recent.
 #' @param limit number of records to return. Default is 20. Will be truncated to between 1 and 250.
@@ -11,27 +10,29 @@
 #' @param clean Default is TRUE. Should output be returned as a `tibble` (`TRUE`) or requested `format`.
 #' @param format Output format for `clean = FALSE`. One of `xml` or `json`.
 #'
-#' @return `tibble` or HTTP response if `clean = FALSE`.
+#' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
 #' @examples
 #' \dontrun{
 #' # Requires API Key
 #'
-#' cong_amendment()
+#' cong_nomination()
 #'
-#' cong_amendment(congress = 117)
+#' cong_nomination(congress = 117)
 #'
-#' cong_amendment(congress = 117, type = 'samdt', number = 2137)
+#' cong_nomination(congress = 117, number = 2467)
 #'
-#' cong_amendment(congress = 117, type = 'samdt', number = 2137, item = 'actions')
+#' cong_nomination(congress = 117, number = 2467, item = 'actions')
+#'
+#' cong_nomination(congress = 117, number = 2467, item = 1)
 #'
 #' }
 #'
-cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
-                           from_date = NULL, to_date = NULL,
-                           limit = 20, offset = 0,
-                           format = 'json', clean = TRUE) {
+cong_nomination <- function(congress = NULL, number = NULL, item = NULL,
+                            from_date = NULL, to_date = NULL,
+                            limit = 20, offset = 0,
+                            format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
   from_date <- check_date(from_date)
@@ -40,7 +41,7 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
     cli::cli_abort('Either both or neither of {.arg from_date} and {.arg to_date} must be specified.')
   }
 
-  endpt <- amendment_endpoint(congress = congress, type = type, number = number, item = item)
+  endpt <- nomination_endpoint(congress = congress, number = number, item = item)
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append(endpt) |>
     httr2::req_url_query(
@@ -66,23 +67,20 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
     formatter()
 
   if (clean) {
-
-
     if (is.null(number)) {
       out <- out |>
-        purrr::pluck('amendments') |>
+        purrr::pluck('nominations') |>
         list_hoist() |>
         clean_names()
     } else {
       if (is.null(item)) {
         out <- out |>
-          purrr::pluck('amendment') |>
+          purrr::pluck('nomination') |>
           tibble::enframe() |>
           tidyr::pivot_wider() |>
           tidyr::unnest_wider(col = where(~purrr::vec_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
           dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
-          clean_names() #|>
-        #dplyr::mutate(across(where(is.list), function(x) if (max(lengths(x)) == 1 ) dplyr::bind_rows(x) else dplyr::bind_rows(purrr::set_names(x, seq_along(x)))))
+          clean_names()
       } else {
         out <- out |>
           purrr::pluck(item) |>
@@ -94,20 +92,16 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
   out
 }
 
-amendment_items <- c('actions', 'amendments', 'cosponsors')
-amendment_types <- c('hamdt', 'samdt', 'suamdt')
+nomination_items <- c('actions', 'committees', 'hearings')
 
-amendment_endpoint <- function(congress, type, number, item) {
-  out <- 'amendment'
+nomination_endpoint <- function(congress, number, item) {
+  out <- 'nomination'
   if (!is.null(congress)) {
     out <- paste0(out, '/', congress)
-    if (!is.null(type)) {
-      out <- paste0(out, '/', type)
-      if (!is.null(number)) {
-        out <- paste0(out, '/', number)
-        if (!is.null(item)) {
-          out <- paste0(out, '/', item)
-        }
+    if (!is.null(number)) {
+      out <- paste0(out, '/', number)
+      if (!is.null(item)) {
+        out <- paste0(out, '/', item)
       }
     }
   }

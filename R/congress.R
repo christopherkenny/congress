@@ -51,22 +51,23 @@ cong_congress <- function(congress = NULL,
   out <- req |>
     httr2::req_perform()
 
-  if (clean) {
-    formatter <- switch(format,
-                        'json' = httr2::resp_body_json,
-                        'xml' = httr2::resp_body_xml
-    )
+  formatter <- switch(format,
+                      'json' = httr2::resp_body_json,
+                      'xml' = httr2::resp_body_xml
+  )
 
+  out <- out |>
+    formatter()
+
+  if (clean) {
     if (is.null(congress)) {
       out <- out |>
-        formatter() |>
         purrr::pluck('congresses') |>
         dplyr::bind_rows() |>
         tidyr::unnest_wider(col = dplyr::all_of('sessions')) |>
         clean_names()
     } else {
       out <- out |>
-        formatter() |>
         purrr::pluck('congress') |>
         tibble::enframe() |>
         tidyr::pivot_wider() |>

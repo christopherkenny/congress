@@ -2,8 +2,13 @@
 
 export(cong_amendment)
 export(cong_bill)
+export(cong_communication)
 export(cong_congress)
+export(cong_member)
+export(cong_nomination)
+export(cong_record)
 export(cong_summaries)
+export(cong_treaty)
 export(get_congress_key)
 export(has_congress_key)
 export(set_congress_key)
