@@ -36,3 +36,17 @@ library(congress)
 ## basic example code
 ```
 
+## Supported Endpoints:
+
+This package is designed for `v3` of the [Congress.gov API](https://api.congress.gov/#/). It currently supports the following endpoints:
+
+- bill with `cong_bill()`
+- amendments with `cong_amendment()`
+- summaries with `cong_summaries()`
+- congress with `cong_congress()`
+- member with `cong_member()`
+- committee with `cong_committee()`
+- committee report with `cong_report()`
+- Congressional Record with `cong_record()`
+- nomination with `cong_nomination()`
+- treaty with `cong_treaty()`

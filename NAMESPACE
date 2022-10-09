@@ -2,6 +2,7 @@
 
 export(cong_amendment)
 export(cong_bill)
+export(cong_committee)
 export(cong_communication)
 export(cong_congress)
 export(cong_member)
