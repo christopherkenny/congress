@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 `congress` provides a *mostly* tidy interface to the Congress.gov API, available at <https://api.congress.gov/#/>.
+It provides a simple R interface for downloading and working with actions, bills, nominations, and more from Congress.
 
 ## Installation
 
@@ -31,12 +32,15 @@ devtools::install_github("christopherkenny/congress")
 
 ## Example
 
+To get the most recent `nomination`s, we can use the `cong_nomination()` function. By default, it gets the most recent 20. We request here, the most recent 10.
+
 ```{r example}
 library(congress)
-## basic example code
+
+cong_nomination(limit = 10)
 ```
 
-## Supported Endpoints:
+### Supported Endpoints:
 
 This package is designed for `v3` of the [Congress.gov API](https://api.congress.gov/#/). It currently supports the following endpoints:
 
