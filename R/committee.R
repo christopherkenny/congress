@@ -69,8 +69,9 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
   if (clean) {
     if (is.null(committee)) {
       out <- out |>
-        purrr::pluck('committees') |>
-        tibble::tibble(x = _) |>
+        purrr::pluck('committees')
+      out <- out |>
+        tibble::tibble(x = out) |>
         tidyr::unnest_wider(.data$x) |>
         clean_names()
     } else {
