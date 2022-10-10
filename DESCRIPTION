@@ -7,7 +7,11 @@ Authors@R:
            role = c("aut", "cre"),
            email = "christopherkenny@fas.harvard.edu",
            comment = c(ORCID = "0000-0002-9386-6860"))
-Description: What the package does (one paragraph).
+Description: Download and read data on United States congressional proceedings. 
+    Data is read from the Library of Congress's Congress.gov Application Programming 
+    Interface (<https://github.com/LibraryOfCongress/api.congress.gov/>). Functions
+    exist for all version 3 endpoints, including for bills, amendments, congresses, 
+    summaries, members, reports, communications, nominations, and treaties.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
