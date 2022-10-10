@@ -4,6 +4,8 @@
 # congress <img src="man/figures/logo.png" align="right" height="130" />
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `congress` provides a *mostly* tidy interface to the Congress.gov API,

@@ -26,7 +26,8 @@ Imports:
     stringr,
     tibble,
     tidyr
-URL: https://github.com/christopherkenny/congress
+URL: https://github.com/christopherkenny/congress,
+    http://christophertkenny.com/congress/
 BugReports: https://github.com/christopherkenny/congress/issues
 Suggests: 
     httptest2,
