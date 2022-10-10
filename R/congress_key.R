@@ -16,9 +16,9 @@ has_congress_key <- function() {
 get_congress_key <- function() {
   key <- Sys.getenv('CONGRESS_KEY')
 
-  if (key == '') {
-    cli::cli_abort('Must set a key as {.val CONGRESS_KEY}.')
-  }
+  # if (key == '') {
+  #   cli::cli_abort('Must set a key as {.val CONGRESS_KEY}.')
+  # }
   key
 }
 
