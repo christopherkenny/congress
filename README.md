@@ -7,9 +7,9 @@
 <!-- badges: end -->
 
 `congress` provides a *mostly* tidy interface to the Congress.gov API,
-available at <https://api.congress.gov/#/>. It provides a simple R
-interface for downloading and working with actions, bills, nominations,
-and more from Congress.
+available at <https://github.com/LibraryOfCongress/api.congress.gov/>.
+It provides a simple R interface for downloading and working with
+actions, bills, nominations, and more from Congress.
 
 ## Installation
 
@@ -54,8 +54,8 @@ cong_nomination(limit = 10)
 ### Supported Endpoints:
 
 This package is designed for `v3` of the [Congress.gov
-API](https://api.congress.gov/#/). It currently supports the following
-endpoints:
+API](https://github.com/LibraryOfCongress/api.congress.gov/). It
+currently supports the following endpoints:
 
 -   bill with `cong_bill()`
 -   amendments with `cong_amendment()`
