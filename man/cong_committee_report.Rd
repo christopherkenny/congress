@@ -42,8 +42,8 @@ cong_committee_report(
 Request Committee Report Information
 }
 \examples{
+\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 
-\dontrun{
 # Requires API Key
 
 cong_committee_report()
@@ -55,7 +55,5 @@ cong_committee_report(congress = 116)
 cong_committee_report(congress = 116, type = 'hrpt')
 
 cong_committee_report(congress = 116, type = 'hrpt', number = 617)
-
-}
-
+\dontshow{\}) # examplesIf}
 }

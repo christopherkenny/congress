@@ -1,0 +1,254 @@
+{
+    "amendments": [
+        {
+            "congress": 117,
+            "description": "Pursuant to H. Res. 1404, the amendment in the nature of a substitute consisting of the text of Rules Committee Print 117-68 is adopted.",
+            "latestAction": {
+                "actionDate": "2022-09-30",
+                "text": "On agreeing to the Rules amendment (A001) Agreed to without objection. "
+            },
+            "number": "324",
+            "type": "HAMDT",
+            "updateDate": "2022-10-01T07:16:16Z",
+            "url": "https://api.congress.gov/v3/amendment/117/hamdt/324?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "text": "Referred to the Committee on Commerce, Science, and Transportation. "
+            },
+            "number": "6290",
+            "purpose": "To combat illegal, unreported, and unregulated fishing.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T04:17:27Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/6290?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "text": "Amendment SA 5745 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "5745",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T13:46:17Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/5745?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "text": "Proposed amendment SA 5765 withdrawn in Senate. "
+            },
+            "number": "5765",
+            "purpose": "To amend chapter 2 of title 1, United States Code, to create requirements for calling an Article V Convention, and for other purposes.",
+            "type": "SAMDT",
+            "updateDate": "2022-10-03T17:46:18Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/5765?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "text": "SA 6032 fell when SA 6031 was withdrawn. "
+            },
+            "number": "6032",
+            "purpose": "To modify the effective date.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T14:01:15Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/6032?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "text": "Proposed amendment SA 6031 withdrawn in Senate. "
+            },
+            "number": "6031",
+            "purpose": "To add an effective date.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T13:46:17Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/6031?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "text": "Proposed amendment SA 6030 withdrawn in Senate. "
+            },
+            "number": "6030",
+            "purpose": "To add an effective date.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T13:46:17Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/6030?format=json"
+        },
+        {
+            "congress": 117,
+            "description": "Pursuant to the provisions of H.Res. 1396, the amendment in the nature of a substitute consisting of the text of Rules Committee Print 117-66 is considered adopted.",
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "text": "On agreeing to the Rules amendment (A001) Agreed to without objection. "
+            },
+            "number": "323",
+            "type": "HAMDT",
+            "updateDate": "2022-09-30T07:16:14Z",
+            "url": "https://api.congress.gov/v3/amendment/117/hamdt/323?format=json"
+        },
+        {
+            "congress": 117,
+            "description": "An amendment numbered 2 printed in House Report 117-507 to direct the National Institute for Occupational Safety and Health to establish an occupational research program on mental health.",
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "actionTime": "12:21:39",
+                "text": "On agreeing to the DeSaulnier amendment (A002) Agreed to by voice vote. "
+            },
+            "number": "322",
+            "type": "HAMDT",
+            "updateDate": "2022-09-30T07:16:14Z",
+            "url": "https://api.congress.gov/v3/amendment/117/hamdt/322?format=json"
+        },
+        {
+            "congress": 117,
+            "description": "An amendment numbered 1 printed in House Report 117-507 to direct the Secretary of Education to study student mental health at institutions of higher education and to issue guidance on compliance with federal law for mental health and substance use disorder conditions.",
+            "latestAction": {
+                "actionDate": "2022-09-29",
+                "actionTime": "12:13:33",
+                "text": "On agreeing to the Trone amendment (A001) Agreed to by voice vote. "
+            },
+            "number": "321",
+            "type": "HAMDT",
+            "updateDate": "2022-09-30T07:16:14Z",
+            "url": "https://api.congress.gov/v3/amendment/117/hamdt/321?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-28",
+                "text": "Amendment SA 6029 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "6029",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T14:01:15Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/6029?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-28",
+                "text": "Amendment SA 6028 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "6028",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T14:01:15Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/6028?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-28",
+                "text": "Amendment SA 6027 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "6027",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T13:46:17Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/6027?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-28",
+                "text": "Amendment SA 6026 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "6026",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T13:46:17Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/6026?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-28",
+                "text": "Amendment SA 5934 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "5934",
+            "purpose": "To improve the bill.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-30T14:01:15Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/5934?format=json"
+        },
+        {
+            "congress": 117,
+            "description": "Pursuant to the provisions of H. Res. 1377, the amendment in the nature of a substitute consisting of the text of Rules Committee Print 117-62, modified by the amendment printed in House Report 117-483 is adopted.",
+            "latestAction": {
+                "actionDate": "2022-09-22",
+                "text": "On agreeing to the Rules amendment (A001) Agreed to without objection. "
+            },
+            "number": "320",
+            "type": "HAMDT",
+            "updateDate": "2022-09-23T07:16:15Z",
+            "url": "https://api.congress.gov/v3/amendment/117/hamdt/320?format=json"
+        },
+        {
+            "congress": 117,
+            "description": "Pursuant to the provisions of H. Res. 1377, the amendment in the nature of a substitute consisting of the text of Rules Committee Print 117-65 is adopted.",
+            "latestAction": {
+                "actionDate": "2022-09-22",
+                "text": "On agreeing to the Rules amendment (A001) Agreed to without objection. "
+            },
+            "number": "319",
+            "type": "HAMDT",
+            "updateDate": "2022-09-23T07:16:15Z",
+            "url": "https://api.congress.gov/v3/amendment/117/hamdt/319?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-21",
+                "text": "Amendment SA 5518 agreed to in Senate by Yea-Nay Vote. 96 - 0. Record Vote Number: 342. "
+            },
+            "number": "5518",
+            "purpose": "To ensure that the People's Republic of China is not treated as a developing country.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-22T04:16:25Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/5518?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-21",
+                "text": "Proposed amendment SA 5503 withdrawn in Senate. "
+            },
+            "number": "5503",
+            "purpose": "To add an effective date.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-22T04:31:33Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/5503?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-09-19",
+                "text": "Amendment SA 5505, under the order of 9/15/22, agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "5505",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2022-09-20T13:01:22Z",
+            "url": "https://api.congress.gov/v3/amendment/117/samdt/5505?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 117162,
+        "next": "https://api.congress.gov/congress/v3/amendment?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

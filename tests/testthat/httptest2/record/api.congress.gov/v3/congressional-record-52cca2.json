@@ -1,0 +1,1103 @@
+{
+    "Results": {
+        "IndexStart": 1,
+        "Issues": [
+            {
+                "Congress": "117",
+                "Id": 27009,
+                "Issue": "160",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/10/04/168/160/CREC-2022-10-04-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/10/04/168/160/CREC-2022-10-04.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/10/04/168/160/CREC-2022-10-04-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/10/04/168/160/CREC-2022-10-04-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/10/04/168/160/CREC-2022-10-04-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-10-04",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27008,
+                "Issue": "159",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/30/168/159/CREC-2022-09-30-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/30/168/159/CREC-2022-09-30.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/30/168/159/CREC-2022-09-30-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/30/168/159/CREC-2022-09-30-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/30/168/159/CREC-2022-09-30-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-30",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27007,
+                "Issue": "158",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/29/168/158/CREC-2022-09-29-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/29/168/158/CREC-2022-09-29.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/29/168/158/CREC-2022-09-29-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/29/168/158/CREC-2022-09-29-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/29/168/158/CREC-2022-09-29-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-29",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27006,
+                "Issue": "157",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/28/168/157/CREC-2022-09-28-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/28/168/157/CREC-2022-09-28.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/28/168/157/CREC-2022-09-28-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/28/168/157/CREC-2022-09-28-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/28/168/157/CREC-2022-09-28-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-28",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27005,
+                "Issue": "156",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/27/168/156/CREC-2022-09-27-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/27/168/156/CREC-2022-09-27.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/27/168/156/CREC-2022-09-27-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-27",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27004,
+                "Issue": "155",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/26/168/155/CREC-2022-09-26-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/26/168/155/CREC-2022-09-26.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/26/168/155/CREC-2022-09-26-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/26/168/155/CREC-2022-09-26-extensions.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-26",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27003,
+                "Issue": "154",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/23/168/154/CREC-2022-09-23-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/23/168/154/CREC-2022-09-23.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/23/168/154/CREC-2022-09-23-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-23",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27002,
+                "Issue": "153",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-22",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27001,
+                "Issue": "152",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/21/168/152/CREC-2022-09-21-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/21/168/152/CREC-2022-09-21.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/21/168/152/CREC-2022-09-21-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/21/168/152/CREC-2022-09-21-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/21/168/152/CREC-2022-09-21-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-21",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 27000,
+                "Issue": "151",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/20/168/151/CREC-2022-09-20-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/20/168/151/CREC-2022-09-20.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/20/168/151/CREC-2022-09-20-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/20/168/151/CREC-2022-09-20-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/20/168/151/CREC-2022-09-20-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-20",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26999,
+                "Issue": "150",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/19/168/150/CREC-2022-09-19-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/19/168/150/CREC-2022-09-19.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/19/168/150/CREC-2022-09-19-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/19/168/150/CREC-2022-09-19-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/19/168/150/CREC-2022-09-19-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-19",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26998,
+                "Issue": "149",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/15/168/149/CREC-2022-09-15-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/15/168/149/CREC-2022-09-15.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/15/168/149/CREC-2022-09-15-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/15/168/149/CREC-2022-09-15-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/15/168/149/CREC-2022-09-15-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-15",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26997,
+                "Issue": "148",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/14/168/148/CREC-2022-09-14-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/14/168/148/CREC-2022-09-14.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/14/168/148/CREC-2022-09-14-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/14/168/148/CREC-2022-09-14-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/14/168/148/CREC-2022-09-14-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-14",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26996,
+                "Issue": "147",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/13/168/147/CREC-2022-09-13-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/13/168/147/CREC-2022-09-13.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/13/168/147/CREC-2022-09-13-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/13/168/147/CREC-2022-09-13-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/13/168/147/CREC-2022-09-13-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-13",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26995,
+                "Issue": "146",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/12/168/146/CREC-2022-09-12-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/12/168/146/CREC-2022-09-12.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/12/168/146/CREC-2022-09-12-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/12/168/146/CREC-2022-09-12-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-12",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26994,
+                "Issue": "145",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/09/168/145/CREC-2022-09-09-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/09/168/145/CREC-2022-09-09.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/09/168/145/CREC-2022-09-09-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/09/168/145/CREC-2022-09-09-extensions.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-09",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26993,
+                "Issue": "144",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/08/168/144/CREC-2022-09-08-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/08/168/144/CREC-2022-09-08.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/08/168/144/CREC-2022-09-08-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-08",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26992,
+                "Issue": "143",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/07/168/143/CREC-2022-09-07-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/07/168/143/CREC-2022-09-07.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/07/168/143/CREC-2022-09-07-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/07/168/143/CREC-2022-09-07-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-07",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26991,
+                "Issue": "142",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/06/168/142/CREC-2022-09-06-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/06/168/142/CREC-2022-09-06.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/06/168/142/CREC-2022-09-06-house.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/06/168/142/CREC-2022-09-06-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-06",
+                "Session": "2",
+                "Volume": "168"
+            },
+            {
+                "Congress": "117",
+                "Id": 26990,
+                "Issue": "141",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/02/168/141/CREC-2022-09-02-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/02/168/141/CREC-2022-09-02.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/02/168/141/CREC-2022-09-02-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/02/168/141/CREC-2022-09-02-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/117/crec/2022/09/02/168/141/CREC-2022-09-02-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2022-09-02",
+                "Session": "2",
+                "Volume": "168"
+            }
+        ],
+        "SetSize": 20,
+        "TotalCount": 5047
+    },
+    "Status": {
+        "Code": "200",
+        "Message": "success"
+    }
+}

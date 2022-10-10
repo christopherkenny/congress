@@ -15,8 +15,7 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::has_congress_key()
 #' # Requires API Key
 #'
 #' cong_bill()
@@ -26,8 +25,6 @@
 #' cong_bill(congress = 117, type = 'hr', number = 3076)
 #'
 #' cong_bill(congress = 117, type = 'hr', number = 3076, item = 'actions')
-#'
-#' }
 #'
 cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
                       from_date = NULL, to_date = NULL,

@@ -14,8 +14,8 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::has_congress_key()
+#'
 #' # Requires API Key
 #'
 #' cong_treaty()
@@ -30,7 +30,6 @@
 #'
 #' cong_treaty(congress = 114, number = 13, suffix = 'A', item = 'actions')
 #'
-#' }
 #'
 cong_treaty <- function(congress = NULL, number = NULL, suffix = NULL, item = NULL,
                             from_date = NULL, to_date = NULL,

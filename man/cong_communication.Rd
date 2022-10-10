@@ -42,7 +42,7 @@ cong_communication(
 Request Communication Information
 }
 \examples{
-\dontrun{
+\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 # Requires API Key
 
 cong_communication()
@@ -52,7 +52,5 @@ cong_communication(congress = 117)
 cong_communication(congress = 117, type = 'ec')
 
 cong_communication(congress = 117, type = 'ec', number = 3324)
-
-}
-
+\dontshow{\}) # examplesIf}
 }

@@ -14,8 +14,7 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::has_congress_key()
 #' # Requires API Key
 #'
 #' cong_committee()
@@ -29,8 +28,6 @@
 #' cong_committee(chamber = 'house', committee = 'hspw00')
 #'
 #' cong_committee(chamber = 'senate', committee = 'ssas00', item = 'bills')
-#'
-#' }
 #'
 cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, item = NULL,
                       from_date = NULL, to_date = NULL,

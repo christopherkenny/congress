@@ -1,0 +1,312 @@
+{
+    "bills": [
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Placed on the Union Calendar, Calendar No. 389."
+            },
+            "number": "4270",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Abandoned Well Remediation Research and Development Act",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:13:59Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/4270?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on the Judiciary."
+            },
+            "number": "9141",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To reduce appointment wait times for certain nonimmigrant visas known as visitor visas, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:29Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9141?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Energy and Commerce."
+            },
+            "number": "9151",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To establish certain conditions and requirements relating to the relocation of professional sports teams, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9151?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Ways and Means."
+            },
+            "number": "9155",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Internal Revenue Code of 1986 to impose the alternative minimum tax on certain State regulated electric utilities that have not fully adopted climate-resilient infrastructure.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9155?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Ways and Means."
+            },
+            "number": "9143",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To prevent the use of additional Internal Revenue Service funds from being used for audits of taxpayers with taxable incomes below $400,000 in order to protect low- and middle-income earning American taxpayers from an onslaught of audits from an army of new Internal Revenue Service auditors funded by an unprecedented, nearly $80,000,000,000, infusion of new funds.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:29Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9143?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "9147",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To require the Secretary of State to submit an annual report to Congress regarding the ties between criminal gangs and political and economic elites in Haiti.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:29Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9147?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Financial Services."
+            },
+            "number": "9157",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To define the dollar as a fixed weight of gold, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9157?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "112",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Urging the administration to initiate the International Agreement to Prohibit the Eating of Dogs and Cats.",
+            "type": "HCONRES",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T12:00:15Z",
+            "url": "https://api.congress.gov/v3/bill/117/hconres/112?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on the Judiciary."
+            },
+            "number": "9158",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend title 18, United States Code, to prohibit people from intentionally impeding the 9-8-8 suicide and crisis lifeline telephone number, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9158?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Natural Resources."
+            },
+            "number": "9154",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Wild Free-Roaming Horses and Burros Act to protect horses and burros from slaughter and ensure their humane management, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9154?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Financial Services."
+            },
+            "number": "9159",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To make reforms to the Bank Secrecy Act, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9159?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Education and Labor."
+            },
+            "number": "9142",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Older Americans Act of 1965 to establish a LGBTQI rural outreach grant program, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:29Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9142?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the Committee on Homeland Security, and in addition to the Committees on the Judiciary, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "9162",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Secretary of Homeland Security to designate illicit fentanyl as a weapon of mass destruction, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:31Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9162?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Transportation."
+            },
+            "number": "9153",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To repeal the Federal Motor Carrier Safety Administration's rule titled \"Minimum Training Requirements for Entry-Level Commercial Motor Vehicle Operators\".",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9153?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Agriculture."
+            },
+            "number": "9144",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Food and Nutrition Act of 2008 to allow households with children with chronic medical conditions to deduct allowable medical expenses incurred by such household member that exceeds $35 per month.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:29Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9144?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on the Judiciary."
+            },
+            "number": "9146",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend title 28, United States Code, to set forth the procedure for actions involving covered speech, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:29Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9146?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "9156",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend title XVIII of the Social Security Act to extend the period for certain teaching hospitals to establish full-time equivalent residency caps for new residency training programs impacted by the COVID-19 pandemic, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9156?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Natural Resources."
+            },
+            "number": "9150",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To provide that no Federal funds shall be appropriated, awarded, or granted to the Monterey Bay Aquarium.",
+            "type": "HR",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T07:15:30Z",
+            "url": "https://api.congress.gov/v3/bill/117/hr/9150?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Oversight and Reform."
+            },
+            "number": "1426",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Urging the people of the United States to observe the month of October 2022 as Italian and Italian-American Heritage Month.",
+            "type": "HRES",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T12:00:15Z",
+            "url": "https://api.congress.gov/v3/bill/117/hres/1426?format=json"
+        },
+        {
+            "congress": 117,
+            "latestAction": {
+                "actionDate": "2022-10-07",
+                "text": "Referred to the House Committee on Energy and Commerce."
+            },
+            "number": "1427",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Thanking and promoting the profession of perinatal nurses by encouraging participation in National Perinatal Nurses Week.",
+            "type": "HRES",
+            "updateDate": "2022-10-08",
+            "updateDateIncludingText": "2022-10-08T12:00:15Z",
+            "url": "https://api.congress.gov/v3/bill/117/hres/1427?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 390058,
+        "next": "https://api.congress.gov/congress/v3/bill?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

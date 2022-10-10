@@ -36,13 +36,13 @@ cong_congress(
 Request Congress Information
 }
 \examples{
-\dontrun{
+\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+
 # Requires API Key
 
 cong_congress()
 
 cong_congress(congress = 116)
 
-}
-
+\dontshow{\}) # examplesIf}
 }

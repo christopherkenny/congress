@@ -13,8 +13,7 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::has_congress_key()
 #' # Requires API Key
 #'
 #' cong_communication()
@@ -24,8 +23,6 @@
 #' cong_communication(congress = 117, type = 'ec')
 #'
 #' cong_communication(congress = 117, type = 'ec', number = 3324)
-#'
-#' }
 #'
 cong_communication <- function(congress = NULL, type = NULL, number = NULL,
                                from_date = NULL, to_date = NULL,

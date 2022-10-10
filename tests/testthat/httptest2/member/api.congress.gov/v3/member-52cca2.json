@@ -1,0 +1,412 @@
+{
+    "members": [
+        {
+            "bioguideId": "B000817",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/b000817_200.jpg"
+            },
+            "district": 3,
+            "name": "Brewster, Bill K.",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": 1997,
+                        "start": 1991
+                    }
+                ]
+            },
+            "state": "Oklahoma",
+            "url": "https://api.congress.gov/v3/member/B000817?format=json"
+        },
+        {
+            "bioguideId": "D000610",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/d000610_200.jpg"
+            },
+            "district": 22,
+            "name": "Deutch, Theodore E.",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": 2022,
+                        "start": 2010
+                    }
+                ]
+            },
+            "state": "Florida",
+            "url": "https://api.congress.gov/v3/member/D000610?format=json"
+        },
+        {
+            "bioguideId": "S001143",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/s001143_200.jpg"
+            },
+            "district": 3,
+            "name": "Souder, Mark E.",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": 2010,
+                        "start": 1995
+                    }
+                ]
+            },
+            "state": "Indiana",
+            "url": "https://api.congress.gov/v3/member/S001143?format=json"
+        },
+        {
+            "bioguideId": "F000215",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/f000215_200.jpg"
+            },
+            "district": 1,
+            "name": "Florio, James J.",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": 1991,
+                        "start": 1975
+                    }
+                ]
+            },
+            "state": "New Jersey",
+            "url": "https://api.congress.gov/v3/member/F000215?format=json"
+        },
+        {
+            "bioguideId": "U000017",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/u000017_200.jpg"
+            },
+            "district": 3,
+            "name": "Unsoeld, Jolene",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": 1995,
+                        "start": 1989
+                    }
+                ]
+            },
+            "state": "Washington",
+            "url": "https://api.congress.gov/v3/member/U000017?format=json"
+        },
+        {
+            "bioguideId": "C000735",
+            "depiction": {
+                "attribution": "Image, Congressional Pictorial Directory, 107th.",
+                "imageUrl": "https://www.congress.gov/img/member/c000735_200.jpg"
+            },
+            "district": 5,
+            "name": "Cooksey, John",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": 2003,
+                        "start": 1997
+                    }
+                ]
+            },
+            "state": "Louisiana",
+            "url": "https://api.congress.gov/v3/member/C000735?format=json"
+        },
+        {
+            "bioguideId": "B001271",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/b001271_200.jpg"
+            },
+            "district": 1,
+            "name": "Benishek, Dan",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": 2017,
+                        "start": 2011
+                    }
+                ]
+            },
+            "state": "Michigan",
+            "url": "https://api.congress.gov/v3/member/B001271?format=json"
+        },
+        {
+            "bioguideId": "M000628",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/m000628_200.jpg"
+            },
+            "district": 17,
+            "name": "Meek, Carrie P.",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": 2003,
+                        "start": 1993
+                    }
+                ]
+            },
+            "state": "Florida",
+            "url": "https://api.congress.gov/v3/member/M000628?format=json"
+        },
+        {
+            "bioguideId": "R000579",
+            "depiction": {
+                "attribution": null,
+                "imageUrl": ""
+            },
+            "district": 19,
+            "name": "Ryan, Patrick",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": null,
+                        "start": 2022
+                    }
+                ]
+            },
+            "state": "New York",
+            "url": "https://api.congress.gov/v3/member/R000579?format=json"
+        },
+        {
+            "bioguideId": "S001219",
+            "depiction": {
+                "attribution": null,
+                "imageUrl": ""
+            },
+            "district": 23,
+            "name": "Sempolinski, Joseph",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": null,
+                        "start": 2022
+                    }
+                ]
+            },
+            "state": "New York",
+            "url": "https://api.congress.gov/v3/member/S001219?format=json"
+        },
+        {
+            "bioguideId": "P000619",
+            "depiction": {
+                "attribution": null,
+                "imageUrl": ""
+            },
+            "district": 0,
+            "name": "Peltola, Mary Sattler",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": null,
+                        "start": 2022
+                    }
+                ]
+            },
+            "state": "Alaska",
+            "url": "https://api.congress.gov/v3/member/P000619?format=json"
+        },
+        {
+            "bioguideId": "L000577",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office<\/a>",
+                "imageUrl": "https://www.congress.gov/img/member/l000577_200.jpg"
+            },
+            "district": null,
+            "name": "Lee, Mike",
+            "party": "Republican",
+            "served": {
+                "Senate": [
+                    {
+                        "end": null,
+                        "start": 2011
+                    }
+                ]
+            },
+            "state": "Utah",
+            "url": "https://api.congress.gov/v3/member/L000577?format=json"
+        },
+        {
+            "bioguideId": "C001111",
+            "depiction": {
+                "attribution": "Congressional Pictorial Directory",
+                "imageUrl": "https://www.congress.gov/img/member/116_rp_fl_13_crist_charlie_200.jpg"
+            },
+            "district": 13,
+            "name": "Crist, Charlie",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": 2022,
+                        "start": 2017
+                    }
+                ]
+            },
+            "state": "Florida",
+            "url": "https://api.congress.gov/v3/member/C001111?format=json"
+        },
+        {
+            "bioguideId": "F000475",
+            "depiction": {
+                "attribution": null,
+                "imageUrl": ""
+            },
+            "district": 1,
+            "name": "Finstad, Brad",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": null,
+                        "start": 2022
+                    }
+                ]
+            },
+            "state": "Minnesota",
+            "url": "https://api.congress.gov/v3/member/F000475?format=json"
+        },
+        {
+            "bioguideId": "L000167",
+            "depiction": {
+                "attribution": null,
+                "imageUrl": ""
+            },
+            "district": 4,
+            "name": "Leach, Claude (Buddy), Jr.",
+            "party": "Democratic",
+            "served": {
+                "House": [
+                    {
+                        "end": 1981,
+                        "start": 1979
+                    }
+                ]
+            },
+            "state": "Louisiana",
+            "url": "https://api.congress.gov/v3/member/L000167?format=json"
+        },
+        {
+            "bioguideId": "W000813",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/w000813_200.jpg"
+            },
+            "district": 2,
+            "name": "Walorski, Jackie",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": 2022,
+                        "start": 2013
+                    }
+                ]
+            },
+            "state": "Indiana",
+            "url": "https://api.congress.gov/v3/member/W000813?format=json"
+        },
+        {
+            "bioguideId": "F000474",
+            "depiction": {
+                "attribution": null,
+                "imageUrl": ""
+            },
+            "district": 1,
+            "name": "Flood, Mike",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": null,
+                        "start": 2022
+                    }
+                ]
+            },
+            "state": "Nebraska",
+            "url": "https://api.congress.gov/v3/member/F000474?format=json"
+        },
+        {
+            "bioguideId": "C001128",
+            "depiction": {
+                "attribution": null,
+                "imageUrl": ""
+            },
+            "district": 22,
+            "name": "Conway, Connie",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": null,
+                        "start": 2022
+                    }
+                ]
+            },
+            "state": "California",
+            "url": "https://api.congress.gov/v3/member/C001128?format=json"
+        },
+        {
+            "bioguideId": "F000473",
+            "depiction": {
+                "attribution": null,
+                "imageUrl": ""
+            },
+            "district": 34,
+            "name": "Flores, Mayra",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": null,
+                        "start": 2022
+                    }
+                ]
+            },
+            "state": "Texas",
+            "url": "https://api.congress.gov/v3/member/F000473?format=json"
+        },
+        {
+            "bioguideId": "B000910",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/b000910_200.jpg"
+            },
+            "district": 7,
+            "name": "Brown, Clarence, Jr.",
+            "party": "Republican",
+            "served": {
+                "House": [
+                    {
+                        "end": 1983,
+                        "start": 1965
+                    }
+                ]
+            },
+            "state": "Ohio",
+            "url": "https://api.congress.gov/v3/member/B000910?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 2434,
+        "next": "https://api.congress.gov/congress/v3/member?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

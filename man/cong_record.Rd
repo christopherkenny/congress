@@ -36,13 +36,12 @@ cong_record(
 Request Bill Information
 }
 \examples{
-\dontrun{
+\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+
 # Requires API Key
 
 cong_record()
 
 cong_record(year = 2022, month = 6, day = 28)
-
-}
-
+\dontshow{\}) # examplesIf}
 }

@@ -12,8 +12,8 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::has_congress_key()
+#'
 #' # Requires API Key
 #'
 #' cong_summaries()
@@ -21,8 +21,6 @@
 #' cong_summaries(congress = 117)
 #'
 #' cong_summaries(congress = 117, type = 'hr')
-#'
-#' }
 #'
 cong_summaries <- function(congress = NULL, type = NULL,
                            from_date = NULL, to_date = NULL,

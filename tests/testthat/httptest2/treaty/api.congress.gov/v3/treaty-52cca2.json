@@ -1,0 +1,292 @@
+{
+    "pagination": {
+        "count": 782,
+        "next": "https://api.congress.gov/congress/v3/treaty?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "treaties": [
+        {
+            "congress": 117,
+            "endCongressId": 117,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><head><meta name=\"meta:creation-date\" content=\"2022/09/21 17:02:06\" /><meta name=\"dc:title\" content=\"[117] TreatyRes. 3 for TreatyDoc. 117 - 1\" /><meta name=\"Creation-Date\" content=\"2022/09/21 17:02:06\" /><meta name=\"dcterms:created\" content=\"2022/09/21 17:02:06\" /><meta name=\"Content-Type\" content=\"application/rtf\" /><title>[117] TreatyRes. 3 for TreatyDoc. 117 - 1<\/title><\/head><body><p>As approved by the Senate:<\/p><p><\/p><p><i>Resolved (two-thirds of the Senators present concurring therein), <\/i><\/p><p><\/p><p><b>SECTION 1. SENATE ADVICE AND CONSENT SUBJECT TO DECLARATIONS AND A CONDITION <\/b><\/p><p>\tThe Senate advises and consents to the ratification of the Amendment to the Montreal Protocol on Substances that Deplete the Ozone Layer (the &ldquo;Montreal Protocol&rdquo;), adopted at Kigali on October 15, 2016, by the Twenty-Eighth Meeting of the Parties to the Montreal Protocol (&ldquo;The Kigali Amendment&rdquo;) (Treaty Doc. 117-1), subject to the declarations of section 2 and the condition of section 3. <\/p><p><\/p><p><b>SECTION 2. DECLARATIONS<\/b><\/p><p><\/p><p>\tThe advice and consent of the Senate under section 1 is subject to the following declarations: <\/p><p>\t\t(1) The Kigali amendment is not self-executing.<\/p><p>(2) The People&rsquo;s Republic of China is not a developing country, and the United Nations and other intergovernmental organizations should not treat the People&rsquo;s Republic of China as such.<\/p><p><\/p><p><b>SEC. 3. CONDITION.<\/b><\/p><p><\/p><p>The advice and consent of the Senate under section 1 is subject to the following condition: Prior to the Thirty-Fifth Meeting of the Parties to the Montreal Protocol, the Secretary of State shall transmit to the Secretariat of the Vienna Convention for the Protection of the Ozone Layer a proposal to amend Decision I/12E, &ldquo;Clarification of terms and definitions: developing countries,&rdquo; made at the First Meeting of the Parties, to remove the People&rsquo;s Republic of China.<\/p><\/body><\/html>",
+            "transmittedDate": "2021-11-16T00:00:00Z",
+            "treatyNum": 1,
+            "treatySubject": "International Law and Organization",
+            "treatySuffix": "",
+            "updateDate": "2022-09-23T00:16:11Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/117/1?format=json"
+        },
+        {
+            "congress": 112,
+            "endCongressId": null,
+            "parts": {
+
+            },
+            "resolutionText": "",
+            "transmittedDate": "2012-05-17T00:00:00Z",
+            "treatyNum": 8,
+            "treatySubject": "Taxation",
+            "treatySuffix": "",
+            "updateDate": "2022-09-13T10:26:37Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/112/8?format=json"
+        },
+        {
+            "congress": 116,
+            "endCongressId": 117,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><head><meta name=\"meta:creation-date\" content=\"2022/09/12 21:03:42\" /><meta name=\"dc:title\" content=\"[117] TreatyRes. 5 for TreatyDoc. 116 - 2\" /><meta name=\"Creation-Date\" content=\"2022/09/12 21:03:42\" /><meta name=\"dcterms:created\" content=\"2022/09/12 21:03:42\" /><meta name=\"Content-Type\" content=\"application/rtf\" /><title>[117] TreatyRes. 5 for TreatyDoc. 116 - 2<\/title><\/head><body><p>As approved by the Senate: <\/p><p>(A)\tThe U.S.-Croatia Extradition Agreement<\/p><p><i>Resolved (two-thirds of the Senators present concurring therein), <\/i><\/p><p><\/p><p>SECTION 1. SENATE ADVICE AND CONSENT SUBJECT TO A DECLARATION <\/p><p>The Senate advises and consents to the ratification of the Agreement between the Government of the United States of America and the Government of the Republic of Croatia comprising the instrument as contemplated by Article 3(2) of the Agreement on Extradition between the United States of America and the European Union, signed June 25, 2003, as to the Application of the Treaty on Extradition signed on October 25, 1901 (the &ldquo;U.S.-Croatia Extradition Agreement&rdquo;), signed at Washington on December 10, 2019, (Treaty Doc. 116-2), subject to the declaration of section 2. <\/p><p>SECTION 2. DECLARATION <\/p><p>The advice and consent of the Senate under section 1 is subject to the following declaration: The U.S.-Croatia Extradition Agreement is self-executing.<\/p><p>(B)\tThe U.S.-Croatia Mutual Legal Assistance Agreement<\/p><p><i>Resolved (two-thirds of the Senators present concurring therein), <\/i><\/p><p><\/p><p>SECTION 1. SENATE ADVICE AND CONSENT SUBJECT TO A DECLARATION<\/p><p>The Senate advises and consents to the ratification of the Agreement between the Government of the United States of America and the Government of the Republic of Croatia comprising the instrument as contemplated by Article 3(3) of the Agreement on Mutual Legal Assistance between the United States of America and the European Union signed at Washington on June 25, 2003 (the &ldquo;U.S.-Croatia Mutual Legal Assistance Agreement&rdquo;), signed at Washington on December 10, 2019, (Treaty Doc. 116-2), subject to the declaration of section 2.<\/p><p>SECTION 2. DECLARATION<\/p><p>The advice and consent of the Senate under section 1 is subject to the following declaration: The U.S.-Croatia Mutual Legal Assistance Agreement is self-executing.<\/p><\/body><\/html>",
+            "transmittedDate": "2020-06-18T00:00:00Z",
+            "treatyNum": 2,
+            "treatySubject": "Extradition",
+            "treatySuffix": "",
+            "updateDate": "2022-09-13T04:16:10Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/116/2?format=json"
+        },
+        {
+            "congress": 117,
+            "endCongressId": 117,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><head><meta name=\"meta:creation-date\" content=\"2022/08/03 18:28:08\" /><meta name=\"dc:title\" content=\"[117] TreatyRes. 6 for TreatyDoc. 117 - 3\" /><meta name=\"Creation-Date\" content=\"2022/08/03 18:28:08\" /><meta name=\"dcterms:created\" content=\"2022/08/03 18:28:08\" /><meta name=\"Content-Type\" content=\"application/rtf\" /><title>[117] TreatyRes. 6 for TreatyDoc. 117 - 3<\/title><\/head><body><p>As approved by the Senate: <\/p><p><i>Resolved (two-thirds of the Senators present concurring therein),<\/i><\/p><p><\/p><p><b>SECTION 1. SENATE ADVICE AND CONSENT SUBJECT TO DECLARATIONS AND CONDITIONS.<\/b><\/p><p><\/p><p>The Senate advises and consents to the ratification of the Protocols to the North Atlantic Treaty of 1949 on the Accession of the Republic of Finland and the Kingdom of Sweden, which were signed on July 5, 2022, by the United States of America and other parties to the North Atlantic Treaty of 1949 (Treaty Doc. 117-3), subject to the declarations of section 2 and the condition of section 3.<\/p><p><b>SEC. 2. DECLARATIONS.<\/b><\/p><p><\/p><p>The advice and consent of the Senate under section 1 is subject to the following declarations:<\/p><p>(1)\tReaffirmation That United States Membership in NATO Remains a Vital National Security Interest of the United States.- The Senate declares that-<\/p><p>(A)\tfor more than 70 years the North Atlantic Treaty Organization (NATO) has served as the preeminent organization to defend the countries in the North Atlantic area against all external threats;<\/p><p>(B)\tthrough common action, the established democracies of North America and Europe that were joined in NATO persevered and prevailed in the task of ensuring the survival of democratic government in Europe and North America throughout the Cold War;<\/p><p>(C)\tNATO enhances the security of the United States by embedding European states in a process of cooperative security planning and by ensuring an ongoing and direct leadership role for the United States in European security affairs;<\/p><p>(D)\tthe responsibility and financial burden of defending the democracies of Europe and North America can be more equitably shared through an alliance in which specific obligations and force goals are met by its members;<\/p><p>(E)\tthe security and prosperity of the United States is enhanced by NATO's collective defense against aggression that may threaten the security of NATO members; and<\/p><p>(F)\tUnited States membership in NATO remains a vital national security interest of the United States.<\/p><p>(2)\tStrategic Rationale for NATO Enlargement.- The Senate declares that-<\/p><p>(A)\tthe United States and its NATO allies face continued threats to their stability and territorial integrity;<\/p><p>(B)\tan attack against Finland or Sweden, or the destabilization of either arising from external subversion, would threaten the stability of Europe and jeopardize United States national security interests;<\/p><p>(C)\tFinland and Sweden, having established democratic governments and having demonstrated a willingness to meet the requirements of membership, including those necessary to contribute to the defense of all NATO members, are in a position to further the principles of the North Atlantic Treaty and to contribute to the security of the North Atlantic area; and<\/p><p>(D)\textending NATO membership to Finland and Sweden will strengthen NATO, enhance stability in Europe, and advance the interests of the United States and its NATO allies.<\/p><p>(3)\tSupport for NATO's Open Door Policy.- The policy of the United States is to support NATO's Open Door Policy that allows any European country to express its desire to join NATO and demonstrate its ability to meet the obligations of NATO membership.<\/p><p>(4)\tFuture Consideration of Candidates for Membership in NATO.-<\/p><p>(A)\tSenate Finding.-The Senate finds that the United States will not support the accession to the North Atlantic Treaty of, or the invitation to begin accession talks with, any European state (other than Finland and Sweden), unless-<\/p><p>(i)\tthe President consults with the Senate consistent with Article II, section 2, clause 2 of the Constitution of the United States (relating to the advice and consent of the Senate to the making of treaties); and<\/p><p>(ii)\tthe prospective NATO member can fulfill all of the obligations and responsibilities of membership, and the inclusion of such state in NATO would serve the overall political and strategic interests of NATO and the United States.<\/p><p>(B)\tRequirement for Consensus and Ratification.-The Senate declares that no action or agreement other than a consensus decision by the full membership of NATO, approved by the national procedures of each NATO member, including, in the case of the United States, the requirements of Article II, section 2, clause 2 of the Constitution of the United States (relating to the advice and consent of the Senate to the making of treaties), will constitute a commitment to collective defense and consultations pursuant to Articles 4 and 5 of the North Atlantic Treaty.<\/p><p>(5)\tInfluence of Non-NATO Members on NATO Decisions.- The Senate declares that any country that is not a member of NATO shall have no impact on decisions related to NATO enlargement.<\/p><p>(6)\tSupport for 2014 Wales Summit Defense Spending Benchmark.--The Senate declares that all NATO members should spend a minimum of 2 percent of their Gross Domestic Product (GDP) on defense and 20 percent of their defense budgets on major equipment, including research and development, by 2024, as outlined in the 2014 Wales Summit Declaration.<\/p><p><b>SEC. 3. CONDITION.<\/b><\/p><p><\/p><p>The advice and consent of the Senate under section 1 is subject to the following conditions<\/p><p>(1)\tPresidential Certification.-Prior to the deposit of the instrument of ratification, the President shall certify to the Senate as follows:<\/p><p>(A)\tThe inclusion of Finland and Sweden in NATO will not have the effect of increasing the overall percentage share of the United States in the common budgets of NATO.<\/p><p>(B)\tThe inclusion of Finland and Sweden in NATO does not detract from the ability of the United States to meet or to fund its military requirements outside the North Atlantic area.<\/p><p><b>SEC. 4. DEFINITIONS.<\/b><\/p><p><\/p><p>In this resolution:<\/p><p>(1)\tNATO Members.-The term &ldquo;NATO members&rdquo; means all countries that are parties to the North Atlantic Treaty.<\/p><p>(2)\tNon-NATO Members.-The term &ldquo;non-NATO members&rdquo; means all countries that are not parties to the North Atlantic Treaty.<\/p><p>(3)\tNorth Atlantic Area.-The term &ldquo;North Atlantic Area&rdquo; means the area covered by Article 6 of the North Atlantic Treaty, as applied by the North Atlantic Council.<\/p><p>(4)\tNorth Atlantic Treaty.-The term &ldquo;North Atlantic Treaty&rdquo; means the North Atlantic Treaty, signed at Washington April 4, 1949 (63 Stat. 2241; TIAS 1964), as amended.<\/p><p>(5)\tUnited States Instrument of Ratification.-The term &ldquo;United States instrument of ratification&rdquo; means the instrument of ratification of the United States of the Protocols to the<\/p><p>North Atlantic Treaty of 1949 on the Accession of the Republic of Finland and the Kingdom of Sweden.<\/p><\/body><\/html>",
+            "transmittedDate": "2022-07-11T00:00:00Z",
+            "treatyNum": 3,
+            "treatySubject": "International Law and Organization",
+            "treatySuffix": "",
+            "updateDate": "2022-08-04T02:46:11Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/117/3?format=json"
+        },
+        {
+            "congress": 115,
+            "endCongressId": 117,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><head><meta name=\"meta:creation-date\" content=\"2022/07/19 21:03:42\" /><meta name=\"dc:title\" content=\"[117] TreatyRes. 4 for TreatyDoc. 115 - 3\" /><meta name=\"Creation-Date\" content=\"2022/07/19 21:03:42\" /><meta name=\"dcterms:created\" content=\"2022/07/19 21:03:42\" /><meta name=\"Content-Type\" content=\"application/rtf\" /><title>[117] TreatyRes. 4 for TreatyDoc. 115 - 3<\/title><\/head><body><p>As approved by the Senate: <\/p><p><i>Resolved (two-thirds of the Senators present concurring therein),<\/i><\/p><p><b><\/b><\/p><p><b>SECTION 1. SENATE ADVICE AND CONSENT SUBJECT TO A DECLARATION<\/b><\/p><p><\/p><p>\tThe Senate advises and consents to the ratification of the Amendments to the Treaty on Fisheries between the Governments of Certain Pacific Island States and the Government of the United States of America done at Port Moresby April 2, 1987, as amended, done at Nadi, Fiji, December 3, 2016 (&lsquo;&lsquo;the Amendments&rsquo;&rsquo;) (Treaty Doc. 115-3), subject to the declaration of section 2.<\/p><p><b>SECTION 2. DECLARATION<\/b><\/p><p><\/p><p>\tThe advice and consent of the Senate under section 1 is subject to the following declaration:<\/p><p>\t\tThe Amendments are not self-executing.<\/p><\/body><\/html>",
+            "transmittedDate": "2018-08-28T00:00:00Z",
+            "treatyNum": 3,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2022-07-20T02:46:13Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/115/3?format=json"
+        },
+        {
+            "congress": 117,
+            "endCongressId": null,
+            "parts": {
+
+            },
+            "resolutionText": "",
+            "transmittedDate": null,
+            "treatyNum": 7,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2022-07-15T11:14:14Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/117/7?format=json"
+        },
+        {
+            "congress": 117,
+            "endCongressId": null,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "2022-04-07T14:50:01Z",
+            "treatyNum": 2,
+            "treatySubject": "Extradition and Criminal Assistance",
+            "treatySuffix": "",
+            "updateDate": "2022-07-15T11:12:34Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/117/2?format=json"
+        },
+        {
+            "congress": 116,
+            "endCongressId": 116,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><head><meta name=\"meta:creation-date\" content=\"2022/07/11 18:04:26\" /><meta name=\"dc:title\" content=\"[116] TreatyRes. 1 for TreatyDoc. 116 - 1\" /><meta name=\"Creation-Date\" content=\"2022/07/11 18:04:26\" /><meta name=\"dcterms:created\" content=\"2022/07/11 18:04:26\" /><meta name=\"Content-Type\" content=\"application/rtf\" /><title>[116] TreatyRes. 1 for TreatyDoc. 116 - 1<\/title><\/head><body><p>As approved by the Senate: <\/p><p><\/p><p><i>Resolved, (two-thirds of the Senators present concurring therein),<\/i><\/p><p><\/p><p><b>SECTION 1. SENATE ADVICE AND CONSENT SUBJECT TO DECLARATIONS AND<\/b><b>CONDITIONS.<\/b><\/p><p><\/p><p>The Senate advises and consents to the ratification of the Protocol to the North Atlantic Treaty of 1949 on the Accession of North Macedonia, which was opened for signature at Brussels on February 6, 2019, and signed that day on behalf of the United States of America (the &lsquo;&lsquo;Protocol&rsquo;&rsquo;) (Treaty Doc. 116-1), subject to the declarations of section 2 and the conditions of section 3.<\/p><p><b>SEC. 2. DECLARATIONS.<\/b><\/p><p><\/p><p>The advice and consent of the Senate under section 1 is subject to the following declarations: <\/p><p>(1) REAFFIRMATION THAT UNITED STATES MEMBERSHIP IN NATO REMAINS A VITAL NATIONAL SECURITY INTEREST OF THE UNITED STATES.-The Senate declares that-<\/p><p>(A) for 70 years the North Atlantic Treaty Organization (NATO) has served as the preeminent organization to defend the countries in the North Atlantic area against all external threats;<\/p><p>(B) through common action, the established democracies of North America and Europe that were joined in NATO persevered and prevailed in the task of ensuring the survival of democratic government in Europe and North America throughout the Cold War;<\/p><p>(C) NATO enhances the security of the United States by embedding European states in a process of cooperative security planning and by ensuring an ongoing and direct leadership role for the United States in European security affairs;<\/p><p>(D) the responsibility and financial burden of defending the democracies of Europe and North America can be more equitably shared through an alliance in which specific obligations and force goals are met by its members;<\/p><p>(E) the security and prosperity of the United States is enhanced by NATO&rsquo;s collective defense against aggression that may threaten the security of NATO members; and<\/p><p>(F) United States membership in NATO remains a vital national security interest of the United States. <\/p><p>(2) STRATEGIC RATIONALE FOR NATO ENLARGEMENT.-The Senate declares that-<\/p><p><\/p><p>(A) the United States and its NATO allies face continued threats to their stability and territorial integrity;<\/p><p><\/p><p>(B) an attack against North Macedonia, or its destabilization arising from external subversion, would threaten the stability of Europe and jeopardize United States national security interests;<\/p><p><\/p><p>(C) North Macedonia, having established a democratic government and having demonstrated a willingness to meet the requirements of membership, including those necessary to contribute to the defense of all NATO members, is in a position to further the principles of the North Atlantic Treaty and to contribute to the security of the North Atlantic area; and<\/p><p><\/p><p>(D) extending NATO membership to North Macedonia will strengthen NATO, enhance stability in Southeast Europe, and advance the interests of the United States and its NATO allies.<\/p><p>(3) SUPPORT FOR NATO&rsquo;S OPEN DOOR POLICY.-The policy of the United States is to support NATO&rsquo;s Open Door Policy that allows any European country to express its desire to join NATO and demonstrate its ability to meet the obligations of NATO membership.<\/p><p>(4) FUTURE CONSIDERATION OF CANDIDATES FOR MEMBERSHIP IN NATO.-<\/p><p><\/p><p>(A) SENATE FINDING.-The Senate finds that the United States will not support the accession to the North Atlantic Treaty of, or the invitation to begin accession talks with, any European state (other than North Macedonia), unless-<\/p><p>(i) the President consults with the Senate consistent with Article II, section 2, clause 2 of the Constitution of the United States (relating to the advice and consent of the Senate to the making of treaties); and<\/p><p><\/p><p>(ii) the prospective NATO member can fulfill all of the obligations and responsibilities of membership, and the inclusion of such state in NATO would serve the overall political and strategic interests of NATO and the United States.<\/p><p><\/p><p>(B) REQUIREMENT FOR CONSENSUS AND RATIFICATION.-The Senate declares that no action or agreement other than a consensus decision by the full membership of NATO, approved by the national procedures of each NATO member, including, in the case of the United States, the requirements of Article II, section 2, clause 2 of the Constitution of the United States (relating to the advice and consent of the Senate to the making of treaties), will constitute a commitment to collective defense and consultations pursuant to Articles 4 and 5 of the North Atlantic Treaty.<\/p><p>(5) INFLUENCE OF NON-NATO MEMBERS ON NATO DECISIONS.-The Senate declares that any country that is not a member of NATO shall have no impact on decisions related to NATO enlargement.<\/p><p><\/p><p>(6) SUPPORT FOR 2014 WALES SUMMIT DEFENSE SPENDING BENCHMARK.-The Senate declares that all NATO members should continue to move towards the guideline outlined in the 2014 Wales Summit Declaration to spend a minimum of 2 percent of their Gross Domestic Product (GDP) on defense and 20 percent of their defense budgets on major equipment, including research and development, by 2024.<\/p><p>(7) SUPPORT FOR NORTH MACEDONIA&rsquo;S REFORM PROCESS.-The Senate declares that-<\/p><p>(A) North Macedonia has made difficult reforms and taken steps to address corruption, but the United States and other NATO member states should not consider this important process complete and should continue to urge additional reforms; and<\/p><p>(B) North Macedonia and Greece&rsquo;s conclusion of the Prespa Agreement, which resolved a long-standing bilateral dispute, has made possible the former&rsquo;s invitation to NATO, and the United States and other NATO members should continue to press both nations to persevere in their continued implementation of the Agreement and encourage a strategic partnership between the two nations. <\/p><p><\/p><p>SEC. 3. CONDITIONS.<\/p><p>The advice and consent of the Senate under section 1 is subject to the following conditions:<\/p><p>(1) PRESIDENTIAL CERTIFICATION.-Prior to the deposit of the instrument of ratification, the President shall certify to the Senate as follows:<\/p><p><\/p><p>(A) The inclusion of North Macedonia in NATO will not have the effect of increasing the overall percentage share of the United States in the common budgets of NATO.<\/p><p><\/p><p>(B) The inclusion of North Macedonia in NATO does not detract from the ability of the United States to meet or to fund its military requirements outside the North Atlantic area.<\/p><p><\/p><p><b>SEC. 4. DEFINITIONS.<\/b><\/p><p><\/p><p>In this resolution:<\/p><p>(1) NATO MEMBERS.-The term &lsquo;&lsquo;NATO members&rsquo;&rsquo; means all countries that are parties to the North Atlantic Treaty.<\/p><p>(2) NON-NATO MEMBERS.-The term &lsquo;&lsquo;non- NATO members&rsquo;&rsquo; means all countries that are not parties to the North Atlantic Treaty.<\/p><p>(3) NORTH ATLANTIC AREA.-The term &lsquo;&lsquo;North Atlantic area&rsquo;&rsquo; means the area covered by Article 6 of the North Atlantic Treaty, as applied by the North Atlantic Council.<\/p><p>(4) NORTH ATLANTIC TREATY.-The term &lsquo;&lsquo;North Atlantic Treaty&rsquo;&rsquo; means the North Atlantic Treaty, signed at Washington April 4, 1949 (63 Stat. 2241; TIAS 1964), as amended.<\/p><p>(5) UNITED STATES INSTRUMENT OF RATIFICATION.-The term &lsquo;&lsquo;United States instrument of ratification&rsquo;&rsquo; means the instrument of ratification of the United States of the Protocol to the North Atlantic Treaty of 1949 on the Accession of North Macedonia.<\/p><\/body><\/html>",
+            "transmittedDate": "2019-04-29T00:00:00Z",
+            "treatyNum": 1,
+            "treatySubject": "International Law and Organization",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T16:01:15Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/116/1?format=json"
+        },
+        {
+            "congress": 102,
+            "endCongressId": 102,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "1991-07-09T00:00:00Z",
+            "treatyNum": 9,
+            "treatySubject": "International Law and Organization",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:50Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/102/9?format=json"
+        },
+        {
+            "congress": 105,
+            "endCongressId": null,
+            "parts": {
+
+            },
+            "resolutionText": "",
+            "transmittedDate": "1998-06-09T00:00:00Z",
+            "treatyNum": 49,
+            "treatySubject": "Extradition and Criminal Assistance",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:50Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/105/49?format=json"
+        },
+        {
+            "congress": 106,
+            "endCongressId": 106,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "2000-09-12T00:00:00Z",
+            "treatyNum": 46,
+            "treatySubject": "International Law",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:49Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/106/46?format=json"
+        },
+        {
+            "congress": 96,
+            "endCongressId": 102,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "1979-09-05T00:00:00Z",
+            "treatyNum": 31,
+            "treatySubject": "Shipping and Marine Pollution",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:49Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/96/31?format=json"
+        },
+        {
+            "congress": 103,
+            "endCongressId": 104,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "1994-09-26T00:00:00Z",
+            "treatyNum": 38,
+            "treatySubject": "Commercial",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:49Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/103/38?format=json"
+        },
+        {
+            "congress": 103,
+            "endCongressId": 103,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "1993-09-07T00:00:00Z",
+            "treatyNum": 14,
+            "treatySubject": "Commercial",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:49Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/103/14?format=json"
+        },
+        {
+            "congress": 109,
+            "endCongressId": 110,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "2006-09-29T00:00:00Z",
+            "treatyNum": 19,
+            "treatySubject": "Taxation",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:48Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/109/19?format=json"
+        },
+        {
+            "congress": 109,
+            "endCongressId": 110,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "2006-09-29T00:00:00Z",
+            "treatyNum": 18,
+            "treatySubject": "Taxation",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:48Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/109/18?format=json"
+        },
+        {
+            "congress": 109,
+            "endCongressId": 109,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "2005-09-28T00:00:00Z",
+            "treatyNum": 4,
+            "treatySubject": "Taxation",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:48Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/109/4?format=json"
+        },
+        {
+            "congress": 115,
+            "endCongressId": 115,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "2017-01-17T00:00:00Z",
+            "treatyNum": 1,
+            "treatySubject": "Extradition",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:47Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/115/1?format=json"
+        },
+        {
+            "congress": 112,
+            "endCongressId": 116,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "2011-01-26T00:00:00Z",
+            "treatyNum": 1,
+            "treatySubject": "Taxation",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:46Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/112/1?format=json"
+        },
+        {
+            "congress": 114,
+            "endCongressId": 116,
+            "parts": {
+
+            },
+            "resolutionText": "<!DOCTYPE html><html xmlns=\"http://www.…",
+            "transmittedDate": "2015-04-13T00:00:00Z",
+            "treatyNum": 1,
+            "treatySubject": "Taxation",
+            "treatySuffix": "",
+            "updateDate": "2022-07-12T15:48:46Z",
+            "url": "http://https://api.data.gov/congress/v3/treaty/114/1?format=json"
+        }
+    ]
+}

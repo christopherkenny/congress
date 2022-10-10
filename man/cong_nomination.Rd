@@ -42,7 +42,7 @@ cong_nomination(
 Request Nomination Information
 }
 \examples{
-\dontrun{
+\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 # Requires API Key
 
 cong_nomination()
@@ -55,6 +55,5 @@ cong_nomination(congress = 117, number = 2467, item = 'actions')
 
 cong_nomination(congress = 117, number = 2467, item = 1)
 
-}
-
+\dontshow{\}) # examplesIf}
 }

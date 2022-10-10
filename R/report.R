@@ -13,9 +13,8 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
+#' @examplesIf congress::has_congress_key()
 #'
-#' \dontrun{
 #' # Requires API Key
 #'
 #' cong_committee_report()
@@ -27,8 +26,6 @@
 #' cong_committee_report(congress = 116, type = 'hrpt')
 #'
 #' cong_committee_report(congress = 116, type = 'hrpt', number = 617)
-#'
-#'}
 #'
 cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
                                   conference = FALSE,

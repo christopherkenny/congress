@@ -39,7 +39,7 @@ cong_member(
 Request Member Information
 }
 \examples{
-\dontrun{
+\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 # Requires API Key
 
 cong_member()
@@ -47,7 +47,5 @@ cong_member()
 cong_member(bioguide = 'L000174', clean = FALSE)
 
 cong_member(bioguide = 'L000174', item = 'sponsored-legislation')
-
-}
-
+\dontshow{\}) # examplesIf}
 }

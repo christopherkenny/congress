@@ -13,8 +13,7 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::has_congress_key()
 #' # Requires API Key
 #'
 #' cong_nomination()
@@ -27,7 +26,6 @@
 #'
 #' cong_nomination(congress = 117, number = 2467, item = 1)
 #'
-#' }
 #'
 cong_nomination <- function(congress = NULL, number = NULL, item = NULL,
                             from_date = NULL, to_date = NULL,

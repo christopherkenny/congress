@@ -11,15 +11,14 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::has_congress_key()
+#'
 #' # Requires API Key
 #'
 #' cong_congress()
 #'
 #' cong_congress(congress = 116)
 #'
-#' }
 #'
 cong_congress <- function(congress = NULL,
                           from_date = NULL, to_date = NULL,

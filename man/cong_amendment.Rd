@@ -45,7 +45,7 @@ cong_amendment(
 Request Amendment Information
 }
 \examples{
-\dontshow{if (congress::cong_has_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 # Requires API Key
 
 cong_amendment()

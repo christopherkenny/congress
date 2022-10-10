@@ -46,7 +46,7 @@ cong_bill(
 Request Bill Information
 }
 \examples{
-\dontrun{
+\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 # Requires API Key
 
 cong_bill()
@@ -56,7 +56,5 @@ cong_bill(congress = 117)
 cong_bill(congress = 117, type = 'hr', number = 3076)
 
 cong_bill(congress = 117, type = 'hr', number = 3076, item = 'actions')
-
-}
-
+\dontshow{\}) # examplesIf}
 }

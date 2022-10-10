@@ -12,8 +12,7 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::has_congress_key()
 #' # Requires API Key
 #'
 #' cong_member()
@@ -21,8 +20,6 @@
 #' cong_member(bioguide = 'L000174', clean = FALSE)
 #'
 #' cong_member(bioguide = 'L000174', item = 'sponsored-legislation')
-#'
-#' }
 #'
 cong_member <- function(bioguide = NULL, item = NULL,
                         from_date = NULL, to_date = NULL,

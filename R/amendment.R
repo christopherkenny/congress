@@ -14,7 +14,7 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`.
 #' @export
 #'
-#' @examplesIf congress::cong_has_key()
+#' @examplesIf congress::has_congress_key()
 #' # Requires API Key
 #'
 #' cong_amendment()
