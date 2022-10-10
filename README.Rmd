@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of congress is to ...
+`congress` provides a *mostly* tidy interface to the Congress.gov API, available at <https://api.congress.gov/#/>.
 
 ## Installation
 
@@ -46,7 +46,8 @@ This package is designed for `v3` of the [Congress.gov API](https://api.congress
 - congress with `cong_congress()`
 - member with `cong_member()`
 - committee with `cong_committee()`
-- committee report with `cong_report()`
+- committee report with `cong_committee_report()`
 - Congressional Record with `cong_record()`
+- House communication with `cong_communication()`
 - nomination with `cong_nomination()`
 - treaty with `cong_treaty()`

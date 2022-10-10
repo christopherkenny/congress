@@ -14,8 +14,7 @@
 #' @return `tibble` or HTTP response if `clean = FALSE`.
 #' @export
 #'
-#' @examples
-#' \dontrun{
+#' @examplesIf congress::cong_has_key()
 #' # Requires API Key
 #'
 #' cong_amendment()
@@ -26,7 +25,6 @@
 #'
 #' cong_amendment(congress = 117, type = 'samdt', number = 2137, item = 'actions')
 #'
-#' }
 #'
 cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
                            from_date = NULL, to_date = NULL,
