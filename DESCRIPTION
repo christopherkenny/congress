@@ -18,6 +18,7 @@ Imports:
     glue,
     httr2,
     purrr,
+    rlang,
     stringr,
     tibble,
     tidyr

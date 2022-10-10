@@ -74,7 +74,7 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
       out <- out |>
         purrr::pluck('committees') |>
         tibble::tibble(x = _) |>
-        tidyr::unnest_wider(x) |>
+        tidyr::unnest_wider(.data$x) |>
         clean_names()
     } else {
       if (is.null(item)) {
@@ -102,8 +102,8 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
             tibble::enframe() |>
             tidyr::pivot_wider() |>
             tidyr::unnest_wider(col = where(~purrr::vec_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
-            tidyr::unnest_longer(bills) |>
-            tidyr::unnest_wider(bills) |>
+            tidyr::unnest_longer(.data$bills) |>
+            tidyr::unnest_wider(.data$bills) |>
             clean_names()
         }
 

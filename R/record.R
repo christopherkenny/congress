@@ -35,8 +35,6 @@ cong_record <- function(year = NULL, month = NULL, day = NULL,
       'y' = year,
       'm' = month,
       'd' = day,
-      'fromDateTime' = from_date,
-      'toDateTime' = to_date,
       'sort' = sort,
       'limit' = min(max(limit, 1), 250),
       'offset' = max(offset, 0)
