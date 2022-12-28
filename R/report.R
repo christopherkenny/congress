@@ -88,7 +88,7 @@ committee_report_items <- c('text')
 committee_report_types <- c('hrpt', 'srpt', 'erpt')
 
 committee_report_endpoint <- function(congress, type, number, item) {
-  out <- 'committeeReport'
+  out <- 'committee-report'
   if (!is.null(congress)) {
     out <- paste0(out, '/', congress)
     if (!is.null(type)) {

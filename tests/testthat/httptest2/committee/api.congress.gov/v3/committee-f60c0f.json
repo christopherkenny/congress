@@ -305,7 +305,7 @@
     ],
     "pagination": {
         "count": 709,
-        "next": "https://api.congress.gov/congress/v3/committee?offset=20&limit=20&format=json"
+        "next": "https://api.congress.gov/v3/committee?offset=20&limit=20&format=json"
     },
     "request": {
         "contentType": "application/json",
