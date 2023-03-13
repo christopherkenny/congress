@@ -27,7 +27,7 @@ cong_house_requirement <- function(number = NULL,
   #   cli::cli_abort('Either both or neither of {.arg from_date} and {.arg to_date} must be specified.')
   # }
 
-  endpt <- house_requirement_endpoint(congress = congress, type = type, number = number)
+  endpt <- house_requirement_endpoint(number = number)
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append(endpt) |>
     httr2::req_url_query(
@@ -71,7 +71,7 @@ cong_house_requirement <- function(number = NULL,
   out
 }
 
-house_requirement_endpoint <- function(congress, type, number) {
+house_requirement_endpoint <- function(number) {
   out <- 'house-requirement'
     if (!is.null(number)) {
       out <- paste0(out, '/', number)
