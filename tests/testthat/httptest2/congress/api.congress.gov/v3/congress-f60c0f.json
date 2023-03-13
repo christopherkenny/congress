@@ -1,6 +1,27 @@
 {
     "congresses": [
         {
+            "endYear": "2024",
+            "name": "118th Congress",
+            "sessions": [
+                {
+                    "chamber": "House of Representatives",
+                    "endDate": null,
+                    "number": 1,
+                    "startDate": "2023-01-03",
+                    "type": "R"
+                },
+                {
+                    "chamber": "Senate",
+                    "endDate": null,
+                    "number": 1,
+                    "startDate": "2023-01-03",
+                    "type": "R"
+                }
+            ],
+            "startYear": "2023"
+        },
+        {
             "endYear": "2022",
             "name": "117th Congress",
             "sessions": [
@@ -20,14 +41,14 @@
                 },
                 {
                     "chamber": "House of Representatives",
-                    "endDate": null,
+                    "endDate": "2023-01-03",
                     "number": 2,
                     "startDate": "2022-01-03",
                     "type": "R"
                 },
                 {
                     "chamber": "Senate",
-                    "endDate": null,
+                    "endDate": "2023-01-03",
                     "number": 2,
                     "startDate": "2022-01-03",
                     "type": "R"
@@ -664,46 +685,11 @@
                 }
             ],
             "startYear": "1985"
-        },
-        {
-            "endYear": "1984",
-            "name": "98th Congress",
-            "sessions": [
-                {
-                    "chamber": "House of Representatives",
-                    "endDate": "1983-11-18",
-                    "number": 1,
-                    "startDate": "1983-01-03",
-                    "type": "R"
-                },
-                {
-                    "chamber": "Senate",
-                    "endDate": "1983-11-18",
-                    "number": 1,
-                    "startDate": "1983-01-03",
-                    "type": "R"
-                },
-                {
-                    "chamber": "House of Representatives",
-                    "endDate": "1984-10-12",
-                    "number": 2,
-                    "startDate": "1984-01-23",
-                    "type": "R"
-                },
-                {
-                    "chamber": "Senate",
-                    "endDate": "1984-10-12",
-                    "number": 2,
-                    "startDate": "1984-01-23",
-                    "type": "R"
-                }
-            ],
-            "startYear": "1983"
         }
     ],
     "pagination": {
-        "count": 117,
-        "next": "https://api.congress.gov/congress/v3/congress?offset=20&limit=20&format=json"
+        "count": 118,
+        "next": "https://api.congress.gov/v3/congress?offset=20&limit=20&format=json"
     },
     "request": {
         "contentType": "application/json",

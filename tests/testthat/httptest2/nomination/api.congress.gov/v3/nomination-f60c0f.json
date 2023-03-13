@@ -1,429 +1,358 @@
 {
     "nominations": [
         {
-            "citation": "PN2674",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-29",
-                    "text": "Received in the Senate and referred to the Committee on Armed Services."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Army "
+            "citation": "PN387",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-03-06",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2674,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 387,
+            "organization": "Navy",
             "partNumber": "00",
-            "receivedDate": "2022-09-29",
-            "updateDate": "2022-09-30 04:40:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2674?format=json"
+            "receivedDate": "2023-03-06",
+            "updateDate": "2023-03-07 05:25:12+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/387?format=json"
         },
         {
-            "citation": "PN2673",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-29",
-                    "text": "Received in the Senate and referred to the Committee on Armed Services."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Army "
+            "citation": "PN386",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-03-06",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2673,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 386,
+            "organization": "Army",
             "partNumber": "00",
-            "receivedDate": "2022-09-29",
-            "updateDate": "2022-09-30 04:40:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2673?format=json"
+            "receivedDate": "2023-03-06",
+            "updateDate": "2023-03-07 05:25:11+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/386?format=json"
         },
         {
-            "citation": "PN2677",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-29",
-                    "text": "Received in the Senate and referred to the Committee on Commerce, Science, and Transportation."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Coast Guard"
+            "citation": "PN385",
+            "congress": 118,
+            "description": "Bryan David Hunt, of Virginia, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Sierra Leone.",
+            "latestAction": {
+                "actionDate": "2023-03-06",
+                "text": "Received in the Senate and referred to the Committee on Foreign Relations."
             },
-            "number": 2677,
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 385,
+            "organization": "Department of State",
             "partNumber": "00",
-            "receivedDate": "2022-09-29",
-            "updateDate": "2022-09-30 04:40:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2677?format=json"
+            "receivedDate": "2023-03-06",
+            "updateDate": "2023-03-07 05:25:11+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/385?format=json"
         },
         {
-            "citation": "PN2678",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-29",
-                    "text": "Received in the Senate and referred to the Committee on Commerce, Science, and Transportation."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Coast Guard"
+            "citation": "PN384",
+            "congress": 118,
+            "description": "Felix R. Sanchez, of the District of Columbia, to be a Member of the Board of Directors of the Corporation for Public Broadcasting for a term expiring January 31, 2028, vice Robert A. Mandell, term expired.",
+            "latestAction": {
+                "actionDate": "2023-03-06",
+                "text": "Received in the Senate and referred to the Committee on Commerce, Science, and Transportation."
             },
-            "number": 2678,
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 384,
+            "organization": "Corporation for Public Broadcasting",
             "partNumber": "00",
-            "receivedDate": "2022-09-29",
-            "updateDate": "2022-09-30 04:40:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2678?format=json"
+            "receivedDate": "2023-03-06",
+            "updateDate": "2023-03-07 05:25:11+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/384?format=json"
         },
         {
-            "citation": "PN2676",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-29",
-                    "text": "Received in the Senate and referred to the Committee on Armed Services."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Navy"
+            "citation": "PN382",
+            "congress": 118,
+            "description": "Xochitl Torres Small, of New Mexico, to be Deputy Secretary of Agriculture, vice Jewel Hairston Bronaugh.",
+            "latestAction": {
+                "actionDate": "2023-03-02",
+                "text": "Received in the Senate and referred to the Committee on Agriculture, Nutrition, and Forestry."
             },
-            "number": 2676,
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 382,
+            "organization": "Department of Agriculture",
             "partNumber": "00",
-            "receivedDate": "2022-09-29",
-            "updateDate": "2022-09-30 04:40:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2676?format=json"
+            "receivedDate": "2023-03-02",
+            "updateDate": "2023-03-03 05:10:26+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/382?format=json"
         },
         {
-            "citation": "PN2675",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-29",
-                    "text": "Received in the Senate and referred to the Committee on Armed Services."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Navy"
+            "citation": "PN383",
+            "congress": 118,
+            "description": "Jared Bernstein, of Virginia, to be Chairman of the Council of Economic Advisers, vice Cecilia Elena Rouse.",
+            "latestAction": {
+                "actionDate": "2023-03-02",
+                "text": "Received in the Senate and referred to the Committee on Banking, Housing, and Urban Affairs."
             },
-            "number": 2675,
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 383,
+            "organization": "Executive Office of the President",
             "partNumber": "00",
-            "receivedDate": "2022-09-29",
-            "updateDate": "2022-09-30 04:40:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2675?format=json"
+            "receivedDate": "2023-03-02",
+            "updateDate": "2023-03-03 05:10:26+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/383?format=json"
         },
         {
-            "citation": "PN2672",
-            "congress": 117,
-            "description": "Ronald T. Keohane, of New York, to be an Assistant Secretary of Defense, vice James N. Stewart.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-29",
-                    "text": "Received in the Senate and referred to the Committee on Armed Services."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN379",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-27",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2672,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 379,
+            "organization": "Air Force",
             "partNumber": "00",
-            "receivedDate": "2022-09-29",
-            "updateDate": "2022-09-30 04:40:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2672?format=json"
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-02-28 05:25:15+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/379?format=json"
         },
         {
-            "citation": "PN2670",
-            "congress": 117,
-            "description": "Todd E. Edelman, of the District of Columbia, to be United States District Judge for the District of Columbia, vice Florence Y. Pan, elevated.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-27",
-                    "text": "Received in the Senate and referred to the Committee on the Judiciary."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN375",
+            "congress": 118,
+            "description": "William W. Popp, of Missouri, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Uganda.",
+            "latestAction": {
+                "actionDate": "2023-02-27",
+                "text": "Received in the Senate and referred to the Committee on Foreign Relations."
             },
-            "number": 2670,
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 375,
+            "organization": "Department of State",
             "partNumber": "00",
-            "receivedDate": "2022-09-27",
-            "updateDate": "2022-09-28 04:25:20+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2670?format=json"
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-02-28 05:25:15+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/375?format=json"
         },
         {
-            "citation": "PN2666",
-            "congress": 117,
-            "description": "Travis Hill, of Maryland, to be Vice Chairperson of the Board of Directors of the Federal Deposit Insurance Corporation, vice Thomas Hoenig.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-22",
-                    "text": "Received in the Senate and referred to the Committee on Banking, Housing, and Urban Affairs."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN378",
+            "congress": 118,
+            "description": "Jabari Brooks Wamble, of Kansas, to be United States District Judge for the District of Kansas, vice Julie A. Robinson, retired.",
+            "latestAction": {
+                "actionDate": "2023-02-27",
+                "text": "Received in the Senate and referred to the Committee on the Judiciary."
             },
-            "number": 2666,
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 378,
+            "organization": "The Judiciary",
             "partNumber": "00",
-            "receivedDate": "2022-09-22",
-            "updateDate": "2022-09-23 04:25:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2666?format=json"
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-02-28 05:25:15+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/378?format=json"
         },
         {
-            "citation": "PN2668",
-            "congress": 117,
-            "description": "Lynne M. Tracy, of Ohio, a Career Member of the Senior Foreign Service, Class of Career Minister, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Russian Federation.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-22",
-                    "text": "Received in the Senate and referred to the Committee on Foreign Relations."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN380",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-27",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2668,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 380,
+            "organization": "Air Force",
             "partNumber": "00",
-            "receivedDate": "2022-09-22",
-            "updateDate": "2022-09-23 04:25:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2668?format=json"
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-02-28 05:25:15+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/380?format=json"
         },
         {
-            "citation": "PN2669",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-22",
-                    "text": "Received in the Senate and referred to the Committee on Armed Services."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Navy"
+            "citation": "PN377",
+            "congress": 118,
+            "description": "Molly R. Silfen, of the District of Columbia, to be a Judge of the United States Court of Federal Claims for a term of fifteen years, vice Susan G. Braden, term expired.",
+            "latestAction": {
+                "actionDate": "2023-02-27",
+                "text": "Received in the Senate and referred to the Committee on the Judiciary."
             },
-            "number": 2669,
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 377,
+            "organization": "The Judiciary",
             "partNumber": "00",
-            "receivedDate": "2022-09-22",
-            "updateDate": "2022-09-23 04:25:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2669?format=json"
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-02-28 05:25:15+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/377?format=json"
         },
         {
-            "citation": "PN2667",
-            "congress": 117,
-            "description": "Jonathan McKernan, of Tennessee, to be a Member of the Board of Directors of the Federal Deposit Insurance Corporation for the remainder of the term expiring May 31, 2024, vice Jelena McWilliams, resigned.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-22",
-                    "text": "Received in the Senate and referred to the Committee on Banking, Housing, and Urban Affairs."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN381",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-27",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2667,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 381,
+            "organization": "Navy",
             "partNumber": "00",
-            "receivedDate": "2022-09-22",
-            "updateDate": "2022-09-23 04:25:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2667?format=json"
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-02-28 05:25:15+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/381?format=json"
         },
         {
-            "citation": "PN2665",
-            "congress": 117,
-            "description": "Travis Hill, of Maryland, to be a Member of the Board of Directors of the Federal Deposit Insurance Corporation for a term of six years, vice Jeremiah O'Hear Norton, term expired.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-22",
-                    "text": "Received in the Senate and referred to the Committee on Banking, Housing, and Urban Affairs."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN376",
+            "congress": 118,
+            "description": "S. Kato Crews, of Colorado, to be United States District Judge for the District of Colorado, vice Raymond P. Moore, retiring.",
+            "latestAction": {
+                "actionDate": "2023-02-27",
+                "text": "Received in the Senate and referred to the Committee on the Judiciary."
             },
-            "number": 2665,
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 376,
+            "organization": "The Judiciary",
             "partNumber": "00",
-            "receivedDate": "2022-09-22",
-            "updateDate": "2022-09-23 04:25:18+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2665?format=json"
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-02-28 05:25:15+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/376?format=json"
         },
         {
-            "citation": "PN1717-4",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-01-31",
-                    "text": "Received in the Senate and referred to the Committee on Armed Services."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Air Force "
+            "citation": "PN374",
+            "congress": 118,
+            "description": "Vernelle Trim FitzPatrick, of Virginia, a Career Member of the Senior Foreign Service, Class of Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Gabonese Republic.",
+            "latestAction": {
+                "actionDate": "2023-02-27",
+                "text": "Received in the Senate and referred to the Committee on Foreign Relations."
             },
-            "number": 1717,
-            "partNumber": "04",
-            "receivedDate": "2022-01-31",
-            "updateDate": "2022-09-23 04:25:13+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/1717-4?format=json"
-        },
-        {
-            "citation": "PN1717-3",
-            "congress": 117,
-            "description": " ",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-29",
-                    "text": "Confirmed by the Senate by Voice Vote."
-                }
-            ],
             "nominationType": {
-                "isCivilian": false,
-                "isMilitary": true,
-                "name": "U.S. Air Force "
+                "isCivilian": true
             },
-            "number": 1717,
-            "partNumber": "03",
-            "receivedDate": "2022-01-31",
-            "updateDate": "2022-09-30 04:40:13+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/1717-3?format=json"
-        },
-        {
-            "citation": "PN2662",
-            "congress": 117,
-            "description": "Roger Israel Zakheim, of Maryland, to be a Member of the Board of Directors of the United States Institute of Peace for a term of four years, vice Jeremy A. Rabkin, term expired.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-19",
-                    "text": "Placed on Senate Executive Calendar in the Privileged Nomination section with nominee information requested by the Committee on Health, Education, Labor, and Pensions, pursuant to S.Res. 116, 112th Congress."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
-            },
-            "number": 2662,
+            "number": 374,
+            "organization": "Department of State",
             "partNumber": "00",
-            "receivedDate": "2022-09-19",
-            "updateDate": "2022-09-20 04:10:13+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2662?format=json"
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-02-28 05:25:15+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/374?format=json"
         },
         {
-            "citation": "PN2661",
-            "congress": 117,
-            "description": "Joseph Lee Falk, of Florida, to be a Member of the Board of Directors of the United States Institute of Peace for a term of four years, vice George E. Moose, term expired.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-19",
-                    "text": "Placed on Senate Executive Calendar in the Privileged Nomination section with nominee information requested by the Committee on Health, Education, Labor, and Pensions, pursuant to S.Res. 116, 112th Congress."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN365",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-16",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2661,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 365,
+            "organization": "Navy",
             "partNumber": "00",
-            "receivedDate": "2022-09-19",
-            "updateDate": "2022-09-20 04:10:13+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2661?format=json"
+            "receivedDate": "2023-02-16",
+            "updateDate": "2023-02-17 05:25:24+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/365?format=json"
         },
         {
-            "citation": "PN2663",
-            "congress": 117,
-            "description": "Lindsay C. Jenkins, of Illinois, to be United States District Judge for the Northern District of Illinois, vice John Z. Lee, elevated.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-19",
-                    "text": "Received in the Senate and referred to the Committee on the Judiciary."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN363",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-16",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2663,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 363,
+            "organization": "Marine Corps",
             "partNumber": "00",
-            "receivedDate": "2022-09-19",
-            "updateDate": "2022-09-20 04:10:11+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2663?format=json"
+            "receivedDate": "2023-02-16",
+            "updateDate": "2023-02-17 05:25:24+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/363?format=json"
         },
         {
-            "citation": "PN2660",
-            "congress": 117,
-            "description": "Jeffrey Gedmin, of the District of Columbia, to be a Member of the International Broadcasting Advisory Board for a term expiring January 1, 2025.  (New Position)",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-19",
-                    "text": "Received in the Senate and referred to the Committee on Foreign Relations."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN366",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-16",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2660,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 366,
+            "organization": "Navy",
             "partNumber": "00",
-            "receivedDate": "2022-09-19",
-            "updateDate": "2022-09-20 04:10:11+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2660?format=json"
+            "receivedDate": "2023-02-16",
+            "updateDate": "2023-02-17 05:25:24+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/366?format=json"
         },
         {
-            "citation": "PN2658",
-            "congress": 117,
-            "description": "Martina Anna Tkadlec Strong, of Texas, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the United Arab Emirates.",
-            "latestAction": [
-                {
-                    "actionDate": "2022-09-19",
-                    "text": "Received in the Senate and referred to the Committee on Foreign Relations."
-                }
-            ],
-            "nominationType": {
-                "isCivilian": true,
-                "isMilitary": false,
-                "name": "Government Policy and Supporting Positions"
+            "citation": "PN359",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-16",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
             },
-            "number": 2658,
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 359,
+            "organization": "Army",
             "partNumber": "00",
-            "receivedDate": "2022-09-19",
-            "updateDate": "2022-09-20 04:10:11+00:00",
-            "url": "https://api.congress.gov/v3/nomination/117/2658?format=json"
+            "receivedDate": "2023-02-16",
+            "updateDate": "2023-02-17 05:25:24+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/359?format=json"
+        },
+        {
+            "citation": "PN362",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-16",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
+            },
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 362,
+            "organization": "Army",
+            "partNumber": "00",
+            "receivedDate": "2023-02-16",
+            "updateDate": "2023-02-17 05:25:24+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/362?format=json"
+        },
+        {
+            "citation": "PN364",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-02-16",
+                "text": "Received in the Senate and referred to the Committee on Armed Services."
+            },
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 364,
+            "organization": "Navy",
+            "partNumber": "00",
+            "receivedDate": "2023-02-16",
+            "updateDate": "2023-02-17 05:25:24+00:00",
+            "url": "https://api.congress.gov/v3/nomination/118/364?format=json"
         }
     ],
     "pagination": {
-        "count": 40833,
-        "next": "https://api.congress.gov/congress/v3/nomination?offset=20&limit=20&format=json"
+        "count": 41353,
+        "next": "https://api.congress.gov/v3/nomination?offset=20&limit=20&format=json"
     },
     "request": {
         "contentType": "application/json",

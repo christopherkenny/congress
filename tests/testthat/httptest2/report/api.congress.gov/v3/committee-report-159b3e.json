@@ -1,6 +1,6 @@
 {
     "pagination": {
-        "count": 46928,
+        "count": 47120,
         "next": "https://api.congress.gov/v3/committee-report?conference=false&offset=20&limit=20&format=json"
     },
     "reports": [
