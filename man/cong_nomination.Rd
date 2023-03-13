@@ -47,7 +47,7 @@ Request Nomination Information
 
 cong_nomination()
 
-cong_nomination(congress = 117)
+cong_nomination(congress = 118)
 
 cong_nomination(congress = 117, number = 2467)
 
