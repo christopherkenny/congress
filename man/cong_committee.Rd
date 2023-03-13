@@ -58,6 +58,8 @@ cong_committee(congress = 117, chamber = 'house')
 
 cong_committee(chamber = 'house', committee = 'hspw00')
 
+cong_committee(chamber = 'senate', committee = 'ssas00')
+
 cong_committee(chamber = 'senate', committee = 'ssas00', item = 'bills')
 \dontshow{\}) # examplesIf}
 }

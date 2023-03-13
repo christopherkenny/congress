@@ -27,6 +27,8 @@
 #'
 #' cong_committee(chamber = 'house', committee = 'hspw00')
 #'
+#' cong_committee(chamber = 'senate', committee = 'ssas00')
+#'
 #' cong_committee(chamber = 'senate', committee = 'ssas00', item = 'bills')
 #'
 cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, item = NULL,
