@@ -55,5 +55,7 @@ cong_committee_report(congress = 116)
 cong_committee_report(congress = 116, type = 'hrpt')
 
 cong_committee_report(congress = 116, type = 'hrpt', number = 617)
+
+cong_committee_report(congress = 116, type = 'hrpt', number = 617, item = 'text')
 \dontshow{\}) # examplesIf}
 }

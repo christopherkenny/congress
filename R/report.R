@@ -27,6 +27,8 @@
 #'
 #' cong_committee_report(congress = 116, type = 'hrpt', number = 617)
 #'
+#' cong_committee_report(congress = 116, type = 'hrpt', number = 617, item = 'text')
+#'
 cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
                                   conference = FALSE,
                                   limit = 20, offset = 0,
@@ -77,6 +79,7 @@ cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, i
         out <- out |>
           purrr::pluck(item) |>
           dplyr::bind_rows() |>
+          tidyr::unnest_wider('formats') |>
           clean_names()
       }
     }
