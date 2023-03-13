@@ -77,7 +77,7 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
           purrr::pluck('amendment') |>
           tibble::enframe() |>
           tidyr::pivot_wider() |>
-          tidyr::unnest_wider(col = where(~purrr::vec_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
+          tidyr::unnest_wider(col = where(~purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
           dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
           clean_names() #|>
         #dplyr::mutate(across(where(is.list), function(x) if (max(lengths(x)) == 1 ) dplyr::bind_rows(x) else dplyr::bind_rows(purrr::set_names(x, seq_along(x)))))
