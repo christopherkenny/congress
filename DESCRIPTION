@@ -1,6 +1,6 @@
 Package: congress
 Title: Access the Congress.gov API
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     person(given = "Christopher T.",
            family = "Kenny",
@@ -23,6 +23,7 @@ Imports:
     dplyr,
     glue,
     httr2,
+    lifecycle,
     purrr,
     rlang,
     stringr,

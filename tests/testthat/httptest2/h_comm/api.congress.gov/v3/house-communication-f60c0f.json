@@ -1,0 +1,212 @@
+{
+    "houseCommunications": [
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 1,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/1?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 2,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/2?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 3,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/3?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 4,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/4?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 5,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/5?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 6,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/6?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 7,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/7?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 8,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/8?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 9,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/9?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 10,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/10?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 11,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/11?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 12,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/12?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 13,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/13?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 14,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/14?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 43,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/43?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 15,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/15?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 31,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/31?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 32,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/32?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 33,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/33?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 115,
+            "number": 34,
+            "url": "https://api.congress.gov/v3/house-communication/115/ec/34?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 30402,
+        "next": "https://api.congress.gov/v3/house-communication?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

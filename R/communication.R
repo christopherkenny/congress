@@ -1,5 +1,8 @@
 #' Request Communication Information
 #'
+#' `r lifecycle::badge('deprecated')`
+#' Deprecated. Please use `cong_house_communication()`, as a friend, `cong_senate_communication()` has been added.
+#'
 #' @param congress Congress number to search for. 81 or later are supported.
 #' @param type Type of communication. Can be `'ec'`, `'ml'`, `'pm'`, or `'pt'`.
 #' @param number Communication assigned number. Numeric.
@@ -28,72 +31,12 @@ cong_communication <- function(congress = NULL, type = NULL, number = NULL,
                                from_date = NULL, to_date = NULL,
                                limit = 20, offset = 0,
                                format = 'json', clean = TRUE) {
-  sort <- NULL
-  check_format(format)
-  from_date <- check_date(from_date)
-  to_date <- check_date(to_date)
-  if (is.null(from_date) & !is.null(to_date) || !is.null(from_date) & is.null(to_date)) {
-    cli::cli_abort('Either both or neither of {.arg from_date} and {.arg to_date} must be specified.')
-  }
-
-  endpt <- communication_endpoint(congress = congress, type = type, number = number)
-  req <- httr2::request(base_url = api_url()) |>
-    httr2::req_url_path_append(endpt) |>
-    httr2::req_url_query(
-      'api_key' = get_congress_key(),
-      'fromDateTime' = from_date,
-      'toDateTime' = to_date,
-      'sort' = sort,
-      'limit' = min(max(limit, 1), 250),
-      'offset' = max(offset, 0)
-    ) |>
-    httr2::req_headers(
-      "accept" = glue::glue("application/{format}")
-    )
-  out <- req |>
-    httr2::req_perform()
-
-  formatter <- switch(format,
-                      'json' = httr2::resp_body_json,
-                      'xml' = httr2::resp_body_xml
+  lifecycle::deprecate_soft(when = '0.0.2', what = 'cong_communication()', with = 'cong_house_communication()')
+  cong_house_communication(
+    congress, type, number,
+    from_date, to_date,
+    limit, offset,
+    format, clean
   )
-
-  out <- out |>
-    formatter()
-
-  if (clean) {
-    if (is.null(number)) {
-      out <- out |>
-        purrr::pluck('houseCommunications') |>
-        list_hoist() |>
-        clean_names()
-    } else {
-
-      out <- out |>
-        purrr::pluck('house-communication') |>
-        tibble::enframe() |>
-        tidyr::pivot_wider() |>
-        tidyr::unnest_wider(col = where(~purrr::vec_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
-        dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
-        clean_names()
-    }
-  }
-  out
 }
 
-communication_types <- c('ec', 'ml', 'pm', 'pt')
-
-communication_endpoint <- function(congress, type, number) {
-  out <- 'house-communication'
-  if (!is.null(congress)) {
-    out <- paste0(out, '/', congress)
-    if (!is.null(type)) {
-      out <- paste0(out, '/', type)
-      if (!is.null(number)) {
-        out <- paste0(out, '/', number)
-      }
-    }
-  }
-
-  out
-}
