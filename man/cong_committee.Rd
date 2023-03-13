@@ -24,7 +24,8 @@ cong_committee(
 
 \item{committee}{Code identifying committee. Character.}
 
-\item{item}{Information to request. Can be \code{'bills'}, \code{'reports'}, or \code{'nominations'}.}
+\item{item}{Information to request. Can be \code{'bills'}, \code{'reports'}, \code{'nominations'},
+\code{'house-communication'}, or \code{'senate-communication'}.}
 
 \item{from_date}{start date for search, e.g. \code{'2022-04-01'}. Defaults to most recent.}
 
@@ -58,8 +59,12 @@ cong_committee(congress = 117, chamber = 'house')
 
 cong_committee(chamber = 'house', committee = 'hspw00')
 
+cong_committee(chamber = 'house', committee = 'hspw00', item = 'house-communication')
+
 cong_committee(chamber = 'senate', committee = 'ssas00')
 
 cong_committee(chamber = 'senate', committee = 'ssas00', item = 'bills')
+
+cong_committee(chamber = 'senate', committee = 'ssas00', item = 'senate-communication')
 \dontshow{\}) # examplesIf}
 }

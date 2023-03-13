@@ -3,7 +3,8 @@
 #' @param congress Congress number to search for. 81 or later are supported.
 #' @param chamber Chamber name. Can be `'house'`, `'senate'`, or `'joint'`.
 #' @param committee Code identifying committee. Character.
-#' @param item Information to request. Can be `'bills'`, `'reports'`, or `'nominations'`.
+#' @param item Information to request. Can be `'bills'`, `'reports'`, `'nominations'`,
+#' `'house-communication'`, or `'senate-communication'`.
 #' @param from_date start date for search, e.g. `'2022-04-01'`. Defaults to most recent.
 #' @param to_date end date for search, e.g. `'2022-04-03'`. Defaults to most recent.
 #' @param limit number of records to return. Default is 20. Will be truncated to between 1 and 250.
@@ -27,9 +28,13 @@
 #'
 #' cong_committee(chamber = 'house', committee = 'hspw00')
 #'
+#' cong_committee(chamber = 'house', committee = 'hspw00', item = 'house-communication')
+#'
 #' cong_committee(chamber = 'senate', committee = 'ssas00')
 #'
 #' cong_committee(chamber = 'senate', committee = 'ssas00', item = 'bills')
+#'
+#' cong_committee(chamber = 'senate', committee = 'ssas00', item = 'senate-communication')
 #'
 cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, item = NULL,
                       from_date = NULL, to_date = NULL,
@@ -96,7 +101,17 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
             purrr::pluck(item) |>
             list_hoist() |>
             clean_names()
-        } else {
+        } else if (item == 'house-communication') {
+          out <- out |>
+            purrr::pluck('houseCommunications') |>
+            list_hoist() |>
+            clean_names()
+        } else if (item == 'senate-communication') {
+          out <- out |>
+            purrr::pluck('senateCommunications') |>
+            list_hoist() |>
+            clean_names()
+        } else{
           out <- out |>
             purrr::pluck('committee-bills') |>
             tibble::enframe() |>
