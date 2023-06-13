@@ -1,5 +1,7 @@
 # congress 0.0.2
 
+* Resolves a bug in `cong_bill()` where `item = 'text'` would return an empty tibble.
+
 * Addresses changes in February 2023 API changes (#6)
   * Allows for `house-communication` and `senate-communication` items in `cong_committee()`.
   * Passes on format to `cong_senate_communication()` for returned data in `committees` list-column.

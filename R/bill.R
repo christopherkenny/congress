@@ -79,10 +79,30 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
           dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
           clean_names()
       } else {
-        out <- out |>
-          purrr::pluck(item) |>
-          dplyr::bind_rows() |>
-          clean_names()
+        if (item == 'text')  {
+          item <- 'textVersions'
+          out <- out |>
+            purrr::pluck(item)
+
+          out <- lapply(out, function(x) {
+            x[[2]] <- x$formats |>
+              dplyr::bind_rows() |>
+              tidyr::pivot_wider(names_from = 'type', values_from = 'url') |>
+              dplyr::rename_with(.fn = function(x) paste0('url_', str_colname(x)))
+            x
+          })
+
+          out <- out |>
+            dplyr::bind_rows() |>
+            tidyr::unnest_wider(col = 'formats') |>
+            clean_names()
+        } else {
+          out <- out |>
+            purrr::pluck(item) |>
+            dplyr::bind_rows() |>
+            clean_names()
+        }
+
       }
     }
   }
