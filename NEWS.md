@@ -1,6 +1,6 @@
 # congress 0.0.2
 
-* Addresses changes in Febrary 2023 API changes (#6)
+* Addresses changes in February 2023 API changes (#6)
   * Allows for `house-communication` and `senate-communication` items in `cong_committee()`.
   * Passes on format to `cong_senate_communication()` for returned data in `committees` list-column.
   * Additional bug fixes in upstream API, which may slightly modify columns in `cong_member()`, 
