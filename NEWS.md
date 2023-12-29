@@ -1,9 +1,9 @@
 # congress 0.0.3
 
-* Resolves a bug in `cong_senate_communication()` where providing `number` would return an empty tibble.
-* Resolves a bug in `cong_member()` where rows would be duplicated if `bioguide` was provided.
-* Resolves a bug in `cong_bill()` where some rows were (sometimes) duplicated if `item` was provided.
-* Removes `cong_communication()` (Deprecated in 0.0.2) in favor of `cong_house_communication()`.
+## Upstream API Updates
+
+* Addresses changes in October 2023 API changes (#15)
+  * No changes necessary within `congress` package. All changes upstream automatically handled.
 
 * Addresses changes in October 2023 API changes (#14)
   * No changes necessary within `congress` package. All changes upstream automatically handled.
@@ -24,11 +24,19 @@
   * Supports new `item` endpoint within `cong_house_requirement()`
   * Renames (internal) `cong_house_communication()` endpoint when `number` is provided. This is due to an upstream change from `house-communication` to `houseCommunication`.
   
-
 * Addresses changes in March 2023 API changes (#7)
   * Adds `cong_hearing()` to access new `hearing` API endpoint.
   * Adds `cong_committee_meeting()` to access new `committee-meeting` API endpoint.
   * Adds `cong_committee_print()` to access new `committee-print` API endpoint.
+  
+## Bug fixes
+* Resolves a bug in `cong_senate_communication()` where providing `number` would return an empty tibble.
+* Resolves a bug in `cong_member()` where rows would be duplicated if `bioguide` was provided.
+* Resolves a bug in `cong_amendment()` where rows would be duplicated if `item` was provided.
+* Resolves a bug in `cong_bill()` where some rows were (sometimes) duplicated if `item` was provided.
+
+## Deprecated functions
+* Removes `cong_communication()` (Deprecated in 0.0.2) in favor of `cong_house_communication()`.
 
 # congress 0.0.2
 

@@ -84,7 +84,7 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
       } else {
         out <- out |>
           purrr::pluck(item) |>
-          dplyr::bind_rows() |>
+          list_hoist() |>
           clean_names()
       }
     }
