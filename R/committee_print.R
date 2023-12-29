@@ -102,5 +102,5 @@ committee_print_endpoint <- function(congress, chamber, number, item) {
     }
   }
 
-  out
+  tolower(out)
 }

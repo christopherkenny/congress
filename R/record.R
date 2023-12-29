@@ -67,5 +67,5 @@ cong_record <- function(year = NULL, month = NULL, day = NULL,
 record_endpoint <- function() {
   out <- 'congressional-record'
 
-  out
+  tolower(out)
 }

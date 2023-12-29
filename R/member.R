@@ -103,5 +103,5 @@ member_endpoint <- function(bioguide, item) {
     }
   }
 
-  out
+  tolower(out)
 }

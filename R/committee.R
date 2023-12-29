@@ -150,5 +150,5 @@ committee_endpoint <- function(congress, committee, chamber, item) {
     }
   }
 
-  out
+  tolower(out)
 }

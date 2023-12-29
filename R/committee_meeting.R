@@ -92,5 +92,5 @@ committee_meeting_endpoint <- function(congress, chamber, number) {
     }
   }
 
-  out
+  tolower(out)
 }

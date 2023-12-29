@@ -89,5 +89,5 @@ hearing_endpoint <- function(congress, chamber, number) {
     }
   }
 
-  out
+  tolower(out)
 }

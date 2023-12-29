@@ -92,5 +92,5 @@ house_requirement_endpoint <- function(number, item) {
       }
     }
 
-  out
+  tolower(out)
 }

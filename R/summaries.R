@@ -79,5 +79,5 @@ summaries_endpoint <- function(congress, type) {
     }
   }
 
-  out
+  tolower(out)
 }

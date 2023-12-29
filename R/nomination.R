@@ -104,5 +104,5 @@ nomination_endpoint <- function(congress, number, item) {
     }
   }
 
-  out
+  tolower(out)
 }

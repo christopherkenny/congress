@@ -95,5 +95,5 @@ house_communication_endpoint <- function(congress, type, number) {
     }
   }
 
-  out
+  tolower(out)
 }

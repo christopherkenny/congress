@@ -99,17 +99,18 @@ treaty_items <- c('actions', 'committees')
 treaty_endpoint <- function(congress, number, suffix, item) {
   out <- 'treaty'
   if (!is.null(congress)) {
-    out <- paste0(out, '/', congress)
+    out <- paste0(out, '/', tolower(congress))
     if (!is.null(number)) {
-      out <- paste0(out, '/', number)
+      out <- paste0(out, '/', tolower(number))
       if (!is.null(suffix)) {
         out <- paste0(out, '/', suffix)
       }
       if (!is.null(item)) {
-        out <- paste0(out, '/', item)
+        out <- paste0(out, '/', tolower(item))
       }
     }
   }
 
+  # should not be tolower, suffix is case sensitive
   out
 }

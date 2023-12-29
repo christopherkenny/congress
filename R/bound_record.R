@@ -75,5 +75,5 @@ bound_record_endpoint <- function(year, month, day) {
     }
   }
 
-  out
+  tolower(out)
 }

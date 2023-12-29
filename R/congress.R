@@ -84,5 +84,5 @@ congress_endpoint <- function(congress, type) {
     out <- paste0(out, '/', congress)
   }
 
-  out
+  tolower(out)
 }

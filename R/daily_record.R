@@ -100,5 +100,5 @@ daily_record_endpoint <- function(volume, issue, item) {
     }
   }
 
-  out
+  tolower(out)
 }

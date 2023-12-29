@@ -110,5 +110,5 @@ amendment_endpoint <- function(congress, type, number, item) {
     }
   }
 
-  out
+  tolower(out)
 }
