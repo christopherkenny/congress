@@ -28,6 +28,12 @@
     <loc>http://christophertkenny.com/congress/reference/cong_committee.html</loc>
   </url>
   <url>
+    <loc>http://christophertkenny.com/congress/reference/cong_committee_meeting.html</loc>
+  </url>
+  <url>
+    <loc>http://christophertkenny.com/congress/reference/cong_committee_print.html</loc>
+  </url>
+  <url>
     <loc>http://christophertkenny.com/congress/reference/cong_committee_report.html</loc>
   </url>
   <url>
@@ -35,6 +41,9 @@
   </url>
   <url>
     <loc>http://christophertkenny.com/congress/reference/cong_congress.html</loc>
+  </url>
+  <url>
+    <loc>http://christophertkenny.com/congress/reference/cong_hearing.html</loc>
   </url>
   <url>
     <loc>http://christophertkenny.com/congress/reference/cong_house_communication.html</loc>
