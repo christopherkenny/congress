@@ -17,7 +17,7 @@
 #'
 #' cong_member()
 #'
-#' cong_member(bioguide = 'L000174', clean = FALSE)
+#' cong_member(bioguide = 'L000174', clean = TRUE)
 #'
 #' cong_member(bioguide = 'L000174', item = 'sponsored-legislation')
 #'
@@ -62,7 +62,8 @@ cong_member <- function(bioguide = NULL, item = NULL,
     if (is.null(bioguide)) {
       out <- out |>
         purrr::pluck('members') |>
-        list_hoist() |>
+        lapply(purrr::list_flatten) |>
+        dplyr::bind_rows() |>
         clean_names()
     } else {
       if (is.null(item)) {
@@ -83,7 +84,7 @@ cong_member <- function(bioguide = NULL, item = NULL,
 
         out <- out |>
           purrr::pluck(item) |>
-          dplyr::bind_rows() |>
+          list_hoist() |>
           clean_names()
       }
     }

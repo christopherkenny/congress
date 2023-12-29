@@ -70,7 +70,7 @@ cong_house_communication <- function(congress = NULL, type = NULL, number = NULL
     } else {
 
       out <- out |>
-        purrr::pluck('house-communication') |>
+        purrr::pluck('houseCommunication') |>
         tibble::enframe() |>
         tidyr::pivot_wider() |>
         tidyr::unnest_wider(col = where(~purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>

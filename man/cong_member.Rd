@@ -44,7 +44,7 @@ Request Member Information
 
 cong_member()
 
-cong_member(bioguide = 'L000174', clean = FALSE)
+cong_member(bioguide = 'L000174', clean = TRUE)
 
 cong_member(bioguide = 'L000174', item = 'sponsored-legislation')
 \dontshow{\}) # examplesIf}

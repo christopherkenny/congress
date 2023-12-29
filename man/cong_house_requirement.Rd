@@ -6,6 +6,7 @@
 \usage{
 cong_house_requirement(
   number = NULL,
+  item = NULL,
   limit = 20,
   offset = 0,
   format = "json",
@@ -14,6 +15,8 @@ cong_house_requirement(
 }
 \arguments{
 \item{number}{Requirement's assigned number. Numeric.}
+
+\item{item}{Information to request. Can be  \code{'matching-communications'}.}
 
 \item{limit}{number of records to return. Default is 20. Will be truncated to between 1 and 250.}
 
@@ -36,5 +39,7 @@ Request House Requirement data
 cong_house_requirement()
 
 cong_house_requirement(number = 12478)
+
+cong_house_requirement(number = 8070, 'matching-communications')
 \dontshow{\}) # examplesIf}
 }
