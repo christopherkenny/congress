@@ -3,6 +3,9 @@
 * Resolves a bug in `cong_senate_communication()` where providing `number` would return an empty tibble.
 * Resolves a bug in `cong_member()` where rows would be duplicated if `bioguide` was provided.
 
+* Addresses changes in June 2023 API changes (#10)
+  * No changes necessary within `congress` package. All changes upstream automatically handled.
+
 * Addresses changes in May 2023 API changes (#9)
   * Supports new `item` endpoint within `cong_house_requirement()`
   * Renames (internal) `cong_house_communication()` endpoint when `number` is provided. This is due to an upstream change from `house-communication` to `houseCommunication`.
