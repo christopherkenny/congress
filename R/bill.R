@@ -99,9 +99,9 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
         } else {
           out <- out |>
             purrr::pluck(item) |>
-            dplyr::bind_rows() |>
+            list_hoist() |>
             clean_names()
-        }
+       }
 
       }
     }
