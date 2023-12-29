@@ -1,0 +1,159 @@
+{
+    "hearings": [
+        {
+            "chamber": "Senate",
+            "congress": 107,
+            "jacketNumber": 77638,
+            "updateDate": "2023-12-28 19:40:30+00:00",
+            "url": "https://api.congress.gov/v3/hearing/107/senate/77638"
+        },
+        {
+            "chamber": "House",
+            "congress": 106,
+            "jacketNumber": 68012,
+            "updateDate": "2023-12-28 19:40:41+00:00",
+            "url": "https://api.congress.gov/v3/hearing/106/house/68012"
+        },
+        {
+            "chamber": "House",
+            "congress": 109,
+            "jacketNumber": 28970,
+            "updateDate": "2023-03-17 03:50:11+00:00",
+            "url": "https://api.congress.gov/v3/hearing/109/house/28970"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 107,
+            "jacketNumber": 74367,
+            "number": 97,
+            "updateDate": "2023-03-17 03:54:35+00:00",
+            "url": "https://api.congress.gov/v3/hearing/107/senate/74367"
+        },
+        {
+            "chamber": "House",
+            "congress": 117,
+            "jacketNumber": 44717,
+            "updateDate": "2023-10-18 10:49:34+00:00",
+            "url": "https://api.congress.gov/v3/hearing/117/house/44717"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 109,
+            "jacketNumber": 28922,
+            "number": 528,
+            "updateDate": "2022-10-25 17:47:41+00:00",
+            "url": "https://api.congress.gov/v3/hearing/109/senate/28922"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 107,
+            "jacketNumber": 77708,
+            "number": 364,
+            "updateDate": "2023-12-28 19:50:58+00:00",
+            "url": "https://api.congress.gov/v3/hearing/107/senate/77708"
+        },
+        {
+            "chamber": "House",
+            "congress": 112,
+            "jacketNumber": 76462,
+            "updateDate": "2023-03-27 20:18:22+00:00",
+            "url": "https://api.congress.gov/v3/hearing/112/house/76462"
+        },
+        {
+            "chamber": "House",
+            "congress": 115,
+            "jacketNumber": 32514,
+            "updateDate": "2022-07-08 03:49:17+00:00",
+            "url": "https://api.congress.gov/v3/hearing/115/house/32514"
+        },
+        {
+            "chamber": "NoChamber",
+            "congress": 96,
+            "jacketNumber": 51420,
+            "updateDate": "2022-10-19 09:49:30+00:00",
+            "url": "https://api.congress.gov/v3/hearing/96/nochamber/51420"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 106,
+            "jacketNumber": 63945,
+            "number": 864,
+            "updateDate": "2023-12-28 19:51:24+00:00",
+            "url": "https://api.congress.gov/v3/hearing/106/senate/63945"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 114,
+            "jacketNumber": 24521,
+            "number": 575,
+            "updateDate": "2023-12-28 19:51:13+00:00",
+            "url": "https://api.congress.gov/v3/hearing/114/senate/24521"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 115,
+            "jacketNumber": 29481,
+            "number": 195,
+            "updateDate": "2022-07-07 03:52:26+00:00",
+            "url": "https://api.congress.gov/v3/hearing/115/senate/29481"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 113,
+            "jacketNumber": 49104581,
+            "updateDate": "2021-07-04 10:50:36+00:00",
+            "url": "https://api.congress.gov/v3/hearing/113/senate/49104581"
+        },
+        {
+            "chamber": "House",
+            "congress": 115,
+            "jacketNumber": 32302,
+            "updateDate": "2022-07-08 03:49:19+00:00",
+            "url": "https://api.congress.gov/v3/hearing/115/house/32302"
+        },
+        {
+            "chamber": "House",
+            "congress": 113,
+            "jacketNumber": 87962,
+            "updateDate": "2021-07-04 10:49:50+00:00",
+            "url": "https://api.congress.gov/v3/hearing/113/house/87962"
+        },
+        {
+            "chamber": "House",
+            "congress": 113,
+            "jacketNumber": 87974,
+            "updateDate": "2021-07-04 10:49:50+00:00",
+            "url": "https://api.congress.gov/v3/hearing/113/house/87974"
+        },
+        {
+            "chamber": "House",
+            "congress": 113,
+            "jacketNumber": 88017,
+            "updateDate": "2021-07-04 10:49:50+00:00",
+            "url": "https://api.congress.gov/v3/hearing/113/house/88017"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 113,
+            "jacketNumber": 49104574,
+            "updateDate": "2021-07-04 10:50:36+00:00",
+            "url": "https://api.congress.gov/v3/hearing/113/senate/49104574"
+        },
+        {
+            "chamber": "Senate",
+            "congress": 115,
+            "jacketNumber": 34315,
+            "number": 477,
+            "updateDate": "2023-12-28 19:40:29+00:00",
+            "url": "https://api.congress.gov/v3/hearing/115/senate/34315"
+        }
+    ],
+    "pagination": {
+        "count": 34179,
+        "next": "https://api.congress.gov/v3/hearing?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

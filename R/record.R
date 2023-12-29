@@ -1,4 +1,4 @@
-#' Request Bill Information
+#' Request Congressional Record Information
 #'
 #' @param year integer for year
 #' @param month integer for month

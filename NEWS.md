@@ -1,3 +1,10 @@
+# congress 0.0.3
+
+* Addresses changes in March 2023 API changes (#7)
+  * Adds `cong_hearing()` to access new `hearing` API endpoint.
+  * Adds `cong_committee_meeting()` to access new `committee-meeting` API endpoint.
+  * Adds `cong_committee_print()` to access new `committee-print` API endpoint.
+
 # congress 0.0.2
 
 * Resolves a bug in `cong_bill()` where `item = 'text'` would return an empty tibble.

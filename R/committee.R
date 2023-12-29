@@ -26,15 +26,15 @@
 #'
 #' cong_committee(congress = 117, chamber = 'house')
 #'
-#' cong_committee(chamber = 'house', committee = 'hspw00')
+#' cong_committee(chamber = 'house', committee = 'hsed10')
 #'
 #' cong_committee(chamber = 'house', committee = 'hspw00', item = 'house-communication')
 #'
-#' cong_committee(chamber = 'senate', committee = 'ssas00')
+#' cong_committee(chamber = 'senate', committee = 'jsec03')
 #'
-#' cong_committee(chamber = 'senate', committee = 'ssas00', item = 'bills')
+#' cong_committee(chamber = 'senate', committee = 'slpo00', item = 'bills')
 #'
-#' cong_committee(chamber = 'senate', committee = 'ssas00', item = 'senate-communication')
+#' cong_committee(chamber = 'senate', committee = 'slpo00', item = 'senate-communication')
 #'
 cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, item = NULL,
                       from_date = NULL, to_date = NULL,
@@ -117,8 +117,8 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
             tibble::enframe() |>
             tidyr::pivot_wider() |>
             tidyr::unnest_wider(col = where(~purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
-            tidyr::unnest_longer(.data$bills) |>
-            tidyr::unnest_wider(.data$bills) |>
+            tidyr::unnest_longer(dplyr::any_of('bills')) |>
+            tidyr::unnest_wider(dplyr::any_of('bills')) |>
             clean_names()
         }
 

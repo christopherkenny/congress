@@ -1,3 +1,15 @@
+# devtools ----
+# devtools not intended for use in production, not tested
+lrj <- function() { # nocov start
+  httr2::last_response() |>
+    httr2::resp_body_json()
+} # nocov end
+
+.gl <- function(x) { # nocov start
+  dplyr::glimpse(x)
+} # nocov end
+
+# general utils ----
 list_hoist <- function(l) {
   dplyr::bind_rows(lapply(l, function(x) dplyr::bind_rows(unlist(x))))
 }
