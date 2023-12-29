@@ -5,6 +5,9 @@
 * Resolves a bug in `cong_bill()` where some rows were (sometimes) duplicated if `item` was provided.
 * Removes `cong_communication()` (Deprecated in 0.0.2) in favor of `cong_house_communication()`.
 
+* Addresses changes in August 2023 API changes (#12)
+  * Adds `cong_bound_record()` to access new `bound-congressional-record` API endpoint.
+
 * Addresses changes in July 2023 API changes (#11)
   * Adds `cong_daily_record()` to access new `daily-congressional-record` API endpoint.
 
