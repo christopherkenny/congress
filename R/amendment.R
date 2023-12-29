@@ -3,7 +3,7 @@
 #' @param congress Congress number to search for. 81 or later are supported.
 #' @param type Type of amendment. Can be `'hamdt'`, `'samdt'`, or '`suamdt'`.
 #' @param number Amendment assigned number. Numeric.
-#' @param item Information to request. Can be `'actions'`, `'amendments'`, or `'cosponsors'`
+#' @param item Information to request. Can be `'actions'`, `'amendments'`, or `'cosponsors'`. `'text'` is available when `congress >= 117`.
 #' @param from_date start date for search, e.g. `'2022-04-01'`. Defaults to most recent.
 #' @param to_date end date for search, e.g. `'2022-04-03'`. Defaults to most recent.
 #' @param limit number of records to return. Default is 20. Will be truncated to between 1 and 250.
@@ -36,6 +36,10 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
   to_date <- check_date(to_date)
   if (is.null(from_date) & !is.null(to_date) || !is.null(from_date) & is.null(to_date)) {
     cli::cli_abort('Either both or neither of {.arg from_date} and {.arg to_date} must be specified.')
+  }
+
+  if (!is.null(item) && item == 'text' && congress < 117) {
+    cli::cli_warn('Text of amendments is only available for the 117th Congress and later.')
   }
 
   endpt <- amendment_endpoint(congress = congress, type = type, number = number, item = item)

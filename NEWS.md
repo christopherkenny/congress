@@ -2,6 +2,9 @@
 
 ## Upstream API Updates
 
+* Addresses changes in December 2023 API changes (#16)
+  * `cong_amendment()` can take `item = 'text'` for congress <= 117 and warns otherwise.
+
 * Addresses changes in October 2023 API changes (#15)
   * No changes necessary within `congress` package. All changes upstream automatically handled.
 
