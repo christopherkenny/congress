@@ -48,6 +48,12 @@
 <h2 class="pkg-version" data-toc-text="0.0.3" id="congress-003">congress 0.0.3<a class="anchor" aria-label="anchor" href="#congress-003"></a></h2>
 <ul><li><p>Resolves a bug in <code><a href="../reference/cong_senate_communication.html">cong_senate_communication()</a></code> where providing <code>number</code> would return an empty tibble.</p></li>
 <li><p>Resolves a bug in <code><a href="../reference/cong_member.html">cong_member()</a></code> where rows would be duplicated if <code>bioguide</code> was provided.</p></li>
+<li><p>Resolves a bug in <code><a href="../reference/cong_bill.html">cong_bill()</a></code> where some rows were (sometimes) duplicated if <code>item</code> was provided.</p></li>
+<li><p>Removes <code>cong_communication()</code> (Deprecated in 0.0.2) in favor of <code><a href="../reference/cong_house_communication.html">cong_house_communication()</a></code>.</p></li>
+<li>
+<p>Addresses changes in July 2023 API changes (<a href="https://github.com/christopherkenny/congress/issues/11" class="external-link">#11</a>)</p>
+<ul><li>Adds <code><a href="../reference/cong_daily_record.html">cong_daily_record()</a></code> to access new <code>daily-congressional-record</code> API endpoint.</li>
+</ul></li>
 <li>
 <p>Addresses changes in June 2023 API changes (<a href="https://github.com/christopherkenny/congress/issues/10" class="external-link">#10</a>)</p>
 <ul><li>No changes necessary within <code>congress</code> package. All changes upstream automatically handled.</li>
@@ -86,7 +92,7 @@
 <li>
 <p>Addresses changes in November 2022 API changes (<a href="https://github.com/christopherkenny/congress/issues/1" class="external-link">#1</a>) and (<a href="https://github.com/christopherkenny/congress/issues/2" class="external-link">#2</a>).</p>
 <ul><li>
-<code><a href="../reference/cong_communication.html">cong_communication()</a></code> is deprecated in favor of <code><a href="../reference/cong_house_communication.html">cong_house_communication()</a></code>, as a new senate endpoint was added. This can be accessed via <code><a href="../reference/cong_senate_communication.html">cong_senate_communication()</a></code>.</li>
+<code>cong_communication()</code> is deprecated in favor of <code><a href="../reference/cong_house_communication.html">cong_house_communication()</a></code>, as a new senate endpoint was added. This can be accessed via <code><a href="../reference/cong_senate_communication.html">cong_senate_communication()</a></code>.</li>
 <li>Returned columns are slightly modified for <code><a href="../reference/cong_nomination.html">cong_nomination()</a></code>, <code><a href="../reference/cong_committee_report.html">cong_committee_report()</a></code>, and <code><a href="../reference/cong_nomination.html">cong_nomination()</a></code>. These changes were automatically handled in version 0.0.1 since November 2022.</li>
 </ul></li>
 </ul></div>
