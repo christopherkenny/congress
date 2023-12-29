@@ -46,7 +46,16 @@
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.0.3" id="congress-003">congress 0.0.3<a class="anchor" aria-label="anchor" href="#congress-003"></a></h2>
-<ul><li>Addresses changes in March 2023 API changes (<a href="https://github.com/christopherkenny/congress/issues/7" class="external-link">#7</a>)
+<ul><li><p>Resolves a bug in <code><a href="../reference/cong_senate_communication.html">cong_senate_communication()</a></code> where providing <code>number</code> would return an empty tibble.</p></li>
+<li><p>Resolves a bug in <code><a href="../reference/cong_member.html">cong_member()</a></code> where rows would be duplicated if <code>bioguide</code> was provided.</p></li>
+<li>
+<p>Addresses changes in May 2023 API changes (<a href="https://github.com/christopherkenny/congress/issues/9" class="external-link">#9</a>)</p>
+<ul><li>Supports new <code>item</code> endpoint within <code><a href="../reference/cong_house_requirement.html">cong_house_requirement()</a></code>
+</li>
+<li>Renames (internal) <code><a href="../reference/cong_house_communication.html">cong_house_communication()</a></code> endpoint when <code>number</code> is provided. This is due to an upstream change from <code>house-communication</code> to <code>houseCommunication</code>.</li>
+</ul></li>
+<li>
+<p>Addresses changes in March 2023 API changes (<a href="https://github.com/christopherkenny/congress/issues/7" class="external-link">#7</a>)</p>
 <ul><li>Adds <code><a href="../reference/cong_hearing.html">cong_hearing()</a></code> to access new <code>hearing</code> API endpoint.</li>
 <li>Adds <code><a href="../reference/cong_committee_meeting.html">cong_committee_meeting()</a></code> to access new <code>committee-meeting</code> API endpoint.</li>
 <li>Adds <code><a href="../reference/cong_committee_print.html">cong_committee_print()</a></code> to access new <code>committee-print</code> API endpoint.</li>
