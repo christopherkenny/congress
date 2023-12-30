@@ -7,15 +7,17 @@ output: github_document
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
+  comment = '#>',
+  fig.path = 'man/figures/README-',
+  out.width = '100%'
 )
 ```
 
 # congress <img src="man/figures/logo.png" align="right" height="130" />
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/congress)](https://CRAN.R-project.org/package=congress)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![R-CMD-check](https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -24,11 +26,17 @@ It provides a simple R interface for downloading and working with actions, bills
 
 ## Installation
 
+You can install the stable version of `congress` from [CRAN]() with:
+
+``` r
+install.packages('congress')
+```
+
 You can install the development version of congress from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("christopherkenny/congress")
+# install.packages('devtools')
+devtools::install_github('christopherkenny/congress')
 ```
 
 ## Example
@@ -45,14 +53,20 @@ cong_nomination(limit = 10)
 
 This package is designed for `v3` of the [Congress.gov API](https://github.com/LibraryOfCongress/api.congress.gov/). It currently supports the following endpoints:
 
-- bill with `cong_bill()`
+- bills with `cong_bill()`
 - amendments with `cong_amendment()`
 - summaries with `cong_summaries()`
-- congress with `cong_congress()`
-- member with `cong_member()`
-- committee with `cong_committee()`
-- committee report with `cong_committee_report()`
-- Congressional Record with `cong_record()`
-- House communication with `cong_communication()`
-- nomination with `cong_nomination()`
-- treaty with `cong_treaty()`
+- congresses with `cong_congress()`
+- members with `cong_member()`
+- committees with `cong_committee()`
+- committee reports with `cong_committee_report()`
+- committee prints with `cong_committee_print()`
+- committee meetings with `cong_committee_meeting()`
+- Congressional Records with `cong_record()`
+- Daily Congressional Records with `cong_daily_record()`
+- Bound Congressional Records with `cong_bound_record()`
+- House communications with `cong_house_communication()`
+- Senate communications with `cong_senate_communication()`
+- nominations with `cong_nomination()`
+- treaties with `cong_treaty()`
+- hearings with `cong_hearing()`

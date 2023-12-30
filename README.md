@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/congress)](https://CRAN.R-project.org/package=congress)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![R-CMD-check](https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -15,12 +19,18 @@ actions, bills, nominations, and more from Congress.
 
 ## Installation
 
+You can install the stable version of `congress` from [CRAN]() with:
+
+``` r
+install.packages('congress')
+```
+
 You can install the development version of congress from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("christopherkenny/congress")
+# install.packages('devtools')
+devtools::install_github('christopherkenny/congress')
 ```
 
 ## Example
@@ -33,24 +43,23 @@ most recent 10.
 library(congress)
 
 cong_nomination(limit = 10)
-#> # A tibble: 10 × 13
-#>    citation congress description  lates…¹ lates…² nomin…³ nomin…⁴ nomin…⁵ number
-#>    <chr>    <chr>    <chr>        <chr>   <chr>   <chr>   <chr>   <chr>   <chr> 
-#>  1 PN2678   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2678  
-#>  2 PN2673   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2673  
-#>  3 PN2675   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2675  
-#>  4 PN2677   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2677  
-#>  5 PN2676   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2676  
-#>  6 PN2674   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2674  
-#>  7 PN2672   117      "Ronald T. … 2022-0… Receiv… TRUE    FALSE   "Gover… 2672  
-#>  8 PN2670   117      "Todd E. Ed… 2022-0… Receiv… TRUE    FALSE   "Gover… 2670  
-#>  9 PN2666   117      "Travis Hil… 2022-0… Receiv… TRUE    FALSE   "Gover… 2666  
-#> 10 PN2669   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2669  
-#> # … with 4 more variables: part_number <chr>, received_date <chr>,
-#> #   update_date <chr>, url <chr>, and abbreviated variable names
-#> #   ¹​latest_action_action_date, ²​latest_action_text,
-#> #   ³​nomination_type_is_civilian, ⁴​nomination_type_is_military,
-#> #   ⁵​nomination_type_name
+#> # A tibble: 10 × 12
+#>    citation congress description       latest_action_action…¹ latest_action_text
+#>    <chr>    <chr>    <chr>             <date>                 <chr>             
+#>  1 PN1020   118      John A. Kazen, o… 2023-12-20             By unanimous cons…
+#>  2 PN742    118      David E. White, … 2023-12-20             Confirmed by the …
+#>  3 PN831    118      Claudia Slacik, … 2023-12-20             Confirmed by the …
+#>  4 PN1025   118      Jennifer L. Fain… 2023-12-20             Confirmed by the …
+#>  5 PN548    118      Tobin John Bradl… 2023-12-20             Confirmed by the …
+#>  6 PN740    118      Mark Toshiro Uye… 2023-12-20             Confirmed by the …
+#>  7 PN832    118      Tadd M. Johnson,… 2023-12-20             Confirmed by the …
+#>  8 PN918    118      William Brodsky,… 2023-12-20             Confirmed by the …
+#>  9 PN1044   118      Spencer Bachus I… 2023-12-20             Confirmed by the …
+#> 10 PN871    118      Rion J. Ramirez,… 2023-12-20             Confirmed by the …
+#> # ℹ abbreviated name: ¹​latest_action_action_date
+#> # ℹ 7 more variables: nomination_type_is_civilian <chr>, number <chr>,
+#> #   organization <chr>, part_number <chr>, received_date <date>,
+#> #   update_date <dttm>, url <chr>
 ```
 
 ### Supported Endpoints:
@@ -59,14 +68,20 @@ This package is designed for `v3` of the [Congress.gov
 API](https://github.com/LibraryOfCongress/api.congress.gov/). It
 currently supports the following endpoints:
 
--   bill with `cong_bill()`
--   amendments with `cong_amendment()`
--   summaries with `cong_summaries()`
--   congress with `cong_congress()`
--   member with `cong_member()`
--   committee with `cong_committee()`
--   committee report with `cong_committee_report()`
--   Congressional Record with `cong_record()`
--   House communication with `cong_communication()`
--   nomination with `cong_nomination()`
--   treaty with `cong_treaty()`
+- bills with `cong_bill()`
+- amendments with `cong_amendment()`
+- summaries with `cong_summaries()`
+- congresses with `cong_congress()`
+- members with `cong_member()`
+- committees with `cong_committee()`
+- committee reports with `cong_committee_report()`
+- committee prints with `cong_committee_print()`
+- committee meetings with `cong_committee_meeting()`
+- Congressional Records with `cong_record()`
+- Daily Congressional Records with `cong_daily_record()`
+- Bound Congressional Records with `cong_bound_record()`
+- House communications with `cong_house_communication()`
+- Senate communications with `cong_senate_communication()`
+- nominations with `cong_nomination()`
+- treaties with `cong_treaty()`
+- hearings with `cong_hearing()`
