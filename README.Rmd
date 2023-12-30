@@ -26,7 +26,7 @@ It provides a simple R interface for downloading and working with actions, bills
 
 ## Installation
 
-You can install the stable version of `congress` from [CRAN]() with:
+You can install the stable version of `congress` from [CRAN](https://CRAN.R-project.org/package=congress) with:
 
 ``` r
 install.packages('congress')
