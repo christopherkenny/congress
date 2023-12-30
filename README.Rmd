@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/congress)](https://CRAN.R-project.org/package=congress)
+[![congress status badge](https://christopherkenny.r-universe.dev/badges/congress)](https://christopherkenny.r-universe.dev/congress)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![R-CMD-check](https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/christopherkenny/congress/branch/main/graph/badge.svg)](https://app.codecov.io/gh/christopherkenny/congress?branch=main)
