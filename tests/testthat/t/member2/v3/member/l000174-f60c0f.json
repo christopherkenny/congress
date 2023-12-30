@@ -1,0 +1,269 @@
+{
+    "member": {
+        "bioguideId": "L000174",
+        "birthYear": "1940",
+        "cosponsoredLegislation": {
+            "count": 7520,
+            "url": "https://v3/member/l000174/cosponsored-legislation"
+        },
+        "depiction": {
+            "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office<\/a>",
+            "imageUrl": "https://www.congress.gov/img/member/l000174_200.jpg"
+        },
+        "directOrderName": "Patrick J. Leahy",
+        "firstName": "Patrick",
+        "honorificName": "Mr.",
+        "invertedOrderName": "Leahy, Patrick J.",
+        "lastName": "Leahy",
+        "leadership": [
+            {
+                "congress": 113,
+                "type": "President Pro Tempore"
+            },
+            {
+                "congress": 112,
+                "type": "President Pro Tempore"
+            },
+            {
+                "congress": 117,
+                "type": "President Pro Tempore"
+            }
+        ],
+        "partyHistory": [
+            {
+                "partyAbbreviation": "D",
+                "partyName": "Democratic",
+                "startYear": 1975
+            }
+        ],
+        "sponsoredLegislation": {
+            "count": 1768,
+            "url": "https://v3/member/l000174/sponsored-legislation"
+        },
+        "state": "Vermont",
+        "terms": [
+            {
+                "chamber": "Senate",
+                "congress": 94,
+                "endYear": 1977,
+                "memberType": "Senator",
+                "startYear": 1975,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 95,
+                "endYear": 1979,
+                "memberType": "Senator",
+                "startYear": 1977,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 96,
+                "endYear": 1981,
+                "memberType": "Senator",
+                "startYear": 1979,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 97,
+                "endYear": 1983,
+                "memberType": "Senator",
+                "startYear": 1981,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 98,
+                "endYear": 1985,
+                "memberType": "Senator",
+                "startYear": 1983,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 99,
+                "endYear": 1987,
+                "memberType": "Senator",
+                "startYear": 1985,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 100,
+                "endYear": 1989,
+                "memberType": "Senator",
+                "startYear": 1987,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 101,
+                "endYear": 1991,
+                "memberType": "Senator",
+                "startYear": 1989,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 102,
+                "endYear": 1993,
+                "memberType": "Senator",
+                "startYear": 1991,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 103,
+                "endYear": 1995,
+                "memberType": "Senator",
+                "startYear": 1993,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 104,
+                "endYear": 1997,
+                "memberType": "Senator",
+                "startYear": 1995,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 105,
+                "endYear": 1999,
+                "memberType": "Senator",
+                "startYear": 1997,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 106,
+                "endYear": 2001,
+                "memberType": "Senator",
+                "startYear": 1999,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 107,
+                "endYear": 2003,
+                "memberType": "Senator",
+                "startYear": 2001,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 108,
+                "endYear": 2005,
+                "memberType": "Senator",
+                "startYear": 2003,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 109,
+                "endYear": 2007,
+                "memberType": "Senator",
+                "startYear": 2005,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 110,
+                "endYear": 2009,
+                "memberType": "Senator",
+                "startYear": 2007,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 111,
+                "endYear": 2011,
+                "memberType": "Senator",
+                "startYear": 2009,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 112,
+                "endYear": 2013,
+                "memberType": "Senator",
+                "startYear": 2011,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 113,
+                "endYear": 2015,
+                "memberType": "Senator",
+                "startYear": 2013,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 114,
+                "endYear": 2017,
+                "memberType": "Senator",
+                "startYear": 2015,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 115,
+                "endYear": 2019,
+                "memberType": "Senator",
+                "startYear": 2017,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 116,
+                "endYear": 2021,
+                "memberType": "Senator",
+                "startYear": 2019,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 117,
+                "endYear": 2023,
+                "memberType": "Senator",
+                "startYear": 2021,
+                "stateCode": "VT",
+                "stateName": "Vermont"
+            }
+        ],
+        "updateDate": "2023-01-26T16:10:43Z"
+    },
+    "request": {
+        "bioguideId": "l000174",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

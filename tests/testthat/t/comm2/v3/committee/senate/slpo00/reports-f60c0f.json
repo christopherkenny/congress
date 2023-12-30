@@ -1,0 +1,15 @@
+{
+    "pagination": {
+        "count": 0
+    },
+    "reports": [
+
+    ],
+    "request": {
+        "chamber": "senate",
+        "committeeUrl": "https://v3/committee/senate/slpo00?format=json",
+        "contentType": "application/json",
+        "format": "json",
+        "systemCode": "slpo00"
+    }
+}

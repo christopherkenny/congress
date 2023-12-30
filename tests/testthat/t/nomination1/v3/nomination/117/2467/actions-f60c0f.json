@@ -1,0 +1,52 @@
+{
+    "actions": [
+        {
+            "actionCode": "S05310",
+            "actionDate": "2022-12-15",
+            "text": "Confirmed by the Senate by Voice Vote.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "S05180",
+            "actionDate": "2022-12-14",
+            "text": "Placed on Senate Executive Calendar. Calendar No. DESK.",
+            "type": "Calendars"
+        },
+        {
+            "actionCode": "S05155",
+            "actionDate": "2022-12-14",
+            "committees": [
+                {
+                    "name": "Armed Services Committee",
+                    "systemCode": "ssas00",
+                    "url": "https://v3/committee/senate/ssas00?format=json"
+                }
+            ],
+            "text": "Reported by Senator Reed, Committee on Armed Services, without printed report.",
+            "type": "Committee"
+        },
+        {
+            "actionCode": "S05120",
+            "actionDate": "2022-08-03",
+            "committees": [
+                {
+                    "name": "Armed Services Committee",
+                    "systemCode": "ssas00",
+                    "url": "https://v3/committee/senate/ssas00?format=json"
+                }
+            ],
+            "text": "Received in the Senate and referred to the Committee on Armed Services.",
+            "type": "IntroReferral"
+        }
+    ],
+    "pagination": {
+        "count": 4
+    },
+    "request": {
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json",
+        "nominationUrl": "https://v3/nomination/117/2467?format=json",
+        "number": "2467"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "pagination": {
+        "count": 0
+    },
+    "request": {
+        "billType": "hr",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "summaries": [
+
+    ]
+}

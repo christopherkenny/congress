@@ -1,0 +1,159 @@
+{
+    "pagination": {
+        "count": 7
+    },
+    "request": {
+        "billNumber": "3076",
+        "billType": "hr",
+        "billUrl": "https://v3/bill/117/hr/3076?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": null,
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076enr.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076enr.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076enr.xml"
+                }
+            ],
+            "type": "Enrolled Bill"
+        },
+        {
+            "date": "2022-02-15T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076pcs2.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076pcs2.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076pcs2.xml"
+                }
+            ],
+            "type": "Placed on Calendar Senate"
+        },
+        {
+            "date": "2022-02-14T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076rhuc.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076rhuc.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076rhuc.xml"
+                }
+            ],
+            "type": "Returned to the House by Unanimous Consent"
+        },
+        {
+            "date": "2022-02-09T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076pcs.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076pcs.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076pcs.xml"
+                }
+            ],
+            "type": "Placed on Calendar Senate"
+        },
+        {
+            "date": "2022-02-08T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076eh.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076eh.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076eh.xml"
+                }
+            ],
+            "type": "Engrossed in House"
+        },
+        {
+            "date": "2022-02-01T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076rh.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076rh.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076rh.xml"
+                }
+            ],
+            "type": "Reported in House"
+        },
+        {
+            "date": "2021-05-11T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076ih.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076ih.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr3076/BILLS-117hr3076ih.xml"
+                }
+            ],
+            "type": "Introduced in House"
+        },
+        {
+            "date": "2022-04-07T03:59:59Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/plaws/publ108/PLAW-117publ108.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/plaws/publ108/PLAW-117publ108.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/plaws/publ108/PLAW-117publ108_uslm.xml"
+                }
+            ],
+            "type": "Public Law"
+        }
+    ]
+}

@@ -1,0 +1,304 @@
+{
+    "pagination": {
+        "count": 782,
+        "next": "https://v3/treaty?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "treaties": [
+        {
+            "congress": 118,
+            "endCongressId": null,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "2023-12-18T00:00:00Z",
+            "treatyNum": 1,
+            "treatySubject": "Maritime Boundaries and Claims",
+            "treatySuffix": "",
+            "updateDate": "2023-12-19T04:01:18Z",
+            "url": "https://v3/treaty/118/1?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-02-03T00:00:00Z",
+            "treatyNum": 15,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:55:00Z",
+            "url": "https://v3/treaty/92/15?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-02-16T00:00:00Z",
+            "treatyNum": 17,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:27Z",
+            "url": "https://v3/treaty/92/17?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-02-01T00:00:00Z",
+            "treatyNum": 13,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:27Z",
+            "url": "https://v3/treaty/92/13?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-03-15T00:00:00Z",
+            "treatyNum": 19,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:27Z",
+            "url": "https://v3/treaty/92/19?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-02-03T00:00:00Z",
+            "treatyNum": 16,
+            "treatySubject": "Taxation",
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:27Z",
+            "url": "https://v3/treaty/92/16?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-02-02T00:00:00Z",
+            "treatyNum": 14,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:27Z",
+            "url": "https://v3/treaty/92/14?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-03-08T00:00:00Z",
+            "treatyNum": 18,
+            "treatySubject": "Extradition and Criminal Assistance",
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:27Z",
+            "url": "https://v3/treaty/92/18?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-06-13T00:00:00Z",
+            "treatyNum": 24,
+            "treatySubject": "Arms Control",
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/24?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 106,
+            "parts": {
+                "count": 2,
+                "urls": [
+                    "https://v3/treaty/92/23/B?format=json",
+                    "https://v3/treaty/92/23?format=json"
+                ]
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-05-05T00:00:00Z",
+            "treatyNum": 23,
+            "treatySubject": "Shipping and Marine Pollution",
+            "treatySuffix": "A",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/23/A?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-04-11T00:00:00Z",
+            "treatyNum": 21,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/21?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-03-28T00:00:00Z",
+            "treatyNum": 20,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/20?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 106,
+            "parts": {
+                "count": 2,
+                "urls": [
+                    "https://v3/treaty/92/23/A?format=json",
+                    "https://v3/treaty/92/23/B?format=json"
+                ]
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-05-05T00:00:00Z",
+            "treatyNum": 23,
+            "treatySubject": "Shipping and Marine Pollution",
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/23?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 97,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-06-15T00:00:00Z",
+            "treatyNum": 26,
+            "treatySubject": "Shipping and Marine Pollution",
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/26?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-06-15T00:00:00Z",
+            "treatyNum": 25,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/25?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 106,
+            "parts": {
+                "count": 2,
+                "urls": [
+                    "https://v3/treaty/92/23/A?format=json",
+                    "https://v3/treaty/92/23?format=json"
+                ]
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-05-05T00:00:00Z",
+            "treatyNum": 23,
+            "treatySubject": "Shipping and Marine Pollution",
+            "treatySuffix": "B",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/23/B?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-05-04T00:00:00Z",
+            "treatyNum": 22,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:26Z",
+            "url": "https://v3/treaty/92/22?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 93,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-09-12T00:00:00Z",
+            "treatyNum": 31,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:25Z",
+            "url": "https://v3/treaty/92/31?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-07-28T00:00:00Z",
+            "treatyNum": 28,
+            "treatySubject": null,
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:25Z",
+            "url": "https://v3/treaty/92/28?format=xml"
+        },
+        {
+            "congress": 92,
+            "endCongressId": 92,
+            "parts": {
+
+            },
+            "resolutionText": null,
+            "transmittedDate": "1972-09-15T00:00:00Z",
+            "treatyNum": 32,
+            "treatySubject": "Aviation",
+            "treatySuffix": "",
+            "updateDate": "2023-08-07T11:47:25Z",
+            "url": "https://v3/treaty/92/32?format=xml"
+        }
+    ]
+}

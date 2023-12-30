@@ -1,0 +1,474 @@
+{
+    "committees": [
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Committee on the Climate Crisis",
+            "systemCode": "hlcn00",
+            "url": "https://v3/committee/house/hlcn00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Committee on Economic Disparity and Fairness in Growth",
+            "systemCode": "hlef00",
+            "url": "https://v3/committee/house/hlef00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Intelligence (Permanent Select) Committee",
+            "subcommittees": [
+                {
+                    "name": "Emerging Threats Subcommittee",
+                    "systemCode": "hlig03",
+                    "url": "https://v3/committee/house/hlig03?format=json"
+                },
+                {
+                    "name": "Counterterrorism, Counterintelligence, and Counterproliferation Subcommittee",
+                    "systemCode": "hlig05",
+                    "url": "https://v3/committee/house/hlig05?format=json"
+                },
+                {
+                    "name": "Terrorism and Homeland Security Subcommittee",
+                    "systemCode": "hlig07",
+                    "url": "https://v3/committee/house/hlig07?format=json"
+                },
+                {
+                    "name": "Intelligence Modernization and Readiness Subcommittee",
+                    "systemCode": "hlig08",
+                    "url": "https://v3/committee/house/hlig08?format=json"
+                },
+                {
+                    "name": "National Intelligence Enterprise Subcommittee",
+                    "systemCode": "hlig06",
+                    "url": "https://v3/committee/house/hlig06?format=json"
+                },
+                {
+                    "name": "Oversight and Investigations Subcommittee",
+                    "systemCode": "hlig09",
+                    "url": "https://v3/committee/house/hlig09?format=json"
+                },
+                {
+                    "name": "Strategic Technologies and Advanced Research Subcommittee",
+                    "systemCode": "hlig10",
+                    "url": "https://v3/committee/house/hlig10?format=json"
+                },
+                {
+                    "name": "Central Intelligence Agency Subcommittee",
+                    "systemCode": "hlig01",
+                    "url": "https://v3/committee/house/hlig01?format=json"
+                },
+                {
+                    "name": "National Security Agency and Cyber Subcommittee",
+                    "systemCode": "hlig02",
+                    "url": "https://v3/committee/house/hlig02?format=json"
+                },
+                {
+                    "name": "Subcommittee on Defense Intelligence and Overhead Architecture",
+                    "systemCode": "hlig04",
+                    "url": "https://v3/committee/house/hlig04?format=json"
+                }
+            ],
+            "systemCode": "hlig00",
+            "url": "https://v3/committee/house/hlig00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Counterterrorism, Counterintelligence, and Counterproliferation Subcommittee",
+            "parent": {
+                "name": "Intelligence (Permanent Select) Committee",
+                "systemCode": "hlig00",
+                "url": "https://v3/committee/house/hlig00?format=json"
+            },
+            "systemCode": "hlig05",
+            "url": "https://v3/committee/house/hlig05?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "National Intelligence Enterprise Subcommittee",
+            "parent": {
+                "name": "Intelligence (Permanent Select) Committee",
+                "systemCode": "hlig00",
+                "url": "https://v3/committee/house/hlig00?format=json"
+            },
+            "systemCode": "hlig06",
+            "url": "https://v3/committee/house/hlig06?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Intelligence Modernization and Readiness Subcommittee",
+            "parent": {
+                "name": "Intelligence (Permanent Select) Committee",
+                "systemCode": "hlig00",
+                "url": "https://v3/committee/house/hlig00?format=json"
+            },
+            "systemCode": "hlig08",
+            "url": "https://v3/committee/house/hlig08?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Strategic Technologies and Advanced Research Subcommittee",
+            "parent": {
+                "name": "Intelligence (Permanent Select) Committee",
+                "systemCode": "hlig00",
+                "url": "https://v3/committee/house/hlig00?format=json"
+            },
+            "systemCode": "hlig10",
+            "url": "https://v3/committee/house/hlig10?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Investigate the January 6th Attack on the United States Capitol",
+            "systemCode": "hlij00",
+            "url": "https://v3/committee/house/hlij00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Committee on the Modernization of Congress",
+            "systemCode": "hlmh00",
+            "url": "https://v3/committee/house/hlmh00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Subcommittee on the Coronavirus Pandemic",
+            "parent": {
+                "name": "Oversight and Accountability Committee",
+                "systemCode": "hsgo00",
+                "url": "https://v3/committee/house/hsgo00?format=json"
+            },
+            "systemCode": "hlvc00",
+            "url": "https://v3/committee/house/hlvc00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Commission or Caucus",
+            "name": "Tom Lantos Human Rights Commission",
+            "systemCode": "hotl00",
+            "url": "https://v3/committee/house/hotl00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Agriculture Committee",
+            "subcommittees": [
+                {
+                    "name": "Wheat, Soybeans, and Feed Grains Subcommittee",
+                    "systemCode": "hsag08",
+                    "url": "https://v3/committee/house/hsag08?format=json"
+                },
+                {
+                    "name": "Department Operations and Nutrition Subcommittee",
+                    "systemCode": "hsag20",
+                    "url": "https://v3/committee/house/hsag20?format=json"
+                },
+                {
+                    "name": "Risk Management and Specialty Crops Subcommittee",
+                    "systemCode": "hsag24",
+                    "url": "https://v3/committee/house/hsag24?format=json"
+                },
+                {
+                    "name": "Forestry, Resource Conservation and Research Subcommittee",
+                    "systemCode": "hsag27",
+                    "url": "https://v3/committee/house/hsag27?format=json"
+                },
+                {
+                    "name": "Environment, Credit and Rural Development Subcommittee",
+                    "systemCode": "hsag01",
+                    "url": "https://v3/committee/house/hsag01?format=json"
+                },
+                {
+                    "name": "Cotton, Rice, and Sugar Subcommittee",
+                    "systemCode": "hsag02",
+                    "url": "https://v3/committee/house/hsag02?format=json"
+                },
+                {
+                    "name": "Nutrition, Foreign Agriculture, and Horticulture",
+                    "systemCode": "hsag03",
+                    "url": "https://v3/committee/house/hsag03?format=json"
+                },
+                {
+                    "name": "Department Operations, Research, and Foreign Agriculture Subcommittee",
+                    "systemCode": "hsag04",
+                    "url": "https://v3/committee/house/hsag04?format=json"
+                },
+                {
+                    "name": "Domestic Marketing, Consumer Relations, and Nutrition Subcommittee",
+                    "systemCode": "hsag05",
+                    "url": "https://v3/committee/house/hsag05?format=json"
+                },
+                {
+                    "name": "Forests, Family Farms, and Energy Subcommittee",
+                    "systemCode": "hsag06",
+                    "url": "https://v3/committee/house/hsag06?format=json"
+                },
+                {
+                    "name": "Peanuts and Tobacco Subcommittee",
+                    "systemCode": "hsag07",
+                    "url": "https://v3/committee/house/hsag07?format=json"
+                },
+                {
+                    "name": "Conservation, Research, and Biotechnology Subcommittee",
+                    "systemCode": "hsag14",
+                    "url": "https://v3/committee/house/hsag14?format=json"
+                },
+                {
+                    "name": "Forestry Subcommittee",
+                    "systemCode": "hsag15",
+                    "url": "https://v3/committee/house/hsag15?format=json"
+                },
+                {
+                    "name": "General Farm Commodities, Risk Management, and Credit Subcommittee",
+                    "systemCode": "hsag16",
+                    "url": "https://v3/committee/house/hsag16?format=json"
+                },
+                {
+                    "name": "Foreign Agriculture and Hunger Subcommittee",
+                    "systemCode": "hsag21",
+                    "url": "https://v3/committee/house/hsag21?format=json"
+                },
+                {
+                    "name": "Commodity Markets, Digital Assets, and Rural Development Subcommittee",
+                    "systemCode": "hsag22",
+                    "url": "https://v3/committee/house/hsag22?format=json"
+                },
+                {
+                    "name": "General Farm Commodities, Resource Conservation and Credit Subcommittee",
+                    "systemCode": "hsag23",
+                    "url": "https://v3/committee/house/hsag23?format=json"
+                },
+                {
+                    "name": "General Farm Commodities Subcommittee",
+                    "systemCode": "hsag25",
+                    "url": "https://v3/committee/house/hsag25?format=json"
+                },
+                {
+                    "name": "Department Operations, Nutrition and Foreign Agriculture Subcommittee",
+                    "systemCode": "hsag26",
+                    "url": "https://v3/committee/house/hsag26?format=json"
+                },
+                {
+                    "name": "Risk Management, Research and Specialty Crops Subcommittee",
+                    "systemCode": "hsag28",
+                    "url": "https://v3/committee/house/hsag28?format=json"
+                },
+                {
+                    "name": "Livestock, Dairy, and Poultry Subcommittee",
+                    "systemCode": "hsag29",
+                    "url": "https://v3/committee/house/hsag29?format=json"
+                }
+            ],
+            "systemCode": "hsag00",
+            "url": "https://v3/committee/house/hsag00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Nutrition, Foreign Agriculture, and Horticulture",
+            "parent": {
+                "name": "Agriculture Committee",
+                "systemCode": "hsag00",
+                "url": "https://v3/committee/house/hsag00?format=json"
+            },
+            "systemCode": "hsag03",
+            "url": "https://v3/committee/house/hsag03?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Conservation, Research, and Biotechnology Subcommittee",
+            "parent": {
+                "name": "Agriculture Committee",
+                "systemCode": "hsag00",
+                "url": "https://v3/committee/house/hsag00?format=json"
+            },
+            "systemCode": "hsag14",
+            "url": "https://v3/committee/house/hsag14?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Forestry Subcommittee",
+            "parent": {
+                "name": "Agriculture Committee",
+                "systemCode": "hsag00",
+                "url": "https://v3/committee/house/hsag00?format=json"
+            },
+            "systemCode": "hsag15",
+            "url": "https://v3/committee/house/hsag15?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "General Farm Commodities, Risk Management, and Credit Subcommittee",
+            "parent": {
+                "name": "Agriculture Committee",
+                "systemCode": "hsag00",
+                "url": "https://v3/committee/house/hsag00?format=json"
+            },
+            "systemCode": "hsag16",
+            "url": "https://v3/committee/house/hsag16?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Commodity Markets, Digital Assets, and Rural Development Subcommittee",
+            "parent": {
+                "name": "Agriculture Committee",
+                "systemCode": "hsag00",
+                "url": "https://v3/committee/house/hsag00?format=json"
+            },
+            "systemCode": "hsag22",
+            "url": "https://v3/committee/house/hsag22?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Livestock, Dairy, and Poultry Subcommittee",
+            "parent": {
+                "name": "Agriculture Committee",
+                "systemCode": "hsag00",
+                "url": "https://v3/committee/house/hsag00?format=json"
+            },
+            "systemCode": "hsag29",
+            "url": "https://v3/committee/house/hsag29?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Appropriations Committee",
+            "subcommittees": [
+                {
+                    "name": "Defense Subcommittee",
+                    "systemCode": "hsap02",
+                    "url": "https://v3/committee/house/hsap02?format=json"
+                },
+                {
+                    "name": "Interior, Environment, and Related Agencies Subcommittee",
+                    "systemCode": "hsap06",
+                    "url": "https://v3/committee/house/hsap06?format=json"
+                },
+                {
+                    "name": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Subcommittee",
+                    "systemCode": "hsap01",
+                    "url": "https://v3/committee/house/hsap01?format=json"
+                },
+                {
+                    "name": "District of Columbia Subcommittee",
+                    "systemCode": "hsap03",
+                    "url": "https://v3/committee/house/hsap03?format=json"
+                },
+                {
+                    "name": "State, Foreign Operations, and Related Programs Subcommittee",
+                    "systemCode": "hsap04",
+                    "url": "https://v3/committee/house/hsap04?format=json"
+                },
+                {
+                    "name": "VA, HUD, and Independent Agencies Subcommittee",
+                    "systemCode": "hsap05",
+                    "url": "https://v3/committee/house/hsap05?format=json"
+                },
+                {
+                    "name": "Departments of Labor, Health and Human Services, Education, and Related Agencies Subcommittee",
+                    "systemCode": "hsap07",
+                    "url": "https://v3/committee/house/hsap07?format=json"
+                },
+                {
+                    "name": "Legislative Subcommittee",
+                    "systemCode": "hsap08",
+                    "url": "https://v3/committee/house/hsap08?format=json"
+                },
+                {
+                    "name": "Military Construction Subcommittee",
+                    "systemCode": "hsap09",
+                    "url": "https://v3/committee/house/hsap09?format=json"
+                },
+                {
+                    "name": "Commerce, Justice, State, and the Judiciary Subcommittee",
+                    "systemCode": "hsap11",
+                    "url": "https://v3/committee/house/hsap11?format=json"
+                },
+                {
+                    "name": "Transportation Subcommittee",
+                    "systemCode": "hsap12",
+                    "url": "https://v3/committee/house/hsap12?format=json"
+                },
+                {
+                    "name": "Treasury, Postal Service, and General Government Subcommittee",
+                    "systemCode": "hsap13",
+                    "url": "https://v3/committee/house/hsap13?format=json"
+                },
+                {
+                    "name": "Department of Homeland Security Subcommittee",
+                    "systemCode": "hsap15",
+                    "url": "https://v3/committee/house/hsap15?format=json"
+                },
+                {
+                    "name": "Military Construction, Veterans Affairs, and Related Agencies Subcommittee",
+                    "systemCode": "hsap18",
+                    "url": "https://v3/committee/house/hsap18?format=json"
+                },
+                {
+                    "name": "Departments of Transportation, and Housing and Urban Development, and Related Agencies Subcommittee",
+                    "systemCode": "hsap20",
+                    "url": "https://v3/committee/house/hsap20?format=json"
+                },
+                {
+                    "name": "Financial Services and General Government Subcommittee",
+                    "systemCode": "hsap23",
+                    "url": "https://v3/committee/house/hsap23?format=json"
+                },
+                {
+                    "name": "Legislative Branch Subcommittee",
+                    "systemCode": "hsap24",
+                    "url": "https://v3/committee/house/hsap24?format=json"
+                },
+                {
+                    "name": "Energy and Water Development, and Related Agencies Subcommittee",
+                    "systemCode": "hsap10",
+                    "url": "https://v3/committee/house/hsap10?format=json"
+                },
+                {
+                    "name": "Transportation, Treasury and Independent Agencies Subcommittee",
+                    "systemCode": "hsap14",
+                    "url": "https://v3/committee/house/hsap14?format=json"
+                },
+                {
+                    "name": "Commerce, Justice, Science, and Related Agencies Subcommittee",
+                    "systemCode": "hsap19",
+                    "url": "https://v3/committee/house/hsap19?format=json"
+                }
+            ],
+            "systemCode": "hsap00",
+            "url": "https://v3/committee/house/hsap00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Subcommittee",
+            "parent": {
+                "name": "Appropriations Committee",
+                "systemCode": "hsap00",
+                "url": "https://v3/committee/house/hsap00?format=json"
+            },
+            "systemCode": "hsap01",
+            "url": "https://v3/committee/house/hsap01?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 132,
+        "next": "https://v3/committee/117/house?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "chamber": "house",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

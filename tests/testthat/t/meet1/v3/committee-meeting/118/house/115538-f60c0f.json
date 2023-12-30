@@ -1,0 +1,118 @@
+{
+    "committeeMeeting": {
+        "chamber": "House",
+        "committees": [
+            {
+                "name": "House Natural Resources Subcommittee on Indian and Insular Affairs",
+                "systemCode": "hsii24",
+                "url": "https://v3/committee/house/hsii24?format=json"
+            }
+        ],
+        "congress": 118,
+        "date": "2023-03-24 13:00:00+00:00",
+        "eventId": "115538",
+        "hearingTranscript": [
+            {
+                "jacketNumber": 51692,
+                "url": "https://v3/hearing/118/house/51692?format=json"
+            }
+        ],
+        "location": {
+            "building": "Longworth House Office Building",
+            "room": "1324"
+        },
+        "meetingDocuments": [
+            {
+                "documentType": "Support Document",
+                "format": "PDF",
+                "name": "Hearing Notice",
+                "url": "https://www.congress.gov/118/meeting/house/115538/documents/HHRG-118-II24-20230324-SD001.pdf"
+            },
+            {
+                "documentType": "Bills and Resolutions",
+                "format": "PDF",
+                "name": "H.R. 1532 (Rep. Hageman), To authorize any Indian Tribe to lease, sell, convey, warrant, or otherwise transfer real property to which that Indian Tribe holds fee title without the consent of the Federal Government, and for other purposes.",
+                "url": "https://www.congress.gov/118/meeting/house/115538/documents/BILLS-118HR1532ih.pdf"
+            },
+            {
+                "documentType": "Bills and Resolutions",
+                "format": "PDF",
+                "name": "H.R. 1246 (Rep. Hageman), To authorize leases of up to 99 years for land held in trust for federally recognized Indian tribes.",
+                "url": "https://www.congress.gov/118/meeting/house/115538/documents/BILLS-118HR1246ih.pdf"
+            },
+            {
+                "documentType": "Support Document",
+                "format": "PDF",
+                "name": "Hearing Memo",
+                "url": "https://www.congress.gov/118/meeting/house/115538/documents/HHRG-118-II24-20230324-SD002.pdf"
+            },
+            {
+                "documentType": "Support Document",
+                "format": "PDF",
+                "name": "Chair Westerman's Submission FTR - Pueblo of Santa Clara Statement by Governor Chavarria",
+                "url": "https://www.congress.gov/118/meeting/house/115538/documents/HHRG-118-II24-20230324-SD003.pdf"
+            }
+        ],
+        "meetingStatus": "Scheduled",
+        "relatedItems": {
+            "bills": [
+                {
+                    "congress": 118,
+                    "number": "1532",
+                    "type": "HR",
+                    "url": "https://v3/bill/118/hr/1532?format=json"
+                },
+                {
+                    "congress": 118,
+                    "number": "1246",
+                    "type": "HR",
+                    "url": "https://v3/bill/118/hr/1246?format=json"
+                }
+            ]
+        },
+        "title": "Legislative hearing on: •\tH.R. 1246 (Rep. Hageman), To authorize leases of up to 99 years for land held in trust for federally recognized Indian tribes; and\r\n•\tH.R. 1532 (Rep. Hageman), To authorize any Indian Tribe to lease, sell, convey, warrant, or otherwise transfer real property to which that Indian Tribe holds fee title without the consent of the Federal Government, and for other purposes.",
+        "type": "Hearing",
+        "updateDate": "2023-10-01 04:18:38+00:00",
+        "witnessDocuments": [
+            {
+                "documentType": "Witness Statement",
+                "format": "PDF",
+                "url": "https://www.congress.gov/118/meeting/house/115538/witnesses/HHRG-118-II24-Wstate-OsceolaM-20230324.pdf"
+            },
+            {
+                "documentType": "Witness Statement",
+                "format": "PDF",
+                "url": "https://www.congress.gov/118/meeting/house/115538/witnesses/HHRG-118-II24-Wstate-WilliamsJ-20230324.pdf"
+            },
+            {
+                "documentType": "Witness Statement",
+                "format": "PDF",
+                "url": "https://www.congress.gov/118/meeting/house/115538/witnesses/HHRG-118-II24-Wstate-NewlandB-20230324.pdf"
+            }
+        ],
+        "witnesses": [
+            {
+                "name": "The Honorable Bryan Newland",
+                "organization": "Bureau of Indian Affairs",
+                "position": "Assistant Secretary"
+            },
+            {
+                "name": "The Honorable Marcellus Osceola",
+                "organization": "Seminole Tribe of Florida",
+                "position": "Chairman"
+            },
+            {
+                "name": "The Honorable John Williams",
+                "organization": "United Auburn Rancheria",
+                "position": "Vice Chairman"
+            }
+        ]
+    },
+    "request": {
+        "chamber": "house",
+        "congress": "118",
+        "contentType": "application/json",
+        "eventId": "115538",
+        "format": "json"
+    }
+}

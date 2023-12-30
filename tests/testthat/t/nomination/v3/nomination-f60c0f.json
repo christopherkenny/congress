@@ -1,0 +1,368 @@
+{
+    "nominations": [
+        {
+            "citation": "PN1044",
+            "congress": 118,
+            "description": "Spencer Bachus III, of Alabama, to be a Member of the Board of Directors of the Export-Import Bank of the United States for a term expiring January 20, 2027.  (Reappointment)",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 1044,
+            "organization": "Export-Import Bank of the United States",
+            "partNumber": "00",
+            "receivedDate": "2023-09-21",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/1044?format=json"
+        },
+        {
+            "citation": "PN918",
+            "congress": 118,
+            "description": "William Brodsky, of Illinois, to be a Director of the Securities Investor Protection Corporation for a term expiring December 31, 2026.  (Reappointment)",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 918,
+            "organization": "Securities Investor Protection Corporation",
+            "partNumber": "00",
+            "receivedDate": "2023-09-05",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/918?format=json"
+        },
+        {
+            "citation": "PN1025",
+            "congress": 118,
+            "description": "Jennifer L. Fain, of Virginia, to be Inspector General, Federal Deposit Insurance Corporation, vice Jay Neal Lerner, resigned.",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 1025,
+            "organization": "Federal Deposit Insurance Corporation",
+            "partNumber": "00",
+            "receivedDate": "2023-09-19",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/1025?format=json"
+        },
+        {
+            "citation": "PN832",
+            "congress": 118,
+            "description": "Tadd M. Johnson, of Minnesota, to be a Member of the Board of Trustees of the Morris K. Udall and Stewart L. Udall Foundation for a term expiring October 6, 2028.  (Reappointment)",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 832,
+            "organization": "Morris K. Udall and Stewart L. Udall Foundation",
+            "partNumber": "00",
+            "receivedDate": "2023-07-12",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/832?format=json"
+        },
+        {
+            "citation": "PN1020",
+            "congress": 118,
+            "description": "John A. Kazen, of Texas, to be United States District Judge for the Southern District of Texas, vice Vanessa D. Gilmore, retired.",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "By unanimous consent agreement, debate and vote 1/8/2024."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 1020,
+            "organization": "The Judiciary",
+            "partNumber": "00",
+            "receivedDate": "2023-09-11",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/1020?format=json"
+        },
+        {
+            "citation": "PN871",
+            "congress": 118,
+            "description": "Rion J. Ramirez, of Washington, to be a Member of the Board of Trustees of the Morris K. Udall and Stewart L. Udall Foundation for a term expiring May 26, 2025, vice Charles P. Rose, term expired.",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 871,
+            "organization": "Morris K. Udall and Stewart L. Udall Foundation",
+            "partNumber": "00",
+            "receivedDate": "2023-07-25",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/871?format=json"
+        },
+        {
+            "citation": "PN831",
+            "congress": 118,
+            "description": "Claudia Slacik, of New York, to be a Director of the Securities Investor Protection Corporation for a term expiring December 31, 2026.  (Reappointment)",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 831,
+            "organization": "Securities Investor Protection Corporation",
+            "partNumber": "00",
+            "receivedDate": "2023-07-12",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/831?format=json"
+        },
+        {
+            "citation": "PN805",
+            "congress": 118,
+            "description": "Bradford Pentony Wilson, of New Jersey, to be a Member of the Board of Trustees of the James Madison Memorial Fellowship Foundation for a term expiring September 27, 2026, vice Catherine Allgor, term expired.",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 805,
+            "organization": "James Madison Memorial Fellowship Foundation",
+            "partNumber": "00",
+            "receivedDate": "2023-07-11",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/805?format=json"
+        },
+        {
+            "citation": "PN548",
+            "congress": 118,
+            "description": "Tobin John Bradley, of California, a Career Member of the Senior Foreign Service, Class of Minister-Counselor, to be Ambassador Extraordinary and Plenipotentiary of the United States of America to the Republic of Guatemala.",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 548,
+            "organization": "Department of State",
+            "partNumber": "00",
+            "receivedDate": "2023-04-25",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/548?format=json"
+        },
+        {
+            "citation": "PN742",
+            "congress": 118,
+            "description": "David E. White, Jr., of New York, to be Deputy Director of the Peace Corps, vice Carlos J. Torres.",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 742,
+            "organization": "Peace Corps",
+            "partNumber": "00",
+            "receivedDate": "2023-06-06",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/742?format=json"
+        },
+        {
+            "citation": "PN740",
+            "congress": 118,
+            "description": "Mark Toshiro Uyeda, of California, to be a Member of the Securities and Exchange Commission for a term expiring June 5, 2028.  (Reappointment)",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 740,
+            "organization": "Securities and Exchange Commission",
+            "partNumber": "00",
+            "receivedDate": "2023-06-06",
+            "updateDate": "2023-12-21T11:14:15Z",
+            "url": "https://v3/nomination/118/740?format=json"
+        },
+        {
+            "citation": "PN1045",
+            "congress": 118,
+            "description": "Tanya F. Otsuka, of Virginia, to be a Member of the National Credit Union Administration Board for a term expiring August 2, 2029, vice Rodney Hood, term expired.",
+            "latestAction": {
+                "actionDate": "2023-12-20",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 1045,
+            "organization": "National Credit Union Administration",
+            "partNumber": "00",
+            "receivedDate": "2023-09-21",
+            "updateDate": "2023-12-21T11:14:14Z",
+            "url": "https://v3/nomination/118/1045?format=json"
+        },
+        {
+            "citation": "PN196-4",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-13",
+                "text": "Placed on Senate Executive Calendar. Calendar No. 453."
+            },
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 196,
+            "organization": "Air Force",
+            "partNumber": "04",
+            "receivedDate": "2023-01-23",
+            "updateDate": "2023-12-20T11:14:38Z",
+            "url": "https://v3/nomination/118/196-4?format=json"
+        },
+        {
+            "citation": "PN157",
+            "congress": 118,
+            "description": "Jose Javier Rodriguez, of Florida, to be an Assistant Secretary of Labor, vice John P. Pallasch.",
+            "latestAction": {
+                "actionDate": "2023-12-18",
+                "text": "By unanimous consent agreement, mandatory quorum required under Rule XXII waived."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 157,
+            "organization": "Department of Labor",
+            "partNumber": "00",
+            "receivedDate": "2023-01-23",
+            "updateDate": "2023-12-20T11:14:38Z",
+            "url": "https://v3/nomination/118/157?format=json"
+        },
+        {
+            "citation": "PN36",
+            "congress": 118,
+            "description": "Elizabeth H. Richard, of Virginia, a Career Member of the Senior Foreign Service, Class of Career Minister, to be Coordinator for Counterterrorism, with the rank and status of Ambassador at Large, vice Nathan Alexander Sales.",
+            "latestAction": {
+                "actionDate": "2023-12-19",
+                "text": "Confirmed by the Senate by Yea-Nay Vote. 49 - 15. Record Vote Number: 352."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 36,
+            "organization": "Department of State",
+            "partNumber": "00",
+            "receivedDate": "2023-01-03",
+            "updateDate": "2023-12-20T11:14:38Z",
+            "url": "https://v3/nomination/118/36?format=json"
+        },
+        {
+            "citation": "PN365-2",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-19",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 365,
+            "organization": "Navy",
+            "partNumber": "02",
+            "receivedDate": "2023-02-16",
+            "updateDate": "2023-12-20T11:14:38Z",
+            "url": "https://v3/nomination/118/365-2?format=json"
+        },
+        {
+            "citation": "PN888",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-19",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 888,
+            "organization": "Air Force",
+            "partNumber": "00",
+            "receivedDate": "2023-07-25",
+            "updateDate": "2023-12-20T11:14:37Z",
+            "url": "https://v3/nomination/118/888?format=json"
+        },
+        {
+            "citation": "PN816",
+            "congress": 118,
+            "description": "Karoline Mehalchick, of Pennsylvania, to be United States District Judge for the Middle District of Pennsylvania, vice John E. Jones III, retired.",
+            "latestAction": {
+                "actionDate": "2023-12-19",
+                "text": "By unanimous consent agreement, mandatory quorum required under Rule XXII waived."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 816,
+            "organization": "The Judiciary",
+            "partNumber": "00",
+            "receivedDate": "2023-07-11",
+            "updateDate": "2023-12-20T11:14:37Z",
+            "url": "https://v3/nomination/118/816?format=json"
+        },
+        {
+            "citation": "PN376",
+            "congress": 118,
+            "description": "S. Kato Crews, of Colorado, to be United States District Judge for the District of Colorado, vice Raymond P. Moore, retiring.",
+            "latestAction": {
+                "actionDate": "2023-12-19",
+                "text": "By unanimous consent agreement, mandatory quorum required under Rule XXII waived."
+            },
+            "nominationType": {
+                "isCivilian": true
+            },
+            "number": 376,
+            "organization": "The Judiciary",
+            "partNumber": "00",
+            "receivedDate": "2023-02-27",
+            "updateDate": "2023-12-20T11:14:37Z",
+            "url": "https://v3/nomination/118/376?format=json"
+        },
+        {
+            "citation": "PN679",
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-19",
+                "text": "Confirmed by the Senate by Voice Vote."
+            },
+            "nominationType": {
+                "isMilitary": true
+            },
+            "number": 679,
+            "organization": "Air Force",
+            "partNumber": "00",
+            "receivedDate": "2023-05-30",
+            "updateDate": "2023-12-20T11:14:37Z",
+            "url": "https://v3/nomination/118/679?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 42192,
+        "next": "https://v3/nomination?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

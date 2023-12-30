@@ -1,0 +1,44 @@
+{
+    "hearing": {
+        "associatedMeeting": {
+            "eventId": "110484",
+            "url": "https://v3/committee-meeting/116/house/110484?format=json"
+        },
+        "chamber": "House",
+        "citation": "H.Hrg.116",
+        "committees": [
+            {
+                "name": "House Agriculture Committee",
+                "systemCode": "hsag00",
+                "url": "https://v3/committee/house/hsag00?format=json"
+            }
+        ],
+        "congress": 116,
+        "dates": [
+            {
+                "date": "2020-02-11"
+            }
+        ],
+        "formats": [
+            {
+                "type": "Formatted Text",
+                "url": "https://congress.gov/116/chrg/CHRG-116hhrg41365/CHRG-116hhrg41365.htm"
+            },
+            {
+                "type": "PDF",
+                "url": "https://congress.gov/116/chrg/CHRG-116hhrg41365/CHRG-116hhrg41365.pdf"
+            }
+        ],
+        "jacketNumber": 41365,
+        "libraryOfCongressIdentifier": "LC65344",
+        "title": "ECONOMIC OPPORTUNITIES FROM LOCAL AGRICULTURAL MARKETS",
+        "updateDate": "2022-06-30 03:50:43+00:00"
+    },
+    "request": {
+        "chamber": "house",
+        "congress": "116",
+        "contentType": "application/json",
+        "format": "json",
+        "jacketNumber": "41365"
+    }
+}

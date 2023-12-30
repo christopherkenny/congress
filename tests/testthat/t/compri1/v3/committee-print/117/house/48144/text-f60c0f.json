@@ -1,0 +1,30 @@
+{
+    "pagination": {
+        "count": 4
+    },
+    "request": {
+        "chamber": "house",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json",
+        "jacketNumber": "48144"
+    },
+    "text": [
+        {
+            "type": "Formatted Text",
+            "url": "https://www.congress.gov/117/cprt/HPRT48144/CPRT-117HPRT48144.htm"
+        },
+        {
+            "type": "PDF",
+            "url": "https://www.congress.gov/117/cprt/HPRT48144/CPRT-117HPRT48144.pdf"
+        },
+        {
+            "type": "Formatted XML",
+            "url": "https://www.congress.gov/117/cprt/HPRT48144/CPRT-117HPRT48144.xml"
+        },
+        {
+            "type": "Generated HTML",
+            "url": "https://www.congress.gov/117/cprt/HPRT48144/CPRT-117HPRT48144_gen.htm"
+        }
+    ]
+}

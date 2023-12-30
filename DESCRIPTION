@@ -35,6 +35,7 @@ BugReports: https://github.com/christopherkenny/congress/issues
 Suggests: 
     httptest2,
     spelling,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    withr
 Config/testthat/edition: 3
 Language: en-US

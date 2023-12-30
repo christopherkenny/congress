@@ -1,0 +1,31 @@
+{
+    "committee": {
+        "communications": {
+            "count": 0,
+            "url": "https://v3/committee/senate/jsec03/senate-communication?format=json"
+        },
+        "history": [
+            {
+                "endDate": "1994-12-31T05:00:00Z",
+                "libraryOfCongressName": "Economic Goals and Intergovernmental Policy",
+                "startDate": "1981-01-01T05:00:00Z",
+                "updateDate": "2019-11-15T20:44:00Z"
+            }
+        ],
+        "isCurrent": true,
+        "parent": {
+            "name": "Joint Economic Committee",
+            "systemCode": "jsec00",
+            "url": "https://v3/committee/joint/jsec00?format=json"
+        },
+        "systemCode": "jsec03",
+        "type": "Subcommittee",
+        "updateDate": "2020-11-24T14:13:20Z"
+    },
+    "request": {
+        "chamber": "senate",
+        "contentType": "application/json",
+        "format": "json",
+        "systemCode": "jsec03"
+    }
+}

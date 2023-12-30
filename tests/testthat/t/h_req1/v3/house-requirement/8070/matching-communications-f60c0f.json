@@ -1,0 +1,212 @@
+{
+    "matchingCommunications": [
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 2,
+            "url": "https://v3/house-communication/112/EC/2?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 3,
+            "url": "https://v3/house-communication/112/EC/3?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 4,
+            "url": "https://v3/house-communication/112/EC/4?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 5,
+            "url": "https://v3/house-communication/112/EC/5?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 7,
+            "url": "https://v3/house-communication/112/EC/7?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 9,
+            "url": "https://v3/house-communication/112/EC/9?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 12,
+            "url": "https://v3/house-communication/112/EC/12?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 16,
+            "url": "https://v3/house-communication/112/EC/16?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 21,
+            "url": "https://v3/house-communication/112/EC/21?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 22,
+            "url": "https://v3/house-communication/112/EC/22?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 25,
+            "url": "https://v3/house-communication/112/EC/25?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 28,
+            "url": "https://v3/house-communication/112/EC/28?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 29,
+            "url": "https://v3/house-communication/112/EC/29?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 30,
+            "url": "https://v3/house-communication/112/EC/30?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 32,
+            "url": "https://v3/house-communication/112/EC/32?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 37,
+            "url": "https://v3/house-communication/112/EC/37?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 38,
+            "url": "https://v3/house-communication/112/EC/38?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 39,
+            "url": "https://v3/house-communication/112/EC/39?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 40,
+            "url": "https://v3/house-communication/112/EC/40?format=json"
+        },
+        {
+            "chamber": "House",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 112,
+            "number": 418,
+            "url": "https://v3/house-communication/112/EC/418?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 86417,
+        "next": "https://v3/house-requirement/8070/matching-communications?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

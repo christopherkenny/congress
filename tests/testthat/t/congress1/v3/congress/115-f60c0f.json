@@ -1,0 +1,45 @@
+{
+    "congress": {
+        "endYear": "2018",
+        "name": "115th Congress",
+        "number": 115,
+        "sessions": [
+            {
+                "chamber": "House of Representatives",
+                "endDate": "2018-01-03",
+                "number": 1,
+                "startDate": "2017-01-03",
+                "type": "R"
+            },
+            {
+                "chamber": "Senate",
+                "endDate": "2018-01-03",
+                "number": 1,
+                "startDate": "2017-01-03",
+                "type": "R"
+            },
+            {
+                "chamber": "House of Representatives",
+                "endDate": "2019-01-03",
+                "number": 2,
+                "startDate": "2018-01-03",
+                "type": "R"
+            },
+            {
+                "chamber": "Senate",
+                "endDate": "2019-01-03",
+                "number": 2,
+                "startDate": "2018-01-03",
+                "type": "R"
+            }
+        ],
+        "startYear": "2017",
+        "updateDate": "2017-01-03T18:48:08Z",
+        "url": "https://v3/congress/115?format=json"
+    },
+    "request": {
+        "congress": "115",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

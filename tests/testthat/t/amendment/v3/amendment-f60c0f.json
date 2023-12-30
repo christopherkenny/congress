@@ -1,0 +1,255 @@
+{
+    "amendments": [
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-19",
+                "text": "Amendment SA 1380 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "1380",
+            "purpose": "To amend the resolution.",
+            "type": "SAMDT",
+            "updateDate": "2023-12-20T16:46:13Z",
+            "url": "https://v3/amendment/118/samdt/1380?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-19",
+                "text": "Amendment SA 1379 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "1379",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2023-12-20T16:31:15Z",
+            "url": "https://v3/amendment/118/samdt/1379?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-14",
+                "text": "Amendment SA 1378 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "1378",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2023-12-15T16:01:20Z",
+            "url": "https://v3/amendment/118/samdt/1378?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-14",
+                "text": "Amendment SA 1377 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "1377",
+            "purpose": "In the nature of a substitute.",
+            "type": "SAMDT",
+            "updateDate": "2023-12-15T16:29:26Z",
+            "url": "https://v3/amendment/118/samdt/1377?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 3 printed in House Report 118-308 to prevent the United States Department of Agriculture from issuing any rule that bans varieties of milk covered in this bill, including chocolate milk.",
+            "latestAction": {
+                "actionDate": "2023-12-13",
+                "actionTime": "15:12:42",
+                "text": "On agreeing to the Tiffany amendment (A003) Agreed to by voice vote. "
+            },
+            "number": "837",
+            "type": "HAMDT",
+            "updateDate": "2023-12-14T16:46:13Z",
+            "url": "https://v3/amendment/118/hamdt/837?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 2 printed in House Report 118-308 to prohibit schools participating in the school lunch program from purchasing or offering milk produced by China state-owned enterprises.",
+            "latestAction": {
+                "actionDate": "2023-12-13",
+                "actionTime": "15:04:28",
+                "text": "On agreeing to the Mills amendment (A002) Agreed to by voice vote. "
+            },
+            "number": "836",
+            "type": "HAMDT",
+            "updateDate": "2023-12-14T16:46:13Z",
+            "url": "https://v3/amendment/118/hamdt/836?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 1 printed in House Report 118-308 to ensure that the whole milk served in schools can be organic or non-organic.",
+            "latestAction": {
+                "actionDate": "2023-12-13",
+                "actionTime": "14:57:15",
+                "text": "On agreeing to the Luna amendment (A001) Agreed to by voice vote. "
+            },
+            "number": "835",
+            "type": "HAMDT",
+            "updateDate": "2023-12-14T16:46:13Z",
+            "url": "https://v3/amendment/118/hamdt/835?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-12",
+                "text": "SA 1374 fell when SA 1373 fell. "
+            },
+            "number": "1374",
+            "purpose": "To modify the effective date.",
+            "type": "SAMDT",
+            "updateDate": "2023-12-14T05:16:15Z",
+            "url": "https://v3/amendment/118/samdt/1374?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-12",
+                "text": "SA 1373 (to the instructions of the motion to recommit) fell when cloture invoked on the conference report to accompany H.R. 2670. "
+            },
+            "number": "1373",
+            "purpose": "To modify the effective date.",
+            "type": "SAMDT",
+            "updateDate": "2023-12-14T05:16:15Z",
+            "url": "https://v3/amendment/118/samdt/1373?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "Pursuant to the provisions of H. Res. 922, the amendment in the nature of a substitute recommended by the Committee on the Judiciary is considered as adopted.",
+            "latestAction": {
+                "actionDate": "2023-12-12",
+                "text": "On agreeing to the Rules amendment (A001) Agreed to without objection. "
+            },
+            "number": "834",
+            "type": "HAMDT",
+            "updateDate": "2023-12-13T08:16:18Z",
+            "url": "https://v3/amendment/118/hamdt/834?format=json"
+        },
+        {
+            "congress": 118,
+            "number": "1376",
+            "type": "SAMDT",
+            "updateDate": "2023-12-13T05:16:18Z",
+            "url": "https://v3/amendment/118/samdt/1376?format=json"
+        },
+        {
+            "congress": 118,
+            "number": "1375",
+            "type": "SAMDT",
+            "updateDate": "2023-12-08T05:16:36Z",
+            "url": "https://v3/amendment/118/samdt/1375?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-06",
+                "text": "Amendment SA 1372 agreed to in Senate by Unanimous Consent. "
+            },
+            "number": "1372",
+            "purpose": "To improve the bill.",
+            "type": "SAMDT",
+            "updateDate": "2023-12-07T16:18:37Z",
+            "url": "https://v3/amendment/118/samdt/1372?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 8 printed in Part B of House Report 118-298 to strike and replace the bill language with an amendment in the nature of a substitute.",
+            "latestAction": {
+                "actionDate": "2023-12-06",
+                "actionTime": "17:13:39",
+                "text": "On agreeing to the Scott (VA) amendment (A008) Failed by recorded vote: 202 - 213 (Roll no. 700). "
+            },
+            "number": "833",
+            "purpose": "Amendment sought to strike and replace the bill language with an amendment in the nature of a substitute.",
+            "type": "HAMDT",
+            "updateDate": "2023-12-15T08:16:12Z",
+            "url": "https://v3/amendment/118/hamdt/833?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 6 printed in Part B of House Report 118-298 to reduce the threshold value at which gifts must be reported from $50,000 to $1.",
+            "latestAction": {
+                "actionDate": "2023-12-06",
+                "actionTime": "17:09:40",
+                "text": "On agreeing to the Ogles amendment (A006) Failed by recorded vote: 94 - 320 (Roll no. 699). "
+            },
+            "number": "831",
+            "purpose": "Amendment sought to reduce the threshold value at which gifts must be reported from $50,000 to $1.",
+            "type": "HAMDT",
+            "updateDate": "2023-12-15T08:16:12Z",
+            "url": "https://v3/amendment/118/hamdt/831?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 5 printed in Part B of House Report 118-298 to add a requirement that foreign entities disclose any ties to designated foreign terrorist organizations, which includes Hamas.",
+            "latestAction": {
+                "actionDate": "2023-12-06",
+                "actionTime": "17:05:51",
+                "text": "On agreeing to the Molinaro amendment (A005) Agreed to by recorded vote: 372 - 39 (Roll no. 698). "
+            },
+            "number": "830",
+            "purpose": "Amendment adds a requirement that foreign entities disclose any ties to designated foreign terrorist organizations, which includes Hamas.",
+            "type": "HAMDT",
+            "updateDate": "2023-12-08T08:17:02Z",
+            "url": "https://v3/amendment/118/hamdt/830?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 7 printed in Part B of House Report 118-298 to add international organizations to the definition of foreign sources for the purposes of Section 117, Disclosures of Foreign Gifts.",
+            "latestAction": {
+                "actionDate": "2023-12-06",
+                "actionTime": "14:57:27",
+                "text": "On agreeing to the Perry amendment (A007) Agreed to by voice vote. "
+            },
+            "number": "832",
+            "type": "HAMDT",
+            "updateDate": "2023-12-07T16:18:38Z",
+            "url": "https://v3/amendment/118/hamdt/832?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 4 printed in Part B of House Report 118-298 to increase by one year - from four years to five years - the length of time disclosures must be publicly maintained.",
+            "latestAction": {
+                "actionDate": "2023-12-06",
+                "actionTime": "14:34:23",
+                "text": "On agreeing to the Fallon amendment (A004) Agreed to by voice vote. "
+            },
+            "number": "829",
+            "type": "HAMDT",
+            "updateDate": "2023-12-07T16:18:38Z",
+            "url": "https://v3/amendment/118/hamdt/829?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 3 printed in Part B of House Report 118-298 to prohibit institutions that commit three violations under this Act from obtaining a waiver or a renewal of a waiver.",
+            "latestAction": {
+                "actionDate": "2023-12-06",
+                "actionTime": "14:27:44",
+                "text": "On agreeing to the Fallon amendment (A003) Agreed to by voice vote. "
+            },
+            "number": "828",
+            "type": "HAMDT",
+            "updateDate": "2023-12-07T16:18:38Z",
+            "url": "https://v3/amendment/118/hamdt/828?format=json"
+        },
+        {
+            "congress": 118,
+            "description": "An amendment numbered 2 printed in Part B of House Report 118-298 to remove the personally identifiable information of staff or faculty required to disclose gifts and contracts in the bill.",
+            "latestAction": {
+                "actionDate": "2023-12-06",
+                "actionTime": "14:23:53",
+                "text": "On agreeing to the Carey amendment (A002) Agreed to by voice vote. "
+            },
+            "number": "827",
+            "type": "HAMDT",
+            "updateDate": "2023-12-07T16:18:38Z",
+            "url": "https://v3/amendment/118/hamdt/827?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 119354,
+        "next": "https://v3/amendment?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

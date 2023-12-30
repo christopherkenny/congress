@@ -1,0 +1,17 @@
+{
+    "houseRequirement": {
+        "activeRecord": true,
+        "frequency": "If specified circumstances arise.",
+        "legalAuthority": "Public Law 114–287, section 13(c)(1); (130 Stat. 1471)",
+        "nature": "Approval of recommendations related to reducing the costs of federal real estate.",
+        "number": 12478,
+        "parentAgency": "Executive Office of the President",
+        "submittingAgency": "Office of Management and Budget",
+        "submittingOfficial": "Director",
+        "updateDate": "2021-11-05"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

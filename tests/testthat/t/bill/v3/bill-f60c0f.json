@@ -1,0 +1,322 @@
+{
+    "bills": [
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-26",
+                "text": "Became Public Law No: 118-34."
+            },
+            "number": "6503",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Airport and Airway Extension Act of 2023, Part II",
+            "type": "HR",
+            "updateDate": "2023-12-29",
+            "updateDateIncludingText": "2023-12-29T12:58:54Z",
+            "url": "https://v3/bill/118/hr/6503?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-26",
+                "text": "Became Public Law No: 118-33."
+            },
+            "number": "2839",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Siletz Reservation Act to address the hunting, fishing, trapping, and animal gathering rights of the Confederated Tribes of Siletz Indians, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-29",
+            "updateDateIncludingText": "2023-12-29T12:58:54Z",
+            "url": "https://v3/bill/118/hr/2839?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-26",
+                "text": "Became Public Law No: 118-32."
+            },
+            "number": "1722",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Grand Ronde Reservation Act Amendment of 2023",
+            "type": "HR",
+            "updateDate": "2023-12-29",
+            "updateDateIncludingText": "2023-12-29T13:00:22Z",
+            "url": "https://v3/bill/118/hr/1722?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Became Public Law No: 118-31."
+            },
+            "number": "2670",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "National Defense Authorization Act for Fiscal Year 2024",
+            "type": "HR",
+            "updateDate": "2023-12-26",
+            "updateDateIncludingText": "2023-12-26T20:43:57Z",
+            "url": "https://v3/bill/118/hr/2670?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Placed on the Union Calendar, Calendar No. 276."
+            },
+            "number": "6585",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Bipartisan Workforce Pell Act",
+            "type": "HR",
+            "updateDate": "2023-12-27",
+            "updateDateIncludingText": "2023-12-27T14:36:21Z",
+            "url": "https://v3/bill/118/hr/6585?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Placed on the Union Calendar, Calendar No. 275."
+            },
+            "number": "4790",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Guiding Uniform and Responsible Disclosure Requirements and Information Limits Act of 2023",
+            "type": "HR",
+            "updateDate": "2023-12-27",
+            "updateDateIncludingText": "2023-12-27T14:36:21Z",
+            "url": "https://v3/bill/118/hr/4790?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:17:40",
+                "text": "Held at the desk."
+            },
+            "number": "3427",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Overtime Pay for Protective Services Act of 2023",
+            "type": "S",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T08:14:14Z",
+            "url": "https://v3/bill/118/s/3427?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:17:32",
+                "text": "Held at the desk."
+            },
+            "number": "2685",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Reuse Excess Property Act",
+            "type": "S",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T08:14:14Z",
+            "url": "https://v3/bill/118/s/2685?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:17:25",
+                "text": "Held at the desk."
+            },
+            "number": "2073",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Eliminate Useless Reports Act of 2023",
+            "type": "S",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T08:14:14Z",
+            "url": "https://v3/bill/118/s/2073?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:17:13",
+                "text": "Held at the desk."
+            },
+            "number": "1478",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A bill to designate United States Route 20 in the States of Oregon, Idaho, Montana, Wyoming, Nebraska, Iowa, Illinois, Indiana, Ohio, Pennsylvania, New York, and Massachusetts as the \"National Medal of Honor Highway\", and for other purposes.",
+            "type": "S",
+            "updateDate": "2023-12-26",
+            "updateDateIncludingText": "2023-12-26T17:00:24Z",
+            "url": "https://v3/bill/118/s/1478?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:17:07",
+                "text": "Held at the desk."
+            },
+            "number": "1416",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "NWR Modernization Act of 2023",
+            "type": "S",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T08:14:14Z",
+            "url": "https://v3/bill/118/s/1416?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:17:01",
+                "text": "Held at the desk."
+            },
+            "number": "1414",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "National Weather Service Communications Improvement Act",
+            "type": "S",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T08:14:13Z",
+            "url": "https://v3/bill/118/s/1414?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:16:55",
+                "text": "Held at the desk."
+            },
+            "number": "950",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Technical Correction to the Shoshone-Paiute Tribes of the Duck Valley Reservation Water Rights Settlement Act of 2023",
+            "type": "S",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T08:14:13Z",
+            "url": "https://v3/bill/118/s/950?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:16:47",
+                "text": "Held at the desk."
+            },
+            "number": "679",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "GAO Database Modernization Act of 2023",
+            "type": "S",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T08:14:13Z",
+            "url": "https://v3/bill/118/s/679?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:16:39",
+                "text": "Held at the desk."
+            },
+            "number": "484",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Combating Human Rights Abuses Act of 2023",
+            "type": "S",
+            "updateDate": "2023-12-26",
+            "updateDateIncludingText": "2023-12-26T17:15:17Z",
+            "url": "https://v3/bill/118/s/484?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "actionTime": "09:16:31",
+                "text": "Held at the desk."
+            },
+            "number": "310",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Disaster Contract Improvement Act",
+            "type": "S",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T08:14:13Z",
+            "url": "https://v3/bill/118/s/310?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6903",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Secretary of Defense to develop a plan to ensure an adequate supply of medications for the military health system.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:53Z",
+            "url": "https://v3/bill/118/hr/6903?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on the Judiciary."
+            },
+            "number": "6904",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Secretary of State to further surge capacity to better support special immigrant visa applicants who are nationals of Afghanistan, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:53Z",
+            "url": "https://v3/bill/118/hr/6904?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6902",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Department of Defense to report to Congress on the efforts of the Department to coordinate with the defense industrial base for purposes of countering certain capabilities of the People's Liberation of Army.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6902?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6901",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Secretary of Defense to submit to Congress a report on Department of Defense restrictions on the employment of former Department employees by certain countries.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6901?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 403340,
+        "next": "https://v3/bill?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

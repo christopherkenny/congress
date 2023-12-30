@@ -1,0 +1,41 @@
+{
+    "houseCommunication": {
+        "abstract": "A letter from the Chairman, Council of the District of Columbia, transmitting DC Act 24-299, \"Closing of a Portion of a Public Alley in Square 5138, S.O. 20-07517, Act of 2021\", pursuant to Public Law 93–198, section 602(c)(1); (87 Stat. 814); to the Committee on Oversight and Reform.",
+        "chamber": "House",
+        "committees": [
+            {
+                "name": "Oversight and Accountability Committee",
+                "referralDate": "2022-02-01",
+                "systemCode": "hsgo00",
+                "url": "https://v3/committee/house/hsgo00?format=xml"
+            }
+        ],
+        "communicationType": {
+            "code": "EC",
+            "name": "Executive Communication"
+        },
+        "congress": 117,
+        "congressionalRecordDate": "2022-02-01",
+        "isRulemaking": "False",
+        "legalAuthority": "Public Law 93–198, section 602(c)(1); (87 Stat. 814)",
+        "matchingRequirements": [
+            {
+                "number": 2120,
+                "url": "https://v3/house-requirement/2120"
+            }
+        ],
+        "number": 3324,
+        "reportNature": "DC Act 24-299, \"Closing of a Portion of a Public Alley in Square 5138, S.O. 20-07517, Act of 2021\".",
+        "sessionNumber": 2,
+        "submittingAgency": "Council of the District of Columbia",
+        "submittingOfficial": "Chairman",
+        "updateDate": "2022-02-02"
+    },
+    "request": {
+        "communicationNum": "3324",
+        "congress": "117",
+        "contentType": "application/json",
+        "execCommunicationType": "ec",
+        "format": "json"
+    }
+}

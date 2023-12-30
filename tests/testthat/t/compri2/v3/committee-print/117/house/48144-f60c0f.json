@@ -1,0 +1,42 @@
+{
+    "committeePrint": [
+        {
+            "associatedBills": [
+                {
+                    "congress": 117,
+                    "number": "5768",
+                    "type": "HR",
+                    "url": "https://v3/bill/117/hr/5768?format=json"
+                }
+            ],
+            "chamber": "House",
+            "citation": "117-62",
+            "committees": [
+                {
+                    "name": "Rules Committee",
+                    "systemCode": "hsru00",
+                    "url": "https://v3/committee/house/hsru00?format=json"
+                }
+            ],
+            "congress": 117,
+            "jacketNumber": 48144,
+            "number": "62",
+            "text": {
+                "count": 4,
+                "url": "https://v3/committee-print/117/house/48144/text?format=json"
+            },
+            "title": "RULES COMMITTEE PRINT 117-62 TEXT OF H.R. 5768, VIOLENT INCIDENT CLEAR- ANCE AND TECHNOLOGICAL INVESTIGATIVE METHODS ACT OF 2022",
+            "updateDate": "2022-08-01 21:19:33+00:00"
+        }
+    ],
+    "pagination": {
+        "count": 1
+    },
+    "request": {
+        "chamber": "house",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json",
+        "jacketNumber": "48144"
+    }
+}

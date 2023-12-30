@@ -1,0 +1,51 @@
+{
+    "pagination": {
+        "count": 2
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "summaries": [
+        {
+            "actionDate": "2023-05-04",
+            "actionDesc": "Reported to Senate",
+            "bill": {
+                "congress": 118,
+                "number": "106",
+                "originChamber": "Senate",
+                "originChamberCode": "S",
+                "title": "A resolution condemning Beijing's destruction of Hong Kong's democracy and rule of law.",
+                "type": "SRES",
+                "updateDateIncludingText": "2023-12-29T11:45:20Z",
+                "url": "https://v3/bill/118/sres/106?format=json"
+            },
+            "currentChamber": "Senate",
+            "currentChamberCode": "S",
+            "lastSummaryUpdateDate": "2023-12-28T23:31:07Z",
+            "text": " <p>This resolution condemns China's Hong Kong national security law (officially called <i>The Law of the People's Republic of China on Safeguarding National Security in the Hong Kong Special Administrative Region<\/i>) and related human rights abuses. The resolution also (1) supports the people of Hong Kong as they fight to exercise fundamental rights and freedoms; and (2) calls upon the Hong Kong government to drop all sedition and national security law-related charges and free all defendants immediately, including Jimmy Lai, Cardinal Zen, and at least 47 individuals known collectively as the Hong Kong 47.<\/p>",
+            "updateDate": "2023-12-29T11:45:20Z",
+            "versionCode": "25"
+        },
+        {
+            "actionDate": "2023-04-25",
+            "actionDesc": "Introduced in House",
+            "bill": {
+                "congress": 118,
+                "number": "2865",
+                "originChamber": "House",
+                "originChamberCode": "H",
+                "title": "To provide for the closure of the Consulate General of the People's Republic of China and the Hong Kong Economic and Trade Office located in New York City, and for other purposes.",
+                "type": "HR",
+                "updateDateIncludingText": "2023-12-29T11:45:20Z",
+                "url": "https://v3/bill/118/hr/2865?format=json"
+            },
+            "currentChamber": "House",
+            "currentChamberCode": "H",
+            "lastSummaryUpdateDate": "2023-12-28T23:36:26Z",
+            "text": " <p>This bill requires the President to close China's consulate in New York City and expel all diplomatic personnel assigned there within 72 hours of the bill's enactment. The bill also requires the President to close the Hong Kong Economic and Trade Office in New York City and cancel the visas or other entry documents of all Chinese citizens assigned there within the same 72-hour period.<\/p>",
+            "updateDate": "2023-12-29T11:45:20Z",
+            "versionCode": "00"
+        }
+    ]
+}

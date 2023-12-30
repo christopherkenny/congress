@@ -1,0 +1,1155 @@
+{
+    "Results": {
+        "IndexStart": 1,
+        "Issues": [
+            {
+                "Congress": "118",
+                "Id": 27301,
+                "Issue": "212",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/26/169/212/CREC-2023-12-26-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/26/169/212/CREC-2023-12-26.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/26/169/212/CREC-2023-12-26-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/26/169/212/CREC-2023-12-26-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/26/169/212/CREC-2023-12-26-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-26",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27300,
+                "Issue": "211",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/22/169/211/CREC-2023-12-22-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/22/169/211/CREC-2023-12-22.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/22/169/211/CREC-2023-12-22-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/22/169/211/CREC-2023-12-22-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/22/169/211/CREC-2023-12-22-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-22",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27299,
+                "Issue": "210",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/20/169/210/CREC-2023-12-20-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/20/169/210/CREC-2023-12-20.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/20/169/210/CREC-2023-12-20-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-20",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27298,
+                "Issue": "209",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/19/169/209/CREC-2023-12-19-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/19/169/209/CREC-2023-12-19.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/19/169/209/CREC-2023-12-19-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/19/169/209/CREC-2023-12-19-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/19/169/209/CREC-2023-12-19-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-19",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27297,
+                "Issue": "208",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/18/169/208/CREC-2023-12-18-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/18/169/208/CREC-2023-12-18.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/18/169/208/CREC-2023-12-18-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/18/169/208/CREC-2023-12-18-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-18",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27296,
+                "Issue": "207",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/15/169/207/CREC-2023-12-15-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/15/169/207/CREC-2023-12-15.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/15/169/207/CREC-2023-12-15-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/15/169/207/CREC-2023-12-15-extensions.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-15",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27295,
+                "Issue": "206",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/14/169/206/CREC-2023-12-14-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/14/169/206/CREC-2023-12-14.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/14/169/206/CREC-2023-12-14-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/14/169/206/CREC-2023-12-14-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/14/169/206/CREC-2023-12-14-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-14",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27294,
+                "Issue": "205",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/13/169/205/CREC-2023-12-13-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/13/169/205/CREC-2023-12-13.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/13/169/205/CREC-2023-12-13-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/13/169/205/CREC-2023-12-13-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/13/169/205/CREC-2023-12-13-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-13",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27293,
+                "Issue": "204",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/12/169/204/CREC-2023-12-12-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/12/169/204/CREC-2023-12-12.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/12/169/204/CREC-2023-12-12-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/12/169/204/CREC-2023-12-12-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/12/169/204/CREC-2023-12-12-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-12",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27292,
+                "Issue": "203",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/11/169/203/CREC-2023-12-11-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/11/169/203/CREC-2023-12-11.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/11/169/203/CREC-2023-12-11-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/11/169/203/CREC-2023-12-11-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/11/169/203/CREC-2023-12-11-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-11",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27291,
+                "Issue": "202",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/07/169/202/CREC-2023-12-07-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/07/169/202/CREC-2023-12-07.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/07/169/202/CREC-2023-12-07-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/07/169/202/CREC-2023-12-07-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/07/169/202/CREC-2023-12-07-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-07",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27290,
+                "Issue": "201",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/06/169/201/CREC-2023-12-06-dailydigest.pdf"
+                            },
+                            {
+                                "Part": "2",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/06/169/201/CREC-2023-12-06-dailydigest-bk1.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/06/169/201/CREC-2023-12-06.pdf"
+                            },
+                            {
+                                "Part": "2",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/06/169/201/CREC-2023-12-06-bk2.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/06/169/201/CREC-2023-12-06-house.pdf"
+                            },
+                            {
+                                "Part": "2",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/06/169/201/CREC-2023-12-06-house-bk2.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/06/169/201/CREC-2023-12-06-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/06/169/201/CREC-2023-12-06-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-06",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27289,
+                "Issue": "200",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/05/169/200/CREC-2023-12-05-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/05/169/200/CREC-2023-12-05.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/05/169/200/CREC-2023-12-05-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/05/169/200/CREC-2023-12-05-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/05/169/200/CREC-2023-12-05-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-05",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27288,
+                "Issue": "199",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/04/169/199/CREC-2023-12-04-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/04/169/199/CREC-2023-12-04.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/04/169/199/CREC-2023-12-04-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/04/169/199/CREC-2023-12-04-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/04/169/199/CREC-2023-12-04-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-04",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27287,
+                "Issue": "198",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/01/169/198/CREC-2023-12-01-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/01/169/198/CREC-2023-12-01.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/01/169/198/CREC-2023-12-01-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/12/01/169/198/CREC-2023-12-01-extensions.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-12-01",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27286,
+                "Issue": "197",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/30/169/197/CREC-2023-11-30-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/30/169/197/CREC-2023-11-30.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/30/169/197/CREC-2023-11-30-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/30/169/197/CREC-2023-11-30-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/30/169/197/CREC-2023-11-30-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-11-30",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27285,
+                "Issue": "196",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/29/169/196/CREC-2023-11-29-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/29/169/196/CREC-2023-11-29.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/29/169/196/CREC-2023-11-29-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/29/169/196/CREC-2023-11-29-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/29/169/196/CREC-2023-11-29-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-11-29",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27284,
+                "Issue": "195",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/28/169/195/CREC-2023-11-28-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/28/169/195/CREC-2023-11-28.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/28/169/195/CREC-2023-11-28-house.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/28/169/195/CREC-2023-11-28-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/28/169/195/CREC-2023-11-28-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-11-28",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27283,
+                "Issue": "194",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/27/169/194/CREC-2023-11-27-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/27/169/194/CREC-2023-11-27.pdf"
+                            }
+                        ]
+                    },
+                    "Remarks": {
+                        "Label": "Extensions of Remarks Section",
+                        "Ordinal": 4,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/27/169/194/CREC-2023-11-27-extensions.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/27/169/194/CREC-2023-11-27-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-11-27",
+                "Session": "1",
+                "Volume": "169"
+            },
+            {
+                "Congress": "118",
+                "Id": 27282,
+                "Issue": "193",
+                "Links": {
+                    "Digest": {
+                        "Label": "Daily Digest",
+                        "Ordinal": 1,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/24/169/193/CREC-2023-11-24-dailydigest.pdf"
+                            }
+                        ]
+                    },
+                    "FullRecord": {
+                        "Label": "Entire Issue",
+                        "Ordinal": 5,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/24/169/193/CREC-2023-11-24.pdf"
+                            }
+                        ]
+                    },
+                    "House": {
+                        "Label": "House Section",
+                        "Ordinal": 3,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/24/169/193/CREC-2023-11-24-house.pdf"
+                            }
+                        ]
+                    },
+                    "Senate": {
+                        "Label": "Senate Section",
+                        "Ordinal": 2,
+                        "PDF": [
+                            {
+                                "Part": "1",
+                                "Url": "https://www.congress.gov/118/crec/2023/11/24/169/193/CREC-2023-11-24-senate.pdf"
+                            }
+                        ]
+                    }
+                },
+                "PublishDate": "2023-11-24",
+                "Session": "1",
+                "Volume": "169"
+            }
+        ],
+        "SetSize": 20,
+        "TotalCount": 5303
+    },
+    "Status": {
+        "Code": "200",
+        "Message": "success"
+    }
+}

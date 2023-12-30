@@ -1,0 +1,277 @@
+{
+    "pagination": {
+        "count": 1768,
+        "next": "https://v3/member/l000174/sponsored-legislation?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "bioguideId": "l000174",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "sponsoredLegislation": [
+        {
+            "congress": 117,
+            "introducedDate": "2022-12-21",
+            "latestAction": {
+                "actionDate": "2022-12-21",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "5353",
+            "policyArea": {
+                "name": "Immigration"
+            },
+            "title": "Refugee Protection Act of 2022",
+            "type": "S",
+            "url": "https://v3/bill/117/s/5353?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2022-09-08",
+            "latestAction": {
+                "actionDate": "2022-09-08",
+                "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+            },
+            "number": "4807",
+            "policyArea": {
+                "name": "Public Lands and Natural Resources"
+            },
+            "title": "Nulhegan River and Paul Stream Wild and Scenic River Study Act of 2022",
+            "type": "S",
+            "url": "https://v3/bill/117/s/4807?format=json"
+        },
+        {
+            "amendmentNumber": "6552",
+            "congress": 117,
+            "introducedDate": "2022-12-20",
+            "latestAction": {
+                "actionDate": "2022-12-22",
+                "text": "Amendment SA 6552, under the order of 12/22/22, having achieved 60 votes in the affirmative, was agreed to in Senate by Yea-Nay Vote. 68 - 29. Record Vote Number: 421. "
+            },
+            "type": null,
+            "url": "https://v3/amendment/117/samdt/6552?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2021-09-21",
+            "latestAction": {
+                "actionDate": "2022-12-07",
+                "actionTime": "14:19:56",
+                "text": "Held at the desk."
+            },
+            "number": "2773",
+            "policyArea": {
+                "name": "Commerce"
+            },
+            "title": "Unleashing American Innovators Act of 2022",
+            "type": "S",
+            "url": "https://v3/bill/117/s/2773?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2022-12-22",
+            "latestAction": {
+                "actionDate": "2022-12-23",
+                "actionTime": "13:16:31",
+                "text": "Motion to reconsider laid on the table Agreed to without objection."
+            },
+            "number": "52",
+            "policyArea": {
+                "name": "Congress"
+            },
+            "title": "A concurrent resolution providing for a correction in the enrollment of H.R. 4373.",
+            "type": "SCONRES",
+            "url": "https://v3/bill/117/sconres/52?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2022-12-22",
+            "latestAction": {
+                "actionDate": "2022-12-23",
+                "actionTime": "12:38:20",
+                "text": "Pursuant to the provisions of H. Res. 1531, S. Con. Res. 51 is considered passed House. (text: CR H10074-10075)"
+            },
+            "number": "51",
+            "policyArea": {
+                "name": "Congress"
+            },
+            "title": "A concurrent resolution providing for a correction in the enrollment of H.R. 2617.",
+            "type": "SCONRES",
+            "url": "https://v3/bill/117/sconres/51?format=json"
+        },
+        {
+            "amendmentNumber": "6623",
+            "congress": 117,
+            "introducedDate": "2022-12-22",
+            "latestAction": {
+                "actionDate": "2022-12-22",
+                "text": "Amendment SA 6623 agreed to in Senate by Unanimous Consent. "
+            },
+            "type": null,
+            "url": "https://v3/amendment/117/samdt/6623?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2022-11-14",
+            "latestAction": {
+                "actionDate": "2022-11-14",
+                "text": "Referred to the Committee on Environment and Public Works."
+            },
+            "number": "830",
+            "policyArea": {
+                "name": "Animals"
+            },
+            "title": "A resolution expressing support for the designation of the week of October 24, 2022, to October 31, 2022, as \"Bat Week\".",
+            "type": "SRES",
+            "url": "https://v3/bill/117/sres/830?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2022-05-12",
+            "latestAction": {
+                "actionDate": "2022-05-12",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "4195",
+            "policyArea": {
+                "name": "Arts, Culture, Religion"
+            },
+            "title": "PEACE through Music Diplomacy Act",
+            "type": "S",
+            "url": "https://v3/bill/117/s/4195?format=json"
+        },
+        {
+            "amendmentNumber": "6502",
+            "congress": 117,
+            "introducedDate": "2022-11-28",
+            "latestAction": {
+                "actionDate": "2022-11-28",
+                "text": "Amendment SA 6502 agreed to in Senate by Unanimous Consent. "
+            },
+            "type": null,
+            "url": "https://v3/amendment/117/samdt/6502?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2022-09-21",
+            "latestAction": {
+                "actionDate": "2022-09-21",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "4916",
+            "policyArea": {
+                "name": "Families"
+            },
+            "title": "Runaway and Homeless Youth and Trafficking Prevention Act of 2022",
+            "type": "S",
+            "url": "https://v3/bill/117/s/4916?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2022-09-29",
+            "latestAction": {
+                "actionDate": "2022-09-30",
+                "actionTime": "12:15:04",
+                "text": "Motion to reconsider laid on the table Agreed to without objection."
+            },
+            "number": "45",
+            "policyArea": {
+                "name": "Congress"
+            },
+            "title": "A concurrent resolution providing for a correction in the enrollment of H.R. 6833.",
+            "type": "SCONRES",
+            "url": "https://v3/bill/117/sconres/45?format=json"
+        },
+        {
+            "amendmentNumber": "6214",
+            "congress": 117,
+            "introducedDate": "2022-09-29",
+            "latestAction": null,
+            "type": null,
+            "url": "https://v3/amendment/117/samdt/6214?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2021-04-22",
+            "latestAction": {
+                "actionDate": "2021-04-22",
+                "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+            },
+            "number": "1328",
+            "policyArea": {
+                "name": "Agriculture and Food"
+            },
+            "title": "Farm to School Act of 2021",
+            "type": "S",
+            "url": "https://v3/bill/117/s/1328?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2022-08-02",
+            "latestAction": {
+                "actionDate": "2022-08-02",
+                "text": "Submitted in the Senate, considered, and agreed to without amendment by Unanimous Consent. (consideration: CR S3858; text: CR S3867)"
+            },
+            "number": "739",
+            "policyArea": {
+                "name": "Congress"
+            },
+            "title": "A resolution authorizing the printing with illustrations of a document entitled \"Committee on Appropriations, United States Senate, 1867-2022\".",
+            "type": "SRES",
+            "url": "https://v3/bill/117/sres/739?format=json"
+        },
+        {
+            "amendmentNumber": "5588",
+            "congress": 117,
+            "introducedDate": "2022-09-22",
+            "latestAction": null,
+            "type": null,
+            "url": "https://v3/amendment/117/samdt/5588?format=json"
+        },
+        {
+            "amendmentNumber": "5507",
+            "congress": 117,
+            "introducedDate": "2022-09-20",
+            "latestAction": null,
+            "type": null,
+            "url": "https://v3/amendment/117/samdt/5507?format=json"
+        },
+        {
+            "amendmentNumber": "5506",
+            "congress": 117,
+            "introducedDate": "2022-09-19",
+            "latestAction": null,
+            "type": null,
+            "url": "https://v3/amendment/117/samdt/5506?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2021-07-12",
+            "latestAction": {
+                "actionDate": "2021-07-13",
+                "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 99."
+            },
+            "number": "2311",
+            "policyArea": {
+                "name": "Economics and Public Finance"
+            },
+            "title": "Emergency Security Supplemental to Respond to January 6th Appropriations Act, 2021",
+            "type": "S",
+            "url": "https://v3/bill/117/s/2311?format=json"
+        },
+        {
+            "congress": 117,
+            "introducedDate": "2021-03-22",
+            "latestAction": {
+                "actionDate": "2021-03-22",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "878",
+            "policyArea": {
+                "name": "Crime and Law Enforcement"
+            },
+            "title": "Stop Illegal Trafficking in Firearms Act of 2021",
+            "type": "S",
+            "url": "https://v3/bill/117/s/878?format=json"
+        }
+    ]
+}

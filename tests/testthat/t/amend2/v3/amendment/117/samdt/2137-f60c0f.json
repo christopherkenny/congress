@@ -1,0 +1,67 @@
+{
+    "amendment": {
+        "actions": {
+            "count": 19,
+            "url": "https://v3/amendment/117/samdt/2137/actions?format=json"
+        },
+        "amendedBill": {
+            "congress": 117,
+            "number": "3684",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Infrastructure Investment and Jobs Act",
+            "type": "HR",
+            "updateDateIncludingText": "2023-05-11T15:45:45Z",
+            "url": "https://v3/bill/117/hr/3684?format=json"
+        },
+        "amendmentsToAmendment": {
+            "count": 507,
+            "url": "https://v3/amendment/117/samdt/2137/amendments?format=json"
+        },
+        "chamber": "Senate",
+        "congress": 117,
+        "cosponsors": {
+            "count": 9,
+            "countIncludingWithdrawnCosponsors": 9,
+            "url": "https://v3/amendment/117/samdt/2137/cosponsors?format=json"
+        },
+        "latestAction": {
+            "actionDate": "2021-08-08",
+            "links": [
+                {
+                    "name": "Record Vote Number: 312",
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00312.htm"
+                },
+                {
+                    "name": "SA 2137",
+                    "url": "https://www.congress.gov/amendment/117th-congress/senate-amendment/2137"
+                }
+            ],
+            "text": "Amendment SA 2137 agreed to in Senate by Yea-Nay Vote. 69 - 28. Record Vote Number: 312. "
+        },
+        "number": "2137",
+        "proposedDate": "2021-08-01T04:00:00Z",
+        "purpose": "In the nature of a substitute.",
+        "sponsors": [
+            {
+                "bioguideId": "S001191",
+                "firstName": "Kyrsten",
+                "fullName": "Sen. Sinema, Kyrsten [D-AZ]",
+                "lastName": "Sinema",
+                "party": "D",
+                "state": "AZ",
+                "url": "https://v3/member/S001191?format=json"
+            }
+        ],
+        "submittedDate": "2021-08-01T04:00:00Z",
+        "type": "SAMDT",
+        "updateDate": "2022-02-08T17:27:59Z"
+    },
+    "request": {
+        "amendmentNumber": "2137",
+        "amendmentType": "samdt",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

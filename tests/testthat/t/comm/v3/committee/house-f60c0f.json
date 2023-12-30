@@ -1,0 +1,247 @@
+{
+    "committees": [
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Other",
+            "name": "Bicentenary Committee",
+            "systemCode": "hcza00",
+            "url": "https://v3/committee/house/hcza00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Energy (Ad Hoc) Committee",
+            "systemCode": "hhah00",
+            "url": "https://v3/committee/house/hhah00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "U.S. Role in Iranian Arms Committee",
+            "systemCode": "hlbz00",
+            "url": "https://v3/committee/house/hlbz00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Children, Youth, and Families (Select) Committee",
+            "systemCode": "hlcf00",
+            "url": "https://v3/committee/house/hlcf00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Committee on the Climate Crisis",
+            "systemCode": "hlcn00",
+            "url": "https://v3/committee/house/hlcn00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Committee on Committees Committee",
+            "systemCode": "hlcq00",
+            "url": "https://v3/committee/house/hlcq00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Committee on Ethics (105th)",
+            "systemCode": "hleb00",
+            "url": "https://v3/committee/house/hleb00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Committee on Economic Disparity and Fairness in Growth",
+            "systemCode": "hlef00",
+            "url": "https://v3/committee/house/hlef00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Ethics (Select) Committee",
+            "systemCode": "hlet00",
+            "url": "https://v3/committee/house/hlet00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Subcommittee on the Weaponization of the Federal Government",
+            "parent": {
+                "name": "Judiciary Committee",
+                "systemCode": "hsju00",
+                "url": "https://v3/committee/house/hsju00?format=json"
+            },
+            "systemCode": "hlfd00",
+            "url": "https://v3/committee/house/hlfd00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Energy Independence and Global Warming (Select) Committee",
+            "systemCode": "hlgw00",
+            "url": "https://v3/committee/house/hlgw00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Response to Hurricane Katrina Committee",
+            "systemCode": "hlhk00",
+            "url": "https://v3/committee/house/hlhk00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Hunger Committee",
+            "subcommittees": [
+                {
+                    "name": "International Task Force Subcommittee",
+                    "systemCode": "hlhn01",
+                    "url": "https://v3/committee/house/hlhn01?format=json"
+                },
+                {
+                    "name": "Domestic Task Force Subcommittee",
+                    "systemCode": "hlhn02",
+                    "url": "https://v3/committee/house/hlhn02?format=json"
+                }
+            ],
+            "systemCode": "hlhn00",
+            "url": "https://v3/committee/house/hlhn00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "International Task Force Subcommittee",
+            "parent": {
+                "name": "Hunger Committee",
+                "systemCode": "hlhn00",
+                "url": "https://v3/committee/house/hlhn00?format=json"
+            },
+            "systemCode": "hlhn01",
+            "url": "https://v3/committee/house/hlhn01?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Domestic Task Force Subcommittee",
+            "parent": {
+                "name": "Hunger Committee",
+                "systemCode": "hlhn00",
+                "url": "https://v3/committee/house/hlhn00?format=json"
+            },
+            "systemCode": "hlhn02",
+            "url": "https://v3/committee/house/hlhn02?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Select Panel Committee",
+            "systemCode": "hlie00",
+            "url": "https://v3/committee/house/hlie00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Select",
+            "name": "Intelligence (Permanent Select) Committee",
+            "subcommittees": [
+                {
+                    "name": "Emerging Threats Subcommittee",
+                    "systemCode": "hlig03",
+                    "url": "https://v3/committee/house/hlig03?format=json"
+                },
+                {
+                    "name": "Counterterrorism, Counterintelligence, and Counterproliferation Subcommittee",
+                    "systemCode": "hlig05",
+                    "url": "https://v3/committee/house/hlig05?format=json"
+                },
+                {
+                    "name": "Terrorism and Homeland Security Subcommittee",
+                    "systemCode": "hlig07",
+                    "url": "https://v3/committee/house/hlig07?format=json"
+                },
+                {
+                    "name": "Intelligence Modernization and Readiness Subcommittee",
+                    "systemCode": "hlig08",
+                    "url": "https://v3/committee/house/hlig08?format=json"
+                },
+                {
+                    "name": "National Intelligence Enterprise Subcommittee",
+                    "systemCode": "hlig06",
+                    "url": "https://v3/committee/house/hlig06?format=json"
+                },
+                {
+                    "name": "Oversight and Investigations Subcommittee",
+                    "systemCode": "hlig09",
+                    "url": "https://v3/committee/house/hlig09?format=json"
+                },
+                {
+                    "name": "Strategic Technologies and Advanced Research Subcommittee",
+                    "systemCode": "hlig10",
+                    "url": "https://v3/committee/house/hlig10?format=json"
+                },
+                {
+                    "name": "Central Intelligence Agency Subcommittee",
+                    "systemCode": "hlig01",
+                    "url": "https://v3/committee/house/hlig01?format=json"
+                },
+                {
+                    "name": "National Security Agency and Cyber Subcommittee",
+                    "systemCode": "hlig02",
+                    "url": "https://v3/committee/house/hlig02?format=json"
+                },
+                {
+                    "name": "Subcommittee on Defense Intelligence and Overhead Architecture",
+                    "systemCode": "hlig04",
+                    "url": "https://v3/committee/house/hlig04?format=json"
+                }
+            ],
+            "systemCode": "hlig00",
+            "url": "https://v3/committee/house/hlig00?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Central Intelligence Agency Subcommittee",
+            "parent": {
+                "name": "Intelligence (Permanent Select) Committee",
+                "systemCode": "hlig00",
+                "url": "https://v3/committee/house/hlig00?format=json"
+            },
+            "systemCode": "hlig01",
+            "url": "https://v3/committee/house/hlig01?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "National Security Agency and Cyber Subcommittee",
+            "parent": {
+                "name": "Intelligence (Permanent Select) Committee",
+                "systemCode": "hlig00",
+                "url": "https://v3/committee/house/hlig00?format=json"
+            },
+            "systemCode": "hlig02",
+            "url": "https://v3/committee/house/hlig02?format=json"
+        },
+        {
+            "chamber": "House",
+            "committeeTypeCode": "Standing",
+            "name": "Emerging Threats Subcommittee",
+            "parent": {
+                "name": "Intelligence (Permanent Select) Committee",
+                "systemCode": "hlig00",
+                "url": "https://v3/committee/house/hlig00?format=json"
+            },
+            "systemCode": "hlig03",
+            "url": "https://v3/committee/house/hlig03?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 395,
+        "next": "https://v3/committee/house?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "chamber": "house",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

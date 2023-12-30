@@ -1,0 +1,80 @@
+{
+    "boundCongressionalRecord": [
+        {
+            "congress": 80,
+            "date": "1948-05-19",
+            "sections": [
+                {
+                    "endPage": 6155,
+                    "name": "House of Representatives",
+                    "startPage": 6099
+                }
+            ],
+            "sessionNumber": 2,
+            "updateDate": "2023-04-27",
+            "volumeNumber": 94
+        },
+        {
+            "congress": 80,
+            "date": "1948-05-19",
+            "sections": [
+                {
+                    "endPage": 6098,
+                    "name": "Senate",
+                    "startPage": 6051
+                }
+            ],
+            "sessionNumber": 2,
+            "updateDate": "2023-04-27",
+            "volumeNumber": 94
+        },
+        {
+            "congress": 80,
+            "date": "1948-05-19",
+            "sections": [
+                {
+                    "endPage": 6155,
+                    "name": "Entire Issue",
+                    "startPage": 6051
+                }
+            ],
+            "sessionNumber": 2,
+            "updateDate": "2023-04-27",
+            "volumeNumber": 94
+        },
+        {
+            "congress": 80,
+            "dailyDigest": {
+                "endPage": 365,
+                "startPage": 362,
+                "text": [
+                    {
+                        "type": "PDF",
+                        "url": "https://congress.gov/crecb/1948/GPO-CRECB-1948-pt14-Pages362-365.pdf"
+                    }
+                ]
+            },
+            "date": "1948-05-19",
+            "sections": [
+                {
+                    "endPage": 365,
+                    "name": "Daily Digest",
+                    "startPage": 362
+                }
+            ],
+            "sessionNumber": 2,
+            "updateDate": "2022-11-04",
+            "volumeNumber": 94
+        }
+    ],
+    "pagination": {
+        "count": 4
+    },
+    "request": {
+        "contentType": "application/json",
+        "day": "19",
+        "format": "json",
+        "month": "5",
+        "year": "1948"
+    }
+}

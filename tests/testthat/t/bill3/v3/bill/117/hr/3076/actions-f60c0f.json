@@ -1,0 +1,230 @@
+{
+    "actions": [
+        {
+            "actionCode": "E40000",
+            "actionDate": "2022-04-06",
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Became Public Law No: 117-108.",
+            "type": "President"
+        },
+        {
+            "actionCode": "36000",
+            "actionDate": "2022-04-06",
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Became Public Law No: 117-108.",
+            "type": "BecameLaw"
+        },
+        {
+            "actionCode": "E30000",
+            "actionDate": "2022-04-06",
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Signed by President.",
+            "type": "President"
+        },
+        {
+            "actionCode": "36000",
+            "actionDate": "2022-04-06",
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Signed by President.",
+            "type": "BecameLaw"
+        },
+        {
+            "actionCode": "E20000",
+            "actionDate": "2022-03-28",
+            "sourceSystem": {
+                "code": 2,
+                "name": "House floor actions"
+            },
+            "text": "Presented to President.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "28000",
+            "actionDate": "2022-03-28",
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Presented to President.",
+            "type": "President"
+        },
+        {
+            "actionDate": "2022-03-08",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Message on Senate action sent to the House.",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-08",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2022-03-08T23:23:13Z",
+                    "rollNumber": 71,
+                    "sessionNumber": 2,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00071.xml"
+                }
+            ],
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Passed Senate without amendment by Yea-Nay Vote. 79 - 19. Record Vote Number: 71.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "17000",
+            "actionDate": "2022-03-08",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2022-03-08T23:23:13Z",
+                    "rollNumber": 71,
+                    "sessionNumber": 2,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00071.xml"
+                }
+            ],
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Passed/agreed to in Senate: Passed Senate without amendment by Yea-Nay Vote. 79 - 19. Record Vote Number: 71.",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-08",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2022-03-08T22:45:05Z",
+                    "rollNumber": 70,
+                    "sessionNumber": 2,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00070.xml"
+                }
+            ],
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Motion to waive section 3101(b) of S. Con. Res. 11, 114th Congress, with respect to the measure agreed to in Senate by Yea-Nay Vote. 68 - 30. Record Vote Number: 70. (CR S1046)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-08",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Point of order that the measure violates section 3101(b) of S. Con. Res. 11, 114th Congress, raised in Senate.",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-08",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S1023-1048)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-07",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2022-03-07T23:35:09Z",
+                    "rollNumber": 69,
+                    "sessionNumber": 2,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00069.xml"
+                }
+            ],
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Cloture on the measure invoked in Senate by Yea-Nay Vote. 74 - 17. Record Vote Number: 69. (CR S1011)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-07",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S1001-1012)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-03",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S961-965)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-02",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Cloture motion on the measure presented in Senate. (CR S947)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-02",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S923-924, S947)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-01",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Measure laid before Senate by motion.",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-01",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Motion to proceed to consideration of measure agreed to in Senate by Voice Vote.",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2022-03-01",
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Motion to proceed to measure considered in Senate. (consideration: CR S845-872)",
+            "type": "Floor"
+        }
+    ],
+    "pagination": {
+        "count": 74,
+        "next": "https://v3/bill/117/hr/3076/actions?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "billNumber": "3076",
+        "billType": "hr",
+        "billUrl": "https://v3/bill/117/hr/3076?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

@@ -1,0 +1,253 @@
+{
+    "actions": [
+        {
+            "actionDate": "2021-08-08",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2021-08-09T00:45:48Z",
+                    "rollNumber": 312,
+                    "sessionNumber": 1,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00312.xml"
+                }
+            ],
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Amendment SA 2137 agreed to in Senate by Yea-Nay Vote. 69 - 28. Record Vote Number: 312. ",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-08",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2021-08-09T00:37:19Z",
+                    "rollNumber": 311,
+                    "sessionNumber": 1,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00311.xml"
+                }
+            ],
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Motion to waive all applicable budgetary discipline with respect to amendment SA 2137 agreed to in Senate by Yea-Nay Vote. 64 - 33. Record Vote Number: 311. ",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-08",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Point of order that the amendment violates section 306 of the CBA raised in Senate with respect to amendment SA 2137. ",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-08",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S6034, S6056-6057)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-07",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2021-08-07T17:14:46Z",
+                    "rollNumber": 309,
+                    "sessionNumber": 1,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00309.xml"
+                }
+            ],
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Cloture on amendment SA 2137 invoked in Senate by Yea-Nay Vote. 67 - 27. Record Vote Number: 309. (CR S5997)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-07",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S5995)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-05",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Cloture motion on amendment SA 2137 presented in Senate. (CR S5922)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-05",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S5894)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-04",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S5791)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-03",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S5683)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-02",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Considered by Senate. (consideration: CR S5529)",
+            "type": "Floor"
+        },
+        {
+            "actionDate": "2021-08-01",
+            "sourceSystem": {
+                "code": 0,
+                "name": "Senate"
+            },
+            "text": "Amendment SA 2137 proposed by Senator Schumer for Senator Sinema. (consideration: CR S5240; text: CR S5255-5528) In the nature of a substitute.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "97000",
+            "actionDate": "2021-08-07",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2021-08-07T17:14:46Z",
+                    "rollNumber": 309,
+                    "sessionNumber": 1,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00309.xml"
+                }
+            ],
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Roll call votes on amendments in Senate: Cloture on amendment SA 2137 invoked in Senate by Yea-Nay Vote. 67 - 27. Record Vote Number: 309.(CR S5997)",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "97000",
+            "actionDate": "2021-08-08",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2021-08-09T00:45:48Z",
+                    "rollNumber": 312,
+                    "sessionNumber": 1,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00312.xml"
+                }
+            ],
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Roll call votes on amendments in Senate: Amendment SA 2137 agreed to in Senate by Yea-Nay Vote. 69 - 28. Record Vote Number: 312.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "94000",
+            "actionDate": "2021-08-08",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2021-08-09T00:45:48Z",
+                    "rollNumber": 312,
+                    "sessionNumber": 1,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00312.xml"
+                }
+            ],
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Senate amendment agreed to: Amendment SA 2137 agreed to in Senate by Yea-Nay Vote. 69 - 28. Record Vote Number: 312.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "97000",
+            "actionDate": "2021-08-08",
+            "recordedVotes": [
+                {
+                    "chamber": "Senate",
+                    "congress": 117,
+                    "date": "2021-08-09T00:37:19Z",
+                    "rollNumber": 311,
+                    "sessionNumber": 1,
+                    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00311.xml"
+                }
+            ],
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Roll call votes on amendments in Senate: Motion to waive all applicable budgetary discipline with respect to amendment SA 2137 agreed to in Senate by Yea-Nay Vote. 64 - 33. Record Vote Number: 311.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "93000",
+            "actionDate": "2021-08-01",
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Senate amendment proposed (on the floor): Amendment SA 2137 proposed by Senator Schumer for Senator Sinema.(consideration: CR S5240; text: CR S5255-5528)",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "91000",
+            "actionDate": "2021-08-01",
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Senate amendment submitted",
+            "type": "Floor"
+        }
+    ],
+    "pagination": {
+        "count": 18
+    },
+    "request": {
+        "amendmentNumber": "2137",
+        "amendmentType": "samdt",
+        "amendmentUrl": "https://v3/amendment/117/samdt/2137?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

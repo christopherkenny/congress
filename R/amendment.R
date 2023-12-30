@@ -37,9 +37,9 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
     cli::cli_abort('Either both or neither of {.arg from_date} and {.arg to_date} must be specified.')
   }
 
-  if (!is.null(item) && item == 'text' && congress < 117) {
+  if (!is.null(item) && item == 'text' && congress < 117) { # nocov start
     cli::cli_warn('Text of amendments is only available for the 117th Congress and later.')
-  }
+  } # nocov end
 
   endpt <- amendment_endpoint(congress = congress, type = type, number = number, item = item)
   req <- httr2::request(base_url = api_url()) |>

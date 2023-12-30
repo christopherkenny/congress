@@ -1,0 +1,232 @@
+{
+    "pagination": {
+        "count": 166707,
+        "next": "https://v3/senate-communication?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "senateCommunications": [
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 2721,
+            "updateDate": "2020-09-28 23:04:09+00:00",
+            "url": "https://v3/senate-communication/116/ec/2721?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 105,
+            "number": 800,
+            "updateDate": "2020-09-28 23:03:38+00:00",
+            "url": "https://v3/senate-communication/105/ec/800?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 102,
+            "number": 997,
+            "updateDate": "2020-09-28 23:03:38+00:00",
+            "url": "https://v3/senate-communication/102/ec/997?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 4456,
+            "updateDate": "2020-09-28 23:05:42+00:00",
+            "url": "https://v3/senate-communication/116/ec/4456?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 4452,
+            "updateDate": "2020-09-28 23:05:42+00:00",
+            "url": "https://v3/senate-communication/116/ec/4452?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 4457,
+            "updateDate": "2020-09-28 23:05:42+00:00",
+            "url": "https://v3/senate-communication/116/ec/4457?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 103,
+            "number": 2292,
+            "updateDate": "2020-09-28 23:03:38+00:00",
+            "url": "https://v3/senate-communication/103/ec/2292?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 4453,
+            "updateDate": "2020-09-28 23:05:42+00:00",
+            "url": "https://v3/senate-communication/116/ec/4453?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 4454,
+            "updateDate": "2020-09-28 23:05:42+00:00",
+            "url": "https://v3/senate-communication/116/ec/4454?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 4455,
+            "updateDate": "2020-09-28 23:05:42+00:00",
+            "url": "https://v3/senate-communication/116/ec/4455?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 2768,
+            "updateDate": "2020-09-28 23:03:48+00:00",
+            "url": "https://v3/senate-communication/116/ec/2768?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 2769,
+            "updateDate": "2020-09-28 23:03:48+00:00",
+            "url": "https://v3/senate-communication/116/ec/2769?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 4460,
+            "updateDate": "2020-09-28 23:05:42+00:00",
+            "url": "https://v3/senate-communication/116/ec/4460?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "POM",
+                "name": "Petition or Memorial"
+            },
+            "congress": 109,
+            "number": 108,
+            "updateDate": "2019-10-17 13:37:21+00:00",
+            "url": "https://v3/senate-communication/109/pom/108?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 1552,
+            "updateDate": "2020-09-28 23:02:32+00:00",
+            "url": "https://v3/senate-communication/116/ec/1552?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 2771,
+            "updateDate": "2020-09-28 23:03:48+00:00",
+            "url": "https://v3/senate-communication/116/ec/2771?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 2772,
+            "updateDate": "2020-09-28 23:03:48+00:00",
+            "url": "https://v3/senate-communication/116/ec/2772?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 2770,
+            "updateDate": "2020-09-28 23:03:48+00:00",
+            "url": "https://v3/senate-communication/116/ec/2770?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 3173,
+            "updateDate": "2020-09-28 23:04:34+00:00",
+            "url": "https://v3/senate-communication/116/ec/3173?format=json"
+        },
+        {
+            "chamber": "Senate",
+            "communicationType": {
+                "code": "EC",
+                "name": "Executive Communication"
+            },
+            "congress": 116,
+            "number": 2773,
+            "updateDate": "2020-09-28 23:03:48+00:00",
+            "url": "https://v3/senate-communication/116/ec/2773?format=json"
+        }
+    ]
+}

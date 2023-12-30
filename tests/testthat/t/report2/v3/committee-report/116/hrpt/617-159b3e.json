@@ -1,0 +1,40 @@
+{
+    "committeeReports": [
+        {
+            "associatedBill": [
+                {
+                    "congress": 116,
+                    "number": "6395",
+                    "type": "HR",
+                    "url": "https://v3/bill/116/hr/6395?format=json"
+                }
+            ],
+            "chamber": "House",
+            "citation": "H. Rept. 116-617",
+            "committees": [
+
+            ],
+            "congress": 116,
+            "isConferenceReport": true,
+            "issueDate": "2020-12-03T05:00:00Z",
+            "number": 617,
+            "part": 1,
+            "reportType": "H.Rept.",
+            "sessionNumber": 2,
+            "text": {
+                "count": 2,
+                "url": "https://v3/committee-report/116/hrpt/617/text?format=json"
+            },
+            "title": "WILLIAM M. (MAC) THORNBERRY NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2021",
+            "type": "HRPT",
+            "updateDate": "2022-05-20T16:27:57Z"
+        }
+    ],
+    "request": {
+        "congress": "116",
+        "contentType": "application/json",
+        "format": "json",
+        "reportNumber": "617",
+        "reportType": "hrpt"
+    }
+}

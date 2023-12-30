@@ -1,0 +1,88 @@
+{
+    "issue": {
+        "congress": 117,
+        "fullIssue": {
+            "articles": {
+                "count": 256,
+                "url": "https://v3/daily-congressional-record/168/153/articles?format=json"
+            },
+            "entireIssue": [
+                {
+                    "part": "1",
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-pt1-PgD1015.htm"
+                },
+                {
+                    "part": "1",
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22.pdf"
+                }
+            ],
+            "sections": [
+                {
+                    "endPage": "D1020",
+                    "name": "Daily Digest",
+                    "startPage": "D1015",
+                    "text": [
+                        {
+                            "type": "PDF",
+                            "url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-dailydigest.pdf"
+                        },
+                        {
+                            "type": "Formatted Text",
+                            "url": "https://www.congress.gov/117/crec/2022/09/22d22se2-1.htm"
+                        }
+                    ]
+                },
+                {
+                    "endPage": "E976",
+                    "name": "Extensions of Remarks Section",
+                    "startPage": "E965",
+                    "text": [
+                        {
+                            "part": "1",
+                            "type": "PDF",
+                            "url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-extensions.pdf"
+                        }
+                    ]
+                },
+                {
+                    "endPage": "H8115",
+                    "name": "House Section",
+                    "startPage": "H8069",
+                    "text": [
+                        {
+                            "part": "1",
+                            "type": "PDF",
+                            "url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-house.pdf"
+                        }
+                    ]
+                },
+                {
+                    "endPage": "S5033",
+                    "name": "Senate Section",
+                    "startPage": "S4941",
+                    "text": [
+                        {
+                            "part": "1",
+                            "type": "PDF",
+                            "url": "https://www.congress.gov/117/crec/2022/09/22/168/153/CREC-2022-09-22-senate.pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        "issueDate": "2022-09-22T04:00:00Z",
+        "issueNumber": "153",
+        "sessionNumber": 2,
+        "updateDate": "2022-09-23T12:00:14Z",
+        "url": "https://v3/daily-congressional-record/168/153?format=json",
+        "volumeNumber": 168
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json",
+        "issueNumber": "153",
+        "volumeNumber": "168"
+    }
+}

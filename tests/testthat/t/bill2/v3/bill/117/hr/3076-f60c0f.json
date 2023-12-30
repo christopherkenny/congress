@@ -1,0 +1,108 @@
+{
+    "bill": {
+        "actions": {
+            "count": 74,
+            "url": "https://v3/bill/117/hr/3076/actions?format=json"
+        },
+        "amendments": {
+            "count": 48,
+            "url": "https://v3/bill/117/hr/3076/amendments?format=json"
+        },
+        "cboCostEstimates": [
+            {
+                "description": "As ordered reported by the House Committee on Oversight and Reform on May 13, 2021\n",
+                "pubDate": "2021-07-14T17:27:00Z",
+                "title": "H.R. 3076, Postal Service Reform Act of 2021",
+                "url": "https://www.cbo.gov/publication/57356"
+            },
+            {
+                "description": "As Posted on February 3, 2022,\nand as Amended by Amendment #1, the Manager's Amendment, as Posted on February 4, 2022\n",
+                "pubDate": "2022-02-04T18:03:00Z",
+                "title": "Estimated Budgetary Effects of Rules Committee Print 117-32 for H.R. 3076, the Postal Service Reform Act of 2022",
+                "url": "https://www.cbo.gov/publication/57821"
+            }
+        ],
+        "committeeReports": [
+            {
+                "citation": "H. Rept. 117-89,Part 1",
+                "url": "https://v3/committee-report/117/HRPT/89?format=json"
+            },
+            {
+                "citation": "H. Rept. 117-89,Part 2",
+                "url": "https://v3/committee-report/117/HRPT/89?format=json"
+            }
+        ],
+        "committees": {
+            "count": 3,
+            "url": "https://v3/bill/117/hr/3076/committees?format=json"
+        },
+        "congress": 117,
+        "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 167, Number 81 (Tuesday, May 11, 2021)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov<\/a>]\nBy Mrs. CAROLYN B. MALONEY of New York:\nH.R. 3076.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section I, Clause 18 (Necessary and Proper\nClause)\n[Page H2195]\n<\/pre>",
+        "cosponsors": {
+            "count": 102,
+            "countIncludingWithdrawnCosponsors": 102,
+            "url": "https://v3/bill/117/hr/3076/cosponsors?format=json"
+        },
+        "introducedDate": "2021-05-11",
+        "latestAction": {
+            "actionDate": "2022-04-06",
+            "text": "Became Public Law No: 117-108."
+        },
+        "laws": [
+            {
+                "number": "117-108",
+                "type": "Public Law"
+            }
+        ],
+        "number": "3076",
+        "originChamber": "House",
+        "policyArea": {
+            "name": "Government Operations and Politics"
+        },
+        "relatedBills": {
+            "count": 4,
+            "url": "https://v3/bill/117/hr/3076/relatedbills?format=json"
+        },
+        "sponsors": [
+            {
+                "bioguideId": "M000087",
+                "district": 12,
+                "firstName": "CAROLYN",
+                "fullName": "Rep. Maloney, Carolyn B. [D-NY-12]",
+                "isByRequest": "N",
+                "lastName": "MALONEY",
+                "middleName": "B.",
+                "party": "D",
+                "state": "NY",
+                "url": "https://v3/member/M000087?format=json"
+            }
+        ],
+        "subjects": {
+            "count": 17,
+            "url": "https://v3/bill/117/hr/3076/subjects?format=json"
+        },
+        "summaries": {
+            "count": 5,
+            "url": "https://v3/bill/117/hr/3076/summaries?format=json"
+        },
+        "textVersions": {
+            "count": 7,
+            "url": "https://v3/bill/117/hr/3076/text?format=json"
+        },
+        "title": "Postal Service Reform Act of 2022",
+        "titles": {
+            "count": 14,
+            "url": "https://v3/bill/117/hr/3076/titles?format=json"
+        },
+        "type": "HR",
+        "updateDate": "2023-05-11T15:46:24Z",
+        "updateDateIncludingText": "2023-05-11T15:46:24Z"
+    },
+    "request": {
+        "billNumber": "3076",
+        "billType": "hr",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

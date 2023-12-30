@@ -76,11 +76,9 @@ cong_member <- function(bioguide = NULL, item = NULL,
           clean_names() #|>
         #dplyr::mutate(across(where(is.list), function(x) lapply(x, dplyr::bind_rows)))
       } else {
-        if (item == 'sponsored-legislation') {
-          item <- 'sponsoredLegislation'
-        } else {
-          item <- 'cosponsoredLegislation'
-        }
+        item <- item |>
+          stringr::str_replace_all('-([a-z])', toupper) |>
+          stringr::str_remove_all('-')
 
         out <- out |>
           purrr::pluck(item) |>

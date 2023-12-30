@@ -47,7 +47,7 @@ set_congress_key <- function(key, overwrite = FALSE, install = FALSE) {
   key <- list(key)
   names(key) <- name
 
-  if (install) {
+  if (install) { # nocov start
     r_env <- file.path(Sys.getenv('HOME'), '.Renviron')
 
     if (!file.exists(r_env)) {
@@ -78,7 +78,7 @@ set_congress_key <- function(key, overwrite = FALSE, install = FALSE) {
     }
   } else {
     do.call(Sys.setenv, key)
-  }
+  } # nocov end
 
   invisible(key)
 }

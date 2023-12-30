@@ -1,0 +1,112 @@
+{
+    "houseRequirements": [
+        {
+            "number": 12478,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/12478?format=json"
+        },
+        {
+            "number": 12557,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/12557?format=json"
+        },
+        {
+            "number": 2471,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/2471?format=json"
+        },
+        {
+            "number": 11475,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/11475?format=json"
+        },
+        {
+            "number": 13189,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/13189?format=json"
+        },
+        {
+            "number": 12944,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/12944?format=json"
+        },
+        {
+            "number": 12667,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/12667?format=json"
+        },
+        {
+            "number": 11351,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/11351?format=json"
+        },
+        {
+            "number": 10071,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/10071?format=json"
+        },
+        {
+            "number": 12460,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/12460?format=json"
+        },
+        {
+            "number": 11865,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/11865?format=json"
+        },
+        {
+            "number": 12895,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/12895?format=json"
+        },
+        {
+            "number": 13148,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/13148?format=json"
+        },
+        {
+            "number": 3181,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/3181?format=json"
+        },
+        {
+            "number": 11886,
+            "updateDate": "2017-09-20",
+            "url": "https://v3/house-requirement/11886?format=json"
+        },
+        {
+            "number": 7387,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/7387?format=json"
+        },
+        {
+            "number": 52,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/52?format=json"
+        },
+        {
+            "number": 13180,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/13180?format=json"
+        },
+        {
+            "number": 12738,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/12738?format=json"
+        },
+        {
+            "number": 12634,
+            "updateDate": "2021-11-05",
+            "url": "https://v3/house-requirement/12634?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 3226,
+        "next": "https://v3/house-requirement?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

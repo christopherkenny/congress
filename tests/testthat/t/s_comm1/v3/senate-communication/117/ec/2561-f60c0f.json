@@ -1,0 +1,30 @@
+{
+    "request": {
+        "communicationNum": "2561",
+        "congress": "117",
+        "contentType": "application/json",
+        "execCommunicationType": "ec",
+        "format": "json"
+    },
+    "senateCommunication": {
+        "abstract": "A communication from the Board Chairman and Chief Executive Officer, Farm Credit Administration, transmitting, pursuant to law, the Administration's annual report for calendar year 2021; to the Committee on Agriculture, Nutrition, and Forestry.",
+        "chamber": "Senate",
+        "committees": [
+            {
+                "name": "Agriculture, Nutrition, and Forestry Committee",
+                "referralDate": "2021-11-03",
+                "systemCode": "ssaf00",
+                "url": "https://v3/committee/senate/ssaf00?format=json"
+            }
+        ],
+        "communicationType": {
+            "code": "EC",
+            "name": "Executive Communication"
+        },
+        "congress": 117,
+        "congressionalRecordDate": "2021-11-03",
+        "number": 2561,
+        "sessionNumber": 1,
+        "updateDate": "2021-11-04 07:15:16+00:00"
+    }
+}

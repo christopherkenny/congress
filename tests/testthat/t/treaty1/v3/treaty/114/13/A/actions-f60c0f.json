@@ -1,0 +1,55 @@
+{
+    "actions": [
+        {
+            "actionCode": "S05291",
+            "actionDate": "2018-07-26",
+            "committee": null,
+            "text": "Resolution of advice and consent to ratification agreed to in Senate by Division Vote.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "S05311",
+            "actionDate": "2018-07-26",
+            "committee": null,
+            "text": "Treaty moved through its parliamentary stages up to and including presentation of the resolution of advice and consent to ratification.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "S05120",
+            "actionDate": "2016-12-09",
+            "committee": {
+                "name": "Foreign Relations Committee",
+                "systemCode": "ssfr00",
+                "url": "https://v3/committee/senate/ssfr00?format=json"
+            },
+            "text": "Received in the Senate and referred to the Committee on Foreign Relations by unanimous consent removing the injunction of secrecy.",
+            "type": "IntroReferral"
+        },
+        {
+            "actionCode": "S05220",
+            "actionDate": "2018-07-26",
+            "committee": null,
+            "text": "Considered by Senate.",
+            "type": "Floor"
+        },
+        {
+            "actionCode": "S05153",
+            "actionDate": "2018-05-15",
+            "committee": {
+                "name": "Foreign Relations Committee",
+                "systemCode": "ssfr00",
+                "url": "https://v3/committee/senate/ssfr00?format=json"
+            },
+            "text": "Reported by Senator Corker, Committee on Foreign Relations with printed Ex. Rept. 115-2 and a resolution of advice and consent to ratification with 1 declaration. Executive Calendar No. 2.",
+            "type": "Committee"
+        }
+    ],
+    "pagination": {
+        "count": 5
+    },
+    "request": {
+        "congress": "114",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
