@@ -1,5 +1,10 @@
 # congress 0.0.3
 
+## New features
+
+* When `clean = TRUE`, a new attribute is added (`response_info`) which provides pagination and request information.
+* When `clean = TRUE`, date and datetime columns are now converted automatically to the correct types.
+
 ## Upstream API Updates
 
 * Addresses changes in December 2023 API changes (#16)

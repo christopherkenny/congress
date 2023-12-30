@@ -43,7 +43,7 @@ cong_daily_record <- function(volume = NULL, issue = NULL, item = NULL,
     httr2::req_headers(
       "accept" = glue::glue("application/{format}")
     )
-  out <- req |>
+  resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
@@ -51,7 +51,7 @@ cong_daily_record <- function(volume = NULL, issue = NULL, item = NULL,
                       'xml' = httr2::resp_body_xml
   )
 
-  out <- out |>
+  out <- resp <- resp |>
     formatter()
 
   if (clean) {
@@ -82,6 +82,9 @@ cong_daily_record <- function(volume = NULL, issue = NULL, item = NULL,
       }
 
     }
+    out <- out |>
+      add_resp_info(resp) |>
+      cast_date_columns()
   }
   out
 }

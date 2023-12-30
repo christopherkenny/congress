@@ -55,6 +55,5 @@ cong_amendment(congress = 117)
 cong_amendment(congress = 117, type = 'samdt', number = 2137)
 
 cong_amendment(congress = 117, type = 'samdt', number = 2137, item = 'actions')
-
 \dontshow{\}) # examplesIf}
 }

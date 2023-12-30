@@ -25,7 +25,6 @@
 #'
 #' cong_amendment(congress = 117, type = 'samdt', number = 2137, item = 'actions')
 #'
-#'
 cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
                            from_date = NULL, to_date = NULL,
                            limit = 20, offset = 0,
@@ -56,7 +55,7 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
     httr2::req_headers(
       "accept" = glue::glue("application/{format}")
     )
-  out <- req |>
+  resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
@@ -64,12 +63,10 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
                       'xml' = httr2::resp_body_xml
   )
 
-  out <- out |>
+  out <- resp <- resp |>
     formatter()
 
   if (clean) {
-
-
     if (is.null(number)) {
       out <- out |>
         purrr::pluck('amendments') |>
@@ -92,6 +89,9 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
           clean_names()
       }
     }
+    out <- out |>
+      add_resp_info(resp) |>
+      cast_date_columns()
   }
   out
 }

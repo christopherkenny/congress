@@ -52,7 +52,7 @@ cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, i
       'accept' = glue::glue('application/{format}')
     )
 
-  out <- req |>
+  resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
@@ -60,7 +60,7 @@ cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, i
     'xml' = httr2::resp_body_xml
   )
 
-  out <- out |>
+  out <- resp <- resp |>
     formatter()
 
   if (clean) {
@@ -83,6 +83,9 @@ cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, i
           clean_names()
       }
     }
+    out <- out |>
+      add_resp_info(resp) |>
+      cast_date_columns()
   }
   out
 }
