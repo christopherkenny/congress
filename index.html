@@ -86,63 +86,77 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development version of congress from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<p>You can install the stable version of <code>congress</code> from <a href="">CRAN</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
-<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"christopherkenny/congress"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">'congress'</span><span class="op">)</span></span></code></pre></div>
+<p>You can install the development version of congress from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># install.packages('devtools')</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">'christopherkenny/congress'</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
 <p>To get the most recent <code>nomination</code>s, we can use the <code><a href="reference/cong_nomination.html">cong_nomination()</a></code> function. By default, it gets the most recent 20. We request here, the most recent 10.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/christopherkenny/congress" class="external-link">congress</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="reference/cong_nomination.html">cong_nomination</a></span><span class="op">(</span>limit <span class="op">=</span> <span class="fl">10</span><span class="op">)</span></span>
-<span><span class="co">#&gt; # A tibble: 10 × 13</span></span>
-<span><span class="co">#&gt;    citation congress description  lates…¹ lates…² nomin…³ nomin…⁴ nomin…⁵ number</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;        &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt; </span></span>
-<span><span class="co">#&gt;  1 PN2678   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2678  </span></span>
-<span><span class="co">#&gt;  2 PN2673   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2673  </span></span>
-<span><span class="co">#&gt;  3 PN2675   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2675  </span></span>
-<span><span class="co">#&gt;  4 PN2677   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2677  </span></span>
-<span><span class="co">#&gt;  5 PN2676   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2676  </span></span>
-<span><span class="co">#&gt;  6 PN2674   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2674  </span></span>
-<span><span class="co">#&gt;  7 PN2672   117      "Ronald T. … 2022-0… Receiv… TRUE    FALSE   "Gover… 2672  </span></span>
-<span><span class="co">#&gt;  8 PN2670   117      "Todd E. Ed… 2022-0… Receiv… TRUE    FALSE   "Gover… 2670  </span></span>
-<span><span class="co">#&gt;  9 PN2666   117      "Travis Hil… 2022-0… Receiv… TRUE    FALSE   "Gover… 2666  </span></span>
-<span><span class="co">#&gt; 10 PN2669   117      " "          2022-0… Receiv… FALSE   TRUE    "U.S. … 2669  </span></span>
-<span><span class="co">#&gt; # … with 4 more variables: part_number &lt;chr&gt;, received_date &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   update_date &lt;chr&gt;, url &lt;chr&gt;, and abbreviated variable names</span></span>
-<span><span class="co">#&gt; #   ¹​latest_action_action_date, ²​latest_action_text,</span></span>
-<span><span class="co">#&gt; #   ³​nomination_type_is_civilian, ⁴​nomination_type_is_military,</span></span>
-<span><span class="co">#&gt; #   ⁵​nomination_type_name</span></span></code></pre></div>
+<span><span class="co">#&gt; # A tibble: 10 × 12</span></span>
+<span><span class="co">#&gt;    citation congress description       latest_action_action…¹ latest_action_text</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;             &lt;date&gt;                 &lt;chr&gt;             </span></span>
+<span><span class="co">#&gt;  1 PN1020   118      John A. Kazen, o… 2023-12-20             By unanimous cons…</span></span>
+<span><span class="co">#&gt;  2 PN742    118      David E. White, … 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  3 PN831    118      Claudia Slacik, … 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  4 PN1025   118      Jennifer L. Fain… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  5 PN548    118      Tobin John Bradl… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  6 PN740    118      Mark Toshiro Uye… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  7 PN832    118      Tadd M. Johnson,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  8 PN918    118      William Brodsky,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  9 PN1044   118      Spencer Bachus I… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 10 PN871    118      Rion J. Ramirez,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt; # ℹ abbreviated name: ¹​latest_action_action_date</span></span>
+<span><span class="co">#&gt; # ℹ 7 more variables: nomination_type_is_civilian &lt;chr&gt;, number &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   organization &lt;chr&gt;, part_number &lt;chr&gt;, received_date &lt;date&gt;,</span></span>
+<span><span class="co">#&gt; #   update_date &lt;dttm&gt;, url &lt;chr&gt;</span></span></code></pre></div>
 <div class="section level3">
 <h3 id="supported-endpoints">Supported Endpoints:<a class="anchor" aria-label="anchor" href="#supported-endpoints"></a>
 </h3>
 <p>This package is designed for <code>v3</code> of the <a href="https://github.com/LibraryOfCongress/api.congress.gov/" class="external-link">Congress.gov API</a>. It currently supports the following endpoints:</p>
 <ul>
-<li>bill with <code><a href="reference/cong_bill.html">cong_bill()</a></code>
+<li>bills with <code><a href="reference/cong_bill.html">cong_bill()</a></code>
 </li>
 <li>amendments with <code><a href="reference/cong_amendment.html">cong_amendment()</a></code>
 </li>
 <li>summaries with <code><a href="reference/cong_summaries.html">cong_summaries()</a></code>
 </li>
-<li>congress with <code><a href="reference/cong_congress.html">cong_congress()</a></code>
+<li>congresses with <code><a href="reference/cong_congress.html">cong_congress()</a></code>
 </li>
-<li>member with <code><a href="reference/cong_member.html">cong_member()</a></code>
+<li>members with <code><a href="reference/cong_member.html">cong_member()</a></code>
 </li>
-<li>committee with <code><a href="reference/cong_committee.html">cong_committee()</a></code>
+<li>committees with <code><a href="reference/cong_committee.html">cong_committee()</a></code>
 </li>
-<li>committee report with <code><a href="reference/cong_committee_report.html">cong_committee_report()</a></code>
+<li>committee reports with <code><a href="reference/cong_committee_report.html">cong_committee_report()</a></code>
 </li>
-<li>Congressional Record with <code><a href="reference/cong_record.html">cong_record()</a></code>
+<li>committee prints with <code><a href="reference/cong_committee_print.html">cong_committee_print()</a></code>
 </li>
-<li>House communication with <code>cong_communication()</code>
+<li>committee meetings with <code><a href="reference/cong_committee_meeting.html">cong_committee_meeting()</a></code>
 </li>
-<li>nomination with <code><a href="reference/cong_nomination.html">cong_nomination()</a></code>
+<li>Congressional Records with <code><a href="reference/cong_record.html">cong_record()</a></code>
 </li>
-<li>treaty with <code><a href="reference/cong_treaty.html">cong_treaty()</a></code>
+<li>Daily Congressional Records with <code><a href="reference/cong_daily_record.html">cong_daily_record()</a></code>
+</li>
+<li>Bound Congressional Records with <code><a href="reference/cong_bound_record.html">cong_bound_record()</a></code>
+</li>
+<li>House communications with <code><a href="reference/cong_house_communication.html">cong_house_communication()</a></code>
+</li>
+<li>Senate communications with <code><a href="reference/cong_senate_communication.html">cong_senate_communication()</a></code>
+</li>
+<li>nominations with <code><a href="reference/cong_nomination.html">cong_nomination()</a></code>
+</li>
+<li>treaties with <code><a href="reference/cong_treaty.html">cong_treaty()</a></code>
+</li>
+<li>hearings with <code><a href="reference/cong_hearing.html">cong_hearing()</a></code>
 </li>
 </ul>
 </div>
@@ -183,6 +197,8 @@
 <div class="dev-status">
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
+<li><a href="https://CRAN.R-project.org/package=congress" class="external-link"><img src="https://www.r-pkg.org/badges/version/congress" alt="CRAN status"></a></li>
+<li><a href="https://lifecycle.r-lib.org/articles/stages.html#stable" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable"></a></li>
 <li><a href="https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/christopherkenny/congress/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
 </ul>
 </div>
