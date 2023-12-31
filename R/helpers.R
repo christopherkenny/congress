@@ -50,3 +50,54 @@ cast_date_columns <- function(tb) {
                     function(x) as.POSIXct(x, format = '%Y-%m-%dT%H:%M:%SZ', tz = 'UTC'))
     )
 }
+
+# request next ----
+parse_fun_from_url <- function(x) {
+  endpt <- x |>
+    httr2::url_parse() |>
+    purrr::pluck('path') |>
+    stringr::str_split('/') |>
+    unlist() |>
+    purrr::pluck(3) # 1 = '', 2 = 'v3, 3 = endpoint
+
+  rlang::as_closure(do.call(switch, args = c(endpt, endpoints)))
+}
+
+parse_args <- function(x, fn) {
+  components <- x |>
+    httr2::url_parse()
+
+  url_pieces <- components |>
+    purrr::pluck('path') |>
+    stringr::str_split('/') |>
+    unlist() |>
+    purrr::discard_at(at = 1:3)
+  names(url_pieces) <- names(formals(fn))[seq_along(url_pieces)]
+
+  query <- unlist(components$query)
+  names(query) <- names(query) |>
+    stringr::str_replace(pattern = 'fromDateTime', replacement = 'from_date') |>
+    stringr::str_replace(pattern = 'toDateTime', replacement = 'to_date')
+
+  c(url_pieces, query)
+}
+
+endpoints <- list(
+  'amendment' = 'cong_amendment',
+  'bill' = 'cong_bill',
+  'bound-congressional-record' = 'cong_bound_record',
+  'committee-meeting' = 'cong_committee_meeting',
+  'committee-print' = 'cong_committee_print',
+  'committee-report' = 'cong_committee_report',
+  'committee' = 'cong_committee',
+  'congress' = 'cong_congress',
+  'daily-congressional-record' = 'cong_daily_record',
+  'house-communication' = 'cong_house_communication',
+  'house-requirement' = 'cong_house_requirement',
+  'member' = 'cong_member',
+  'nomination' = 'cong_nomination',
+  'congressional-record' = 'cong_record',
+  'senate-communication' = 'cong_senate_communication',
+  'summaries' = 'cong_summaries',
+  'treaty' = 'cong_treaty'
+)

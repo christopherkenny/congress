@@ -1,0 +1,314 @@
+{
+    "bills": [
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on the Judiciary."
+            },
+            "number": "6904",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Secretary of State to further surge capacity to better support special immigrant visa applicants who are nationals of Afghanistan, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:53Z",
+            "url": "https://v3/bill/118/hr/6904?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6902",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Department of Defense to report to Congress on the efforts of the Department to coordinate with the defense industrial base for purposes of countering certain capabilities of the People's Liberation of Army.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6902?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6901",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Secretary of Defense to submit to Congress a report on Department of Defense restrictions on the employment of former Department employees by certain countries.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6901?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Oversight and Accountability."
+            },
+            "number": "6887",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 86 Main Street in Haverstraw, New York, as the \"Paul Piperato Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2023-12-27",
+            "updateDateIncludingText": "2023-12-27T14:36:22Z",
+            "url": "https://v3/bill/118/hr/6887?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6900",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend title 10, United States Code, to clarify the scope of the SkillBridge program of the Department of Defense, to require annual circulation of information about such program to certain members of the Armed Forces serving on active duty, and to require an annual public awareness campaign to inform potential employers of the program.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6900?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6899",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To require the Assistant Secretary of the Army for Acquisition, Logistics, and Technology submit to Congress a report on light tactical wheeled vehicles of the Army, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6899?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6898",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Secretary of Defense to conduct an operational assessment of the installation defense capabilities of the Department of Defense to defeat unmanned aircraft system.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6898?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "944",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Directing the Secretary of Defense to provide a briefing to the Committee on Armed Services of the House of Representatives on plans to implement certain STEM education and outreach efforts.",
+            "type": "HRES",
+            "updateDate": "2023-12-27",
+            "updateDateIncludingText": "2023-12-27T14:36:21Z",
+            "url": "https://v3/bill/118/hres/944?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on House Administration."
+            },
+            "number": "6894",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Federal Election Campaign Act of 1971 to prohibit the misrepresentation of actions on behalf of candidates, political parties, and political committees and organizations, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:53Z",
+            "url": "https://v3/bill/118/hr/6894?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on House Administration."
+            },
+            "number": "6893",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To prohibit the disbursement of funds to entities owned or controlled by individuals with executive or managerial authority over the operations of political committees, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6893?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6897",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To require the Secretary of Defense to establish a pilot program to evaluate novel pharmaceutical manufacturing technologies to reduce the reliance of the Department on foreign manufacturers for active pharmaceutical ingredients and key starting materials.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:53Z",
+            "url": "https://v3/bill/118/hr/6897?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6896",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To require a briefing on the national security threats associated with Chinese autonomous ground vehicles operating in the United States.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6896?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Oversight and Accountability."
+            },
+            "number": "6886",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct agencies to be transparent when using automated and augmented systems to interact with the public or make critical decisions, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:53Z",
+            "url": "https://v3/bill/118/hr/6886?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, Oversight and Accountability, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "6892",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To provide for the coverage of medically necessary food and vitamins and individual amino acids for digestive and inherited metabolic disorders under Federal health programs and private health insurance, to ensure State and Federal protection for existing coverage, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:53Z",
+            "url": "https://v3/bill/118/hr/6892?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on House Administration."
+            },
+            "number": "6885",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend title 3, United States Code, to include under the Electoral Count Act of 1887 that the vote of an elector of a State shall not be counted if, with respect to the election for President, the State did not include on the ballot in the State a candidate for President who was nominated by a major political party, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-27",
+            "updateDateIncludingText": "2023-12-27T08:15:17Z",
+            "url": "https://v3/bill/118/hr/6885?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committees on Oversight and Accountability, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "6882",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To enhance the Federal Government's planning and preparation for extreme weather and the Federal Government's dissemination of best practices to respond to extreme weather, thereby increasing resilience, improving regional coordination, and mitigating the financial risk to the Federal Government from such extreme weather, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:53Z",
+            "url": "https://v3/bill/118/hr/6882?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Armed Services."
+            },
+            "number": "6895",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the National Defense Authorization Act for Fiscal Year 2023 to extend Federal support for bioindustrial manufacturing processes to include support for the manufacturing of certain pharmaceutical ingredients.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6895?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Energy and Commerce."
+            },
+            "number": "6881",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the Federal Trade Commission to establish standards for making publicly available information about the training data and algorithms used in artificial intelligence foundation models, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6881?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the Committee on Financial Services, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "6905",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To require the Secretary of Housing and Urban Development to establish a program to require the National Institute of Standards and Technology to inspect buildings containing covered Federally assisted rental housing, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-12-30",
+            "updateDateIncludingText": "2023-12-30T08:15:17Z",
+            "url": "https://v3/bill/118/hr/6905?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-12-22",
+                "text": "Referred to the House Committee on Education and the Workforce."
+            },
+            "number": "6888",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To develop career and technical education programs of study and facilities in the areas of renewable energy.",
+            "type": "HR",
+            "updateDate": "2023-12-23",
+            "updateDateIncludingText": "2023-12-23T18:13:52Z",
+            "url": "https://v3/bill/118/hr/6888?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 12178,
+        "next": "https://v3/bill/118?offset=40&limit=20&format=json",
+        "prev": "https://v3/bill/118?offset=0&limit=20&format=json"
+    },
+    "request": {
+        "congress": "118",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

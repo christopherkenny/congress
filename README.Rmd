@@ -51,6 +51,21 @@ library(congress)
 cong_nomination(limit = 10)
 ```
 
+You can request up to 250 results, using `limit`. Once a request has been made, you can request the next set by using the `offset` argument:
+
+```{r}
+cong_nomination(limit = 10, offset = 10)
+```
+
+You can also request the next set using the `cong_request_next()` function:
+
+```{r}
+cong_nomination(limit = 10) |> 
+  cong_request_next()
+```
+
+
+
 ### Supported Endpoints:
 
 This package is designed for `v3` of the [Congress.gov API](https://github.com/LibraryOfCongress/api.congress.gov/). It currently supports the following endpoints:
