@@ -106,19 +106,70 @@
 <span><span class="co">#&gt;    citation congress description       latest_action_action…¹ latest_action_text</span></span>
 <span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;             &lt;date&gt;                 &lt;chr&gt;             </span></span>
 <span><span class="co">#&gt;  1 PN1025   118      Jennifer L. Fain… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  2 PN548    118      Tobin John Bradl… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  3 PN1044   118      Spencer Bachus I… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  2 PN871    118      Rion J. Ramirez,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  3 PN832    118      Tadd M. Johnson,… 2023-12-20             Confirmed by the …</span></span>
 <span><span class="co">#&gt;  4 PN1020   118      John A. Kazen, o… 2023-12-20             By unanimous cons…</span></span>
-<span><span class="co">#&gt;  5 PN742    118      David E. White, … 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  6 PN871    118      Rion J. Ramirez,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  5 PN548    118      Tobin John Bradl… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  6 PN1044   118      Spencer Bachus I… 2023-12-20             Confirmed by the …</span></span>
 <span><span class="co">#&gt;  7 PN918    118      William Brodsky,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  8 PN832    118      Tadd M. Johnson,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  8 PN742    118      David E. White, … 2023-12-20             Confirmed by the …</span></span>
 <span><span class="co">#&gt;  9 PN805    118      Bradford Pentony… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 10 PN740    118      Mark Toshiro Uye… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 10 PN831    118      Claudia Slacik, … 2023-12-20             Confirmed by the …</span></span>
 <span><span class="co">#&gt; # ℹ abbreviated name: ¹​latest_action_action_date</span></span>
 <span><span class="co">#&gt; # ℹ 7 more variables: nomination_type_is_civilian &lt;chr&gt;, number &lt;chr&gt;,</span></span>
 <span><span class="co">#&gt; #   organization &lt;chr&gt;, part_number &lt;chr&gt;, received_date &lt;date&gt;,</span></span>
 <span><span class="co">#&gt; #   update_date &lt;dttm&gt;, url &lt;chr&gt;</span></span></code></pre></div>
+<p>You can request up to 250 results, using <code>limit</code>. Once a request has been made, you can request the next set by using the <code>offset</code> argument:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/cong_nomination.html">cong_nomination</a></span><span class="op">(</span>limit <span class="op">=</span> <span class="fl">10</span>, offset <span class="op">=</span> <span class="fl">10</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 10 × 13</span></span>
+<span><span class="co">#&gt;    citation congress description       latest_action_action…¹ latest_action_text</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;             &lt;date&gt;                 &lt;chr&gt;             </span></span>
+<span><span class="co">#&gt;  1 PN805    118      Bradford Pentony… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  2 PN1045   118      Tanya F. Otsuka,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  3 PN36     118      Elizabeth H. Ric… 2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  4 PN365-2  118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  5 PN196-4  118      &lt;NA&gt;              2023-12-13             Placed on Senate …</span></span>
+<span><span class="co">#&gt;  6 PN157    118      Jose Javier Rodr… 2023-12-18             By unanimous cons…</span></span>
+<span><span class="co">#&gt;  7 PN884    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  8 PN883    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  9 PN376    118      S. Kato Crews, o… 2023-12-19             By unanimous cons…</span></span>
+<span><span class="co">#&gt; 10 PN888    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt; # ℹ abbreviated name: ¹​latest_action_action_date</span></span>
+<span><span class="co">#&gt; # ℹ 8 more variables: nomination_type_is_civilian &lt;chr&gt;, number &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   organization &lt;chr&gt;, part_number &lt;chr&gt;, received_date &lt;date&gt;,</span></span>
+<span><span class="co">#&gt; #   update_date &lt;dttm&gt;, url &lt;chr&gt;, nomination_type_is_military &lt;chr&gt;</span></span></code></pre></div>
+<p>You can also request the next set using the <code><a href="reference/cong_request_next.html">cong_request_next()</a></code> function:</p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/cong_nomination.html">cong_nomination</a></span><span class="op">(</span>limit <span class="op">=</span> <span class="fl">10</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="reference/cong_request_next.html">cong_request_next</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 20 × 13</span></span>
+<span><span class="co">#&gt;    citation congress description       latest_action_action…¹ latest_action_text</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;             &lt;date&gt;                 &lt;chr&gt;             </span></span>
+<span><span class="co">#&gt;  1 PN1025   118      Jennifer L. Fain… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  2 PN871    118      Rion J. Ramirez,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  3 PN832    118      Tadd M. Johnson,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  4 PN1020   118      John A. Kazen, o… 2023-12-20             By unanimous cons…</span></span>
+<span><span class="co">#&gt;  5 PN548    118      Tobin John Bradl… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  6 PN1044   118      Spencer Bachus I… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  7 PN918    118      William Brodsky,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  8 PN742    118      David E. White, … 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  9 PN805    118      Bradford Pentony… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 10 PN831    118      Claudia Slacik, … 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 11 PN805    118      Bradford Pentony… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 12 PN1045   118      Tanya F. Otsuka,… 2023-12-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 13 PN36     118      Elizabeth H. Ric… 2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 14 PN365-2  118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 15 PN196-4  118      &lt;NA&gt;              2023-12-13             Placed on Senate …</span></span>
+<span><span class="co">#&gt; 16 PN157    118      Jose Javier Rodr… 2023-12-18             By unanimous cons…</span></span>
+<span><span class="co">#&gt; 17 PN884    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 18 PN883    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt; 19 PN376    118      S. Kato Crews, o… 2023-12-19             By unanimous cons…</span></span>
+<span><span class="co">#&gt; 20 PN888    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt; # ℹ abbreviated name: ¹​latest_action_action_date</span></span>
+<span><span class="co">#&gt; # ℹ 8 more variables: nomination_type_is_civilian &lt;chr&gt;, number &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   organization &lt;chr&gt;, part_number &lt;chr&gt;, received_date &lt;date&gt;,</span></span>
+<span><span class="co">#&gt; #   update_date &lt;dttm&gt;, url &lt;chr&gt;, nomination_type_is_military &lt;chr&gt;</span></span></code></pre></div>
 <div class="section level3">
 <h3 id="supported-endpoints">Supported Endpoints:<a class="anchor" aria-label="anchor" href="#supported-endpoints"></a>
 </h3>
