@@ -30,7 +30,7 @@ Imports:
     tibble,
     tidyr
 URL: https://github.com/christopherkenny/congress,
-    http://christophertkenny.com/congress/
+    https://christophertkenny.com/congress/
 BugReports: https://github.com/christopherkenny/congress/issues
 Suggests: 
     httptest2,
