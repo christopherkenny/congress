@@ -4,6 +4,7 @@
 
 * When `clean = TRUE`, a new attribute is added (`response_info`) which provides pagination and request information.
 * When `clean = TRUE`, date and datetime columns are now converted automatically to the correct types.
+* Adds `cong_request_next()` function which requests the next set of results. This can be piped from the last response, such as `cong_bill() |> cong_request_next()` to row bind the results.
 
 ## Upstream API Updates
 
