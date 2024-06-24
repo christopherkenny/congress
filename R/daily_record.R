@@ -28,6 +28,9 @@ cong_daily_record <- function(volume = NULL, issue = NULL, item = NULL,
                         format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
+  if (clean) {
+    format <- 'json'
+  }
 
   endpt <- daily_record_endpoint(volume, issue, item)
   req <- httr2::request(base_url = api_url()) |>

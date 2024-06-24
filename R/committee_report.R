@@ -35,6 +35,9 @@ cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, i
                                   format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
+  if (clean) {
+    format <- 'json'
+  }
 
   endpt <- committee_report_endpoint(congress = congress, type = type, number = number, item = item)
   req <- httr2::request(base_url = api_url()) |>

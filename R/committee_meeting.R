@@ -32,6 +32,9 @@ cong_committee_meeting <- function(congress = NULL, chamber = NULL, number = NUL
                                    format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
+  if (clean) {
+    format <- 'json'
+  }
 
   endpt <- committee_meeting_endpoint(congress = congress, chamber = chamber,
                                       number = number)

@@ -29,6 +29,9 @@ cong_hearing <- function(congress = NULL, chamber = NULL, number = NULL,
                          format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
+  if (clean) {
+    format <- 'json'
+  }
 
   endpt <- hearing_endpoint(congress = congress, chamber = chamber,
                             number = number)

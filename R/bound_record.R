@@ -28,6 +28,9 @@ cong_bound_record <- function(year = NULL, month = NULL, day = NULL,
                         format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
+  if (clean) {
+    format <- 'json'
+  }
 
   endpt <- bound_record_endpoint(year, month, day)
   req <- httr2::request(base_url = api_url()) |>

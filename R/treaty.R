@@ -37,6 +37,10 @@ cong_treaty <- function(congress = NULL, number = NULL, suffix = NULL, item = NU
                             format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
+  if (clean) {
+    format <- 'json'
+  }
+
   from_date <- check_date(from_date)
   to_date <- check_date(to_date)
   if (is.null(from_date) & !is.null(to_date) || !is.null(from_date) & is.null(to_date)) {

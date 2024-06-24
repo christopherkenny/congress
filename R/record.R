@@ -24,6 +24,9 @@ cong_record <- function(year = NULL, month = NULL, day = NULL,
                         format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
+  if (clean) {
+    format <- 'json'
+  }
 
   endpt <- record_endpoint()
   req <- httr2::request(base_url = api_url()) |>
