@@ -51,7 +51,7 @@ cong_record <- function(year = NULL, month = NULL, day = NULL,
                       'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {
@@ -62,6 +62,10 @@ cong_record <- function(year = NULL, month = NULL, day = NULL,
       tidyr::unnest_wider(col = where(~purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
       dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
       clean_names()
+
+    out$issues <- lapply(out$issues, function(z) {
+      dplyr::bind_rows(z)
+    })
 
     out <- out |>
       add_resp_info(resp) |>
