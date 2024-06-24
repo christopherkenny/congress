@@ -1,3 +1,8 @@
+# congress 0.0.4
+
+* When `clean = TRUE`, the `json` version will be downloaded and used to clean the object (#17).
+* `cong_reports()` did not fully rectangularize the data. This has been fixed (#18).
+
 # congress 0.0.3
 
 ## New features
