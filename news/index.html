@@ -50,6 +50,7 @@
 <h3 id="new-features-0-0-3">New features<a class="anchor" aria-label="anchor" href="#new-features-0-0-3"></a></h3>
 <ul><li>When <code>clean = TRUE</code>, a new attribute is added (<code>response_info</code>) which provides pagination and request information.</li>
 <li>When <code>clean = TRUE</code>, date and datetime columns are now converted automatically to the correct types.</li>
+<li>Adds <code><a href="../reference/cong_request_next.html">cong_request_next()</a></code> function which requests the next set of results. This can be piped from the last response, such as <code>cong_bill() |&gt; cong_request_next()</code> to row bind the results.</li>
 </ul></div>
 <div class="section level3">
 <h3 id="upstream-api-updates-0-0-3">Upstream API Updates<a class="anchor" aria-label="anchor" href="#upstream-api-updates-0-0-3"></a></h3>
