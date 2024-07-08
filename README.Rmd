@@ -66,7 +66,7 @@ cong_nomination(limit = 10) |>
 
 
 
-### Supported Endpoints:
+## Supported Endpoints:
 
 This package is designed for `v3` of the [Congress.gov API](https://github.com/LibraryOfCongress/api.congress.gov/). It currently supports the following endpoints:
 
@@ -87,3 +87,22 @@ This package is designed for `v3` of the [Congress.gov API](https://github.com/L
 - nominations with `cong_nomination()`
 - treaties with `cong_treaty()`
 - hearings with `cong_hearing()`
+
+## Authentication
+
+To sign up for an API key, visit the [Congress.gov API](https://api.congress.gov/sign-up/) sign-up website. 
+
+Once you have your key, you can set it in your environment as `CONGRESS_KEY`.
+You can:
+
+1. Add this directly to your `.Renviron` file with a line like so
+
+```r
+CONGRESS_KEY='yourkey'
+```
+
+If doing this, I recommend using `usethis::edit_r_environ()` to ensure that you open the correct .Renviron file.
+
+2. Set this in you current R session with `Sys.setenv(CONGRESS_KEY='yourkey')`.
+
+3. Set this using the `congress::set_congress_key()` function. To save this for future sessions, run with `install = TRUE`.
