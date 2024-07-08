@@ -1,87 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://christophertkenny.com/congress/404.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/authors.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/index.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/news/index.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_amendment.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_bill.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_bound_record.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_committee.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_committee_meeting.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_committee_print.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_committee_report.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_congress.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_daily_record.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_hearing.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_house_communication.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_house_requirement.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_member.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_nomination.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_record.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_request_next.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_senate_communication.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_summaries.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/cong_treaty.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/key.html</loc>
-  </url>
-  <url>
-    <loc>http://christophertkenny.com/congress/reference/set_congress_key.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>http://christophertkenny.com/congress/404.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/LICENSE-text.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/LICENSE.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/authors.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/index.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/news/index.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_amendment.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_bill.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_bound_record.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_committee.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_committee_meeting.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_committee_print.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_committee_report.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_congress.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_daily_record.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_hearing.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_house_communication.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_house_requirement.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_member.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_nomination.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_record.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_request_next.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_senate_communication.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_summaries.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/cong_treaty.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/index.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/key.html</loc></url>
+<url><loc>http://christophertkenny.com/congress/reference/set_congress_key.html</loc></url>
 </urlset>
+

@@ -5,65 +5,45 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Download and read data on United States congressional proceedings. Data is read from the Library of Congress's Congress.gov Application Programming Interface (&lt;https://github.com/LibraryOfCongress/api.congress.gov/&gt;). Functions exist for all version 3 endpoints, including for bills, amendments, congresses, summaries, members, reports, communications, nominations, and treaties.">
 <title>Access the Congress.gov API • congress</title>
-<!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png">
-<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png">
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Access the Congress.gov API">
+<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
+<link href="deps/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Access the Congress.gov API">
+<meta name="description" content="Download and read data on United States congressional proceedings. Data is read from the Library of Congress's Congress.gov Application Programming Interface (&lt;https://github.com/LibraryOfCongress/api.congress.gov/&gt;). Functions exist for all version 3 endpoints, including for bills, amendments, congresses, summaries, members, reports, communications, nominations, and treaties.">
 <meta property="og:description" content="Download and read data on United States congressional proceedings. Data is read from the Library of Congress's Congress.gov Application Programming Interface (&lt;https://github.com/LibraryOfCongress/api.congress.gov/&gt;). Functions exist for all version 3 endpoints, including for bills, amendments, congresses, summaries, members, reports, communications, nominations, and treaties.">
 <meta property="og:image" content="http://christophertkenny.com/congress/logo.png">
-<!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
-    
 
-    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-light" data-bs-theme="light"><div class="container">
-    
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-light" data-bs-theme="light" aria-label="Site navigation"><div class="container">
+
     <a class="navbar-brand me-2" href="index.html">congress</a>
 
     <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.4</small>
 
-    
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
-<li class="nav-item">
-  <a class="nav-link" href="reference/index.html">Reference</a>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="news/index.html">Changelog</a>
-</li>
+<li class="nav-item"><a class="nav-link" href="reference/index.html">Reference</a></li>
+<li class="nav-item"><a class="nav-link" href="news/index.html">Changelog</a></li>
       </ul>
-<form class="form-inline my-2 my-lg-0" role="search">
-        <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="search.json" id="search-input" placeholder="Search for" autocomplete="off">
-</form>
-
-      <ul class="navbar-nav">
-<li class="nav-item">
-  <a class="external-link nav-link" href="https://github.com/christopherkenny/congress/" aria-label="github">
-    <span class="fab fa fab fa-github fa-lg"></span>
-     
-  </a>
-</li>
+<ul class="navbar-nav">
+<li class="nav-item"><form class="form-inline" role="search">
+ <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
+</form></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/christopherkenny/congress/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
-    
+
   </div>
 </nav><div class="container template-home">
 <div class="row">
@@ -94,43 +74,43 @@
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/christopherkenny/congress" class="external-link">congress</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="reference/cong_nomination.html">cong_nomination</a></span><span class="op">(</span>limit <span class="op">=</span> <span class="fl">10</span><span class="op">)</span></span>
-<span><span class="co">#&gt; # A tibble: 10 × 12</span></span>
-<span><span class="co">#&gt;    citation congress description       latest_action_action…¹ latest_action_text</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;             &lt;date&gt;                 &lt;chr&gt;             </span></span>
-<span><span class="co">#&gt;  1 PN1025   118      Jennifer L. Fain… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  2 PN871    118      Rion J. Ramirez,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  3 PN832    118      Tadd M. Johnson,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  4 PN1020   118      John A. Kazen, o… 2023-12-20             By unanimous cons…</span></span>
-<span><span class="co">#&gt;  5 PN548    118      Tobin John Bradl… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  6 PN1044   118      Spencer Bachus I… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  7 PN918    118      William Brodsky,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  8 PN742    118      David E. White, … 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  9 PN805    118      Bradford Pentony… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 10 PN831    118      Claudia Slacik, … 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt; # ℹ abbreviated name: ¹​latest_action_action_date</span></span>
-<span><span class="co">#&gt; # ℹ 7 more variables: nomination_type_is_civilian &lt;chr&gt;, number &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   organization &lt;chr&gt;, part_number &lt;chr&gt;, received_date &lt;date&gt;,</span></span>
-<span><span class="co">#&gt; #   update_date &lt;dttm&gt;, url &lt;chr&gt;</span></span></code></pre></div>
-<p>You can request up to 250 results, using <code>limit</code>. Once a request has been made, you can request the next set by using the <code>offset</code> argument:</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="reference/cong_nomination.html">cong_nomination</a></span><span class="op">(</span>limit <span class="op">=</span> <span class="fl">10</span>, offset <span class="op">=</span> <span class="fl">10</span><span class="op">)</span></span>
 <span><span class="co">#&gt; # A tibble: 10 × 13</span></span>
 <span><span class="co">#&gt;    citation congress description       latest_action_action…¹ latest_action_text</span></span>
 <span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;             &lt;date&gt;                 &lt;chr&gt;             </span></span>
-<span><span class="co">#&gt;  1 PN805    118      Bradford Pentony… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  2 PN1045   118      Tanya F. Otsuka,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  3 PN36     118      Elizabeth H. Ric… 2023-12-19             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  4 PN365-2  118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  5 PN196-4  118      &lt;NA&gt;              2023-12-13             Placed on Senate …</span></span>
-<span><span class="co">#&gt;  6 PN157    118      Jose Javier Rodr… 2023-12-18             By unanimous cons…</span></span>
-<span><span class="co">#&gt;  7 PN884    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  8 PN883    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  9 PN376    118      S. Kato Crews, o… 2023-12-19             By unanimous cons…</span></span>
-<span><span class="co">#&gt; 10 PN888    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  1 PN1293   118      Robin Michelle M… 2024-06-20             Cloture motion pr…</span></span>
+<span><span class="co">#&gt;  2 PN830    118      Patricia L. Lee,… 2024-06-20             Cloture motion pr…</span></span>
+<span><span class="co">#&gt;  3 PN1355   118      Charles J. Willo… 2024-06-20             Cloture motion pr…</span></span>
+<span><span class="co">#&gt;  4 PN1343   118      Stephanie Sander… 2024-06-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  5 PN1851   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt;  6 PN1847   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt;  7 PN1850   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt;  8 PN1842   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt;  9 PN1849   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt; 10 PN1848   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
 <span><span class="co">#&gt; # ℹ abbreviated name: ¹​latest_action_action_date</span></span>
 <span><span class="co">#&gt; # ℹ 8 more variables: nomination_type_is_civilian &lt;chr&gt;, number &lt;chr&gt;,</span></span>
 <span><span class="co">#&gt; #   organization &lt;chr&gt;, part_number &lt;chr&gt;, received_date &lt;date&gt;,</span></span>
 <span><span class="co">#&gt; #   update_date &lt;dttm&gt;, url &lt;chr&gt;, nomination_type_is_military &lt;chr&gt;</span></span></code></pre></div>
+<p>You can request up to 250 results, using <code>limit</code>. Once a request has been made, you can request the next set by using the <code>offset</code> argument:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/cong_nomination.html">cong_nomination</a></span><span class="op">(</span>limit <span class="op">=</span> <span class="fl">10</span>, offset <span class="op">=</span> <span class="fl">10</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 10 × 13</span></span>
+<span><span class="co">#&gt;    citation congress latest_action_action_date latest_action_text               </span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;date&gt;                    &lt;chr&gt;                            </span></span>
+<span><span class="co">#&gt;  1 PN1847   118      2024-06-20                Received in the Senate and refer…</span></span>
+<span><span class="co">#&gt;  2 PN1805   118      2024-06-20                Committee on the Judiciary. Hear…</span></span>
+<span><span class="co">#&gt;  3 PN1807   118      2024-06-20                Committee on the Judiciary. Hear…</span></span>
+<span><span class="co">#&gt;  4 PN1842   118      2024-06-20                Received in the Senate and refer…</span></span>
+<span><span class="co">#&gt;  5 PN1808   118      2024-06-20                Committee on the Judiciary. Hear…</span></span>
+<span><span class="co">#&gt;  6 PN1850   118      2024-06-20                Received in the Senate and refer…</span></span>
+<span><span class="co">#&gt;  7 PN1806   118      2024-06-20                Committee on the Judiciary. Hear…</span></span>
+<span><span class="co">#&gt;  8 PN1461   118      2024-06-20                Cloture invoked in Senate by Yea…</span></span>
+<span><span class="co">#&gt;  9 PN1849   118      2024-06-20                Received in the Senate and refer…</span></span>
+<span><span class="co">#&gt; 10 PN1851   118      2024-06-20                Received in the Senate and refer…</span></span>
+<span><span class="co">#&gt; # ℹ 9 more variables: nomination_type_is_military &lt;chr&gt;, number &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   organization &lt;chr&gt;, part_number &lt;chr&gt;, received_date &lt;date&gt;,</span></span>
+<span><span class="co">#&gt; #   update_date &lt;dttm&gt;, url &lt;chr&gt;, description &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   nomination_type_is_civilian &lt;chr&gt;</span></span></code></pre></div>
 <p>You can also request the next set using the <code><a href="reference/cong_request_next.html">cong_request_next()</a></code> function:</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/cong_nomination.html">cong_nomination</a></span><span class="op">(</span>limit <span class="op">=</span> <span class="fl">10</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
@@ -138,33 +118,34 @@
 <span><span class="co">#&gt; # A tibble: 20 × 13</span></span>
 <span><span class="co">#&gt;    citation congress description       latest_action_action…¹ latest_action_text</span></span>
 <span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;             &lt;date&gt;                 &lt;chr&gt;             </span></span>
-<span><span class="co">#&gt;  1 PN1025   118      Jennifer L. Fain… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  2 PN871    118      Rion J. Ramirez,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  3 PN832    118      Tadd M. Johnson,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  4 PN1020   118      John A. Kazen, o… 2023-12-20             By unanimous cons…</span></span>
-<span><span class="co">#&gt;  5 PN548    118      Tobin John Bradl… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  6 PN1044   118      Spencer Bachus I… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  7 PN918    118      William Brodsky,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  8 PN742    118      David E. White, … 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt;  9 PN805    118      Bradford Pentony… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 10 PN831    118      Claudia Slacik, … 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 11 PN805    118      Bradford Pentony… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 12 PN1045   118      Tanya F. Otsuka,… 2023-12-20             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 13 PN36     118      Elizabeth H. Ric… 2023-12-19             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 14 PN365-2  118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 15 PN196-4  118      &lt;NA&gt;              2023-12-13             Placed on Senate …</span></span>
-<span><span class="co">#&gt; 16 PN157    118      Jose Javier Rodr… 2023-12-18             By unanimous cons…</span></span>
-<span><span class="co">#&gt; 17 PN884    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 18 PN883    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
-<span><span class="co">#&gt; 19 PN376    118      S. Kato Crews, o… 2023-12-19             By unanimous cons…</span></span>
-<span><span class="co">#&gt; 20 PN888    118      &lt;NA&gt;              2023-12-19             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  1 PN1293   118      Robin Michelle M… 2024-06-20             Cloture motion pr…</span></span>
+<span><span class="co">#&gt;  2 PN830    118      Patricia L. Lee,… 2024-06-20             Cloture motion pr…</span></span>
+<span><span class="co">#&gt;  3 PN1355   118      Charles J. Willo… 2024-06-20             Cloture motion pr…</span></span>
+<span><span class="co">#&gt;  4 PN1343   118      Stephanie Sander… 2024-06-20             Confirmed by the …</span></span>
+<span><span class="co">#&gt;  5 PN1851   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt;  6 PN1847   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt;  7 PN1850   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt;  8 PN1842   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt;  9 PN1849   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt; 10 PN1848   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt; 11 PN1847   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt; 12 PN1805   118      Karla M. Campbel… 2024-06-20             Committee on the …</span></span>
+<span><span class="co">#&gt; 13 PN1807   118      Mary Kay Lanthie… 2024-06-20             Committee on the …</span></span>
+<span><span class="co">#&gt; 14 PN1842   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt; 15 PN1808   118      Julia M. Lipez, … 2024-06-20             Committee on the …</span></span>
+<span><span class="co">#&gt; 16 PN1850   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt; 17 PN1806   118      Catherine Henry,… 2024-06-20             Committee on the …</span></span>
+<span><span class="co">#&gt; 18 PN1461   118      Nancy L. Maldona… 2024-06-20             Cloture invoked i…</span></span>
+<span><span class="co">#&gt; 19 PN1849   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
+<span><span class="co">#&gt; 20 PN1851   118      &lt;NA&gt;              2024-06-20             Received in the S…</span></span>
 <span><span class="co">#&gt; # ℹ abbreviated name: ¹​latest_action_action_date</span></span>
 <span><span class="co">#&gt; # ℹ 8 more variables: nomination_type_is_civilian &lt;chr&gt;, number &lt;chr&gt;,</span></span>
 <span><span class="co">#&gt; #   organization &lt;chr&gt;, part_number &lt;chr&gt;, received_date &lt;date&gt;,</span></span>
 <span><span class="co">#&gt; #   update_date &lt;dttm&gt;, url &lt;chr&gt;, nomination_type_is_military &lt;chr&gt;</span></span></code></pre></div>
-<div class="section level3">
-<h3 id="supported-endpoints">Supported Endpoints:<a class="anchor" aria-label="anchor" href="#supported-endpoints"></a>
-</h3>
+</div>
+<div class="section level2">
+<h2 id="supported-endpoints">Supported Endpoints:<a class="anchor" aria-label="anchor" href="#supported-endpoints"></a>
+</h2>
 <p>This package is designed for <code>v3</code> of the <a href="https://github.com/LibraryOfCongress/api.congress.gov/" class="external-link">Congress.gov API</a>. It currently supports the following endpoints:</p>
 <ul>
 <li>bills with <code><a href="reference/cong_bill.html">cong_bill()</a></code>
@@ -203,6 +184,21 @@
 </li>
 </ul>
 </div>
+<div class="section level2">
+<h2 id="authentication">Authentication<a class="anchor" aria-label="anchor" href="#authentication"></a>
+</h2>
+<p>To sign up for an API key, visit the <a href="https://api.congress.gov/sign-up/" class="external-link">Congress.gov API</a> sign-up website.</p>
+<p>Once you have your key, you can set it in your environment as <code>CONGRESS_KEY</code>. You can:</p>
+<ol style="list-style-type: decimal">
+<li>Add this directly to your <code>.Renviron</code> file with a line like so</li>
+</ol>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">CONGRESS_KEY</span><span class="op">=</span><span class="st">'yourkey'</span></span></code></pre></div>
+<p>If doing this, I recommend using <code>usethis::edit_r_environ()</code> to ensure that you open the correct .Renviron file.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Set this in you current R session with <code>Sys.setenv(CONGRESS_KEY='yourkey')</code>.</p></li>
+<li><p>Set this using the <code><a href="reference/set_congress_key.html">congress::set_congress_key()</a></code> function. To save this for future sessions, run with <code>install = TRUE</code>.</p></li>
+</ol>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
@@ -257,15 +253,15 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.9.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.0.</p>
 </div>
 
     </footer>
 </div>
 
-  
 
-  
+
+
 
   </body>
 </html>
