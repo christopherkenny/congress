@@ -25,7 +25,7 @@ cong_bill(
 \item{number}{Bill assigned number. Numeric.}
 
 \item{item}{Information to request. Can be \code{'actions'}, \code{'amendments'}, \code{'committees'}, \code{'cosponsors'},
-\code{'relatedbills'}, \code{'subjects'}, \code{'text'}, or \code{'titles'}}
+\code{'relatedbills'}, \code{'subjects'}, '\code{summaries}', \code{'text'}, or \code{'titles'}}
 
 \item{from_date}{start date for search, e.g. \code{'2022-04-01'}. Defaults to most recent.}
 
