@@ -36,3 +36,10 @@ with_mock_dir("t/bill5", {
     expect_s3_class(x, 'tbl_df')
   })
 })
+
+with_mock_dir("t/bill6", {
+  test_that("cong_bill with item = committees works", {
+    x <- cong_bill(congress = 117, type = 'hr', number = 3076, item = 'committees')
+    expect_s3_class(x, 'tbl_df')
+  })
+})
