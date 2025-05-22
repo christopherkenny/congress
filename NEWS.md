@@ -1,3 +1,8 @@
+# congress 0.1.0
+
+* Addresses changes in January 2024-May 2025 API changes (#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39)
+  * Adds support for `item = 'summaries'` in `cong_bill()`
+
 # congress 0.0.4
 
 * When `clean = TRUE`, the `json` version will be downloaded and used to clean the object (#17).

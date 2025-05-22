@@ -29,3 +29,10 @@ with_mock_dir("t/bill4", {
 test_that("cong_bill errors with from_date missing to_date", {
   expect_error(cong_bill(congress = 118, from_date = '2023-05-05'))
 })
+
+with_mock_dir("t/bill5", {
+  test_that("cong_bill with item = summaries works", {
+    x <- cong_bill(congress = 117, type = 'hr', number = 3076, item = 'summaries')
+    expect_s3_class(x, 'tbl_df')
+  })
+})

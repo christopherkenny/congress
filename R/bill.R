@@ -4,7 +4,7 @@
 #' @param type Type of bill. Can be `'hr'`, `'s'`, `'hjres'`, `'sjres'`, `'hconres'`, `'sconres'`, `'hres'`, or `'sres'`.
 #' @param number Bill assigned number. Numeric.
 #' @param item Information to request. Can be `'actions'`, `'amendments'`, `'committees'`, `'cosponsors'`,
-#' `'relatedbills'`, `'subjects'`, `'text'`, or `'titles'`
+#' `'relatedbills'`, `'subjects'`, '`summaries`', `'text'`, or `'titles'`
 #' @param from_date start date for search, e.g. `'2022-04-01'`. Defaults to most recent.
 #' @param to_date end date for search, e.g. `'2022-04-03'`. Defaults to most recent.
 #' @param limit number of records to return. Default is 20. Will be truncated to between 1 and 250.
@@ -100,13 +100,19 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
             dplyr::bind_rows() |>
             tidyr::unnest_wider(col = 'formats') |>
             clean_names()
+        } else if (item == 'committees') {
+          out <- out |>
+            purrr::pluck(item) |>
+            lapply(widen) |>
+            purrr::list_rbind() |>
+            clean_names()
+
         } else {
           out <- out |>
             purrr::pluck(item) |>
             list_hoist() |>
             clean_names()
-       }
-
+        }
       }
     }
     out <- out |>
@@ -116,7 +122,8 @@ cong_bill <- function(congress = NULL, type = NULL, number = NULL, item = NULL,
   out
 }
 
-bill_items <- c('actions', 'amendments', 'committees', 'cosponsors', 'relatedbills', 'subjects', 'text', 'titles')
+bill_items <- c('actions', 'amendments', 'committees', 'cosponsors', 'relatedbills',
+                'subjects', 'summaries', 'text', 'titles')
 bill_types <- c('hr', 's', 'hjres', 'sjres', 'hconres', 'sconres', 'hres', 'sres')
 
 bill_endpoint <- function(congress, type, number, item) {
