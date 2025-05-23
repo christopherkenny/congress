@@ -120,7 +120,7 @@ By state, which can be subset with district
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p><code>tibble</code> or HTTP response if <code>clean = FALSE</code></p>
+    <p>a <code><a href="https://tibble.tidyverse.org/reference/tibble.html" class="external-link">tibble::tibble</a></code> or HTTP response if <code>clean = FALSE</code></p>
     </div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
@@ -139,6 +139,12 @@ By state, which can be subset with district
 <span class="r-in"><span><span class="fu">cong_member</span><span class="op">(</span>bioguide <span class="op">=</span> <span class="st">'L000174'</span>, item <span class="op">=</span> <span class="st">'sponsored-legislation'</span><span class="op">)</span></span></span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="fu">cong_member</span><span class="op">(</span>congress <span class="op">=</span> <span class="fl">118</span><span class="op">)</span></span></span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="fu">cong_member</span><span class="op">(</span>congress <span class="op">=</span> <span class="fl">118</span>, state <span class="op">=</span> <span class="st">'CA'</span><span class="op">)</span></span></span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="fu">cong_member</span><span class="op">(</span>congress <span class="op">=</span> <span class="fl">118</span>, state <span class="op">=</span> <span class="st">'CA'</span>, district <span class="op">=</span> <span class="fl">1</span><span class="op">)</span></span></span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="fu">cong_member</span><span class="op">(</span>state <span class="op">=</span> <span class="st">'MI'</span>, district <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="op">}</span></span></span>
 </code></pre></div>
     </div>
