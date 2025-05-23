@@ -1,6 +1,7 @@
 #' Request Congress Information
 #'
-#' @param congress Congress number to search for. 81 or later are supported.
+#' @param congress Congress number to search for. 81 or later are supported. Also
+#' accepts the string `'current'` to get the current Congress.
 #' @param from_date start date for search, e.g. `'2022-04-01'`. Defaults to most recent.
 #' @param to_date end date for search, e.g. `'2022-04-03'`. Defaults to most recent.
 #' @param limit number of records to return. Default is 20. Will be truncated to between 1 and 250.
@@ -18,6 +19,8 @@
 #' cong_congress()
 #'
 #' cong_congress(congress = 116)
+#'
+#' cong_congress(congress = 'current')
 #'
 cong_congress <- function(congress = NULL,
                           from_date = NULL, to_date = NULL,

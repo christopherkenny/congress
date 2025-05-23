@@ -15,7 +15,8 @@ cong_congress(
 )
 }
 \arguments{
-\item{congress}{Congress number to search for. 81 or later are supported.}
+\item{congress}{Congress number to search for. 81 or later are supported. Also
+accepts the string \code{'current'} to get the current Congress.}
 
 \item{from_date}{start date for search, e.g. \code{'2022-04-01'}. Defaults to most recent.}
 
@@ -43,5 +44,7 @@ Request Congress Information
 cong_congress()
 
 cong_congress(congress = 116)
+
+cong_congress(congress = 'current')
 \dontshow{\}) # examplesIf}
 }
