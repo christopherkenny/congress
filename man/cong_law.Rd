@@ -19,21 +19,21 @@ cong_law(
 \arguments{
 \item{congress}{Congress number to search for. 81 or later are supported.}
 
-\item{type}{Type of law. Must be 'pub' or 'priv'.}
+\item{type}{Type of law. Must be \code{'pub'} or \code{'priv'}.}
 
 \item{number}{Law number. Numeric.}
 
-\item{from_date}{Start date for search, e.g. '2022-04-01'. Optional.}
+\item{from_date}{Start date for search, e.g. \code{'2022-04-01'}. Optional.}
 
-\item{to_date}{End date for search, e.g. '2022-04-30'. Optional.}
+\item{to_date}{End date for search, e.g. \code{'2022-04-30'}. Optional.}
 
 \item{limit}{Number of records to return. Default is 20. Will be truncated to between 1 and 250.}
 
 \item{offset}{Number of records to skip. Default is 0. Must be non-negative.}
 
-\item{format}{Output format for clean = FALSE. One of 'json' or 'xml'.}
+\item{format}{Output format for clean = FALSE. One of \code{'json'} or \code{'xml'}.}
 
-\item{clean}{Should output be returned as a tibble (TRUE) or requested format (FALSE). Default is TRUE.}
+\item{clean}{Should output be returned as a tibble (\code{TRUE}) or requested format (\code{FALSE}). Default is \code{TRUE}.}
 }
 \value{
 A tibble or raw HTTP response if clean = FALSE.

@@ -134,8 +134,10 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
 }
 
 committee_chambers <- c('house', 'senate', 'joint')
-committee_items <- c('bills', 'reports', 'nominations', 'house-communication',
-                     'senate-communication')
+committee_items <- c(
+  'bills', 'reports', 'nominations', 'house-communication',
+  'senate-communication'
+)
 
 committee_endpoint <- function(congress, committee, chamber, item) {
   out <- 'committee'

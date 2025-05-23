@@ -59,8 +59,10 @@ cong_member <- function(bioguide = NULL, item = NULL,
     cli::cli_abort('Either both or neither of {.arg from_date} and {.arg to_date} must be specified.')
   }
 
-  endpt <- member_endpoint(bioguide = bioguide, item = item,
-                           congress = congress, state = state, district = district)
+  endpt <- member_endpoint(
+    bioguide = bioguide, item = item,
+    congress = congress, state = state, district = district
+  )
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append(endpt) |>
     httr2::req_url_query(

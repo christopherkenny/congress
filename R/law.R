@@ -1,14 +1,14 @@
 #' Request Law Information
 #'
 #' @param congress Congress number to search for. 81 or later are supported.
-#' @param type Type of law. Must be 'pub' or 'priv'.
+#' @param type Type of law. Must be `'pub'` or `'priv'`.
 #' @param number Law number. Numeric.
-#' @param from_date Start date for search, e.g. '2022-04-01'. Optional.
-#' @param to_date End date for search, e.g. '2022-04-30'. Optional.
+#' @param from_date Start date for search, e.g. `'2022-04-01'`. Optional.
+#' @param to_date End date for search, e.g. `'2022-04-30'`. Optional.
 #' @param limit Number of records to return. Default is 20. Will be truncated to between 1 and 250.
 #' @param offset Number of records to skip. Default is 0. Must be non-negative.
-#' @param clean Should output be returned as a tibble (TRUE) or requested format (FALSE). Default is TRUE.
-#' @param format Output format for clean = FALSE. One of 'json' or 'xml'.
+#' @param clean Should output be returned as a tibble (`TRUE`) or requested format (`FALSE`). Default is `TRUE`.
+#' @param format Output format for clean = FALSE. One of `'json'` or `'xml'`.
 #'
 #' @return A tibble or raw HTTP response if clean = FALSE.
 #' @export
