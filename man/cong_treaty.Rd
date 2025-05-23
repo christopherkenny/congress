@@ -60,6 +60,5 @@ cong_treaty(congress = 114, number = 13, suffix = 'A')
 cong_treaty(congress = 117, number = 3, item = 'actions')
 
 cong_treaty(congress = 114, number = 13, suffix = 'A', item = 'actions')
-
 \dontshow{\}) # examplesIf}
 }

@@ -54,6 +54,5 @@ cong_nomination(congress = 117, number = 2467)
 cong_nomination(congress = 117, number = 2467, item = 'actions')
 
 cong_nomination(congress = 117, number = 2467, item = 1)
-
 \dontshow{\}) # examplesIf}
 }

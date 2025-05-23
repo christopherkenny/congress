@@ -43,6 +43,5 @@ Request Congress Information
 cong_congress()
 
 cong_congress(congress = 116)
-
 \dontshow{\}) # examplesIf}
 }
