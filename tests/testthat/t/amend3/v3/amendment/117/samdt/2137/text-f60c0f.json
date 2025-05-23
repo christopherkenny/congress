@@ -1,0 +1,29 @@
+{
+    "pagination": {
+        "count": 1
+    },
+    "request": {
+        "amendmentNumber": "2137",
+        "amendmentType": "samdt",
+        "amendmentUrl": "https://v3/amendment/117/samdt/2137?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2021-08-01T04:00:00Z",
+            "formats": [
+                {
+                    "type": "HTML",
+                    "url": "https://www.congress.gov/117/crec/2021/08/01/167/136/modified/CREC-2021-08-01-pt1-PgS5255.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/crec/2021/08/01/167/136/CREC-2021-08-01-pt1-PgS5255.pdf"
+                }
+            ],
+            "type": "Submitted"
+        }
+    ]
+}
