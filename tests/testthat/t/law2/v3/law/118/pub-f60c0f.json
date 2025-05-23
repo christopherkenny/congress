@@ -1,0 +1,433 @@
+{
+    "bills": [
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2024-12-23",
+                "text": "Became Public Law No: 118-203."
+            },
+            "laws": [
+                {
+                    "number": "118-203",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "3998",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Federal Judiciary Stabilization Act of 2024",
+            "type": "S",
+            "updateDate": "2025-05-21",
+            "updateDateIncludingText": "2025-05-21",
+            "url": "https://v3/bill/118/s/3998?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-234."
+            },
+            "laws": [
+                {
+                    "number": "118-234",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "6492",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "EXPLORE Act",
+            "type": "HR",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hr/6492?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-04-10",
+                "text": "Became Public Law No: 118-3."
+            },
+            "laws": [
+                {
+                    "number": "118-3",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "7",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Relating to a national emergency declared by the President on March 13, 2020.",
+            "type": "HJRES",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hjres/7?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2024-05-07",
+                "text": "Became Public Law No: 118-59."
+            },
+            "laws": [
+                {
+                    "number": "118-59",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "474",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "REPORT Act",
+            "type": "S",
+            "updateDate": "2025-04-07",
+            "updateDateIncludingText": "2025-04-07",
+            "url": "https://v3/bill/118/s/474?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2024-11-25",
+                "text": "Became Public Law No: 118-120."
+            },
+            "laws": [
+                {
+                    "number": "118-120",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "5861",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "BRIDGE for Workers Act",
+            "type": "HR",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hr/5861?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2024-03-18",
+                "text": "Became Public Law No: 118-44."
+            },
+            "laws": [
+                {
+                    "number": "118-44",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "1858",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Disaster Assistance Deadlines Alignment Act",
+            "type": "S",
+            "updateDate": "2025-04-07",
+            "updateDateIncludingText": "2025-04-07",
+            "url": "https://v3/bill/118/s/1858?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-229."
+            },
+            "laws": [
+                {
+                    "number": "118-229",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "5103",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "FISHES Act",
+            "type": "HR",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hr/5103?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-05",
+                "text": "Became Public Law No: 118-273."
+            },
+            "laws": [
+                {
+                    "number": "118-273",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "82",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Social Security Fairness Act of 2023",
+            "type": "HR",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hr/82?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2024-12-12",
+                "text": "Became Public Law No: 118-148."
+            },
+            "laws": [
+                {
+                    "number": "118-148",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "5863",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Federal Disaster Tax Relief Act of 2023",
+            "type": "HR",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hr/5863?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-258."
+            },
+            "laws": [
+                {
+                    "number": "118-258",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "9076",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Supporting America’s Children and Families Act",
+            "type": "HR",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hr/9076?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-272."
+            },
+            "laws": [
+                {
+                    "number": "118-272",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "4367",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Thomas R. Carper Water Resources Development Act of 2024",
+            "type": "S",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/s/4367?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-261."
+            },
+            "laws": [
+                {
+                    "number": "118-261",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "9322",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 675 Wolf Ledges Parkway in Akron, Ohio, as the \"Judge James R. Williams Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-04-07",
+            "updateDateIncludingText": "2025-04-07",
+            "url": "https://v3/bill/118/hr/9322?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-06",
+                "text": "Became Public Law No: 118-274."
+            },
+            "laws": [
+                {
+                    "number": "118-274",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "4984",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "D.C. Robert F. Kennedy Memorial Stadium Campus Revitalization Act",
+            "type": "HR",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hr/4984?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-271."
+            },
+            "laws": [
+                {
+                    "number": "118-271",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "2181",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Keeping Military Families Together Act of 2024",
+            "type": "S",
+            "updateDate": "2025-01-16",
+            "updateDateIncludingText": "2025-01-16",
+            "url": "https://v3/bill/118/s/2181?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-270."
+            },
+            "laws": [
+                {
+                    "number": "118-270",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "10065",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 802 North Tancahua Street in Corpus Christi, Texas, as the \"Captain Robert E. 'Bob' Batterson Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-04-15",
+            "updateDateIncludingText": "2025-04-15",
+            "url": "https://v3/bill/118/hr/10065?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-269."
+            },
+            "laws": [
+                {
+                    "number": "118-269",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "9775",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 119 North Anderson Street in Elwood, Indiana, as the \"Officer Noah Jacob Shahnavaz Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-04-07",
+            "updateDateIncludingText": "2025-04-07",
+            "url": "https://v3/bill/118/hr/9775?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-268."
+            },
+            "laws": [
+                {
+                    "number": "118-268",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "9600",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 119 Main Street in Plains, Georgia, as the \"Jimmy and Rosalynn Carter Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-04-07",
+            "updateDateIncludingText": "2025-04-07",
+            "url": "https://v3/bill/118/hr/9600?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-267."
+            },
+            "laws": [
+                {
+                    "number": "118-267",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "9592",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Federal Register Modernization Act of 2024",
+            "type": "HR",
+            "updateDate": "2025-05-15",
+            "updateDateIncludingText": "2025-05-15",
+            "url": "https://v3/bill/118/hr/9592?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-266."
+            },
+            "laws": [
+                {
+                    "number": "118-266",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "9580",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 2777 Brentwood Road in Raleigh, North Carolina, as the \"Millie Dunn Veasey Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-04-07",
+            "updateDateIncludingText": "2025-04-07",
+            "url": "https://v3/bill/118/hr/9580?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-265."
+            },
+            "laws": [
+                {
+                    "number": "118-265",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "9549",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 125 South 1st Avenue in Hillsboro, Oregon, as the \"Elizabeth Furse Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-04-07",
+            "updateDateIncludingText": "2025-04-07",
+            "url": "https://v3/bill/118/hr/9549?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 274,
+        "next": "https://v3/law/118/pub?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "congress": "118",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

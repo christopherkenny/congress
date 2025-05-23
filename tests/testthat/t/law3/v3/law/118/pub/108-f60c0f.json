@@ -1,0 +1,88 @@
+{
+    "bill": {
+        "actions": {
+            "count": 27,
+            "url": "https://v3/bill/118/hr/599/actions?format=json"
+        },
+        "cboCostEstimates": [
+            {
+                "description": "As ordered reported by the House Committee on Oversight and Accountability on September 20, 2023\n",
+                "pubDate": "2023-10-10T19:58:00Z",
+                "title": "H.R. 599, a bill to designate the facility of the United States Postal Service located at 3500 West 6th Street, Suite 103 in Los Angeles, California, as the “Dosan Ahn Chang Ho Post Office",
+                "url": "https://www.cbo.gov/publication/59652"
+            },
+            {
+                "description": "As reported by the Senate Committee on Homeland Security and Governmental Affairs on August 1, 2024\n",
+                "pubDate": "2024-08-12T18:50:00Z",
+                "title": "H.R. 599, an act to designate the facility of the United States Postal Service located at 3500 West 6th Street, Suite 103 in Los Angeles, California, as the “Dosan Ahn Chang Ho Post Office”",
+                "url": "https://www.cbo.gov/publication/60606"
+            }
+        ],
+        "committees": {
+            "count": 2,
+            "url": "https://v3/bill/118/hr/599/committees?format=json"
+        },
+        "congress": 118,
+        "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 18 (Friday, January 27, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov<\/a>]\nBy Mr. GOMEZ:\nH.R. 599.\nCongress has the power to enact this legislation pursuant\nto the following:\nClauses 7 and 18 of Section 8 of Article 1 of the US\nConstitution\nThe single subject of this legislation is:\nPost Office Designation\n[Page H490]\n<\/pre>",
+        "cosponsors": {
+            "count": 50,
+            "countIncludingWithdrawnCosponsors": 50,
+            "url": "https://v3/bill/118/hr/599/cosponsors?format=json"
+        },
+        "introducedDate": "2023-01-27",
+        "latestAction": {
+            "actionDate": "2024-11-25",
+            "text": "Became Public Law No: 118-108."
+        },
+        "laws": [
+            {
+                "number": "118-108",
+                "type": "Public Law"
+            }
+        ],
+        "number": "599",
+        "originChamber": "House",
+        "originChamberCode": "H",
+        "policyArea": {
+            "name": "Government Operations and Politics"
+        },
+        "sponsors": [
+            {
+                "bioguideId": "G000585",
+                "district": 34,
+                "firstName": "Jimmy",
+                "fullName": "Rep. Gomez, Jimmy [D-CA-34]",
+                "isByRequest": "N",
+                "lastName": "Gomez",
+                "party": "D",
+                "state": "CA",
+                "url": "https://v3/member/G000585?format=json"
+            }
+        ],
+        "subjects": {
+            "count": 5,
+            "url": "https://v3/bill/118/hr/599/subjects?format=json"
+        },
+        "summaries": {
+            "count": 3,
+            "url": "https://v3/bill/118/hr/599/summaries?format=json"
+        },
+        "textVersions": {
+            "count": 5,
+            "url": "https://v3/bill/118/hr/599/text?format=json"
+        },
+        "title": "To designate the facility of the United States Postal Service located at 3500 West 6th Street, Suite 103 in Los Angeles, California, as the \"Dosan Ahn Chang Ho Post Office\".",
+        "titles": {
+            "count": 2,
+            "url": "https://v3/bill/118/hr/599/titles?format=json"
+        },
+        "type": "HR",
+        "updateDate": "2025-04-07T12:56:45Z",
+        "updateDateIncludingText": "2025-04-07T12:56:45Z"
+    },
+    "request": {
+        "congress": "118",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
