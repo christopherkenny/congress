@@ -73,7 +73,7 @@ cong_committee_meeting <- function(congress = NULL, chamber = NULL, number = NUL
     } else {
       out <- out |>
         purrr::pluck('committeeMeeting') |>
-
+        widen() |>
         clean_names()
     }
     out <- out |>
