@@ -67,7 +67,7 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
                       'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {
@@ -87,10 +87,16 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
           clean_names() #|>
         #dplyr::mutate(across(where(is.list), function(x) if (max(lengths(x)) == 1 ) dplyr::bind_rows(x) else dplyr::bind_rows(purrr::set_names(x, seq_along(x)))))
       } else {
-        out <- out |>
-          purrr::pluck(item) |>
-          list_hoist() |>
-          clean_names()
+        if (item == 'text') {
+          out <- out |>
+            purrr::pluck('textVersions')
+
+        } else {
+          out <- out |>
+            purrr::pluck(item) |>
+            list_hoist() |>
+            clean_names()
+        }
       }
     }
     out <- out |>
@@ -100,7 +106,7 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
   out
 }
 
-amendment_items <- c('actions', 'amendments', 'cosponsors')
+amendment_items <- c('actions', 'amendments', 'cosponsors', 'text')
 amendment_types <- c('hamdt', 'samdt', 'suamdt')
 
 amendment_endpoint <- function(congress, type, number, item) {
