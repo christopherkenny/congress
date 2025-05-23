@@ -39,7 +39,7 @@ cong_amendment(
 \item{clean}{Default is TRUE. Should output be returned as a \code{tibble} (\code{TRUE}) or requested \code{format}.}
 }
 \value{
-\code{tibble} or HTTP response if \code{clean = FALSE}.
+a \code{tibble::tibble} or HTTP response if \code{clean = FALSE}.
 }
 \description{
 Request Amendment Information

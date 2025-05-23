@@ -8,7 +8,7 @@
 #' @param clean Default is TRUE. Should output be returned as a `tibble` (`TRUE`) or requested `format`.
 #' @param format Output format for `clean = FALSE`. One of `xml` or `json`.
 #'
-#' @return `tibble` or HTTP response if `clean = FALSE`
+#' @return a `tibble::tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
 #' @examplesIf congress::has_congress_key()

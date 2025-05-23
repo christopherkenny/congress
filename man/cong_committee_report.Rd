@@ -36,7 +36,7 @@ cong_committee_report(
 \item{clean}{Default is TRUE. Should output be returned as a \code{tibble} if \code{clean = TRUE} or requested \code{format}.}
 }
 \value{
-\code{tibble} or HTTP response if \code{clean = FALSE}
+a \code{tibble::tibble} or HTTP response if \code{clean = FALSE}
 }
 \description{
 Request Committee Report Information

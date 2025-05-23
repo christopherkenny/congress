@@ -45,7 +45,7 @@ cong_member(
 \item{clean}{Default is TRUE. Should output be returned as a \code{tibble} (\code{TRUE}) or requested \code{format}.}
 }
 \value{
-\code{tibble} or HTTP response if \code{clean = FALSE}
+a \code{tibble::tibble} or HTTP response if \code{clean = FALSE}
 }
 \description{
 This provides three search paths under the \verb{/member} endpoint.
@@ -69,5 +69,11 @@ cong_member(bioguide = 'L000174')
 cong_member(bioguide = 'L000174', item = 'sponsored-legislation')
 
 cong_member(congress = 118)
+
+cong_member(congress = 118, state = 'CA')
+
+cong_member(congress = 118, state = 'CA', district = 1)
+
+cong_member(state = 'MI', district = 2)
 \dontshow{\}) # examplesIf}
 }
