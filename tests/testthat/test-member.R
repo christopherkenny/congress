@@ -57,5 +57,3 @@ with_mock_dir('t/member7', {
     expect_s3_class(x, 'tbl_df')
   })
 })
-
-

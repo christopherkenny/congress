@@ -1,0 +1,41 @@
+{
+    "CRSReport": {
+        "authors": [
+            {
+                "author": "Dawn Nuschler"
+            }
+        ],
+        "contentType": "Reports",
+        "formats": [
+            {
+                "format": "PDF",
+                "url": "https://www.congress.gov/crs_external_products/RS/PDF/93-792/93-792.12.pdf"
+            },
+            {
+                "format": "HTML",
+                "url": "https://www.congress.gov/crs_external_products/RS/HTML/93-792.html"
+            }
+        ],
+        "id": "93-792",
+        "publishDate": "2011-07-05T04:00:00Z",
+        "relatedMaterials": [
+
+        ],
+        "status": "Archived",
+        "summary": "Social Security benefits are not paid for the month in which a beneficiary dies. In most cases, the check that an individual receives in a given month represents payment for the preceding month. In other words, by design, the check (or direct bank deposit) arrives after the month for which it applies. In cases where a beneficiary dies late in the month, the Social Security Administration often is not notified of the death in time to stop the payment. When family members are informed that the check must be returned, they often complain that the policy is unfair and creates a financial hardship because the deceased beneficiary incurred expenses for part (or even most) of the month.\nOver the years, legislation has been introduced that would provide a full benefit for the month of death or a pro-rated benefit based on the proportion of the month that the beneficiary was alive. Supporters of such legislation argue that withholding benefits for the month of death does not make sense given that a person’s bills do not stop at the beginning of the month in which they die. They argue that the public views the policy as anomalous in a system designed to provide monthly income to retirees, the disabled, and survivors of deceased workers.\nCritics of such legislation argue that paying full benefits for the month of death would cost an estimated $1.6 billion annually (excluding administrative costs). They point out that a deceased beneficiary’s spouse and children can collect survivor benefits for the month of death, regardless of when the death occurred; that survivors may be entitled to a $255 lump-sum death payment; and that those seeking to have benefits paid for the month of death have little appreciation for the administrative difficulties involved in determining who should get the more than 2 million final benefit checks issued each year.",
+        "title": "Social Security Benefits Are Not Paid for the Month of Death",
+        "topics": [
+            {
+                "topic": "Social Security"
+            }
+        ],
+        "updateDate": "2025-04-18T18:57:37Z",
+        "url": "www.congress.gov/crs-report/93-792",
+        "version": 125
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json",
+        "report_id": "93-792"
+    }
+}
