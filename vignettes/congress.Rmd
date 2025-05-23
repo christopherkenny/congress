@@ -1,0 +1,240 @@
+---
+title: "Getting started with `congress`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{congress}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = '#>',
+  eval = congress::has_congress_key()
+)
+```
+
+## Introduction
+
+The `congress` package provides access to the [Congress.gov API](https://api.congress.gov/). 
+It allows political scientists, journalists, and policy analysts to gather legislative data programmatically. 
+This includes bills, amendments, member activity, nominations, committee outputs, reports, and more.
+All requests can optionally be returned in tidy format.
+
+This vignette introduces core workflows using `congress`: how to authenticate, handle pagination, and query the API.
+
+```{r setup}
+library(congress)
+```
+
+
+## Authentication
+
+The Congress.gov API requires an access key. After requesting a key from [api.congress.gov](https://api.congress.gov/), use the `set_congress_key()` helper to authenticate:
+
+```{r, eval = FALSE}
+set_congress_key('YOUR-API-KEY', install = TRUE)
+```
+
+This saves the key to your `.Renviron`, making it available in future sessions. 
+
+If you prefer to keep the key temporary, use:
+
+```{r, eval = FALSE}
+Sys.setenv(CONGRESS_KEY = 'YOUR-API-KEY')
+```
+
+Once set, `congress` handles key usage internally. 
+No manual headers or tokens are needed.
+
+It is recommended that you authenticate by placing your key in your `.Renviron` file to avoid accidentally sharing your person, private key.
+
+## Pagination
+
+By default, the API returns 20 items per request, following the upstream defaults.
+The limit can be increased by setting `limit = 250`, where 250 is the most items that can be returned in a single request.
+To ease larger requests, `cong_request_next()` can be used to obtain later paginations of results.
+
+```{r}
+first <- cong_bill(congress = 118, type = 'hr', limit = 250)
+more <- first |>
+  cong_request_next(max_req = 4)
+```
+
+This retrieves up to 1,250 House bills from the 118th Congress. 
+`max_req` controls how many pages are requested. 
+Results are combined into one `tibble`.
+
+As of writing this vignette, you can make 5,000 requests per hour.
+When requesting large datasets, be mindful of the API limits and use `limit = 250` to avoid inefficient calls.
+
+## Filtering by Date
+
+All endpoints accept `from_date` and `to_date`. 
+This is often misleading, so beware.
+It does not filter by the date of the action, but rather the date of the last update.
+As such, this is most useful if you are scraping over time.
+For example, if you run an analysis monthly, then you can use the `from_date` and `to_date` arguments to limit the results to the time since your last scrape.
+
+```{r}
+cong_bill(congress = 118, from_date = '2025-04-01', to_date = '2025-05-23')
+```
+
+## Retrieving Legislation
+
+`cong_bill()` retrieves bills, sorted by their most recent action date.
+
+```{r}
+bills <- cong_bill()
+bills
+```
+
+By default, this returns the 20 most recently updated bills across all chambers and types. 
+Narrow the scope with the `congress` and `type` arguments:
+
+```{r}
+bills_118 <- cong_bill(congress = 118, type = 'hr', limit = 5)
+bills_118
+```
+
+The result is a `tibble` with sponsor, title, dates, latest action, and other details. 
+Each row represents a single bill, with a summary of its most recent action.
+
+To inspect a specific bill by number:
+
+```{r}
+hr1 <- cong_bill(congress = 118, type = 'hr', number = 1)
+hr1
+```
+
+## Legislative Details
+
+Each bill can have multiple related pieces of information, including actions, amendments, committees, cosponsors, related bills, subjects, summaries, text (for the full text), and titles.
+Access each of these with the `item` argument:
+
+```{r}
+actions <- cong_bill(congress = 118, type = 'hr', number = 1, item = 'actions')
+actions
+```
+
+This returns a `tibble` of all actions taken on the bill, including dates and descriptions.
+
+```{r}
+cosponsors <- cong_bill(congress = 118, type = 'hr', number = 1, item = 'cosponsors')
+cosponsors
+```
+
+Other types of actions taken by Congress can be accessed through other endpoints.
+For example, to focus on amendments, use `cong_amendment()`.
+
+```{r}
+amendments <- cong_amendment(congress = 118, limit = 50)
+amendments
+```
+
+Or target a specific one.
+We do this by specifying that we want the Senate Amendment 2137 from the 117th Congress:
+
+```{r}
+amend_detail <- cong_amendment(congress = 117, type = 'samdt', number = 2137)
+amend_detail
+```
+
+## Member Activity
+
+`cong_member()` helps link individual lawmakers to legislative behavior. 
+Use the `bioguide` argument to target a specific member.
+
+```{r}
+sponsored <- cong_member(bioguide = 'W000817', item = 'sponsored-legislation')
+sponsored
+```
+
+This returns all legislation introduced by Senator Elizabeth Warren in the 118th Congress. 
+The endpoint tracks various components of a member of Congress's work, such as `cosponsored-legislation`.
+
+To look up bioguide information, there is an official site: [https://bioguide.congress.gov/](https://bioguide.congress.gov/).
+Responses from `cong_member()` also include bioguide IDs, so you can use them to cross-reference with other datasets.
+
+## Committee Work
+
+A significant portion of work in Congress is conducted by committee.
+We can use `cong_committee()` to access committee information:
+
+```{r}
+committees <- cong_committee(congress = 118)
+committees
+```
+
+To get reports or prints from a committee, use the corresponding functions:
+
+```{r}
+reports <- cong_committee_report(congress = 118, limit = 5)
+reports
+```
+
+```{r}
+prints <- cong_committee_print(congress = 118, limit = 5)
+prints
+```
+
+
+To gather hearing metadata, use `cong_hearing()`:
+
+```{r}
+hearings <- cong_hearing(congress = 118, limit = 5)
+hearings
+```
+
+The results can be refined by chamber or hearing number.
+
+## Executive Business
+
+Track presidential nominations with `cong_nomination()`:
+
+```{r}
+noms <- cong_nomination(congress = 118, limit = 50)
+noms
+```
+
+Each row includes name, post, and status (e.g., confirmed, withdrawn).
+
+To go deeper into an individual nomination, such as Val Deming's nomination to the Postal Service Board of Governors, use:
+
+```{r}
+nom_details <- cong_nomination(congress = 118, number = 2005)
+nom_details
+```
+
+## Congressional Record
+
+Use `cong_daily_record()` to access floor proceedings:
+
+```{r}
+record <- cong_daily_record(volume = 169, issue = 1)
+record
+```
+
+To view specific speeches or statements:
+
+```{r}
+articles <- cong_daily_record(volume = 169, issue = 1, item = 'articles')
+articles
+```
+
+
+## Summary
+
+`congress` provides programmatic access to a rich set of legislative data.
+This package aims to enable reproducible workflows for research on Congress.
+The functions in this package offer a structured and consistent interface to the Congress.gov API.
+
+For more detail, consult the function reference at <https://christophertkenny.com/congress/>.
+If you encounter edge cases or undocumented behavior, consider opening an [issue](https://github.com/christopherkenny/congress/issues).
+
+---
+
+**DISCLAIMER**: This vignette has been written with help from ChatGPT 4o.
+It has been reviewed for correctness and edited for clarity by the package author.
+Please note any issues at <https://github.com/christopherkenny/congress/issues>.
