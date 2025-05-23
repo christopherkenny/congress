@@ -80,19 +80,15 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
   if (clean) {
     if (is.null(committee)) {
       out <- out |>
-        purrr::pluck('committees')
-      out <- out |>
-        tibble::tibble(x = out) |>
-        tidyr::unnest_wider('x') |>
+        purrr::pluck('committees') |>
+        lapply(widen) |>
+        purrr::list_rbind() |>
         clean_names()
     } else {
       if (is.null(item)) {
         out <- out |>
           purrr::pluck('committee') |>
-          tibble::enframe() |>
-          tidyr::pivot_wider() |>
-          tidyr::unnest_wider(col = where(~ purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
-          dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
+          widen() |>
           clean_names()
       } else {
         if (item == 'reports') {
@@ -116,14 +112,17 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
             list_hoist() |>
             clean_names()
         } else {
-          out <- out |>
+          singles <- out |>
             purrr::pluck('committee-bills') |>
-            tibble::enframe() |>
-            tidyr::pivot_wider() |>
-            tidyr::unnest_wider(col = where(~ purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
-            tidyr::unnest_longer(dplyr::any_of('bills')) |>
-            tidyr::unnest_wider(dplyr::any_of('bills')) |>
+            purrr::discard_at('bills') |>
+            widen() |>
+            dplyr::rename_with(.fn = function(x) paste0('committee_bill_', x))
+          out <- out |>
+            purrr::pluck('committee-bills', 'bills') |>
+            lapply(widen) |>
+            purrr::list_rbind() |>
             clean_names()
+          out <- dplyr::bind_cols(singles, out)
         }
       }
     }
@@ -135,7 +134,8 @@ cong_committee <- function(congress = NULL, chamber = NULL, committee = NULL, it
 }
 
 committee_chambers <- c('house', 'senate', 'joint')
-committee_items <- c('bills', 'reports', 'nominations')
+committee_items <- c('bills', 'reports', 'nominations', 'house-communication',
+                     'senate-communication')
 
 committee_endpoint <- function(congress, committee, chamber, item) {
   out <- 'committee'
