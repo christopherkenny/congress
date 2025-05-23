@@ -3,7 +3,9 @@ check_format <- function(x) {
 }
 
 check_date <- function(date) {
-  if (is.null(date)) return(NULL)
+  if (is.null(date)) {
+    return(NULL)
+  }
   if (is.character(date)) {
     if (nchar(date) == 10) {
       date <- paste0(date, 'T00:00:00Z')

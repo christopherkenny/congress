@@ -30,11 +30,10 @@
 #'
 #' cong_treaty(congress = 114, number = 13, suffix = 'A', item = 'actions')
 #'
-#'
 cong_treaty <- function(congress = NULL, number = NULL, suffix = NULL, item = NULL,
-                            from_date = NULL, to_date = NULL,
-                            limit = 20, offset = 0,
-                            format = 'json', clean = TRUE) {
+                        from_date = NULL, to_date = NULL,
+                        limit = 20, offset = 0,
+                        format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
   if (clean) {
@@ -59,17 +58,17 @@ cong_treaty <- function(congress = NULL, number = NULL, suffix = NULL, item = NU
       'offset' = max(offset, 0)
     ) |>
     httr2::req_headers(
-      "accept" = glue::glue("application/{format}")
+      'accept' = glue::glue('application/{format}')
     )
   resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
-                      'json' = httr2::resp_body_json,
-                      'xml' = httr2::resp_body_xml
+    'json' = httr2::resp_body_json,
+    'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {
@@ -84,7 +83,7 @@ cong_treaty <- function(congress = NULL, number = NULL, suffix = NULL, item = NU
           purrr::pluck('treaty') |>
           tibble::enframe() |>
           tidyr::pivot_wider() |>
-          tidyr::unnest_wider(col = where(~purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
+          tidyr::unnest_wider(col = where(~ purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
           dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
           clean_names()
       } else {

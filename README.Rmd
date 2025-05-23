@@ -60,7 +60,7 @@ cong_nomination(limit = 10, offset = 10)
 You can also request the next set using the `cong_request_next()` function:
 
 ```{r}
-cong_nomination(limit = 10) |> 
+cong_nomination(limit = 10) |>
   cong_request_next()
 ```
 

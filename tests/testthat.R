@@ -9,4 +9,4 @@
 library(testthat)
 library(congress)
 
-test_check("congress")
+test_check('congress')

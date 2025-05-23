@@ -69,8 +69,10 @@ cast_date_columns <- function(tb) {
   tb |>
     dplyr::mutate(
       dplyr::across(dplyr::contains('date') & where(all_nchar_10), function(x) as.Date(x, format = '%Y-%m-%d')),
-      dplyr::across(dplyr::contains('date') & where(all_nchar_20),
-                    function(x) as.POSIXct(x, format = '%Y-%m-%dT%H:%M:%SZ', tz = 'UTC'))
+      dplyr::across(
+        dplyr::contains('date') & where(all_nchar_20),
+        function(x) as.POSIXct(x, format = '%Y-%m-%dT%H:%M:%SZ', tz = 'UTC')
+      )
     )
 }
 

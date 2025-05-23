@@ -10,9 +10,8 @@
 #' # Requires API Key
 #'
 #' cong_bill() |>
-#'  cong_request_next()
+#'   cong_request_next()
 cong_request_next <- function(response, max_req = 1) {
-
   if (missing(response)) {
     cli::cli_abort('{.fn cong_request_next} must be called with an input to {.arg response}.')
   }

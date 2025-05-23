@@ -50,18 +50,18 @@ cong_summaries <- function(congress = NULL, type = NULL,
       'offset' = max(offset, 0)
     ) |>
     httr2::req_headers(
-      "accept" = glue::glue("application/{format}")
+      'accept' = glue::glue('application/{format}')
     )
 
   resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
-                      'json' = httr2::resp_body_json,
-                      'xml' = httr2::resp_body_xml
+    'json' = httr2::resp_body_json,
+    'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {

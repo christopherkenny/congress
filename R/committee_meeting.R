@@ -36,8 +36,10 @@ cong_committee_meeting <- function(congress = NULL, chamber = NULL, number = NUL
     format <- 'json'
   }
 
-  endpt <- committee_meeting_endpoint(congress = congress, chamber = chamber,
-                                      number = number)
+  endpt <- committee_meeting_endpoint(
+    congress = congress, chamber = chamber,
+    number = number
+  )
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append(endpt) |>
     httr2::req_url_query(
@@ -48,18 +50,18 @@ cong_committee_meeting <- function(congress = NULL, chamber = NULL, number = NUL
       'offset' = max(offset, 0)
     ) |>
     httr2::req_headers(
-      "accept" = glue::glue("application/{format}")
+      'accept' = glue::glue('application/{format}')
     )
 
   resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
-                      'json' = httr2::resp_body_json,
-                      'xml' = httr2::resp_body_xml
+    'json' = httr2::resp_body_json,
+    'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {
@@ -73,7 +75,7 @@ cong_committee_meeting <- function(congress = NULL, chamber = NULL, number = NUL
         purrr::pluck('committeeMeeting') |>
         tibble::enframe() |>
         tidyr::pivot_wider() |>
-        tidyr::unnest_wider(col = where(~purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
+        tidyr::unnest_wider(col = where(~ purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
         tidyr::unnest_wider('committees', names_sep = '_') |>
         tidyr::unnest_wider('committees_1') |>
         dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>

@@ -31,16 +31,18 @@
 #' cong_committee_print(congress = 117, chamber = 'house', number = '48144', item = 'text')
 cong_committee_print <- function(congress = NULL, chamber = NULL, number = NULL, item = NULL,
                                  from_date = NULL, to_date = NULL,
-                                   limit = 20, offset = 0,
-                                   format = 'json', clean = TRUE) {
+                                 limit = 20, offset = 0,
+                                 format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
   if (clean) {
     format <- 'json'
   }
 
-  endpt <- committee_print_endpoint(congress = congress, chamber = chamber,
-                                      number = number, item = item)
+  endpt <- committee_print_endpoint(
+    congress = congress, chamber = chamber,
+    number = number, item = item
+  )
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append(endpt) |>
     httr2::req_url_query(
@@ -51,18 +53,18 @@ cong_committee_print <- function(congress = NULL, chamber = NULL, number = NULL,
       'offset' = max(offset, 0)
     ) |>
     httr2::req_headers(
-      "accept" = glue::glue("application/{format}")
+      'accept' = glue::glue('application/{format}')
     )
 
   resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
-                      'json' = httr2::resp_body_json,
-                      'xml' = httr2::resp_body_xml
+    'json' = httr2::resp_body_json,
+    'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {

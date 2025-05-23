@@ -49,17 +49,17 @@ cong_member <- function(bioguide = NULL, item = NULL,
       'offset' = max(offset, 0)
     ) |>
     httr2::req_headers(
-      "accept" = glue::glue("application/{format}")
+      'accept' = glue::glue('application/{format}')
     )
   resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
-                      'json' = httr2::resp_body_json,
-                      'xml' = httr2::resp_body_xml
+    'json' = httr2::resp_body_json,
+    'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {
@@ -75,10 +75,10 @@ cong_member <- function(bioguide = NULL, item = NULL,
           purrr::pluck('member') |>
           tibble::enframe() |>
           tidyr::pivot_wider() |>
-          tidyr::unnest_wider(col = where(~purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
+          tidyr::unnest_wider(col = where(~ purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
           dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
           clean_names() #|>
-        #dplyr::mutate(across(where(is.list), function(x) lapply(x, dplyr::bind_rows)))
+        # dplyr::mutate(across(where(is.list), function(x) lapply(x, dplyr::bind_rows)))
       } else {
         item <- item |>
           stringr::str_replace_all('-([a-z])', toupper) |>

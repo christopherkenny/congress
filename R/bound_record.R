@@ -24,8 +24,8 @@
 #' cong_bound_record(year = 1948, month = 5, day = 19)
 #'
 cong_bound_record <- function(year = NULL, month = NULL, day = NULL,
-                        limit = 20, offset = 0,
-                        format = 'json', clean = TRUE) {
+                              limit = 20, offset = 0,
+                              format = 'json', clean = TRUE) {
   sort <- NULL
   check_format(format)
   if (clean) {
@@ -42,17 +42,17 @@ cong_bound_record <- function(year = NULL, month = NULL, day = NULL,
       'offset' = max(offset, 0)
     ) |>
     httr2::req_headers(
-      "accept" = glue::glue("application/{format}")
+      'accept' = glue::glue('application/{format}')
     )
   resp <- req |>
     httr2::req_perform()
 
   formatter <- switch(format,
-                      'json' = httr2::resp_body_json,
-                      'xml' = httr2::resp_body_xml
+    'json' = httr2::resp_body_json,
+    'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {

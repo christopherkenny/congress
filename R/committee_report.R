@@ -63,7 +63,7 @@ cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, i
     'xml' = httr2::resp_body_xml
   )
 
-  out <- resp <- resp |>
+  out <- resp |>
     formatter()
 
   if (clean) {
