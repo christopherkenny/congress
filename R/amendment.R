@@ -89,8 +89,10 @@ cong_amendment <- function(congress = NULL, type = NULL, number = NULL, item = N
       } else {
         if (item == 'text') {
           out <- out |>
-            purrr::pluck('textVersions')
-
+            purrr::pluck('textVersions') |>
+            lapply(widen) |>
+            purrr::list_rbind() |>
+            clean_names()
         } else {
           out <- out |>
             purrr::pluck(item) |>
