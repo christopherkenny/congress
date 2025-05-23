@@ -73,12 +73,7 @@ cong_committee_meeting <- function(congress = NULL, chamber = NULL, number = NUL
     } else {
       out <- out |>
         purrr::pluck('committeeMeeting') |>
-        tibble::enframe() |>
-        tidyr::pivot_wider() |>
-        tidyr::unnest_wider(col = where(~ purrr::pluck_depth(.x) < 4), simplify = TRUE, names_sep = '_') |>
-        tidyr::unnest_wider('committees', names_sep = '_') |>
-        tidyr::unnest_wider('committees_1') |>
-        dplyr::rename_with(.fn = function(x) stringr::str_sub(x, end = -3), .cols = dplyr::ends_with('_1')) |>
+
         clean_names()
     }
     out <- out |>
