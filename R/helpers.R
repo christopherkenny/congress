@@ -64,6 +64,9 @@ all_nchar_10 <- function(x) {
 all_nchar_20 <- function(x) {
   all(nchar(stats::na.omit(x)) == 20)
 }
+all_nchar_25 <- function(x) {
+  all(nchar(stats::na.omit(x)) == 25)
+}
 
 cast_date_columns <- function(tb) {
   tb |>
@@ -72,6 +75,15 @@ cast_date_columns <- function(tb) {
       dplyr::across(
         dplyr::contains('date') & where(all_nchar_20),
         function(x) as.POSIXct(x, format = '%Y-%m-%dT%H:%M:%SZ', tz = 'UTC')
+      ),
+      dplyr::across(
+        dplyr::contains('date') & where(all_nchar_25),
+        function(x) {
+          as.POSIXct(
+            stringr::str_replace(x, '(\\+|\\-)(\\d{2}):(\\d{2})', '\\1\\2\\3'),
+            format = '%Y-%m-%d %H:%M:%S%z', tz = 'UTC'
+          )
+        }
       )
     )
 }
