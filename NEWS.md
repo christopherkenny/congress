@@ -9,6 +9,7 @@
   * Adds new `cong_law()` function to use the `law` endpoint.
   * Adds new `cong_crs_report()` function to use the `crs-report` endpoint.
 * Improves support for date time formats across the board
+* Fixes too agressive processing in `cong_bill()` (#21)
 
 # congress 0.0.4
 
