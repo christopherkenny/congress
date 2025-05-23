@@ -1,7 +1,14 @@
 # congress 0.1.0
 
 * Addresses changes in January 2024-May 2025 API changes (#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39)
+  * Checks that all upstream updates did not impact auto-unlisting functions.
   * Adds support for `item = 'summaries'` in `cong_bill()`
+  * Adds support for `item = 'text'` in `cong_amendment()`
+  * Adds support for searching members by `congress` or `state` (and `district`) in `cong_member()`
+  * Adds support for searching members by current status in `cong_member()`
+  * Adds new `cong_law()` function to use the `law` endpoint.
+  * Adds new `cong_crs_report()` function to use the `crs-report` endpoint.
+* Improves support for date time formats across the board
 
 # congress 0.0.4
 
