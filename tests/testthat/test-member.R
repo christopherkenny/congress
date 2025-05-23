@@ -22,3 +22,40 @@ with_mock_dir('t/member2', {
 test_that('cong_member errors with from_date missing to_date', {
   expect_error(cong_member(from_date = '2023-05-05'))
 })
+
+with_mock_dir('t/member3', {
+  test_that('cong_member with just congress works', {
+    x <- cong_member(congress = 117)
+    expect_s3_class(x, 'tbl_df')
+  })
+})
+
+with_mock_dir('t/member4', {
+  test_that('cong_member with just state works', {
+    x <- cong_member(state = 'NY')
+    expect_s3_class(x, 'tbl_df')
+  })
+})
+
+with_mock_dir('t/member5', {
+  test_that('cong_member with state + district works', {
+    x <- cong_member(state = 'NY', district = 2)
+    expect_s3_class(x, 'tbl_df')
+  })
+})
+
+with_mock_dir('t/member6', {
+  test_that('cong_member with congress + state + district works', {
+    x <- cong_member(congress = 117, state = 'NY', district = 2)
+    expect_s3_class(x, 'tbl_df')
+  })
+})
+
+with_mock_dir('t/member7', {
+  test_that('cong_member with congress + state works', {
+    x <- cong_member(congress = 117, state = 'NY')
+    expect_s3_class(x, 'tbl_df')
+  })
+})
+
+

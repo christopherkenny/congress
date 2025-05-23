@@ -1,0 +1,32 @@
+{
+    "members": [
+        {
+            "bioguideId": "G000597",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/g000597_200.jpg"
+            },
+            "district": 2,
+            "name": "Garbarino, Andrew R.",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/G000597?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 1
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

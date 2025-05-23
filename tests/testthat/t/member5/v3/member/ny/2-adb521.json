@@ -1,0 +1,142 @@
+{
+    "members": [
+        {
+            "bioguideId": "G000597",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/g000597_200.jpg"
+            },
+            "district": 2,
+            "name": "Garbarino, Andrew R.",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/G000597?format=json"
+        },
+        {
+            "bioguideId": "I000057",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/i000057_200.jpg"
+            },
+            "district": 3,
+            "name": "Israel, Steve",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2017,
+                        "startYear": 2001
+                    }
+                ]
+            },
+            "updateDate": "2022-12-16T21:56:51Z",
+            "url": "https://v3/member/I000057?format=json"
+        },
+        {
+            "bioguideId": "D000471",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/d000471_200.jpg"
+            },
+            "district": 2,
+            "name": "Downey, Thomas J.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 1993,
+                        "startYear": 1975
+                    }
+                ]
+            },
+            "updateDate": "2022-12-16T21:56:51Z",
+            "url": "https://v3/member/D000471?format=json"
+        },
+        {
+            "bioguideId": "L000155",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/l000155_200.jpg"
+            },
+            "district": 2,
+            "name": "Lazio, Rick",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2001,
+                        "startYear": 1993
+                    }
+                ]
+            },
+            "updateDate": "2022-12-16T21:56:51Z",
+            "url": "https://v3/member/L000155?format=json"
+        },
+        {
+            "bioguideId": "K000210",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/k000210_200.jpg"
+            },
+            "district": 2,
+            "name": "King, Peter T.",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2021,
+                        "startYear": 1993
+                    }
+                ]
+            },
+            "updateDate": "2022-12-16T21:56:51Z",
+            "url": "https://v3/member/K000210?format=json"
+        },
+        {
+            "bioguideId": "G000504",
+            "depiction": {
+                "attribution": "Collection of the U.S. House of Representatives",
+                "imageUrl": "https://www.congress.gov/img/member/g000504_200.jpg"
+            },
+            "district": 2,
+            "name": "Grover, James R., Jr.",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 1975,
+                        "startYear": 1963
+                    }
+                ]
+            },
+            "updateDate": "2022-12-16T21:56:51Z",
+            "url": "https://v3/member/G000504?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 6
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

@@ -7,6 +7,10 @@
 cong_member(
   bioguide = NULL,
   item = NULL,
+  congress = NULL,
+  state = NULL,
+  district = NULL,
+  current_member = FALSE,
   from_date = NULL,
   to_date = NULL,
   limit = 20,
@@ -19,6 +23,14 @@ cong_member(
 \item{bioguide}{Bioguide identifier for a member of Congress.}
 
 \item{item}{Information to request. Can be \code{'sponsored-legislation'} or  \code{'cosponsored-legislation'}}
+
+\item{congress}{Congress number.}
+
+\item{state}{State abbreviation. e.g. \code{'CA'}.}
+
+\item{district}{Congressional district number. e.g. \code{1}.}
+
+\item{current_member}{Logical. Should only current members be returned? Default is \code{FALSE}.}
 
 \item{from_date}{start date for search, e.g. \code{'2022-04-01'}. Defaults to most recent.}
 
@@ -36,7 +48,15 @@ cong_member(
 \code{tibble} or HTTP response if \code{clean = FALSE}
 }
 \description{
-Request Member Information
+This provides three search paths under the \verb{/member} endpoint.
+\enumerate{
+\item By \code{bioguide}, which can be subset with \code{item}
+\item By \code{congress}, which can be subset with \code{state} and \code{district}
+\item By \code{state}, which can be subset with \code{district}
+}
+}
+\details{
+If an invalid set of these are provided, they will be used in the above order.
 }
 \examples{
 \dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
@@ -44,8 +64,10 @@ Request Member Information
 
 cong_member()
 
-cong_member(bioguide = 'L000174', clean = TRUE)
+cong_member(bioguide = 'L000174')
 
 cong_member(bioguide = 'L000174', item = 'sponsored-legislation')
+
+cong_member(congress = 118)
 \dontshow{\}) # examplesIf}
 }

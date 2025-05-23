@@ -1,7 +1,18 @@
 #' Request Member Information
 #'
+#' This provides three search paths under the `/member` endpoint.
+#' 1. By `bioguide`, which can be subset with `item`
+#' 2. By `congress`, which can be subset with `state` and `district`
+#' 3. By `state`, which can be subset with `district`
+#'
+#' If an invalid set of these are provided, they will be used in the above order.
+#'
 #' @param bioguide Bioguide identifier for a member of Congress.
 #' @param item Information to request. Can be `'sponsored-legislation'` or  `'cosponsored-legislation'`
+#' @param congress Congress number.
+#' @param state State abbreviation. e.g. `'CA'`.
+#' @param district Congressional district number. e.g. `1`.
+#' @param current_member Logical. Should only current members be returned? Default is `FALSE`.
 #' @param from_date start date for search, e.g. `'2022-04-01'`. Defaults to most recent.
 #' @param to_date end date for search, e.g. `'2022-04-03'`. Defaults to most recent.
 #' @param limit number of records to return. Default is 20. Will be truncated to between 1 and 250.
@@ -17,11 +28,22 @@
 #'
 #' cong_member()
 #'
-#' cong_member(bioguide = 'L000174', clean = TRUE)
+#' cong_member(bioguide = 'L000174')
 #'
 #' cong_member(bioguide = 'L000174', item = 'sponsored-legislation')
 #'
+#' cong_member(congress = 118)
+#'
+#' cong_member(congress = 118, state = 'CA')
+#'
+#' cong_member(congress = 118, state = 'CA', district = 1)
+#'
+#' cong_member(state = 'MI', district = 2)
+#'
 cong_member <- function(bioguide = NULL, item = NULL,
+                        congress = NULL,
+                        state = NULL, district = NULL,
+                        current_member = FALSE,
                         from_date = NULL, to_date = NULL,
                         limit = 20, offset = 0,
                         format = 'json', clean = TRUE) {
@@ -37,7 +59,8 @@ cong_member <- function(bioguide = NULL, item = NULL,
     cli::cli_abort('Either both or neither of {.arg from_date} and {.arg to_date} must be specified.')
   }
 
-  endpt <- member_endpoint(bioguide = bioguide, item = item)
+  endpt <- member_endpoint(bioguide = bioguide, item = item,
+                           congress = congress, state = state, district = district)
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append(endpt) |>
     httr2::req_url_query(
@@ -46,7 +69,8 @@ cong_member <- function(bioguide = NULL, item = NULL,
       'toDateTime' = to_date,
       'sort' = sort,
       'limit' = min(max(limit, 1), 250),
-      'offset' = max(offset, 0)
+      'offset' = max(offset, 0),
+      'currentMember' = current_member
     ) |>
     httr2::req_headers(
       'accept' = glue::glue('application/{format}')
@@ -99,12 +123,25 @@ cong_member <- function(bioguide = NULL, item = NULL,
 
 member_items <- c('sponsored-legislation', 'cosponsored-legislation')
 
-member_endpoint <- function(bioguide, item) {
+member_endpoint <- function(bioguide, item, congress, state, district) {
   out <- 'member'
   if (!is.null(bioguide)) {
     out <- paste0(out, '/', bioguide)
     if (!is.null(item)) {
       out <- paste0(out, '/', item)
+    }
+  } else if (!is.null(congress)) {
+    out <- paste0(out, '/congress/', congress)
+    if (!is.null(state)) {
+      out <- paste0(out, '/', state)
+      if (!is.null(district)) {
+        out <- paste0(out, '/', district)
+      }
+    }
+  } else if (!is.null(state)) {
+    out <- paste0(out, '/', state)
+    if (!is.null(district)) {
+      out <- paste0(out, '/', district)
     }
   }
 

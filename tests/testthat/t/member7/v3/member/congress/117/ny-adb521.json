@@ -1,0 +1,448 @@
+{
+    "members": [
+        {
+            "bioguideId": "R000579",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/r000579_200.jpg"
+            },
+            "district": 19,
+            "name": "Ryan, Patrick",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2022
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/R000579?format=json"
+        },
+        {
+            "bioguideId": "T000486",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/t000486_200.jpg"
+            },
+            "district": 15,
+            "name": "Torres, Ritchie",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/T000486?format=json"
+        },
+        {
+            "bioguideId": "O000172",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/o000172_200.jpg"
+            },
+            "district": 14,
+            "name": "Ocasio-Cortez, Alexandria",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2019
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/O000172?format=json"
+        },
+        {
+            "bioguideId": "M001206",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/67ffc962f22eaf56065817bb_200.jpg"
+            },
+            "district": 25,
+            "name": "Morelle, Joseph D.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2018
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/M001206?format=json"
+        },
+        {
+            "bioguideId": "T000478",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/t000478_200.jpg"
+            },
+            "district": 22,
+            "name": "Tenney, Claudia",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2019,
+                        "startYear": 2017
+                    },
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/T000478?format=json"
+        },
+        {
+            "bioguideId": "E000297",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/e000297_200.jpg"
+            },
+            "district": 13,
+            "name": "Espaillat, Adriano",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2017
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/E000297?format=json"
+        },
+        {
+            "bioguideId": "S001196",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/s001196_200.jpg"
+            },
+            "district": 21,
+            "name": "Stefanik, Elise M.",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2015
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/S001196?format=json"
+        },
+        {
+            "bioguideId": "T000469",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/t000469_200.jpg"
+            },
+            "district": 20,
+            "name": "Tonko, Paul",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2009
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/T000469?format=json"
+        },
+        {
+            "bioguideId": "N000002",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/n000002_200.jpg"
+            },
+            "district": 10,
+            "name": "Nadler, Jerrold",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 1991
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:24Z",
+            "url": "https://v3/member/N000002?format=json"
+        },
+        {
+            "bioguideId": "M000317",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/m000317_200.jpg"
+            },
+            "district": 11,
+            "name": "Malliotakis, Nicole",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/M000317?format=json"
+        },
+        {
+            "bioguideId": "G000597",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/g000597_200.jpg"
+            },
+            "district": 2,
+            "name": "Garbarino, Andrew R.",
+            "partyName": "Republican",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/G000597?format=json"
+        },
+        {
+            "bioguideId": "S001201",
+            "depiction": {
+                "attribution": "Congressional Pictorial Directory",
+                "imageUrl": "https://www.congress.gov/img/member/116_rp_ny_3_suozzi_thomas_200.jpg"
+            },
+            "district": 3,
+            "name": "Suozzi, Thomas R.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2017
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/S001201?format=json"
+        },
+        {
+            "bioguideId": "J000294",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/j000294_200.jpg"
+            },
+            "district": 8,
+            "name": "Jeffries, Hakeem S.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/J000294?format=json"
+        },
+        {
+            "bioguideId": "M001188",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/m001188_200.jpg"
+            },
+            "district": 6,
+            "name": "Meng, Grace",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/M001188?format=json"
+        },
+        {
+            "bioguideId": "C001067",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/674dfc6b5c48ff736e6e1762_200.jpg"
+            },
+            "district": 9,
+            "name": "Clarke, Yvette D.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 2007
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/C001067?format=json"
+        },
+        {
+            "bioguideId": "M001137",
+            "depiction": {
+                "attribution": "Image, Congressional Pictorial Directory, 109th.",
+                "imageUrl": "https://www.congress.gov/img/member/m001137_200.jpg"
+            },
+            "district": 5,
+            "name": "Meeks, Gregory W.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 1997
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/M001137?format=json"
+        },
+        {
+            "bioguideId": "V000081",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/v000081_200.jpg"
+            },
+            "district": 7,
+            "name": "Velázquez, Nydia M.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "startYear": 1993
+                    }
+                ]
+            },
+            "updateDate": "2025-04-28T13:04:23Z",
+            "url": "https://v3/member/V000081?format=json"
+        },
+        {
+            "bioguideId": "H001038",
+            "depiction": {
+                "attribution": "Image, Congressional Pictorial Directory, 109th.",
+                "imageUrl": "https://www.congress.gov/img/member/h001038_200.jpg"
+            },
+            "district": 26,
+            "name": "Higgins, Brian",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2024,
+                        "startYear": 2005
+                    }
+                ]
+            },
+            "updateDate": "2025-04-23T15:33:16Z",
+            "url": "https://v3/member/H001038?format=json"
+        },
+        {
+            "bioguideId": "S000148",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office<\/a>",
+                "imageUrl": "https://www.congress.gov/img/member/s000148_200.jpg"
+            },
+            "district": null,
+            "name": "Schumer, Charles E.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 1999,
+                        "startYear": 1981
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 1999
+                    }
+                ]
+            },
+            "updateDate": "2025-03-09T12:42:26Z",
+            "url": "https://v3/member/S000148?format=json"
+        },
+        {
+            "bioguideId": "G000555",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office<\/a>",
+                "imageUrl": "https://www.congress.gov/img/member/g000555_200.jpg"
+            },
+            "district": null,
+            "name": "Gillibrand, Kirsten E.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2009,
+                        "startYear": 2007
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2009
+                    }
+                ]
+            },
+            "updateDate": "2025-03-09T12:42:17Z",
+            "url": "https://v3/member/G000555?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 31,
+        "next": "https://v3/member/congress/117/ny?currentMember=FALSE&offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
