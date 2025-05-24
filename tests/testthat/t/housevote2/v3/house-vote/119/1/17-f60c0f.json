@@ -1,0 +1,58 @@
+{
+    "houseRollCallVote": {
+        "congress": 119,
+        "identifier": 1191202517,
+        "legislationNumber": 30,
+        "legislationType": "HR",
+        "legislationUrl": "https://www.congress.gov/bill/119/house-bill/30",
+        "result": "Passed",
+        "rollCallNumber": 17,
+        "sessionNumber": 1,
+        "sourceDataURL": "https://clerk.house.gov/evs/2025/roll017.xml",
+        "startDate": "2025-01-16T11:00:00-05:00",
+        "updateDate": "2025-02-14T21:47:34-05:00",
+        "votePartyTotal": [
+            {
+                "nayTotal": 0,
+                "notVotingTotal": 6,
+                "party": {
+                    "name": "Republican",
+                    "type": "R"
+                },
+                "presentTotal": 0,
+                "voteParty": "R",
+                "yeaTotal": 213
+            },
+            {
+                "nayTotal": 145,
+                "notVotingTotal": 9,
+                "party": {
+                    "name": "Democrat",
+                    "type": "D"
+                },
+                "presentTotal": 0,
+                "voteParty": "D",
+                "yeaTotal": 61
+            },
+            {
+                "nayTotal": 0,
+                "notVotingTotal": 0,
+                "party": {
+                    "name": "Independent",
+                    "type": "I"
+                },
+                "presentTotal": 0,
+                "voteParty": "I",
+                "yeaTotal": 0
+            }
+        ],
+        "voteQuestion": "On Passage",
+        "voteType": "Yea-and-Nay"
+    },
+    "request": {
+        "congress": "119",
+        "contentType": "application/json",
+        "format": "json",
+        "session": "1"
+    }
+}

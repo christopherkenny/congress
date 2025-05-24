@@ -8,7 +8,7 @@
 #' @param to_date end date for search, e.g. `'2022-04-03'`. Defaults to most recent.
 #' @param limit number of records to return. Default is 20. Will be truncated to between 1 and 250.
 #' @param offset number of records to skip. Default is 0. Must be non-negative.
-#' @param clean Default is TRUE. Should output be returned as a `tibble` (`TRUE`) or requested `format`.
+#' @param clean Default is `TRUE`. Should output be returned as a `tibble` (`TRUE`) or requested `format`.
 #' @param format Output format for `clean = FALSE`. One of `xml` or `json`.
 #'
 #' @return a `tibble::tibble` or HTTP response if `clean = FALSE`.

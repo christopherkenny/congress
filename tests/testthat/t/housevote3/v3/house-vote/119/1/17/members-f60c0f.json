@@ -1,0 +1,3496 @@
+{
+    "houseRollCallVoteMemberVotes": {
+        "congress": 119,
+        "identifier": 1191202517,
+        "legislationNumber": 30,
+        "legislationType": "HR",
+        "legislationUrl": "https://www.congress.gov/bill/119/house-bill/30",
+        "results": [
+            {
+                "bioguideID": "A000055",
+                "firstName": "Robert",
+                "lastName": "Aderholt",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AL"
+            },
+            {
+                "bioguideID": "A000148",
+                "firstName": "Jake",
+                "lastName": "Auchincloss",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "A000369",
+                "firstName": "Mark",
+                "lastName": "Amodei",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NV"
+            },
+            {
+                "bioguideID": "A000370",
+                "firstName": "Alma",
+                "lastName": "Adams",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "A000371",
+                "firstName": "Pete",
+                "lastName": "Aguilar",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "A000372",
+                "firstName": "Rick",
+                "lastName": "Allen",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "A000375",
+                "firstName": "Jodey",
+                "lastName": "Arrington",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "A000379",
+                "firstName": "Mark",
+                "lastName": "Alford",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MO"
+            },
+            {
+                "bioguideID": "A000380",
+                "firstName": "Gabe",
+                "lastName": "Amo",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "RI"
+            },
+            {
+                "bioguideID": "A000381",
+                "firstName": "Yassamin",
+                "lastName": "Ansari",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "B000490",
+                "firstName": "Sanford",
+                "lastName": "Bishop",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "B000668",
+                "firstName": "Cliff",
+                "lastName": "Bentz",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OR"
+            },
+            {
+                "bioguideID": "B000740",
+                "firstName": "Stephanie",
+                "lastName": "Bice",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OK"
+            },
+            {
+                "bioguideID": "B000825",
+                "firstName": "Lauren",
+                "lastName": "Boebert",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CO"
+            },
+            {
+                "bioguideID": "B001257",
+                "firstName": "Gus",
+                "lastName": "Bilirakis",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "B001260",
+                "firstName": "Vern",
+                "lastName": "Buchanan",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "B001278",
+                "firstName": "Suzanne",
+                "lastName": "Bonamici",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "OR"
+            },
+            {
+                "bioguideID": "B001281",
+                "firstName": "Joyce",
+                "lastName": "Beatty",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "B001282",
+                "firstName": "Andy",
+                "lastName": "Barr",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "KY"
+            },
+            {
+                "bioguideID": "B001285",
+                "firstName": "Julia",
+                "lastName": "Brownley",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "B001287",
+                "firstName": "Ami",
+                "lastName": "Bera",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "B001291",
+                "firstName": "Brian",
+                "lastName": "Babin",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "B001292",
+                "firstName": "Donald",
+                "lastName": "Beyer",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "B001295",
+                "firstName": "Mike",
+                "lastName": "Bost",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "B001296",
+                "firstName": "Brendan",
+                "lastName": "Boyle",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "B001298",
+                "firstName": "Don",
+                "lastName": "Bacon",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NE"
+            },
+            {
+                "bioguideID": "B001300",
+                "firstName": "Nanette",
+                "lastName": "Barragán",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "B001301",
+                "firstName": "Jack",
+                "lastName": "Bergman",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "B001302",
+                "firstName": "Andy",
+                "lastName": "Biggs",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "B001306",
+                "firstName": "Troy",
+                "lastName": "Balderson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "B001307",
+                "firstName": "James",
+                "lastName": "Baird",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "B001309",
+                "firstName": "Tim",
+                "lastName": "Burchett",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "B001313",
+                "firstName": "Shontel",
+                "lastName": "Brown",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "B001314",
+                "firstName": "Aaron",
+                "lastName": "Bean",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "B001315",
+                "firstName": "Nikki",
+                "lastName": "Budzinski",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "B001316",
+                "firstName": "Eric",
+                "lastName": "Burlison",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MO"
+            },
+            {
+                "bioguideID": "B001317",
+                "firstName": "Josh",
+                "lastName": "Brecheen",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OK"
+            },
+            {
+                "bioguideID": "B001318",
+                "firstName": "Becca",
+                "lastName": "Balint",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "VT"
+            },
+            {
+                "bioguideID": "B001321",
+                "firstName": "Tom",
+                "lastName": "Barrett",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "B001322",
+                "firstName": "Michael",
+                "lastName": "Baumgartner",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "B001323",
+                "firstName": "Nicholas",
+                "lastName": "Begich",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AK"
+            },
+            {
+                "bioguideID": "B001324",
+                "firstName": "Wesley",
+                "lastName": "Bell",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MO"
+            },
+            {
+                "bioguideID": "B001325",
+                "firstName": "Sheri",
+                "lastName": "Biggs",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "SC"
+            },
+            {
+                "bioguideID": "B001326",
+                "firstName": "Janelle",
+                "lastName": "Bynum",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "OR"
+            },
+            {
+                "bioguideID": "B001327",
+                "firstName": "Robert",
+                "lastName": "Bresnahan",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "C000059",
+                "firstName": "Ken",
+                "lastName": "Calvert",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "C000537",
+                "firstName": "James",
+                "lastName": "Clyburn",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "SC"
+            },
+            {
+                "bioguideID": "C001039",
+                "firstName": "Kat",
+                "lastName": "Cammack",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "C001051",
+                "firstName": "John",
+                "lastName": "Carter",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "C001053",
+                "firstName": "Tom",
+                "lastName": "Cole",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OK"
+            },
+            {
+                "bioguideID": "C001055",
+                "firstName": "Ed",
+                "lastName": "Case",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "HI"
+            },
+            {
+                "bioguideID": "C001059",
+                "firstName": "Jim",
+                "lastName": "Costa",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "C001061",
+                "firstName": "Emanuel",
+                "lastName": "Cleaver",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MO"
+            },
+            {
+                "bioguideID": "C001063",
+                "firstName": "Henry",
+                "lastName": "Cuellar",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "C001066",
+                "firstName": "Kathy",
+                "lastName": "Castor",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "C001067",
+                "firstName": "Yvette",
+                "lastName": "Clarke",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "C001068",
+                "firstName": "Steve",
+                "lastName": "Cohen",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "C001069",
+                "firstName": "Joe",
+                "lastName": "Courtney",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CT"
+            },
+            {
+                "bioguideID": "C001072",
+                "firstName": "André",
+                "lastName": "Carson",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "C001078",
+                "firstName": "Gerald",
+                "lastName": "Connolly",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "C001080",
+                "firstName": "Judy",
+                "lastName": "Chu",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "C001087",
+                "firstName": "Eric",
+                "lastName": "Crawford",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AR"
+            },
+            {
+                "bioguideID": "C001091",
+                "firstName": "Joaquin",
+                "lastName": "Castro",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "C001101",
+                "firstName": "Katherine",
+                "lastName": "Clark",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "C001103",
+                "firstName": "Earl",
+                "lastName": "Carter",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "C001108",
+                "firstName": "James",
+                "lastName": "Comer",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "KY"
+            },
+            {
+                "bioguideID": "C001110",
+                "firstName": "J.",
+                "lastName": "Correa",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "C001112",
+                "firstName": "Salud",
+                "lastName": "Carbajal",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "C001115",
+                "firstName": "Michael",
+                "lastName": "Cloud",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "C001116",
+                "firstName": "Andrew",
+                "lastName": "Clyde",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "C001117",
+                "firstName": "Sean",
+                "lastName": "Casten",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "C001118",
+                "firstName": "Ben",
+                "lastName": "Cline",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "C001119",
+                "firstName": "Angie",
+                "lastName": "Craig",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "MN"
+            },
+            {
+                "bioguideID": "C001120",
+                "firstName": "Dan",
+                "lastName": "Crenshaw",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "C001121",
+                "firstName": "Jason",
+                "lastName": "Crow",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CO"
+            },
+            {
+                "bioguideID": "C001123",
+                "firstName": "Gilbert",
+                "lastName": "Cisneros",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "C001125",
+                "firstName": "Troy",
+                "lastName": "Carter",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "LA"
+            },
+            {
+                "bioguideID": "C001126",
+                "firstName": "Mike",
+                "lastName": "Carey",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "C001127",
+                "firstName": "Sheila",
+                "lastName": "Cherfilus-McCormick",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "C001129",
+                "firstName": "Mike",
+                "lastName": "Collins",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "C001130",
+                "firstName": "Jasmine",
+                "lastName": "Crockett",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "C001131",
+                "firstName": "Greg",
+                "lastName": "Casar",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "C001132",
+                "firstName": "Elijah",
+                "lastName": "Crane",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "C001133",
+                "firstName": "Juan",
+                "lastName": "Ciscomani",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "C001136",
+                "firstName": "Herbert",
+                "lastName": "Conaway",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "C001137",
+                "firstName": "Jeff",
+                "lastName": "Crank",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CO"
+            },
+            {
+                "bioguideID": "D000032",
+                "firstName": "Byron",
+                "lastName": "Donalds",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "D000096",
+                "firstName": "Danny",
+                "lastName": "Davis",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "D000197",
+                "firstName": "Diana",
+                "lastName": "DeGette",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CO"
+            },
+            {
+                "bioguideID": "D000216",
+                "firstName": "Rosa",
+                "lastName": "DeLauro",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CT"
+            },
+            {
+                "bioguideID": "D000230",
+                "firstName": "Donald",
+                "lastName": "Davis",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "D000399",
+                "firstName": "Lloyd",
+                "lastName": "Doggett",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "D000530",
+                "firstName": "Christopher",
+                "lastName": "Deluzio",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "D000594",
+                "firstName": "Monica",
+                "lastName": "De La Cruz",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "D000600",
+                "firstName": "Mario",
+                "lastName": "Diaz-Balart",
+                "voteCast": "Not Voting",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "D000616",
+                "firstName": "Scott",
+                "lastName": "DesJarlais",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "D000617",
+                "firstName": "Suzan",
+                "lastName": "DelBene",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "D000623",
+                "firstName": "Mark",
+                "lastName": "DeSaulnier",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "D000624",
+                "firstName": "Debbie",
+                "lastName": "Dingell",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "D000626",
+                "firstName": "Warren",
+                "lastName": "Davidson",
+                "voteCast": "Not Voting",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "D000628",
+                "firstName": "Neal",
+                "lastName": "Dunn",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "D000629",
+                "firstName": "Sharice",
+                "lastName": "Davids",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "KS"
+            },
+            {
+                "bioguideID": "D000631",
+                "firstName": "Madeleine",
+                "lastName": "Dean",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "D000634",
+                "firstName": "Troy",
+                "lastName": "Downing",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MT"
+            },
+            {
+                "bioguideID": "D000635",
+                "firstName": "Maxine",
+                "lastName": "Dexter",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "OR"
+            },
+            {
+                "bioguideID": "E000071",
+                "firstName": "Jake",
+                "lastName": "Ellzey",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "E000235",
+                "firstName": "Mike",
+                "lastName": "Ezell",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MS"
+            },
+            {
+                "bioguideID": "E000246",
+                "firstName": "Chuck",
+                "lastName": "Edwards",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "E000294",
+                "firstName": "Tom",
+                "lastName": "Emmer",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MN"
+            },
+            {
+                "bioguideID": "E000296",
+                "firstName": "Dwight",
+                "lastName": "Evans",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "E000297",
+                "firstName": "Adriano",
+                "lastName": "Espaillat",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "E000298",
+                "firstName": "Ron",
+                "lastName": "Estes",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "KS"
+            },
+            {
+                "bioguideID": "E000299",
+                "firstName": "Veronica",
+                "lastName": "Escobar",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "E000300",
+                "firstName": "Gabe",
+                "lastName": "Evans",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CO"
+            },
+            {
+                "bioguideID": "E000301",
+                "firstName": "Sarah",
+                "lastName": "Elfreth",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MD"
+            },
+            {
+                "bioguideID": "F000110",
+                "firstName": "Cleo",
+                "lastName": "Fields",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "LA"
+            },
+            {
+                "bioguideID": "F000246",
+                "firstName": "Pat",
+                "lastName": "Fallon",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "F000446",
+                "firstName": "Randy",
+                "lastName": "Feenstra",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IA"
+            },
+            {
+                "bioguideID": "F000450",
+                "firstName": "Virginia",
+                "lastName": "Foxx",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "F000454",
+                "firstName": "Bill",
+                "lastName": "Foster",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "F000459",
+                "firstName": "Charles",
+                "lastName": "Fleischmann",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "F000462",
+                "firstName": "Lois",
+                "lastName": "Frankel",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "F000466",
+                "firstName": "Brian",
+                "lastName": "Fitzpatrick",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "F000468",
+                "firstName": "Lizzie",
+                "lastName": "Fletcher",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "F000469",
+                "firstName": "Russ",
+                "lastName": "Fulcher",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "ID"
+            },
+            {
+                "bioguideID": "F000470",
+                "firstName": "Michelle",
+                "lastName": "Fischbach",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MN"
+            },
+            {
+                "bioguideID": "F000471",
+                "firstName": "Scott",
+                "lastName": "Fitzgerald",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WI"
+            },
+            {
+                "bioguideID": "F000472",
+                "firstName": "Scott",
+                "lastName": "Franklin",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "F000474",
+                "firstName": "Mike",
+                "lastName": "Flood",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NE"
+            },
+            {
+                "bioguideID": "F000475",
+                "firstName": "Brad",
+                "lastName": "Finstad",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MN"
+            },
+            {
+                "bioguideID": "F000476",
+                "firstName": "Maxwell",
+                "lastName": "Frost",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "F000477",
+                "firstName": "Valerie",
+                "lastName": "Foushee",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "F000478",
+                "firstName": "Russell",
+                "lastName": "Fry",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "SC"
+            },
+            {
+                "bioguideID": "F000480",
+                "firstName": "Vince",
+                "lastName": "Fong",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "F000481",
+                "firstName": "Shomari",
+                "lastName": "Figures",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "AL"
+            },
+            {
+                "bioguideID": "F000482",
+                "firstName": "Julie",
+                "lastName": "Fedorchak",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "ND"
+            },
+            {
+                "bioguideID": "F000483",
+                "firstName": "Laura",
+                "lastName": "Friedman",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "G000546",
+                "firstName": "Sam",
+                "lastName": "Graves",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MO"
+            },
+            {
+                "bioguideID": "G000551",
+                "firstName": "Raúl",
+                "lastName": "Grijalva",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "G000553",
+                "firstName": "Al",
+                "lastName": "Green",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "G000558",
+                "firstName": "Brett",
+                "lastName": "Guthrie",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "KY"
+            },
+            {
+                "bioguideID": "G000559",
+                "firstName": "John",
+                "lastName": "Garamendi",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "G000565",
+                "firstName": "Paul",
+                "lastName": "Gosar",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "G000568",
+                "firstName": "H.",
+                "lastName": "Griffith",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "G000576",
+                "firstName": "Glenn",
+                "lastName": "Grothman",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WI"
+            },
+            {
+                "bioguideID": "G000581",
+                "firstName": "Vicente",
+                "lastName": "Gonzalez",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "G000583",
+                "firstName": "Josh",
+                "lastName": "Gottheimer",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "G000585",
+                "firstName": "Jimmy",
+                "lastName": "Gomez",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "G000586",
+                "firstName": "Jesús",
+                "lastName": "García",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "G000587",
+                "firstName": "Sylvia",
+                "lastName": "Garcia",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "G000589",
+                "firstName": "Lance",
+                "lastName": "Gooden",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "G000590",
+                "firstName": "Mark",
+                "lastName": "Green",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "G000591",
+                "firstName": "Michael",
+                "lastName": "Guest",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MS"
+            },
+            {
+                "bioguideID": "G000592",
+                "firstName": "Jared",
+                "lastName": "Golden",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "ME"
+            },
+            {
+                "bioguideID": "G000593",
+                "firstName": "Carlos",
+                "lastName": "Gimenez",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "G000594",
+                "firstName": "Tony",
+                "lastName": "Gonzales",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "G000596",
+                "firstName": "Marjorie",
+                "lastName": "Greene",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "G000597",
+                "firstName": "Andrew",
+                "lastName": "Garbarino",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "G000598",
+                "firstName": "Robert",
+                "lastName": "Garcia",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "G000599",
+                "firstName": "Daniel",
+                "lastName": "Goldman",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "G000600",
+                "firstName": "Marie",
+                "lastName": "Perez",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "G000601",
+                "firstName": "Craig",
+                "lastName": "Goldman",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "G000602",
+                "firstName": "Laura",
+                "lastName": "Gillen",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "G000603",
+                "firstName": "Brandon",
+                "lastName": "Gill",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "G000604",
+                "firstName": "Maggie",
+                "lastName": "Goodlander",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NH"
+            },
+            {
+                "bioguideID": "G000605",
+                "firstName": "Adam",
+                "lastName": "Gray",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "H000874",
+                "firstName": "Steny",
+                "lastName": "Hoyer",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MD"
+            },
+            {
+                "bioguideID": "H001047",
+                "firstName": "James",
+                "lastName": "Himes",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CT"
+            },
+            {
+                "bioguideID": "H001052",
+                "firstName": "Andy",
+                "lastName": "Harris",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MD"
+            },
+            {
+                "bioguideID": "H001058",
+                "firstName": "Bill",
+                "lastName": "Huizenga",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "H001066",
+                "firstName": "Steven",
+                "lastName": "Horsford",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NV"
+            },
+            {
+                "bioguideID": "H001067",
+                "firstName": "Richard",
+                "lastName": "Hudson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "H001068",
+                "firstName": "Jared",
+                "lastName": "Huffman",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "H001072",
+                "firstName": "J.",
+                "lastName": "Hill",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AR"
+            },
+            {
+                "bioguideID": "H001077",
+                "firstName": "Clay",
+                "lastName": "Higgins",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "LA"
+            },
+            {
+                "bioguideID": "H001081",
+                "firstName": "Jahana",
+                "lastName": "Hayes",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CT"
+            },
+            {
+                "bioguideID": "H001082",
+                "firstName": "Kevin",
+                "lastName": "Hern",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OK"
+            },
+            {
+                "bioguideID": "H001085",
+                "firstName": "Chrissy",
+                "lastName": "Houlahan",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "H001086",
+                "firstName": "Diana",
+                "lastName": "Harshbarger",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "H001090",
+                "firstName": "Josh",
+                "lastName": "Harder",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "H001091",
+                "firstName": "Ashley",
+                "lastName": "Hinson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IA"
+            },
+            {
+                "bioguideID": "H001093",
+                "firstName": "Erin",
+                "lastName": "Houchin",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "H001094",
+                "firstName": "Val",
+                "lastName": "Hoyle",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "OR"
+            },
+            {
+                "bioguideID": "H001095",
+                "firstName": "Wesley",
+                "lastName": "Hunt",
+                "voteCast": "Not Voting",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "H001096",
+                "firstName": "Harriet",
+                "lastName": "Hageman",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WY"
+            },
+            {
+                "bioguideID": "H001098",
+                "firstName": "Abraham",
+                "lastName": "Hamadeh",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "H001099",
+                "firstName": "Mike",
+                "lastName": "Haridopolos",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "H001100",
+                "firstName": "Jeff",
+                "lastName": "Hurd",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CO"
+            },
+            {
+                "bioguideID": "H001101",
+                "firstName": "Pat",
+                "lastName": "Harrigan",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "H001102",
+                "firstName": "Mark",
+                "lastName": "Harris",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "I000056",
+                "firstName": "Darrell",
+                "lastName": "Issa",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "I000058",
+                "firstName": "Glenn",
+                "lastName": "Ivey",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MD"
+            },
+            {
+                "bioguideID": "J000288",
+                "firstName": "Henry",
+                "lastName": "Johnson",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "J000289",
+                "firstName": "Jim",
+                "lastName": "Jordan",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "J000294",
+                "firstName": "Hakeem",
+                "lastName": "Jeffries",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "J000295",
+                "firstName": "David",
+                "lastName": "Joyce",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "J000298",
+                "firstName": "Pramila",
+                "lastName": "Jayapal",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "J000299",
+                "firstName": "Mike",
+                "lastName": "Johnson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "LA"
+            },
+            {
+                "bioguideID": "J000301",
+                "firstName": "Dusty",
+                "lastName": "Johnson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "SD"
+            },
+            {
+                "bioguideID": "J000302",
+                "firstName": "John",
+                "lastName": "Joyce",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "J000304",
+                "firstName": "Ronny",
+                "lastName": "Jackson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "J000305",
+                "firstName": "Sara",
+                "lastName": "Jacobs",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "J000307",
+                "firstName": "John",
+                "lastName": "James",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "J000309",
+                "firstName": "Jonathan",
+                "lastName": "Jackson",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "J000310",
+                "firstName": "Julie",
+                "lastName": "Johnson",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "J000311",
+                "firstName": "Brian",
+                "lastName": "Jack",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "K000009",
+                "firstName": "Marcy",
+                "lastName": "Kaptur",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "K000375",
+                "firstName": "William",
+                "lastName": "Keating",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "K000376",
+                "firstName": "Mike",
+                "lastName": "Kelly",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "K000385",
+                "firstName": "Robin",
+                "lastName": "Kelly",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "K000388",
+                "firstName": "Trent",
+                "lastName": "Kelly",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MS"
+            },
+            {
+                "bioguideID": "K000389",
+                "firstName": "Ro",
+                "lastName": "Khanna",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "K000391",
+                "firstName": "Raja",
+                "lastName": "Krishnamoorthi",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "K000392",
+                "firstName": "David",
+                "lastName": "Kustoff",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "K000397",
+                "firstName": "Young",
+                "lastName": "Kim",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "K000398",
+                "firstName": "Thomas",
+                "lastName": "Kean",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "K000399",
+                "firstName": "Jennifer",
+                "lastName": "Kiggans",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "K000400",
+                "firstName": "Sydney",
+                "lastName": "Kamlager-Dove",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "K000401",
+                "firstName": "Kevin",
+                "lastName": "Kiley",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "K000402",
+                "firstName": "Timothy",
+                "lastName": "Kennedy",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "K000403",
+                "firstName": "Mike",
+                "lastName": "Kennedy",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "UT"
+            },
+            {
+                "bioguideID": "K000405",
+                "firstName": "Brad",
+                "lastName": "Knott",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "L000273",
+                "firstName": "Teresa",
+                "lastName": "Leger Fernandez",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NM"
+            },
+            {
+                "bioguideID": "L000397",
+                "firstName": "Zoe",
+                "lastName": "Lofgren",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "L000491",
+                "firstName": "Frank",
+                "lastName": "Lucas",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OK"
+            },
+            {
+                "bioguideID": "L000557",
+                "firstName": "John",
+                "lastName": "Larson",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CT"
+            },
+            {
+                "bioguideID": "L000560",
+                "firstName": "Rick",
+                "lastName": "Larsen",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "L000562",
+                "firstName": "Stephen",
+                "lastName": "Lynch",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "L000566",
+                "firstName": "Robert",
+                "lastName": "Latta",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "L000578",
+                "firstName": "Doug",
+                "lastName": "LaMalfa",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "L000582",
+                "firstName": "Ted",
+                "lastName": "Lieu",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "L000583",
+                "firstName": "Barry",
+                "lastName": "Loudermilk",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "L000585",
+                "firstName": "Darin",
+                "lastName": "LaHood",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "L000590",
+                "firstName": "Susie",
+                "lastName": "Lee",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NV"
+            },
+            {
+                "bioguideID": "L000593",
+                "firstName": "Mike",
+                "lastName": "Levin",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "L000595",
+                "firstName": "Julia",
+                "lastName": "Letlow",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "LA"
+            },
+            {
+                "bioguideID": "L000596",
+                "firstName": "Anna Paulina",
+                "lastName": "Luna",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "L000597",
+                "firstName": "Laurel",
+                "lastName": "Lee",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "L000598",
+                "firstName": "Nick",
+                "lastName": "LaLota",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "L000599",
+                "firstName": "Michael",
+                "lastName": "Lawler",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "L000600",
+                "firstName": "Nicholas",
+                "lastName": "Langworthy",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "L000601",
+                "firstName": "Greg",
+                "lastName": "Landsman",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "L000602",
+                "firstName": "Summer",
+                "lastName": "Lee",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "L000603",
+                "firstName": "Morgan",
+                "lastName": "Luttrell",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "L000606",
+                "firstName": "George",
+                "lastName": "Latimer",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "L000607",
+                "firstName": "Sam",
+                "lastName": "Liccardo",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "M000194",
+                "firstName": "Nancy",
+                "lastName": "Mace",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "SC"
+            },
+            {
+                "bioguideID": "M000312",
+                "firstName": "James",
+                "lastName": "McGovern",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "M000317",
+                "firstName": "Nicole",
+                "lastName": "Malliotakis",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "M000687",
+                "firstName": "Kweisi",
+                "lastName": "Mfume",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MD"
+            },
+            {
+                "bioguideID": "M000871",
+                "firstName": "Tracey",
+                "lastName": "Mann",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "KS"
+            },
+            {
+                "bioguideID": "M001136",
+                "firstName": "Lisa",
+                "lastName": "McClain",
+                "voteCast": "Not Voting",
+                "voteParty": "R",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "M001137",
+                "firstName": "Gregory",
+                "lastName": "Meeks",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "M001143",
+                "firstName": "Betty",
+                "lastName": "McCollum",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MN"
+            },
+            {
+                "bioguideID": "M001157",
+                "firstName": "Michael",
+                "lastName": "McCaul",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "M001160",
+                "firstName": "Gwen",
+                "lastName": "Moore",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "WI"
+            },
+            {
+                "bioguideID": "M001163",
+                "firstName": "Doris",
+                "lastName": "Matsui",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "M001177",
+                "firstName": "Tom",
+                "lastName": "McClintock",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "M001184",
+                "firstName": "Thomas",
+                "lastName": "Massie",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "KY"
+            },
+            {
+                "bioguideID": "M001188",
+                "firstName": "Grace",
+                "lastName": "Meng",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "M001194",
+                "firstName": "John",
+                "lastName": "Moolenaar",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "M001196",
+                "firstName": "Seth",
+                "lastName": "Moulton",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "M001199",
+                "firstName": "Brian",
+                "lastName": "Mast",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "M001204",
+                "firstName": "Daniel",
+                "lastName": "Meuser",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "M001205",
+                "firstName": "Carol",
+                "lastName": "Miller",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WV"
+            },
+            {
+                "bioguideID": "M001206",
+                "firstName": "Joseph",
+                "lastName": "Morelle",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "M001208",
+                "firstName": "Lucy",
+                "lastName": "McBath",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "M001210",
+                "firstName": "Gregory",
+                "lastName": "Murphy",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "M001211",
+                "firstName": "Mary",
+                "lastName": "Miller",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "M001212",
+                "firstName": "Barry",
+                "lastName": "Moore",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AL"
+            },
+            {
+                "bioguideID": "M001213",
+                "firstName": "Blake",
+                "lastName": "Moore",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "UT"
+            },
+            {
+                "bioguideID": "M001214",
+                "firstName": "Frank",
+                "lastName": "Mrvan",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "M001215",
+                "firstName": "Mariannette",
+                "lastName": "Miller-Meeks",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IA"
+            },
+            {
+                "bioguideID": "M001216",
+                "firstName": "Cory",
+                "lastName": "Mills",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "M001217",
+                "firstName": "Jared",
+                "lastName": "Moskowitz",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "M001218",
+                "firstName": "Richard",
+                "lastName": "McCormick",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "M001220",
+                "firstName": "Morgan",
+                "lastName": "McGarvey",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "KY"
+            },
+            {
+                "bioguideID": "M001222",
+                "firstName": "Max",
+                "lastName": "Miller",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "M001223",
+                "firstName": "Seth",
+                "lastName": "Magaziner",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "RI"
+            },
+            {
+                "bioguideID": "M001224",
+                "firstName": "Nathaniel",
+                "lastName": "Moran",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "M001225",
+                "firstName": "Kevin",
+                "lastName": "Mullin",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "M001226",
+                "firstName": "Robert",
+                "lastName": "Menendez",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "M001227",
+                "firstName": "Jennifer",
+                "lastName": "McClellan",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "M001228",
+                "firstName": "Celeste",
+                "lastName": "Maloy",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "UT"
+            },
+            {
+                "bioguideID": "M001229",
+                "firstName": "LaMonica",
+                "lastName": "McIver",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "M001230",
+                "firstName": "Ryan",
+                "lastName": "Mackenzie",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "M001231",
+                "firstName": "John",
+                "lastName": "Mannion",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "M001232",
+                "firstName": "April",
+                "lastName": "McClain Delaney",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "MD"
+            },
+            {
+                "bioguideID": "M001233",
+                "firstName": "Mark",
+                "lastName": "Messmer",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "M001234",
+                "firstName": "Kelly",
+                "lastName": "Morrison",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "MN"
+            },
+            {
+                "bioguideID": "M001235",
+                "firstName": "Riley",
+                "lastName": "Moore",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WV"
+            },
+            {
+                "bioguideID": "M001236",
+                "firstName": "Tim",
+                "lastName": "Moore",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "M001237",
+                "firstName": "Kristen",
+                "lastName": "McDonald Rivet",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "M001238",
+                "firstName": "Sarah",
+                "lastName": "McBride",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "DE"
+            },
+            {
+                "bioguideID": "M001239",
+                "firstName": "John",
+                "lastName": "McGuire",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "M001240",
+                "firstName": "Addison",
+                "lastName": "McDowell",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "M001241",
+                "firstName": "Dave",
+                "lastName": "Min",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "N000002",
+                "firstName": "Jerrold",
+                "lastName": "Nadler",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "N000015",
+                "firstName": "Richard",
+                "lastName": "Neal",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "N000026",
+                "firstName": "Troy",
+                "lastName": "Nehls",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "N000188",
+                "firstName": "Donald",
+                "lastName": "Norcross",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "N000189",
+                "firstName": "Dan",
+                "lastName": "Newhouse",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "N000190",
+                "firstName": "Ralph",
+                "lastName": "Norman",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "SC"
+            },
+            {
+                "bioguideID": "N000191",
+                "firstName": "Joe",
+                "lastName": "Neguse",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CO"
+            },
+            {
+                "bioguideID": "N000193",
+                "firstName": "Zachary",
+                "lastName": "Nunn",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IA"
+            },
+            {
+                "bioguideID": "O000019",
+                "firstName": "Jay",
+                "lastName": "Obernolte",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "O000086",
+                "firstName": "Burgess",
+                "lastName": "Owens",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "UT"
+            },
+            {
+                "bioguideID": "O000172",
+                "firstName": "Alexandria",
+                "lastName": "Ocasio-Cortez",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "O000173",
+                "firstName": "Ilhan",
+                "lastName": "Omar",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MN"
+            },
+            {
+                "bioguideID": "O000175",
+                "firstName": "Andrew",
+                "lastName": "Ogles",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "O000176",
+                "firstName": "Johnny",
+                "lastName": "Olszewski",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MD"
+            },
+            {
+                "bioguideID": "O000177",
+                "firstName": "Robert",
+                "lastName": "Onder",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MO"
+            },
+            {
+                "bioguideID": "P000034",
+                "firstName": "Frank",
+                "lastName": "Pallone",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "P000048",
+                "firstName": "August",
+                "lastName": "Pfluger",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "P000197",
+                "firstName": "Nancy",
+                "lastName": "Pelosi",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "P000597",
+                "firstName": "Chellie",
+                "lastName": "Pingree",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "ME"
+            },
+            {
+                "bioguideID": "P000605",
+                "firstName": "Scott",
+                "lastName": "Perry",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "P000607",
+                "firstName": "Mark",
+                "lastName": "Pocan",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "WI"
+            },
+            {
+                "bioguideID": "P000608",
+                "firstName": "Scott",
+                "lastName": "Peters",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "P000609",
+                "firstName": "Gary",
+                "lastName": "Palmer",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AL"
+            },
+            {
+                "bioguideID": "P000613",
+                "firstName": "Jimmy",
+                "lastName": "Panetta",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "P000614",
+                "firstName": "Chris",
+                "lastName": "Pappas",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NH"
+            },
+            {
+                "bioguideID": "P000617",
+                "firstName": "Ayanna",
+                "lastName": "Pressley",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "P000620",
+                "firstName": "Brittany",
+                "lastName": "Pettersen",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "CO"
+            },
+            {
+                "bioguideID": "P000621",
+                "firstName": "Nellie",
+                "lastName": "Pou",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "Q000023",
+                "firstName": "Mike",
+                "lastName": "Quigley",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "R000305",
+                "firstName": "Deborah",
+                "lastName": "Ross",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "R000395",
+                "firstName": "Harold",
+                "lastName": "Rogers",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "KY"
+            },
+            {
+                "bioguideID": "R000575",
+                "firstName": "Mike",
+                "lastName": "Rogers",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AL"
+            },
+            {
+                "bioguideID": "R000579",
+                "firstName": "Patrick",
+                "lastName": "Ryan",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "R000599",
+                "firstName": "Raul",
+                "lastName": "Ruiz",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "R000603",
+                "firstName": "David",
+                "lastName": "Rouzer",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NC"
+            },
+            {
+                "bioguideID": "R000606",
+                "firstName": "Jamie",
+                "lastName": "Raskin",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MD"
+            },
+            {
+                "bioguideID": "R000609",
+                "firstName": "John",
+                "lastName": "Rutherford",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "R000610",
+                "firstName": "Guy",
+                "lastName": "Reschenthaler",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "R000612",
+                "firstName": "John",
+                "lastName": "Rose",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TN"
+            },
+            {
+                "bioguideID": "R000614",
+                "firstName": "Chip",
+                "lastName": "Roy",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "R000617",
+                "firstName": "Delia",
+                "lastName": "Ramirez",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "R000619",
+                "firstName": "Michael",
+                "lastName": "Rulli",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "R000620",
+                "firstName": "Luz",
+                "lastName": "Rivas",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "R000621",
+                "firstName": "Emily",
+                "lastName": "Randall",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "R000622",
+                "firstName": "Josh",
+                "lastName": "Riley",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "S000168",
+                "firstName": "Maria",
+                "lastName": "Salazar",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "S000185",
+                "firstName": "Robert",
+                "lastName": "Scott",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "S000250",
+                "firstName": "Pete",
+                "lastName": "Sessions",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "S000344",
+                "firstName": "Brad",
+                "lastName": "Sherman",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "S000510",
+                "firstName": "Adam",
+                "lastName": "Smith",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "S000522",
+                "firstName": "Christopher",
+                "lastName": "Smith",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "S000929",
+                "firstName": "Victoria",
+                "lastName": "Spartz",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "S001145",
+                "firstName": "Janice",
+                "lastName": "Schakowsky",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "S001148",
+                "firstName": "Michael",
+                "lastName": "Simpson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "ID"
+            },
+            {
+                "bioguideID": "S001156",
+                "firstName": "Linda",
+                "lastName": "Sánchez",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "S001157",
+                "firstName": "David",
+                "lastName": "Scott",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "S001159",
+                "firstName": "Marilyn",
+                "lastName": "Strickland",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "S001172",
+                "firstName": "Adrian",
+                "lastName": "Smith",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NE"
+            },
+            {
+                "bioguideID": "S001176",
+                "firstName": "Steve",
+                "lastName": "Scalise",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "LA"
+            },
+            {
+                "bioguideID": "S001183",
+                "firstName": "David",
+                "lastName": "Schweikert",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "S001185",
+                "firstName": "Terri",
+                "lastName": "Sewell",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "AL"
+            },
+            {
+                "bioguideID": "S001188",
+                "firstName": "Marlin",
+                "lastName": "Stutzman",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "S001189",
+                "firstName": "Austin",
+                "lastName": "Scott",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "S001190",
+                "firstName": "Bradley",
+                "lastName": "Schneider",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "S001193",
+                "firstName": "Eric",
+                "lastName": "Swalwell",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "S001195",
+                "firstName": "Jason",
+                "lastName": "Smith",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MO"
+            },
+            {
+                "bioguideID": "S001196",
+                "firstName": "Elise",
+                "lastName": "Stefanik",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "S001199",
+                "firstName": "Lloyd",
+                "lastName": "Smucker",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "S001200",
+                "firstName": "Darren",
+                "lastName": "Soto",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "S001201",
+                "firstName": "Thomas",
+                "lastName": "Suozzi",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "S001205",
+                "firstName": "Mary Gay",
+                "lastName": "Scanlon",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "S001207",
+                "firstName": "Mikie",
+                "lastName": "Sherrill",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "S001211",
+                "firstName": "Greg",
+                "lastName": "Stanton",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "AZ"
+            },
+            {
+                "bioguideID": "S001212",
+                "firstName": "Pete",
+                "lastName": "Stauber",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MN"
+            },
+            {
+                "bioguideID": "S001213",
+                "firstName": "Bryan",
+                "lastName": "Steil",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WI"
+            },
+            {
+                "bioguideID": "S001214",
+                "firstName": "W.",
+                "lastName": "Steube",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "S001215",
+                "firstName": "Haley",
+                "lastName": "Stevens",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "S001216",
+                "firstName": "Kim",
+                "lastName": "Schrier",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "WA"
+            },
+            {
+                "bioguideID": "S001218",
+                "firstName": "Melanie",
+                "lastName": "Stansbury",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NM"
+            },
+            {
+                "bioguideID": "S001220",
+                "firstName": "Dale",
+                "lastName": "Strong",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AL"
+            },
+            {
+                "bioguideID": "S001221",
+                "firstName": "Hillary",
+                "lastName": "Scholten",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "S001223",
+                "firstName": "Emilia",
+                "lastName": "Sykes",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "S001224",
+                "firstName": "Keith",
+                "lastName": "Self",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "S001225",
+                "firstName": "Eric",
+                "lastName": "Sorensen",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "S001226",
+                "firstName": "Andrea",
+                "lastName": "Salinas",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "OR"
+            },
+            {
+                "bioguideID": "S001228",
+                "firstName": "Derek",
+                "lastName": "Schmidt",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "KS"
+            },
+            {
+                "bioguideID": "S001229",
+                "firstName": "Jefferson",
+                "lastName": "Shreve",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "S001230",
+                "firstName": "Suhas",
+                "lastName": "Subramanyam",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "S001231",
+                "firstName": "Lateefah",
+                "lastName": "Simon",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "T000165",
+                "firstName": "Thomas",
+                "lastName": "Tiffany",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WI"
+            },
+            {
+                "bioguideID": "T000193",
+                "firstName": "Bennie",
+                "lastName": "Thompson",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MS"
+            },
+            {
+                "bioguideID": "T000460",
+                "firstName": "Mike",
+                "lastName": "Thompson",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "T000463",
+                "firstName": "Michael",
+                "lastName": "Turner",
+                "voteCast": "Not Voting",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "T000467",
+                "firstName": "Glenn",
+                "lastName": "Thompson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "PA"
+            },
+            {
+                "bioguideID": "T000468",
+                "firstName": "Dina",
+                "lastName": "Titus",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NV"
+            },
+            {
+                "bioguideID": "T000469",
+                "firstName": "Paul",
+                "lastName": "Tonko",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "T000472",
+                "firstName": "Mark",
+                "lastName": "Takano",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "T000474",
+                "firstName": "Norma",
+                "lastName": "Torres",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "T000478",
+                "firstName": "Claudia",
+                "lastName": "Tenney",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "T000480",
+                "firstName": "William",
+                "lastName": "Timmons",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "SC"
+            },
+            {
+                "bioguideID": "T000481",
+                "firstName": "Rashida",
+                "lastName": "Tlaib",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "T000482",
+                "firstName": "Lori",
+                "lastName": "Trahan",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "MA"
+            },
+            {
+                "bioguideID": "T000486",
+                "firstName": "Ritchie",
+                "lastName": "Torres",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "T000487",
+                "firstName": "Jill",
+                "lastName": "Tokuda",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "HI"
+            },
+            {
+                "bioguideID": "T000488",
+                "firstName": "Shri",
+                "lastName": "Thanedar",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "T000489",
+                "firstName": "Sylvester",
+                "lastName": "Turner",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "T000490",
+                "firstName": "David",
+                "lastName": "Taylor",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "OH"
+            },
+            {
+                "bioguideID": "T000491",
+                "firstName": "Derek",
+                "lastName": "Tran",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "U000040",
+                "firstName": "Lauren",
+                "lastName": "Underwood",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "IL"
+            },
+            {
+                "bioguideID": "V000081",
+                "firstName": "Nydia",
+                "lastName": "Velázquez",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NY"
+            },
+            {
+                "bioguideID": "V000129",
+                "firstName": "David",
+                "lastName": "Valadao",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "V000130",
+                "firstName": "Juan",
+                "lastName": "Vargas",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "V000131",
+                "firstName": "Marc",
+                "lastName": "Veasey",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "V000133",
+                "firstName": "Jefferson",
+                "lastName": "Van Drew",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "V000134",
+                "firstName": "Beth",
+                "lastName": "Van Duyne",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "V000135",
+                "firstName": "Derrick",
+                "lastName": "Van Orden",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WI"
+            },
+            {
+                "bioguideID": "V000136",
+                "firstName": "Gabe",
+                "lastName": "Vasquez",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "NM"
+            },
+            {
+                "bioguideID": "V000138",
+                "firstName": "Eugene",
+                "lastName": "Vindman",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "W000187",
+                "firstName": "Maxine",
+                "lastName": "Waters",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "W000788",
+                "firstName": "Nikema",
+                "lastName": "Williams",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "GA"
+            },
+            {
+                "bioguideID": "W000795",
+                "firstName": "Joe",
+                "lastName": "Wilson",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "SC"
+            },
+            {
+                "bioguideID": "W000797",
+                "firstName": "Debbie",
+                "lastName": "Wasserman Schultz",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "W000798",
+                "firstName": "Tim",
+                "lastName": "Walberg",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MI"
+            },
+            {
+                "bioguideID": "W000804",
+                "firstName": "Robert",
+                "lastName": "Wittman",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "VA"
+            },
+            {
+                "bioguideID": "W000806",
+                "firstName": "Daniel",
+                "lastName": "Webster",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "W000808",
+                "firstName": "Frederica",
+                "lastName": "Wilson",
+                "voteCast": "Not Voting",
+                "voteParty": "D",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "W000809",
+                "firstName": "Steve",
+                "lastName": "Womack",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AR"
+            },
+            {
+                "bioguideID": "W000812",
+                "firstName": "Ann",
+                "lastName": "Wagner",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MO"
+            },
+            {
+                "bioguideID": "W000814",
+                "firstName": "Randy",
+                "lastName": "Weber",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "W000816",
+                "firstName": "Roger",
+                "lastName": "Williams",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "TX"
+            },
+            {
+                "bioguideID": "W000821",
+                "firstName": "Bruce",
+                "lastName": "Westerman",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "AR"
+            },
+            {
+                "bioguideID": "W000822",
+                "firstName": "Bonnie",
+                "lastName": "Watson Coleman",
+                "voteCast": "Nay",
+                "voteParty": "D",
+                "voteState": "NJ"
+            },
+            {
+                "bioguideID": "W000823",
+                "firstName": "Michael",
+                "lastName": "Waltz",
+                "voteCast": "Not Voting",
+                "voteParty": "R",
+                "voteState": "FL"
+            },
+            {
+                "bioguideID": "W000829",
+                "firstName": "Tony",
+                "lastName": "Wied",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "WI"
+            },
+            {
+                "bioguideID": "W000830",
+                "firstName": "George",
+                "lastName": "Whitesides",
+                "voteCast": "Yea",
+                "voteParty": "D",
+                "voteState": "CA"
+            },
+            {
+                "bioguideID": "Y000067",
+                "firstName": "Rudy",
+                "lastName": "Yakym",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "IN"
+            },
+            {
+                "bioguideID": "Z000018",
+                "firstName": "Ryan",
+                "lastName": "Zinke",
+                "voteCast": "Yea",
+                "voteParty": "R",
+                "voteState": "MT"
+            }
+        ],
+        "rollCallNumber": 17,
+        "sessionNumber": 1,
+        "sourceDataURL": "https://clerk.house.gov/evs/2025/roll017.xml",
+        "startDate": "2025-01-16T11:00:00-05:00",
+        "updateDate": "2025-02-14T21:47:34-05:00",
+        "voteQuestion": "On Passage",
+        "voteType": "Yea-and-Nay"
+    },
+    "request": {
+        "congress": "119",
+        "contentType": "application/json",
+        "format": "json",
+        "session": "1"
+    }
+}

@@ -37,7 +37,7 @@ cong_committee(
 
 \item{format}{Output format for \code{clean = FALSE}. One of \code{xml} or \code{json}.}
 
-\item{clean}{Default is TRUE. Should output be returned as a \code{tibble} (\code{TRUE}) or requested \code{format}.}
+\item{clean}{Default is \code{TRUE}. Should output be returned as a \code{tibble} (\code{TRUE}) or requested \code{format}.}
 }
 \value{
 a \code{tibble::tibble} or HTTP response if \code{clean = FALSE}

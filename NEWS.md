@@ -8,8 +8,9 @@
   * Adds support for searching members by current status in `cong_member()`
   * Adds new `cong_law()` function to use the `law` endpoint.
   * Adds new `cong_crs_report()` function to use the `crs-report` endpoint.
+  * Adds new (experimental) House vote function `cong_house_vote()`.
 * Improves support for date time formats across the board
-* Fixes too agressive processing in `cong_bill()` (#21)
+* Fixes too aggressive processing in `cong_bill()` (#21)
 
 # congress 0.0.4
 

@@ -79,10 +79,15 @@ cast_date_columns <- function(tb) {
       dplyr::across(
         dplyr::contains('date') & where(all_nchar_25),
         function(x) {
-          as.POSIXct(
-            stringr::str_replace(x, '(\\+|\\-)(\\d{2}):(\\d{2})', '\\1\\2\\3'),
-            format = '%Y-%m-%d %H:%M:%S%z', tz = 'UTC'
-          )
+          if (any(stringr::str_detect(x, 'T'))) {
+            as.POSIXct(x, tz = 'UTC')
+          } else {
+            as.POSIXct(
+              stringr::str_replace(x, '(\\+|\\-)(\\d{2}):(\\d{2})', '\\1\\2\\3'),
+              format = '%Y-%m-%d %H:%M:%S%z', tz = 'UTC'
+            )
+          }
+
         }
       )
     )
