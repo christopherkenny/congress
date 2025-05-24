@@ -3,7 +3,7 @@ pkgdown: 2.1.2
 pkgdown_sha: ~
 articles:
   congress: congress.html
-last_built: 2025-05-23T22:03Z
+last_built: 2025-05-24T13:42Z
 urls:
   reference: http://christophertkenny.com/congress/reference
   article: http://christophertkenny.com/congress/articles
