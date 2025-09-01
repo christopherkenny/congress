@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Christopher T.",
            family = "Kenny",
            role = c("aut", "cre"),
-           email = "christopherkenny@fas.harvard.edu",
+           email = "ctkenny@proton.me",
            comment = c(ORCID = "0000-0002-9386-6860"))
 Description: Download and read data on United States congressional proceedings. 
     Data is read from the Library of Congress's Congress.gov Application Programming 
