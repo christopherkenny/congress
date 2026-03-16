@@ -59,7 +59,7 @@ This provides three search paths under the \verb{/member} endpoint.
 If an invalid set of these are provided, they will be used in the above order.
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 # Requires API Key
 
 cong_member()
@@ -76,4 +76,7 @@ cong_member(congress = 118, state = 'CA', district = 1)
 
 cong_member(state = 'MI', district = 2)
 \dontshow{\}) # examplesIf}
+}
+\seealso{
+\code{\link[=cong_request_next]{cong_request_next()}} to retrieve additional pages of results.
 }

@@ -45,7 +45,7 @@ A tibble or raw HTTP response if clean = FALSE.
 Request House Roll Call Vote Information
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 
 cong_house_vote()
 
@@ -53,4 +53,7 @@ cong_house_vote(congress = 119, session = 1, number = 17)
 
 cong_house_vote(congress = 119, session = 1, number = 17, item = 'members')
 \dontshow{\}) # examplesIf}
+}
+\seealso{
+\code{\link[=cong_request_next]{cong_request_next()}} to retrieve additional pages of results.
 }

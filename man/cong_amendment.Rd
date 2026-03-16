@@ -45,7 +45,7 @@ a \code{tibble::tibble} or HTTP response if \code{clean = FALSE}.
 Request Amendment Information
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 # Requires API Key
 
 cong_amendment()
@@ -56,4 +56,7 @@ cong_amendment(congress = 117, type = 'samdt', number = 2137)
 
 cong_amendment(congress = 117, type = 'samdt', number = 2137, item = 'actions')
 \dontshow{\}) # examplesIf}
+}
+\seealso{
+\code{\link[=cong_request_next]{cong_request_next()}} to retrieve additional pages of results.
 }

@@ -13,6 +13,8 @@
 #' @return a `tibble::tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
+#' @seealso [cong_request_next()] to retrieve additional pages of results.
+#'
 #' @examplesIf congress::has_congress_key()
 #'
 #' # Requires API Key
@@ -67,6 +69,7 @@ cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, i
     formatter()
 
   if (clean) {
+    resp_parsed <- out
     if (is.null(number)) {
       out <- out |>
         purrr::pluck('reports') |>
@@ -87,7 +90,7 @@ cong_committee_report <- function(congress = NULL, type = NULL, number = NULL, i
       }
     }
     out <- out |>
-      add_resp_info(resp) |>
+      add_resp_info(resp_parsed) |>
       cast_date_columns()
   }
   out

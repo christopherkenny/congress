@@ -45,7 +45,7 @@ a \code{tibble::tibble} or HTTP response if \code{clean = FALSE}
 Request Treaty Information
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 
 # Requires API Key
 
@@ -61,4 +61,7 @@ cong_treaty(congress = 117, number = 3, item = 'actions')
 
 cong_treaty(congress = 114, number = 13, suffix = 'A', item = 'actions')
 \dontshow{\}) # examplesIf}
+}
+\seealso{
+\code{\link[=cong_request_next]{cong_request_next()}} to retrieve additional pages of results.
 }

@@ -42,7 +42,7 @@ A tibble or raw HTTP response if clean = FALSE.
 Request Law Information
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 # Requires API Key
 
 cong_law(congress = 118)
@@ -51,4 +51,7 @@ cong_law(congress = 118, type = 'pub')
 
 cong_law(congress = 118, type = 'pub', number = 108)
 \dontshow{\}) # examplesIf}
+}
+\seealso{
+\code{\link[=cong_request_next]{cong_request_next()}} to retrieve additional pages of results.
 }

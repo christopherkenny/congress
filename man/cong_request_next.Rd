@@ -18,7 +18,7 @@ a tibble with responses bound by row to new results
 Request next set of responses
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 # Requires API Key
 
 cong_bill() |>

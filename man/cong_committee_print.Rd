@@ -45,7 +45,7 @@ a \code{tibble::tibble} or HTTP response if \code{clean = FALSE}
 Request Committee Print Information
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 
 # Requires API Key
 
@@ -61,4 +61,7 @@ cong_committee_print(congress = 117, chamber = 'house', number = '48144')
 
 cong_committee_print(congress = 117, chamber = 'house', number = '48144', item = 'text')
 \dontshow{\}) # examplesIf}
+}
+\seealso{
+\code{\link[=cong_request_next]{cong_request_next()}} to retrieve additional pages of results.
 }

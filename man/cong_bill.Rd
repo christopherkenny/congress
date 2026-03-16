@@ -46,7 +46,7 @@ a \code{tibble::tibble} or HTTP response if \code{clean = FALSE}
 Request Bill Information
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 # Requires API Key
 
 cong_bill()
@@ -57,4 +57,7 @@ cong_bill(congress = 117, type = 'hr', number = 3076)
 
 cong_bill(congress = 117, type = 'hr', number = 3076, item = 'actions')
 \dontshow{\}) # examplesIf}
+}
+\seealso{
+\code{\link[=cong_request_next]{cong_request_next()}} to retrieve additional pages of results.
 }

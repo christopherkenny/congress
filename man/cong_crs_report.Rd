@@ -36,11 +36,14 @@ A \code{tibble::tibble} or raw HTTP response if \code{clean = FALSE}.
 Request Congressional Research Service (CRS) Report Information
 }
 \examples{
-\dontshow{if (congress::has_congress_key()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (congress::has_congress_key()) withAutoprint(\{ # examplesIf}
 # Requires API Key
 
 cong_crs_report()
 
 cong_crs_report(crs_id = '93-792')
 \dontshow{\}) # examplesIf}
+}
+\seealso{
+\code{\link[=cong_request_next]{cong_request_next()}} to retrieve additional pages of results.
 }

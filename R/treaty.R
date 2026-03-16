@@ -14,6 +14,8 @@
 #' @return a `tibble::tibble` or HTTP response if `clean = FALSE`
 #' @export
 #'
+#' @seealso [cong_request_next()] to retrieve additional pages of results.
+#'
 #' @examplesIf congress::has_congress_key()
 #'
 #' # Requires API Key
@@ -72,6 +74,7 @@ cong_treaty <- function(congress = NULL, number = NULL, suffix = NULL, item = NU
     formatter()
 
   if (clean) {
+    resp_parsed <- out
     if (is.null(number)) {
       out <- out |>
         purrr::pluck('treaties') |>
@@ -94,7 +97,7 @@ cong_treaty <- function(congress = NULL, number = NULL, suffix = NULL, item = NU
       }
     }
     out <- out |>
-      add_resp_info(resp) |>
+      add_resp_info(resp_parsed) |>
       cast_date_columns()
   }
   out
