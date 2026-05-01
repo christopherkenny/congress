@@ -11,6 +11,7 @@ You can install the stable version of `congress` from
 [CRAN](https://CRAN.R-project.org/package=congress) with:
 
 ``` r
+
 install.packages('congress')
 ```
 
@@ -18,6 +19,7 @@ You can install the development version of congress from
 [GitHub](https://github.com/) with:
 
 ``` r
+
 # install.packages('devtools')
 devtools::install_github('christopherkenny/congress')
 ```
@@ -30,6 +32,7 @@ function. By default, it gets the most recent 20. We request here, the
 most recent 10.
 
 ``` r
+
 library(congress)
 
 cong_nomination(limit = 10)
@@ -56,6 +59,7 @@ You can request up to 250 results, using `limit`. Once a request has
 been made, you can request the next set by using the `offset` argument:
 
 ``` r
+
 cong_nomination(limit = 10, offset = 10)
 #> # A tibble: 10 × 13
 #>    citation congress latest_action_action_date latest_action_text               
@@ -81,6 +85,7 @@ You can also request the next set using the
 function:
 
 ``` r
+
 cong_nomination(limit = 10) |> 
   cong_request_next()
 #> # A tibble: 20 × 13
@@ -164,6 +169,7 @@ Once you have your key, you can set it in your environment as
 1.  Add this directly to your `.Renviron` file with a line like so
 
 ``` r
+
 CONGRESS_KEY='yourkey'
 ```
 

@@ -13,6 +13,7 @@ This vignette introduces core workflows using `congress`: how to
 authenticate, handle pagination, and query the API.
 
 ``` r
+
 library(congress)
 ```
 
@@ -24,6 +25,7 @@ The Congress.gov API requires an access key. After requesting a key from
 helper to authenticate:
 
 ``` r
+
 set_congress_key('YOUR-API-KEY', install = TRUE)
 ```
 
@@ -33,6 +35,7 @@ sessions.
 If you prefer to keep the key temporary, use:
 
 ``` r
+
 Sys.setenv(CONGRESS_KEY = 'YOUR-API-KEY')
 ```
 
@@ -52,6 +55,7 @@ larger requests,
 can be used to obtain later paginations of results.
 
 ``` r
+
 first <- cong_bill(congress = 118, type = 'hr', limit = 250)
 more <- first |>
   cong_request_next(max_req = 4)
@@ -75,6 +79,7 @@ then you can use the `from_date` and `to_date` arguments to limit the
 results to the time since your last scrape.
 
 ``` r
+
 cong_bill(congress = 118, from_date = '2025-04-01', to_date = '2025-05-23')
 ```
 
@@ -84,6 +89,7 @@ cong_bill(congress = 118, from_date = '2025-04-01', to_date = '2025-05-23')
 retrieves bills, sorted by their most recent action date.
 
 ``` r
+
 bills <- cong_bill()
 bills
 ```
@@ -93,6 +99,7 @@ chambers and types. Narrow the scope with the `congress` and `type`
 arguments:
 
 ``` r
+
 bills_118 <- cong_bill(congress = 118, type = 'hr', limit = 5)
 bills_118
 ```
@@ -104,6 +111,7 @@ most recent action.
 To inspect a specific bill by number:
 
 ``` r
+
 hr1 <- cong_bill(congress = 118, type = 'hr', number = 1)
 hr1
 ```
@@ -116,6 +124,7 @@ summaries, text (for the full text), and titles. Access each of these
 with the `item` argument:
 
 ``` r
+
 actions <- cong_bill(congress = 118, type = 'hr', number = 1, item = 'actions')
 actions
 ```
@@ -124,6 +133,7 @@ This returns a `tibble` of all actions taken on the bill, including
 dates and descriptions.
 
 ``` r
+
 cosponsors <- cong_bill(congress = 118, type = 'hr', number = 1, item = 'cosponsors')
 cosponsors
 ```
@@ -133,6 +143,7 @@ endpoints. For example, to focus on amendments, use
 [`cong_amendment()`](http://christophertkenny.com/congress/reference/cong_amendment.md).
 
 ``` r
+
 amendments <- cong_amendment(congress = 118, limit = 50)
 amendments
 ```
@@ -141,6 +152,7 @@ Or target a specific one. We do this by specifying that we want the
 Senate Amendment 2137 from the 117th Congress:
 
 ``` r
+
 amend_detail <- cong_amendment(congress = 117, type = 'samdt', number = 2137)
 amend_detail
 ```
@@ -152,6 +164,7 @@ helps link individual lawmakers to legislative behavior. Use the
 `bioguide` argument to target a specific member.
 
 ``` r
+
 sponsored <- cong_member(bioguide = 'W000817', item = 'sponsored-legislation')
 sponsored
 ```
@@ -174,6 +187,7 @@ can use
 to access committee information:
 
 ``` r
+
 committees <- cong_committee(congress = 118)
 committees
 ```
@@ -182,11 +196,13 @@ To get reports or prints from a committee, use the corresponding
 functions:
 
 ``` r
+
 reports <- cong_committee_report(congress = 118, limit = 5)
 reports
 ```
 
 ``` r
+
 prints <- cong_committee_print(congress = 118, limit = 5)
 prints
 ```
@@ -195,6 +211,7 @@ To gather hearing metadata, use
 [`cong_hearing()`](http://christophertkenny.com/congress/reference/cong_hearing.md):
 
 ``` r
+
 hearings <- cong_hearing(congress = 118, limit = 5)
 hearings
 ```
@@ -207,6 +224,7 @@ Track presidential nominations with
 [`cong_nomination()`](http://christophertkenny.com/congress/reference/cong_nomination.md):
 
 ``` r
+
 noms <- cong_nomination(congress = 118, limit = 50)
 noms
 ```
@@ -217,6 +235,7 @@ To go deeper into an individual nomination, such as Val Deming’s
 nomination to the Postal Service Board of Governors, use:
 
 ``` r
+
 nom_details <- cong_nomination(congress = 118, number = 2005)
 nom_details
 ```
@@ -228,6 +247,7 @@ Use
 to access floor proceedings:
 
 ``` r
+
 record <- cong_daily_record(volume = 169, issue = 1)
 record
 ```
@@ -235,6 +255,7 @@ record
 To view specific speeches or statements:
 
 ``` r
+
 articles <- cong_daily_record(volume = 169, issue = 1, item = 'articles')
 articles
 ```
