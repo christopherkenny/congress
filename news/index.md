@@ -1,5 +1,16 @@
 # Changelog
 
+## congress 0.1.1
+
+- Addresses an issue where
+  [`cong_request_next()`](http://christophertkenny.com/congress/reference/cong_request_next.md)
+  would not make the follow-up request for some endpoints
+  ([\#40](https://github.com/christopherkenny/congress/issues/40))
+- Updates filtering logic for
+  [`cong_committee()`](http://christophertkenny.com/congress/reference/cong_committee.md)
+  to match upstream API edits from December 2025
+  ([\#42](https://github.com/christopherkenny/congress/issues/42)).
+
 ## congress 0.1.0
 
 CRAN release: 2025-09-02
