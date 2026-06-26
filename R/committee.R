@@ -148,6 +148,12 @@ committee_endpoint <- function(congress, committee, chamber, item) {
     out <- paste0(out, '/', congress)
     if (!is.null(chamber)) {
       out <- paste0(out, '/', chamber)
+      if (!is.null(committee)) {
+        out <- paste0(out, '/', committee)
+        if (!is.null(item)) {
+          out <- paste0(out, '/', item)
+        }
+      }
     }
   } else {
     if (!is.null(chamber)) {

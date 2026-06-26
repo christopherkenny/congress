@@ -1,3 +1,8 @@
+# congress 0.1.1
+
+* Addresses an issue where `cong_request_next()` would not make the follow-up request for some endpoints (#40)
+* Updates filtering logic for `cong_committee()` to match upstream API edits from December 2025 (#42).
+
 # congress 0.1.0
 
 * Addresses changes in January 2024-May 2025 API changes (#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39)
@@ -51,12 +56,12 @@
 * Addresses changes in May 2023 API changes (#9)
   * Supports new `item` endpoint within `cong_house_requirement()`
   * Renames (internal) `cong_house_communication()` endpoint when `number` is provided. This is due to an upstream change from `house-communication` to `houseCommunication`.
-  
+
 * Addresses changes in March 2023 API changes (#7)
   * Adds `cong_hearing()` to access new `hearing` API endpoint.
   * Adds `cong_committee_meeting()` to access new `committee-meeting` API endpoint.
   * Adds `cong_committee_print()` to access new `committee-print` API endpoint.
-  
+
 ## Bug fixes
 * Resolves a bug in `cong_senate_communication()` where providing `number` would return an empty tibble.
 * Resolves a bug in `cong_member()` where rows would be duplicated if `bioguide` was provided.
@@ -73,23 +78,23 @@
 * Addresses changes in February 2023 API changes (#6)
   * Allows for `house-communication` and `senate-communication` items in `cong_committee()`.
   * Passes on format to `cong_senate_communication()` for returned data in `committees` list-column.
-  * Additional bug fixes in upstream API, which may slightly modify columns in `cong_member()`, 
-  `cong_committee()`, and `cong_amendment()`. These changes 
+  * Additional bug fixes in upstream API, which may slightly modify columns in `cong_member()`,
+  `cong_committee()`, and `cong_amendment()`. These changes
   were automatically handled in version 0.0.1 since February 2023.
 
 * Addresses changes in January 2023 API changes (#4) and (#5)
   * Upstream API changes allow for full coverage of MCs for `cong_member()`.
-  * Upstream API changes let `cong_bill()` include CBO estimates.  These changes 
+  * Upstream API changes let `cong_bill()` include CBO estimates.  These changes
   were automatically handled in version 0.0.1 since January 2023.
 
 * Addresses changes in December 2022 API changes (#3).
   * Adds `cong_house_requirement()` to access new `house-requirement` API endpoint.
 
 * Addresses changes in November 2022 API changes (#1) and (#2).
-  * `cong_communication()` is deprecated in favor of `cong_house_communication()`, 
+  * `cong_communication()` is deprecated in favor of `cong_house_communication()`,
   as a new senate endpoint was added. This can be accessed via `cong_senate_communication()`.
-  * Returned columns are slightly modified for `cong_nomination()`, `cong_committee_report()`, 
-  and `cong_nomination()`. These changes were automatically handled in version 0.0.1 
+  * Returned columns are slightly modified for `cong_nomination()`, `cong_committee_report()`,
+  and `cong_nomination()`. These changes were automatically handled in version 0.0.1
   since November 2022.
 
 # congress 0.0.1
